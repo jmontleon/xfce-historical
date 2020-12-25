@@ -1,0 +1,87 @@
+*flAlert.dismiss.label:         Abbruch
+*flQuestion.yes.label:          Ja
+*flQuestion.no.label:           Nein
+*flInput.ok.label:              Ok
+*flInput.clear.label:           Neu
+*flInput.cancel.label:          Abbruch
+ 
+*tiny.font:			-adobe-helvetica-medium-r-*-*-10-*-75-75-*-*-*-*
+*regular.font:			-adobe-helvetica-medium-r-*-*-12-*-75-75-*-*-*-*
+*bold.font:			-adobe-helvetica-bold-r-*-*-12-*-75-75-*-*-*-*
+*big.font:			-adobe-helvetica-medium-r-*-*-14-*-75-75-*-*-*-*
+*title.font:			-adobe-helvetica-bold-r-*-*-14-*-75-75-*-*-*-*
+
+*button.loadLabel:              Laden...
+*button.saveLabel:              Speichern...
+*button.defaultLabel:           Default
+*button.okLabel:                Ok
+*button.applyLabel:             übernehmen
+*button.cancelLabel:            Abbruch
+*button.clearLabel:		Neu
+*button.agreementLabel:         Ok
+*button.browseLabel:            Suchen...
+*button.removeLabel:            Löschen
+*button.filenameLabel:		Filename :
+*startup.waitText:              Bitte Warten, XFCE wird geladen...
+*pulldown.addiconLabel:         Neues Icon...
+*dialog.additemTitle:           Neuer Eintrag...
+*additem.commandText:           Kommandozeile :
+*additem.iconfileText:          Iconfile :
+*additem.menulabelText:         Überschrift :
+*additem.previewText:           Iconvorschau
+*dialog.defcomTitle:            Programm ausführen
+*defcom.commandText:            Kommandozeile :
+*defcom.iconstyleText:          Iconstyle :
+*dialog.screenTitle:            Virtueller Bildschirm...
+*screen.labelText:              Neue Überschrift :
+*dialog.infoTitle:              Info...
+*dialog.modifyTitle:            Eintrag modifizieren...
+*dialog.setupTitle:             Einstellungen...
+*dialog.xfbdTitle:		XFbd - XFce Backdrop Manager
+*setup.repaintText:             Desktop neu zeichnen
+*setup.gradientText:            Farbverlauf
+*setup.detachText:              Benutze "tear-off" Menüs
+*setup.clicktofocusText:        Focuswechsel durch klicken
+*setup.opaquemoveText:		Genster-Bewegung : Ausgefüllt
+*setup.autoraiseText:		Auto Vordergrund
+*alert.quitText:                Wollen Sie wirklich beenden ?\nSie werden ausgeloggt !
+*alert.menufullText:            Warnung\nDas Menü ist voll !\nBitte versuchen sie diesen Eintrag in ein anderes einzutragen !
+*alert.FVWMonlyText:            Warnung\nDiese Funktion arbeitet nur mit dem XFwm !\nBitte schauen Sie in die XFwm Manpage
+*alert.syntaxerrorText:         Fehler\nin der Konfigurationsdatei
+*alert.datamismatchText:        Fehler\nungültiger Eintrag\nin der Konfigurationsdatei !
+*alert.filetruncText:           Fehler\nFile truncated
+*alert.createText:              Fehler\nbeim erstellen des\nKonfigurationsfiles !
+*alert.resetText:               Fehler\nKann Konfigurationsfile nicht\nneu laden !
+*alert.openText:                Fehler\nKann das Konfigurationsfile\nnicht öffnen !
+*alert.loadText:                Warnung\nKann Datei nicht laden !
+*alert.saveText:                Warnung\nKann Datei nicht speichern !
+*alert.writeText:               Warnung\nKann Datei nicht schreiben !
+*alert.notfoundText:            Warnung\nKann Datei nicht finden !
+*alert.toolongText:             Warnung\nString zu lang !
+*alert.overwriteText:           Warnung\nDatei existiert bereits: Überschreiben ?
+*alert.delentryText:            Warnung\nSind Sie sicher, daß Sie diesen\n Eintrag löschen wollen ?
+*alert.filloutText:             Warnung\nBitte Kommando und\nÜberschrift eintragen
+*alert.openpixText:		Error\nCannot open file
+*alert.formatText:		Error\nFile format is invalid
+*alert.allocateText:		Error\nCannot allocate colors
+*alert.colorText:		Error\nColor invalid
+*alert.memoryText:		Error\nNot enough Memory
+*selector.loadpalText:          Zu ladene Farbpalette :
+*selector.savepalText:          Zu speichernde Farbpalette :
+*selector.execfileText:         Wählen Sie das ausführende Programm :
+*selector.iconfileText:         Wählen Sie ein Icon :
+
+*dialog.xfsoundTitle:		XFSound - XFce Sound Manager
+*xfsound.commandText:           Kommandozeile :
+*button.playsndLabel:		Play Sound
+*button.testLabel:		Test
+*button.eventLabel:		Event :
+*xfsound.sndfileLabel:		Sound file :
+
+*dialog.xfmouseTitle:		XFMouse - XFce Mouse Configurator
+*xfmouse.buttonLabel: 		Tasten-Anordnung
+*xfmouse.motionLabel: 		Motion Settings
+*xfmouse.leftLabel: 		Linkshander
+*xfmouse.rightLabel: 		Rechtshander
+*xfmouse.accelerationLabel: 	Beschleunigung
+*xfmouse.thresholdLabel: 	Schwellwert

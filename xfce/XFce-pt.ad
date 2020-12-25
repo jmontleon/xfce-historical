@@ -1,0 +1,87 @@
+*flAlert.dismiss.label:		Declinar
+*flQuestion.yes.label:		Sim
+*flQuestion.no.label:		Não
+*flInput.ok.label:		Ok
+*flInput.clear.label:		Limpar
+*flInput.cancel.label:		Cancelar
+
+*tiny.font:			-adobe-helvetica-medium-r-*-*-10-*-75-75-*-*-*-*
+*regular.font:			-adobe-helvetica-medium-r-*-*-12-*-75-75-*-*-*-*
+*bold.font:			-adobe-helvetica-bold-r-*-*-12-*-75-75-*-*-*-*
+*big.font:			-adobe-helvetica-medium-r-*-*-14-*-75-75-*-*-*-*
+*title.font:			-adobe-helvetica-bold-r-*-*-14-*-75-75-*-*-*-*
+
+*button.loadLabel: 		Rodar...
+*button.saveLabel: 		Gravar...
+*button.defaultLabel: 		Padrão
+*button.okLabel: 		Ok
+*button.applyLabel: 		Aplicar
+*button.cancelLabel: 		Cancelar
+*button.clearLabel:		Limpar
+*button.agreementLabel: 	Concordar
+*button.browseLabel: 		Procurar...
+*button.removeLabel: 		Remover
+*button.filenameLabel:		Arquivo :
+*startup.waitText:		Aguarde, carregando XFCE...
+*pulldown.addiconLabel: 	Adicionar ícone...
+*dialog.additemTitle: 		Adicionar item...
+*additem.commandText: 		Linha de comando :
+*additem.iconfileText: 		Arquivo :
+*additem.menulabelText: 	Nomear :
+*additem.previewText: 		Exibir ícone
+*dialog.defcomTitle: 		Definir ação...
+*defcom.commandText: 		Linha de comando :
+*defcom.iconstyleText: 		Estilo do ícone :
+*dialog.screenTitle: 		Nome da tela...
+*screen.labelText: 		Definir novo texto :
+*dialog.infoTitle: 		Info...
+*dialog.modifyTitle: 		Modificar item...
+*dialog.setupTitle: 		Configurar...
+*dialog.xfbdTitle:		XFbd - XFce Gerenciador de Backdrop
+*setup.repaintText: 		Refazer janela principal da área de trabalho
+*setup.gradientText:            Usar cor mesclada
+*setup.detachText: 		Usar menu tear-off
+*setup.clicktofocusText:        Clicar para visualizar janelas
+*setup.opaquemoveText:		Mostrar conteúdo da janela em movimento
+*setup.autoraiseText:		início automático janela
+*alert.quitText: 		Realmente quer sair ?\nIsto pode te desconectar
+*alert.menufullText: 		Aviso\nEste menu está cheio !\nTente adicionar em outro menu
+*alert.FVWMonlyText: 		Aviso\nEstá função funciona apenas no XFwm !\nLeia o manual do XFwm
+*alert.syntaxerrorText: 	Erro\nErro de sintaxe\nno arquivo de configuração
+*alert.datamismatchText: 	Erro\nErro de dados\nno arquivo de configuração
+*alert.filetruncText: 		Erro\nArquivo truncado
+*alert.createText: 		Erro\nImpossível criar\narquivo de configuração !
+*alert.resetText: 		Erro\nImpossível resetar\narquivo de configuração !
+*alert.openText: 		Erro\nImpossível abrir\narquivo de configuração !
+*alert.loadText: 		Aviso\nImpossível carregar arquivo !
+*alert.saveText: 		Aviso\nImpossível salvar arquivo !
+*alert.writeText: 		Aviso\nImpossível gravar arquivo !
+*alert.notfoundText: 		Aviso\nArquivo não encontrado !
+*alert.toolongText: 		Aviso\nString muito extensa !
+*alert.overwriteText: 		Aviso\nArquivo existente : Sobrescrever ?
+*alert.delentryText: 		Aviso\nQuer mesmo remover\nesta entrada ?
+*alert.filloutText: 		Aviso\nPor favor preencha os campos \"comando\"\ne \"nomear\"...
+*alert.openpixText:		Erro\nImpossível abrir arquivo
+*alert.formatText:		Erro\nO formato do arquivo é inválido
+*alert.allocateText:		Erro\nImpossível rodar as cores
+*alert.colorText:		Erro\nCor inválida
+*alert.memoryText:		Erro\nMemória insuficiente
+*selector.loadpalText: 		Paleta para ler :
+*selector.savepalText: 		Paleta para salvar :
+*selector.execfileText: 	Escolha arquivo a executar :
+*selector.iconfileText: 	Escolha ícone :
+
+*dialog.xfsoundTitle:		XFSound - XFce Gerenciador de Som
+*xfsound.commandText: 		Linha de comando :
+*button.playsndLabel:		Tocar
+*button.testLabel:		Testar
+*button.eventLabel:		Evento :
+*xfsound.sndfileLabel:		Arquivo de som :
+
+*dialog.xfmouseTitle:		XFMouse - XFce Mouse Configurator
+*xfmouse.buttonLabel: 		Button Settings
+*xfmouse.motionLabel: 		Motion Settings
+*xfmouse.leftLabel: 		Esquerdino
+*xfmouse.rightLabel: 		Destro
+*xfmouse.accelerationLabel: 	Aceleraçao
+*xfmouse.thresholdLabel: 	Sensibilidade

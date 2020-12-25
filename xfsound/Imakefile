@@ -1,0 +1,21 @@
+#include "../XFCE.def"
+
+SRCS = xfdsp.c xfsound.c xfsound_cb.c xfsound_main.c ../xfwm/Module.c \
+../xfwm/safemalloc.c ../xfce/my_string.c ../xfce/fileutil.c \
+../xfce/sendinfo.c ../xfce/color.c ../xfce/my_goodies.c
+OBJS = xfdsp.o xfsound.o xfsound_cb.o xfsound_main.o ../xfwm/Module.o \
+../xfwm/safemalloc.o ../xfce/my_string.o ../xfce/fileutil.o \
+../xfce/sendinfo.o ../xfce/color.o ../xfce/my_goodies.o
+
+PROGRAM    = xfsound
+PLAY_SOUND = xfplay
+
+EXTRA_LIBRARIES = $(XFCE_EXTRA_LIBRARIES)
+LDLIBS=$(EXTRA_LIBRARIES)
+
+ComplexProgramTarget(xfsound)
+
+install::
+	@if [ -d $(DEST_BIN) ]; then set +x; \
+	else (set -x; $(MKDIRHIER) $(DEST_BIN)); fi
+	@cp -f $(PLAY_SOUND) $(DEST_BIN);

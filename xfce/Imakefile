@@ -1,0 +1,60 @@
+#include "../XFCE.def"
+
+SRCS1 = XFCE.c XFCE_cb.c addicon.c addicon_cb.c color.c command.c command_cb.c\
+ configfile.c defcolor.c defcolor_cb.c fileutil.c info.c info_cb.c main.c\
+ move.c mwmdecor.c my_goodies.c my_string.c pulldown.c resources.c screen.c\
+ screen_cb.c selects.c sendinfo.c startup.c tiptools.c xpmext.c
+
+OBJS1 = XFCE.o XFCE_cb.o addicon.o addicon_cb.o color.o command.o command_cb.o\
+ configfile.o defcolor.o defcolor_cb.o fileutil.o info.o info_cb.o main.o\
+ move.o mwmdecor.o my_goodies.o my_string.o pulldown.o resources.o screen.o\
+ screen_cb.o selects.o sendinfo.o startup.o tiptools.o xpmext.o
+
+PROG1 = xfce
+
+SRCS2 = xfbd.c color.c my_string.c my_goodies.o fileutil.c sendinfo.c xpmext.c
+
+OBJS2 = xfbd.o color.o my_string.o my_goodies.o fileutil.o sendinfo.o xpmext.o
+
+PROG2 = xfbd
+
+PROGRAMS=$(PROG1) $(PROG2)
+
+EXTRA_LIBRARIES = $(XFCE_EXTRA_LIBRARIES)
+LDLIBS=$(EXTRA_LIBRARIES)
+
+AllTarget($(PROGRAMS))
+
+NormalProgramTarget($(PROG1),$(OBJS1), NullParameter, NullParameter, $(LDLIBS))
+NormalProgramTarget($(PROG2),$(OBJS2), NullParameter, NullParameter, $(LDLIBS))
+
+InstallAppDefaultsLong(./XFce-en,XFce-en)
+InstallAppDefaultsLong(./XFce-fr,XFce-fr)
+InstallAppDefaultsLong(./XFce-de,XFce-de)
+InstallAppDefaultsLong(./XFce-it,XFce-it)
+InstallAppDefaultsLong(./XFce-es,XFce-es)
+InstallAppDefaultsLong(./XFce-hu,XFce-hu)
+InstallAppDefaultsLong(./XFce-sk,XFce-sk)
+InstallAppDefaultsLong(./XFce-pt,XFce-pt)
+InstallAppDefaultsLong(./XFce-en,XFce)
+InstallManPage(xfce,$(MANDIR))
+
+
+install.bin::  	$(PROGRAMS) install.man
+	@if [ -d $(DEST_BIN) ]; then set +x; \
+	else (set -x; $(MKDIRHIER) $(DEST_BIN)); fi
+	@$(CP) -f $(PROGRAMS) $(DEST_BIN);
+	@(cd $(DEST_BIN); rm -f XFCE;ln -sf $(PROG1) XFCE);
+	@$(CP)  -pf xfce_setup $(DEST_BIN);
+	@$(CP)  -pf xfce_remove $(DEST_BIN);
+	@chmod 0755 $(DEST_BIN)/$(PROG1);
+	@chmod 0755 $(DEST_BIN)/$(PROG2);
+	@chmod 0755 $(DEST_BIN)/xfce_setup;
+	@chmod 0755 $(DEST_BIN)/xfce_remove;
+
+install::	install.bin
+	@mkdir -p $(DEST_XFCE)
+	@$(RM) -f $(DEST_XFCE)/XFce2.logo
+	@$(CP) -pf XFce2.logo $(DEST_XFCE);
+	@if [ ! -d /var/XFCE ]; then \
+	ln -s $(DEST_XFCE) /var/XFCE; fi

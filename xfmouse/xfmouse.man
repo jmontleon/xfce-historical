@@ -1,0 +1,32 @@
+.\" SCCS ID: xfmouse.man 06/03/1999
+.TH XFce 1F "Olivier Fourdan"
+.SH NAME
+XFCE \- XFce Mouse Configurator
+.SH SYNOPSYS
+.B xfmouse |-i] [-d]
+.PP
+.SH DESCRIPTION
+xfmouse is a user friendly tool for configuring the mouse parameters in X.
+.PP
+Using "xfmouse -i" will start XFMouse in GUI mode. Otherwize, XFMouse just reads 
+the configuration file, apply settings and exits.
+.PP
+.SH SEE ALSO
+xfce, xfwm
+.PP
+.SH AUTHOR
+.PP
+Olivier Fourdan (fourdan@csi.com)
+.PP
+.B  This software (XFce/XFwm) is absolutely free of charge. Can be distributed 
+.B freely, but mention original name and author if modified.
+.PP  
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHOR (O. FOURDAN) BE 
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+.PP

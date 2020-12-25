@@ -1,0 +1,109 @@
+Welcome to XFCE !
+-----------------
+
+
+* XFCE is an X toolbar that allows user to easily launch programs.
+
+* It uses the XForm library from T.C Zhao and Mark Overmars (at least version
+  0.81) to display 3D widget.
+
+* It's very easy to use and configure.
+
+* XFCE now feature its own Window Manager. But it also works without. 
+  In this case, some functionalities won't be available, but still, XFCE 
+  works fine.
+
+*****************************************************************************
+*                                                                           *
+* Visit the official XFCE's web page : http://www.linux-kheops.com/pub/xfce *
+*                or its mirror in US : http://tsikora.tiac.net/xfce         *
+*                                                                           *
+*****************************************************************************
+
+
+License agreement :
+-------------------
+
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+  NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHOR (O. FOURDAN) BE 
+  LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+  See file COPYRIGHT for more detailed informations.
+
+
+Special thanks
+--------------
+
+Thanks to Giorgio Marzano (marzano@inf.uniroma3.it) for translating the
+resource file in Italian, Carsten Meyer (meta@nordnetz.de) for the German 
+translation, Marcos Mezo <mmezo@aero.upm.es> for the Spanish translation, 
+Andras Kadar (kadara@eik.bme.hu) for the Hungarian translation and Ferdinand 
+Vesely <ferdo.v@post.sk> for the Slovak translation.
+
+Of course, deep thanks to Dr. T.C. Zhao and Mark Overmars for the XFORMS
+library. Special thanks to T.C. Zhao who has always replyed (quickly) to 
+my mails !!
+
+Deep thanks go to Joel Bernier (kheops@moe.acticiel.com), who has made his 
+Web site the official XFCE's site, and to Ted Sikora who made the mirror 
+site for the US.
+
+Chuck Mead, from moongroup consulting, did a great job for XFce : He provided 
+XFce with a mailing list and its domain www.xfce.org. Many thanks, Chuck !
+
+I would like to thank Rob Nation for FVWM. XFwm is closely based on FVWM2
+
+I would also thank Roman Mitnitski for Tycoon, I've taken a look at his work
+before I first started writing XFCE (I've never used XFORMS before)
+
+
+Note to CDROM vendors and distribution makers
+---------------------------------------------
+
+Please feel free to include XFCE in your distributions/CDROMs. Just drop me
+a mail to let me know (fourdan@csi.com)
+
+
+Bug reports and comments
+------------------------
+
+If you use and appreciate XFCE, send me a mail at :
+
+  fourdan@csi.com (Olivier Fourdan)
+
+ - I need support ;-))
+
+If you encounter problems, or if you want to submit enhancements, or just make
+a bug report, send it to the address above.
+
+
+How to get the XForms library ?
+-------------------------------
+
+XFCE works with the XForms library from T.C. Zhao and Mark Overmars. To compile
+and run it, you'll need at least version 0.81 of XForms. Since the authors of
+this library do not allow the distribution of the library "bundled" with other
+software, and avoid distribution for commercial use, you cannot get it with
+commercial CDROMS.
+So it's up to you to download the library directly from the original site.
+
+To download the XForms library, connect to :
+
+  http://bragg.phys.uwm.edu/xforms
+  
+If you have questions about XForms, contact T.C. Zhao at
+  
+  zhao@bloch.phys.uwm.edu
+
+Documentation on XForms is available from einstein.phys.uwm.edu /pub/xforms
+via anonymous ftp.
+
+The entire XForms distribution plus the latest info is accessible via
+http://bragg.phys.uwm.edu/xforms 
+

@@ -1,0 +1,13 @@
+#include "../XFCE.def"
+
+SRCS = xfmouse.c xfmouse_cb.c xfmouse_main.c ../xfce/sendinfo.c \
+../xfce/my_string.c ../xfce/fileutil.c ../xfce/color.c ../xfce/my_goodies.c
+OBJS = xfmouse.o xfmouse_cb.o xfmouse_main.o ../xfce/sendinfo.o \
+../xfce/my_string.o ../xfce/fileutil.o ../xfce/color.o ../xfce/my_goodies.o
+
+PROGRAM    = xfmouse
+
+EXTRA_LIBRARIES = $(XFCE_EXTRA_LIBRARIES)
+LDLIBS=$(EXTRA_LIBRARIES)
+
+ComplexProgramTarget(xfmouse)

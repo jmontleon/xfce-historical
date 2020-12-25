@@ -1,0 +1,479 @@
+ClientMsg.o: ClientMsg.c /usr/X11R6/include/X11/Xlib.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xatom.h \
+ /usr/X11R6/include/X11/Xutil.h
+GetFont.o: GetFont.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h /usr/include/stdlib.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h utils.h \
+ /usr/include/ctype.h /usr/include/runetype.h
+Grab.o: Grab.c /usr/X11R6/include/X11/Xlib.h /usr/include/sys/types.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h
+Module.o: Module.c /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+ /usr/include/stdlib.h /usr/include/ctype.h /usr/include/runetype.h \
+ /usr/include/unistd.h /usr/include/sys/unistd.h utils.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h module.h
+Parse.o: Parse.c /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+ /usr/include/string.h /usr/include/stdlib.h utils.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/include/ctype.h /usr/include/runetype.h
+Picture.o: Picture.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/string.h \
+ /usr/include/stdlib.h /usr/include/ctype.h /usr/include/runetype.h \
+ /usr/X11R6/include/X11/keysym.h /usr/X11R6/include/X11/keysymdef.h \
+ /usr/include/sys/time.h /usr/include/time.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/xpm.h utils.h
+Strings.o: Strings.c /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+ /usr/include/stdlib.h /usr/include/string.h /usr/include/ctype.h \
+ /usr/include/runetype.h utils.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h
+System.o: System.c /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+ /usr/include/stdlib.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+ /usr/include/string.h configure.h /usr/include/sys/utsname.h
+add_window.o: add_window.c configure.h /usr/X11R6/include/X11/Xatom.h \
+ /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+ /usr/include/string.h /usr/include/stdlib.h xfwm.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h misc.h /usr/include/ctype.h \
+ /usr/include/runetype.h menus.h utils.h /usr/include/sys/wait.h \
+ screen.h /usr/X11R6/include/X11/extensions/shape.h module.h
+bindings.o: bindings.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/string.h \
+ /usr/include/ctype.h /usr/include/runetype.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h xfwm.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h menus.h \
+ utils.h misc.h /usr/include/sys/wait.h parse.h screen.h module.h
+borders.o: borders.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/string.h xfwm.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h menus.h \
+ utils.h /usr/include/ctype.h /usr/include/runetype.h misc.h \
+ /usr/include/sys/wait.h parse.h screen.h module.h \
+ /usr/X11R6/include/X11/extensions/shape.h
+builtins.o: builtins.c configure.h /usr/include/sys/types.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+ /usr/include/sys/time.h /usr/include/time.h /usr/include/stdio.h \
+ /usr/include/signal.h /usr/include/sys/signal.h \
+ /usr/include/machine/signal.h /usr/include/machine/trap.h \
+ /usr/include/string.h /usr/include/ctype.h /usr/include/runetype.h \
+ /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/errno.h \
+ xfwm.h /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h menus.h \
+ utils.h misc.h /usr/include/sys/wait.h parse.h screen.h module.h
+colormaps.o: colormaps.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h xfwm.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/include/string.h /usr/X11R6/include/X11/Core.h \
+ /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h \
+ /usr/X11R6/include/X11/Xatom.h menus.h utils.h /usr/include/ctype.h \
+ /usr/include/runetype.h misc.h /usr/include/sys/wait.h parse.h \
+ screen.h module.h
+colors.o: colors.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/string.h \
+ /usr/include/ctype.h /usr/include/runetype.h /usr/include/stdlib.h \
+ /usr/include/fcntl.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+ /usr/include/pwd.h /usr/X11R6/include/X11/Xproto.h \
+ /usr/X11R6/include/X11/Xmd.h /usr/X11R6/include/X11/Xprotostr.h \
+ /usr/X11R6/include/X11/Xatom.h xfwm.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h menus.h utils.h misc.h \
+ /usr/include/sys/wait.h parse.h screen.h version.h
+complex.o: complex.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/string.h \
+ /usr/include/ctype.h /usr/include/runetype.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h xfwm.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h menus.h \
+ utils.h misc.h /usr/include/sys/wait.h parse.h screen.h module.h
+decorations.o: decorations.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/string.h \
+ /usr/include/stdlib.h xfwm.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/X11R6/include/X11/Xatom.h \
+ /usr/X11R6/include/X11/Xproto.h /usr/X11R6/include/X11/Xmd.h \
+ /usr/X11R6/include/X11/Xprotostr.h misc.h /usr/include/ctype.h \
+ /usr/include/runetype.h menus.h utils.h /usr/include/sys/wait.h \
+ screen.h parse.h
+envvar.o: envvar.c /usr/include/stdlib.h /usr/include/machine/ansi.h \
+ /usr/include/sys/cdefs.h /usr/include/string.h /usr/include/ctype.h \
+ /usr/include/runetype.h utils.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/include/sys/types.h /usr/include/machine/types.h \
+ /usr/include/machine/endian.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h
+events.o: events.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/string.h \
+ /usr/include/sys/time.h /usr/include/time.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h xfwm.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h \
+ /usr/X11R6/include/X11/Xatom.h menus.h utils.h /usr/include/ctype.h \
+ /usr/include/runetype.h misc.h /usr/include/sys/wait.h parse.h \
+ screen.h /usr/X11R6/include/X11/extensions/shape.h module.h
+focus.o: focus.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/string.h xfwm.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h menus.h \
+ utils.h /usr/include/ctype.h /usr/include/runetype.h misc.h \
+ /usr/include/sys/wait.h parse.h screen.h module.h
+functions.o: functions.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/string.h \
+ /usr/include/ctype.h /usr/include/runetype.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h xfwm.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h menus.h \
+ utils.h misc.h /usr/include/sys/wait.h parse.h screen.h module.h
+icons.o: icons.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/string.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/X11R6/include/X11/xpm.h xfwm.h \
+ /usr/X11R6/include/X11/cursorfont.h /usr/include/stdlib.h menus.h \
+ utils.h /usr/include/ctype.h /usr/include/runetype.h misc.h \
+ /usr/include/sys/wait.h parse.h screen.h module.h default_icon.h \
+ /usr/X11R6/include/X11/extensions/shape.h
+menus.o: menus.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/string.h \
+ /usr/include/stdlib.h /usr/include/ctype.h /usr/include/runetype.h \
+ /usr/X11R6/include/X11/keysym.h /usr/X11R6/include/X11/keysymdef.h \
+ /usr/include/sys/time.h /usr/include/time.h xfwm.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h menus.h utils.h misc.h \
+ /usr/include/sys/wait.h parse.h screen.h
+misc.o: misc.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/string.h \
+ /usr/include/sys/time.h /usr/include/time.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/stdarg.h xfwm.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h \
+ /usr/X11R6/include/X11/Xatom.h menus.h utils.h /usr/include/ctype.h \
+ /usr/include/runetype.h misc.h /usr/include/sys/wait.h parse.h \
+ screen.h module.h
+module.o: module.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/string.h \
+ /usr/include/fcntl.h /usr/include/ctype.h /usr/include/runetype.h \
+ /usr/X11R6/include/X11/keysym.h /usr/X11R6/include/X11/keysymdef.h \
+ /usr/include/sys/socket.h /usr/include/sys/errno.h xfwm.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h menus.h \
+ utils.h misc.h /usr/include/sys/wait.h parse.h screen.h module.h
+move.o: move.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/string.h \
+ /usr/X11R6/include/X11/keysym.h /usr/X11R6/include/X11/keysymdef.h \
+ xfwm.h /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h menus.h \
+ utils.h /usr/include/ctype.h /usr/include/runetype.h misc.h \
+ /usr/include/sys/wait.h parse.h screen.h module.h
+placement.o: placement.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h /usr/include/string.h xfwm.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h menus.h \
+ utils.h /usr/include/ctype.h /usr/include/runetype.h misc.h \
+ /usr/include/sys/wait.h parse.h screen.h
+read.o: read.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/string.h \
+ /usr/include/ctype.h /usr/include/runetype.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h /usr/include/fcntl.h xfwm.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h menus.h \
+ utils.h misc.h /usr/include/sys/wait.h parse.h screen.h module.h \
+ ../xfce/constant.h /usr/X11R6/include/forms.h /usr/include/limits.h \
+ /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+ /usr/X11R6/include/X11/Xatom.h /usr/X11R6/include/X11/keysym.h \
+ /usr/X11R6/include/X11/keysymdef.h
+resize.o: resize.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/X11R6/include/X11/keysym.h \
+ /usr/X11R6/include/X11/keysymdef.h xfwm.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/include/string.h /usr/X11R6/include/X11/Core.h \
+ /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h misc.h \
+ /usr/include/ctype.h /usr/include/runetype.h menus.h utils.h \
+ /usr/include/sys/wait.h screen.h parse.h
+safemalloc.o: safemalloc.c /usr/include/stdlib.h \
+ /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+ /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/machine/types.h /usr/include/machine/endian.h
+sleep.o: sleep.c /usr/include/sys/time.h /usr/include/sys/types.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+ /usr/include/time.h
+style.o: style.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/string.h \
+ /usr/include/ctype.h /usr/include/runetype.h /usr/include/stdlib.h \
+ /usr/include/unistd.h /usr/include/sys/unistd.h xfwm.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h menus.h utils.h misc.h \
+ /usr/include/sys/wait.h parse.h screen.h version.h
+virtual.o: virtual.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/string.h \
+ /usr/include/ctype.h /usr/include/runetype.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h xfwm.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h /usr/include/stdlib.h menus.h \
+ utils.h misc.h /usr/include/sys/wait.h parse.h screen.h module.h
+wild.o: wild.c /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/sys/cdefs.h /usr/include/machine/endian.h
+windows.o: windows.c /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+ /usr/include/stdlib.h /usr/include/signal.h /usr/include/sys/signal.h \
+ /usr/include/machine/signal.h /usr/include/machine/trap.h \
+ /usr/include/string.h /usr/include/limits.h \
+ /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+ configure.h utils.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/include/ctype.h \
+ /usr/include/runetype.h xfwm.h /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h menus.h misc.h \
+ /usr/include/sys/wait.h parse.h screen.h
+xfwm.o: xfwm.c configure.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/stdlib.h \
+ /usr/include/signal.h /usr/include/sys/signal.h \
+ /usr/include/machine/signal.h /usr/include/machine/trap.h \
+ /usr/include/fcntl.h /usr/include/string.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h xfwm.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/cursorfont.h \
+ /usr/X11R6/include/X11/Intrinsic.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/Core.h /usr/X11R6/include/X11/Composite.h \
+ /usr/X11R6/include/X11/Constraint.h /usr/X11R6/include/X11/Object.h \
+ /usr/X11R6/include/X11/RectObj.h menus.h utils.h /usr/include/ctype.h \
+ /usr/include/runetype.h misc.h /usr/include/sys/wait.h screen.h \
+ parse.h module.h ../xfce/constant.h /usr/X11R6/include/forms.h \
+ /usr/include/limits.h /usr/include/machine/limits.h \
+ /usr/include/sys/syslimits.h /usr/X11R6/include/X11/Xatom.h \
+ /usr/X11R6/include/X11/keysym.h /usr/X11R6/include/X11/keysymdef.h \
+ /usr/X11R6/include/X11/Xproto.h /usr/X11R6/include/X11/Xmd.h \
+ /usr/X11R6/include/X11/Xprotostr.h \
+ /usr/X11R6/include/X11/extensions/shape.h version.h

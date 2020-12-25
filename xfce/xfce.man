@@ -1,0 +1,267 @@
+.\" SCCS ID: XFCE.man 1.2.7 18/03/1998
+.TH XFCE 1F "Olivier Fourdan"
+.SH NAME
+XFCE \- XForm Cool Environment
+.SH SYNOPSYS
+.B XFCE
+.PP
+[-display host:dpy] [-bw borderwidth]
+[-visual visualname] [-depth depth] 
+[-debug level] [-sync] [-private] 
+[-shared] [-stdmap] [-name name] 
+.PP
+The following informations are taken from the xforms man page,
+and may vary from the xforms version.
+.PP
+.TP 6
+.BI \-display " host:dpy"
+specifies the server to connect to.
+.TP
+.BI \-bw " borderwidth"
+specifies the border width to use for built-in objects. 
+Use negative values for XFCE, to avoid the black border line arround objects
+.TP
+.BI \-visual " visualName"
+requests a visual by name such as TrueColor etc. By default the
+.B Forms Library
+always selects the visual that has the most depth.
+.TP
+.BI \-depth " depth"
+requests a specific depth.
+.TP
+.BI \-debug " level"
+generates some info about the state of the
+.B XForms. 
+where 
+.I level
+is an integer between 1-5 and controls the amount of
+information to output. Depending on the options used
+when the
+.B Forms Library
+was built, a level more than 3 might not be available.
+.TP
+.B \-sync
+runs the application in synchronous mode with debug level set to 4. 
+.TP
+.B \-private
+requests a private colormap for the application.
+.TP
+.B \-shared
+requests a shared colormap even if the application needs more
+colors than available. For those colors that can't be allocated
+in the shared colormap, substitutions are made so the closest
+matching color is used.
+.TP
+.B \-stdcmap
+requests a standard colormap.
+.TP
+.B \-name " newname"
+specifies the application name under which resources are to be
+obtained, rather than the default executable file name. 
+.PP
+.PP
+.SH DESCRIPTION
+XFCE is an easy-to-use and easy-to-configure toolbar for X11. 
+Features pulldown menus with color icons, 3D widgets, etc. 
+It can work as an fvwm module, and take advantage of virtual
+screens (but can also work without fvwm).
+.PP
+XFCE requires an X-based workstation or X-Terminal.  If you
+have used telnet or rlogin to access the host Linux system, set
+the Unix environment variable for your display:
+.PP
+% export DISPLAY devicename:0
+.PP
+.PP
+When you first start XFCE, it creates an empty configuration file (.xfcerc)
+in your home directory.
+.PP
+Of course, nothing is defined, so, menus are empty. To add a new file in a menu,
+first open it by clicking on the little arrow. then choose "Add icon...", and
+fill out all fields (command, pixmap and label).
+.PP
+To define programs associated to icons on toolbar, use the right mouse button.
+Enter the command line and press "enter" to validate. Press "escape" to cancel.
+You can also choose the icon to be displayed on the front panel. Click on the down arrow and choose a category (Files related, Terminal connections, Writting/text tools, etc.)
+.PP
+To modify or to remove an existing item in menu, select it with right mouse
+button.
+.PP
+To change the name of screens, guess what ?, just click on button with right
+mouse button !
+.PP
+If you have launched XFCE as a FVWM module, you can press QUIT button to 
+terminate the session (this might log you off).
+.PP
+If XFCE is used under FVWM, it can easily me moved on the screen (since version 1.22). If FVWM is detected, "handles" are displayed on both upper sides of the front panel; Click once on this and move the mouse arround : the front panel now follows the mouse moves. Place the panel where you want, and press mouse button once again : The front panel is dropped on the screen. 
+The panel position is saved, so if you move it around, you'll get it at the right place next time you start XFCE (You have to use the "QUIT" button -or else the close button on the top left corner- for this to be true; if XFCE unexpectedly dies, configuration file will not be saved).
+.PP
+When you enter a command line to be executed when the corresponding button (or item) is selected, you can add the keyword
+.I
+exec .
+If you don't, XFCE will automatically add the keyword before starting the command line, in order to reduce the number of processes (since XFCE first starts a shell to execute your command). You can also specify the whole path, but since XFCE starts a shell, if the program to be executed is located somewhere in a directory that can be found in $PATH, this is optional.
+.PP
+The following lines are the same :
+.PP
+.nf
+.sp
+xmag
+exec xmag
+/usr/X11R6/bin/xmag
+exec /usr/X11R6/bin/xmag
+.sp
+.fi
+.PP
+Ampersand (&) is not needed. XFCE will remove it if present.
+.PP
+In order to starts Fvwm's modules, first you have to launch XFCE as a module itself. 
+.PP
+Use the keyword
+.I
+module
+to indicate that your command has to be considered as a module. Then enter your command, just like you would do in Fvwm's configuration file. I mean the syntax depends on the version of Fvwm you are using.
+.PP
+.PP
+Example : To start the module FvwmPager with Fvwm version 1.xx, use
+.PP
+.nf
+.sp
+Module "" FvwmPager 0 3
+.sp
+.fi
+.PP
+To start the same module with Fvwm 2.xx, use the command line
+.PP
+.nf
+.sp
+Module FvwmPager 0 3
+.sp
+.fi
+.PP
+.PP
+If you want XFCE to be able to take advantage of FVWM virtual screen capability, you need to start XFCE as an FVWM module.
+.PP
+Everything should be done automatically by the installation procedure. All you have to do, is to starts FVWM with the configuration files shipped with XFCE.
+Example :
+.PP
+.nf
+.sp
+fvwm -f /var/XFCE/sample.fvwmrc
+.sp
+.fi
+.PP
+With FVWM 2.xx :
+.PP
+.nf
+.sp
+fvwm2 -f /var/XFCE/sample.fvwm2rc
+.sp
+.fi
+.PP
+.PP
+If you need to know what is actually done by the installation procedure, here comes a summary of the main actions :
+Creation a symbolic link from XFCE executable to FVWM modules directory :
+.PP
+.nf
+.sp
+% ln -s /usr/X11/bin/xfce /usr/lib/X11/fvwm/
+.sp
+.fi
+.PP
+or, if you're using FVWM 2.xx,
+.PP
+.nf
+.sp
+% ln -s /usr/X11/bin/xfce /usr/lib/X11/fvwm2/
+.sp
+.fi
+.PP
+Copy the sample configuration files for XFCE and FVWM (1.xx and 2.xx) to /var/XFCE :
+.PP
+.nf
+.sp
+% cp sample.fvwmrc /var/XFCE/sample.fvwmrc
+% cp sample.fvwm2rc /var/XFCE/sample.fvwm2rc
+% cp sample.xfcerc /var/XFCE/sample.xfcerc
+.sp
+.fi
+.PP
+And creation of some links to make user's life easier :
+.PP
+.nf
+.sp
+% ln -sf /var/XFCE/sample.fvwmrc /var/XFCE/.fvwmrc
+% ln -sf /var/XFCE/sample.fvwm2rc /var/XFCE/.fvwm2rc
+% ln -sf /var/XFCE/sample.xfcerc /var/XFCE/.xfcerc
+.sp
+.fi
+.PP
+If you want to keep your own configurations files for FVWM, edit it to change styles and make 
+XFCE appear sticky, without border by adding the following line :
+.nf
+.sp
+Style "*XFCE*" NoTitle, NoHandles, Sticky, BorderWidth 5
+.sp
+.fi
+.PP
+Then, change your init function in fvwm config file 
+(usually .fvwmrc) to automatically start XFCE :
+.PP
+.nf
+.sp
+Function "InitFunction"
+	Module   "I"    xfce
+	Desk     "I"    0 4
+EndFunction
+.sp
+.fi
+.PP
+Use the following syntax for Fvwm version 2.xx :
+.nf
+.sp
+AddToFunc "InitFunction" "I" Exec xfbd
++              "I" Module xfce -shared
++              "I" Desk 0 4
+.sp
+.fi
+.PP
+You might add XFCE to your module list, also :
+.PP
+.nf
+.sp
+Module    "XFCE"    xfce -shared
+.sp
+.fi
+.PP
+Or else, if you prefer Fvwm 2.xx :
+.PP
+.nf
+.sp
++              "XFCE"           Module xfce -shared
+.sp
+.fi
+.PP
+See FVWM config file example shipped with XFCE for more details.
+.PP
+.PP
+.SH SEE ALSO
+xforms, fvwm, fvwm2, xpmroot
+.PP
+.SH AUTHOR
+Olivier Fourdan (fourdan@csi.com)
+.PP
+.B  This software is absolutely free of charge. Can be distributed 
+.B freely, but mention original name and author if modified.
+.PP  
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHOR (O. FOURDAN) BE 
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+.P
+Copyright
+.Cr
+1997-1998 Olivier Fourdan (fourdan@csi.com)

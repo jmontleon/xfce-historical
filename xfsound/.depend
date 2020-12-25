@@ -1,0 +1,129 @@
+xfdsp.o: xfdsp.c /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+ /usr/include/fcntl.h /usr/include/string.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h /usr/include/stdlib.h \
+ /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+ /usr/include/sys/ioctl.h /usr/include/sys/ttycom.h \
+ /usr/include/sys/ioccom.h /usr/include/sys/filio.h \
+ /usr/include/sys/sockio.h xfdsp.h
+xfsound.o: xfsound.c /usr/X11R6/include/forms.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/string.h \
+ /usr/include/limits.h /usr/include/machine/limits.h \
+ /usr/include/sys/syslimits.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/Xatom.h \
+ /usr/X11R6/include/X11/keysym.h /usr/X11R6/include/X11/keysymdef.h \
+ /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/cursorfont.h /usr/include/stdlib.h xfsound.h \
+ ../xfce/constant.h ../xfce/fileutil.h ../xfce/my_string.h \
+ ../xfce/sendinfo.h ../xfce/../xfwm/module.h ../xfce/color.h \
+ ../xfce/my_goodies.h ../xfwm/configure.h ../xfwm/module.h
+xfsound_cb.o: xfsound_cb.c /usr/X11R6/include/forms.h \
+ /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+ /usr/include/string.h /usr/include/limits.h \
+ /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/Xatom.h /usr/X11R6/include/X11/keysym.h \
+ /usr/X11R6/include/X11/keysymdef.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/cursorfont.h xfsound.h ../xfce/constant.h \
+ ../xfce/fileutil.h ../xfce/my_string.h ../xfce/sendinfo.h \
+ ../xfce/../xfwm/module.h ../xfce/color.h ../xfce/my_goodies.h \
+ ../xfwm/configure.h ../xfwm/module.h
+xfsound_main.o: xfsound_main.c /usr/X11R6/include/X11/Xlib.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xproto.h \
+ /usr/X11R6/include/X11/Xmd.h /usr/X11R6/include/X11/Xprotostr.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/Xlocale.h \
+ /usr/include/locale.h /usr/include/stdio.h /usr/include/stdlib.h \
+ /usr/include/signal.h /usr/include/sys/signal.h \
+ /usr/include/machine/signal.h /usr/include/machine/trap.h \
+ /usr/include/fcntl.h /usr/include/string.h /usr/include/sys/wait.h \
+ /usr/include/sys/time.h /usr/include/time.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h /usr/include/ctype.h \
+ /usr/include/runetype.h /usr/X11R6/include/forms.h \
+ /usr/include/limits.h /usr/include/machine/limits.h \
+ /usr/include/sys/syslimits.h /usr/X11R6/include/X11/Xatom.h \
+ /usr/X11R6/include/X11/keysym.h /usr/X11R6/include/X11/keysymdef.h \
+ /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/cursorfont.h xfsound.h ../xfce/constant.h \
+ ../xfce/fileutil.h ../xfce/my_string.h ../xfce/sendinfo.h \
+ ../xfce/../xfwm/module.h ../xfce/color.h ../xfce/my_goodies.h \
+ ../xfwm/configure.h ../xfwm/module.h xfdsp.h ../xfwm/utils.h
+Module.o: ../xfwm/Module.c /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/stdlib.h \
+ /usr/include/ctype.h /usr/include/runetype.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h ../xfwm/utils.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h ../xfwm/module.h
+safemalloc.o: ../xfwm/safemalloc.c /usr/include/stdlib.h \
+ /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+ /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/machine/types.h /usr/include/machine/endian.h
+my_string.o: ../xfce/my_string.c /usr/include/string.h \
+ /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+ /usr/include/ctype.h /usr/include/runetype.h ../xfce/my_string.h
+fileutil.o: ../xfce/fileutil.c /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/stdlib.h \
+ /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/errno.h \
+ /usr/include/sys/time.h /usr/include/time.h ../xfce/constant.h \
+ /usr/X11R6/include/forms.h /usr/include/string.h \
+ /usr/include/limits.h /usr/include/machine/limits.h \
+ /usr/include/sys/syslimits.h /usr/X11R6/include/X11/Xlib.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/Xutil.h /usr/X11R6/include/X11/Xatom.h \
+ /usr/X11R6/include/X11/keysym.h /usr/X11R6/include/X11/keysymdef.h \
+ /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/cursorfont.h ../xfce/extern.h \
+ ../xfce/resources.h ../xfce/sendinfo.h ../xfce/../xfwm/module.h \
+ ../xfce/my_string.h
+sendinfo.o: ../xfce/sendinfo.c /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/machine/ansi.h \
+ /usr/include/machine/types.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/endian.h /usr/include/stdlib.h \
+ /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/ctype.h \
+ /usr/include/runetype.h ../xfce/sendinfo.h ../xfce/../xfwm/module.h
+color.o: ../xfce/color.c /usr/include/stdlib.h \
+ /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/include/sys/types.h \
+ /usr/include/machine/types.h /usr/include/machine/endian.h \
+ /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+ /usr/X11R6/include/X11/Xosdefs.h /usr/include/stddef.h \
+ /usr/X11R6/include/X11/xpm.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/forms.h /usr/include/stdio.h /usr/include/string.h \
+ /usr/include/limits.h /usr/include/machine/limits.h \
+ /usr/include/sys/syslimits.h /usr/X11R6/include/X11/Xatom.h \
+ /usr/X11R6/include/X11/keysym.h /usr/X11R6/include/X11/keysymdef.h \
+ /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/cursorfont.h ../xfce/color.h \
+ ../xfce/constant.h ../xfce/my_string.h ../xfce/sendinfo.h \
+ ../xfce/../xfwm/module.h
+my_goodies.o: ../xfce/my_goodies.c /usr/X11R6/include/forms.h \
+ /usr/include/stdio.h /usr/include/sys/types.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/sys/cdefs.h /usr/include/machine/endian.h \
+ /usr/include/string.h /usr/include/limits.h \
+ /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+ /usr/X11R6/include/X11/Xlib.h /usr/X11R6/include/X11/X.h \
+ /usr/X11R6/include/X11/Xfuncproto.h /usr/X11R6/include/X11/Xosdefs.h \
+ /usr/include/stddef.h /usr/X11R6/include/X11/Xutil.h \
+ /usr/X11R6/include/X11/Xatom.h /usr/X11R6/include/X11/keysym.h \
+ /usr/X11R6/include/X11/keysymdef.h /usr/X11R6/include/X11/Xresource.h \
+ /usr/X11R6/include/X11/cursorfont.h ../xfce/my_goodies.h \
+ ../xfce/my_string.h

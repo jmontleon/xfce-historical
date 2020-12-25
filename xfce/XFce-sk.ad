@@ -1,0 +1,87 @@
+*flAlert.dismiss.label:		Zamietnu»
+*flQuestion.yes.label:		Áno
+*flQuestion.no.label:		Nie
+*flInput.ok.label:		Ok
+*flInput.clear.label:		Zmaza»
+*flInput.cancel.label:		Zru¹i»
+
+*tiny.font:			-adobe-helvetica-medium-r-*-*-10-*-75-75-*-*-*-*
+*regular.font:			-adobe-helvetica-medium-r-*-*-12-*-75-75-*-*-*-*
+*bold.font:			-adobe-helvetica-bold-r-*-*-12-*-75-75-*-*-*-*
+*big.font:			-adobe-helvetica-medium-r-*-*-14-*-75-75-*-*-*-*
+*title.font:			-adobe-helvetica-bold-r-*-*-14-*-75-75-*-*-*-*
+
+*button.loadLabel: 		Naèíta»...
+*button.saveLabel: 		Ulo¾i»...
+*button.defaultLabel: 		Súèasný stav
+*button.okLabel: 		Ok
+*button.applyLabel: 		Pou¾i»
+*button.cancelLabel: 		Zru¹i»
+*button.clearLabel:		Zmaza»
+*button.agreementLabel: 	Dohoda
+*button.browseLabel: 		Listova»
+*button.removeLabel: 		Odstráni»
+*button.filenameLabel:		Filename :
+*startup.waitText:		Èakajte prosím, XFCE sa naèíta...
+*pulldown.addiconLabel: 	Prida» ikonu...
+*dialog.additemTitle: 		Prida» polo¾ku...
+*additem.commandText: 		Príkazový riadok :
+*additem.iconfileText: 		Súbor s ikonou :
+*additem.menulabelText: 	Návestie :
+*additem.previewText: 		Náhµad na ikonu
+*dialog.defcomTitle: 		Definova» akciu...
+*defcom.commandText: 		Príkazový riadok :
+*defcom.iconstyleText: 		©týl ikony :
+*dialog.screenTitle: 		Meno obrazovky...
+*screen.labelText: 		Definova» nové návestie :
+*dialog.infoTitle: 		Info...
+*dialog.modifyTitle: 		Upravi» polo¾ku...
+*dialog.setupTitle: 		Nastavenia...
+*dialog.xfbdTitle:		XFbd - XFce Backdrop Manager
+*setup.repaintText: 		Prekresli» pracovnú plochu
+*setup.gradientText:            Tieòovaný 
+*setup.detachText: 		Pou¾i» "tear-off" menu
+*setup.clicktofocusText:        Kliknite pre fokusovanie okien.
+*setup.opaquemoveText:		Pohyb okna: Nepriehµadný
+*setup.autoraise:		Presunutim okna navrch
+*alert.quitText: 		Ste si istí, ¾e chcete skonèi» ?\nMo¾no budete odhlásený(á)!
+*alert.menufullText: 		Upozornenie\nToto menu je plné !\nPridajte polo¾ky do iného prosím.
+*alert.FVWMonlyText: 		Upozornenie\nTáto funkcia pracuje len s FVWM !\nPreèítajte si prosím manuálovú stránku\nFVWM (man).
+*alert.syntaxerrorText: 	Chyba\nChyba syntaxe\nv konfiguraènom súbore !
+*alert.datamismatchText: 	Chyba\nNeplatný údaj\nv konfiguraènom súbore !
+*alert.filetruncText: 		Chyba\nSúbor skrátený
+*alert.createText: 		Chyba\nNemo¾no vytvori»\nkonfiguraèný súbor !
+*alert.resetText: 		Chyba\nNemo¾no resetova»\nkonfiguraèný súbor !
+*alert.openText: 		Chyba\nNemo¾no otvori»\nkonfiguraèný súbor !
+*alert.loadText: 		Varovanie\nNemo¾no naèíta» súbor !
+*alert.saveText: 		Varovanie\nNemo¾no ulo¾i» súbor!
+*alert.writeText: 		Varovanie\nNemo¾no zapísa» súbor !
+*alert.notfoundText: 		Varovanie\nSúbor nebol nájdený !
+*alert.toolongText: 		Varovanie\nRe»azec pridlhý !
+*alert.overwriteText: 		Varovanie\nSúbor existuje : Prepísa» ?
+*alert.delentryText: 		Varovanie\nSte si istý(á) ¾e chcete odstráni»\ntento záznam ?
+*alert.filloutText: 		Varovanie\nProsím vyplnte pole príkazu\na návestia...
+*alert.openpixText:		Error\nCannot open file
+*alert.formatText:		Error\nFile format is invalid
+*alert.allocateText:		Error\nCannot allocate colors
+*alert.colorText:		Error\nColor invalid
+*alert.memoryText:		Error\nNot enough Memory
+*selector.loadpalText: 		Paleta na naèítanie :
+*selector.savepalText: 		Paleta na ulo¾enie :
+*selector.execfileText: 	Vyberte súbor na vykonanie :
+*selector.iconfileText: 	Vyberte súbor s ikonou :
+
+*dialog.xfsoundTitle:		XFSound - XFce Sound Manager
+*xfsound.commandText: 		Príkazový riadok :
+*button.playsndLabel:		Play Sound
+*button.testLabel:		Test
+*button.eventLabel:		Event :
+*xfsound.sndfileLabel:		Sound file :
+
+*dialog.xfmouseTitle:		XFMouse - XFce Mouse Configurator
+*xfmouse.buttonLabel: 		Button Settings
+*xfmouse.motionLabel: 		Motion Settings
+*xfmouse.leftLabel: 		pravakov
+*xfmouse.rightLabel: 		µavakov
+*xfmouse.accelerationLabel: 	Zrychlenie
+*xfmouse.thresholdLabel: 	Prah citlivosti

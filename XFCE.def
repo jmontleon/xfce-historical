@@ -1,0 +1,82 @@
+XCOMM Definition options : Please edit !
+XCOMM ==================================
+
+#define LINUX
+/* #define SOLARIS */
+/* #define BSD */
+#define STATIC
+
+XCOMM Compile options : Please check !
+XCOMM ================================
+
+#ifdef LINUX
+XCOMM
+XCOMM for LINUX
+XCOMM
+XFCE_SYSLIB =  -L/usr/X11/lib -L/usr/X11R6/lib -L/usr/local/lib
+STD_LIBRARIES = -lXext -lX11 -lXpm -lm
+#ifdef STATIC
+XFCE_EXTRA_LIBRARIES = $(USRLIBDIR)/libforms.a $(XFCE_SYSLIB) $(STD_LIBRARIES)
+#else
+XFCE_EXTRA_LIBRARIES =  $(XFCE_SYSLIB) $(STD_LIBRARIES) -lforms
+#endif
+COMPILE_OPTIONS = -O -Wall $(EXTRA_INCLUDES) $(EXTRA_DEFINES)
+LINK_OPTIONS = -O -s
+#endif
+
+#ifdef SOLARIS
+XCOMM
+XCOMM for SOLARIS 2.5.1 or above
+XCOMM
+XFCE_SYSLIB =  -L/usr/openwin/lib -L/usr/local/lib -L/usr/X11/lib -L/usr/X11R6/lib
+STD_LIBRARIES = -lnsl -lXext -lX11 -lXpm -lm -lsocket
+#ifdef STATIC
+XFCE_EXTRA_LIBRARIES = /usr/lib/libforms.a $(XFCE_SYSLIB) $(STD_LIBRARIES)
+#else
+XFCE_EXTRA_LIBRARIES = $(XFCE_SYSLIB) $(STD_LIBRARIES) -lforms 
+#endif
+COMPILE_OPTIONS = -O -fPIC $(EXTRA_INCLUDES) $(EXTRA_DEFINES)
+LINK_OPTIONS = -O -s -R/usr/openwin/lib:/usr/lib:/usr/local/openwin/lib
+#endif
+
+#ifdef BSD
+XCOMM
+XCOMM for Free BSD 2.2.2
+XCOMM
+XFCE_SYSLIB =  -L/usr/X11/lib -L/usr/X11R6/lib -L/usr/local/lib
+STD_LIBRARIES = -lXext -lX11 -lXpm -lm
+#ifdef STATIC
+XFCE_EXTRA_LIBRARIES = $(USRLIBDIR)/libxforms.a $(XFCE_SYSLIB) $(STD_LIBRARIES)
+#else
+XFCE_EXTRA_LIBRARIES =  $(XFCE_SYSLIB) $(STD_LIBRARIES) -lxforms
+#endif
+COMPILE_OPTIONS = -O -Wall $(EXTRA_INCLUDES) $(EXTRA_DEFINES)
+LINK_OPTIONS = -O -s
+#endif
+
+XCOMM BINDIR         = /usr/local/bin
+XFCE_DIR       = /var/XFCE
+XBINDIR        = $(BINDIR) 
+XFCE_PAL       = $(XFCE_DIR)/palettes
+XFCE_BACKDROPS = $(XFCE_DIR)/backdrops
+XFCE_HELP      = $(XFCE_DIR)/help
+XFCE_ICONS     = $(XFCE_DIR)/icons
+XFCE_SOUNDS    = $(XFCE_DIR)/sounds
+
+DESTDIR        = $(RPM_BUILD_ROOT)
+DEST_BIN       = $(DESTDIR)$(XBINDIR)
+DEST_XFCE      = $(DESTDIR)$(XFCE_DIR)
+DEST_PAL       = $(DESTDIR)$(XFCE_PAL)
+DEST_BACKDROPS = $(DESTDIR)$(XFCE_BACKDROPS)
+DEST_HELP      = $(DESTDIR)$(XFCE_HELP)
+DEST_ICONS     = $(DESTDIR)$(XFCE_ICONS)
+DEST_SOUNDS    = $(DESTDIR)$(XFCE_SOUNDS)
+
+EXTRA_INCLUDES =  -I/usr/local/include -I/usr/X11R6/include -I/usr/X11R6/include/X11 -I.
+EXTRA_DEFINES = -DXFCE_ICONS=\"$(XFCE_ICONS)\" -DXFCE_DIR=\"$(XFCE_DIR)\"\
+ -DXBINDIR=\"$(XBINDIR)\" -DXFCE_PAL=\"$(XFCE_PAL)\"\
+ -DXFCE_BACKDROP=\"$(XFCE_BACKDROPS)\"
+
+CC=gcc
+CFLAGS=$(COMPILE_OPTIONS)
+LDOPTIONS=$(LINK_OPTIONS) 

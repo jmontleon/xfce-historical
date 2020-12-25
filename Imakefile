@@ -1,0 +1,16 @@
+#include "XFCE.def"
+
+#define IHaveSubdirs
+#define PassCDebugFlags
+
+BUILDSUBDIRS = xfce xfwm xfsound xfpager xfmouse
+SUBDIRS = $(BUILDSUBDIRS)
+
+MakeSubdirs($(SUBDIRS))
+
+DependSubdirs($(BUILDSUBDIRS))
+
+install::
+	mkdir -p $(DEST_XFCE)
+	mkdir -p $(DEST_XFCE)/doc
+	@$(CP) -p INSTALL MANUAL README COPYRIGHT FAQ $(DEST_XFCE)/doc/

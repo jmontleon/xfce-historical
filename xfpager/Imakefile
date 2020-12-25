@@ -1,0 +1,13 @@
+#include "../XFCE.def"
+
+SRCS = ../xfwm/Module.c ../xfwm/safemalloc.c ../xfwm/Strings.c ../xfwm/Parse.c \
+../xfwm/System.c ../xfwm/sleep.c XfwmPager.c x_pager.c 
+OBJS = ../xfwm/Module.o ../xfwm/safemalloc.o ../xfwm/Strings.o ../xfwm/Parse.o \
+../xfwm/System.o  ../xfwm/sleep.o XfwmPager.o x_pager.o
+
+PROGRAM    = xfpager
+
+LDLIBS = $(XFCE_SYSLIB) $(STD_LIBRARIES)
+
+
+ComplexProgramTarget(xfpager)

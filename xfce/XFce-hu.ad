@@ -1,0 +1,86 @@
+*flAlert.dismiss.label:         Bezár
+*flQuestion.yes.label:          Igen
+*flQuestion.no.label:           Nem
+*flInput.ok.label:              Oké
+*flInput.clear.label:           Töröl
+*flInput.cancel.label:          Mégsem
+
+*tiny.font:                     -adobe-helvetica-medium-r-*-*-10-*-75-75-*-*-*-*
+*regular.font:                  -adobe-helvetica-medium-r-*-*-12-*-75-75-*-*-*-*
+*bold.font:                     -adobe-helvetica-bold-r-*-*-12-*-75-75-*-*-*-*
+*big.font:                      -adobe-helvetica-medium-r-*-*-14-*-75-75-*-*-*-*
+*title.font:                    -adobe-helvetica-bold-r-*-*-14-*-75-75-*-*-*-*
+
+*button.loadLabel:              Betölt...
+*button.saveLabel:              Elment...
+*button.defaultLabel:           Alapérték
+*button.okLabel:                Oké
+*button.applyLabel:             Alkalmaz
+*button.cancelLabel:            Mégsem
+*button.clearLabel:             Töröl
+*button.agreementLabel:         Elfogad
+*button.browseLabel:            Tallózás...
+*button.removeLabel:            Töröl
+*button.filenameLabel:          Filename :
+*startup.waitText:              Türelem, betöltöm az XFCE-t ...
+*pulldown.addiconLabel:         Új ikon...
+*dialog.additemTitle:           Új elem...
+*additem.commandText:           Parancssor :
+*additem.iconfileText:          Ikon fájl :
+*additem.menulabelText:         Címke :
+*additem.previewText:           Ikon képe
+*dialog.defcomTitle:            Gomb parancssora...
+*defcom.commandText:            Parancssor :
+*defcom.iconstyleText:          Ikon stílus :
+*dialog.screenTitle:            Asztal neve...
+*screen.labelText:              Új címke :
+*dialog.infoTitle:              Infó...
+*dialog.modifyTitle:            Elem módosítása...
+*dialog.setupTitle:             Beállítások...
+*dialog.xfbdTitle:              XFbd - XFce Backdrop Manager
+*setup.repaintText:             Háttér újrafestése
+*setup.gradientText:            Gradient
+*setup.detachText:              Leválasztható menük
+*setup.clicktofocusText:        Kattintásra hozza fel az ablakot
+*setup.autoraiseText:		Autoraise
+*alert.quitText:                Bitzos vagy benne, hogy kilépsz?\nEz kiléptet a kiszolgálóról is!
+*alert.menufullText:            Figyelem\nEz a menü megtelt!\nPróbálj egy másik menüpontot bõvíteni!
+*alert.FVWMonlyText:            Figyelem\nEz a lehetõség csak XFwm alatt mûködik!\nNézd meg az XFwm dokumentációját!
+*alert.syntaxerrorText:         Hiba\nSzintaktikai hiba a\nbeállításokat tartalmazó fájlban
+*alert.datamismatchText:        Hiba\nHelytelen adatformátum a\nbeállításokat tartalmazó fájlban
+*alert.filetruncText:           Hiba\nCsonka fájl
+*alert.createText:              Hiba\nNem sikerült létrehozni a\nbeállításokat tartalmazó fájlt!
+*alert.resetText:               Hiba\nNem sikerült törölni a\nbeállításokat tartalmazó fájlt!
+*alert.openText:                Hiba\nNem sikerült megnyitni a\nbeállításokat tartalmazó fájlt!
+*alert.loadText:                Figyelem\nNem sikerült betölteni a fájlt!
+*alert.saveText:                Figyelem\nNem sikerült elmenteni a fájlt!
+*alert.writeText:               Figyelem\nNem sikerült a fájlba írni!
+*alert.notfoundText:            Figyelem\nA fájl nem található!
+*alert.toolongText:             Figyelem\nTúl hosszú karakterlánc!
+*alert.overwriteText:           Figyelem\nA fájl már létezik. Felülírjam?
+*alert.delentryText:            Figyelem\nBiztos vagy benne, hogy törölni akarod\nezt az elemet?
+*alert.filloutText:             Figyelem\nTöltsd ki a parancssor\nés címke mezõket...
+*alert.openpixText:             Hiba\nNem tudom megnyitni a fájlt
+*alert.formatText:              Hiba\nÉrvénytelen fájlformátum
+*alert.allocateText:            Hiba\nNem tudok színeket foglalni 
+*alert.colorText:               Hiba\nÉrvénytelen szín
+*alert.memoryText:              Hiba\nNincs elég memória
+*selector.loadpalText:          Betöltendõ paletta :
+*selector.savepalText:          Elmentendõ palletta :
+*selector.execfileText:         Futtatandó program :
+*selector.iconfileText:         Ikonfájl :
+
+*dialog.xfsoundTitle:           XFSound - XFce Hangoló      
+*xfsound.commandText:           Parancssor :
+*button.playsndLabel:           Lejátszás 
+*button.testLabel:              Teszt
+*button.eventLabel:             Esemény :
+*xfsound.sndfileLabel:          Hang fájl :
+
+*dialog.xfmouseTitle:		XFMouse - XFce Mouse Configurator
+*xfmouse.buttonLabel: 		Button Settings
+*xfmouse.motionLabel: 		Motion Settings
+*xfmouse.leftLabel: 		Bal
+*xfmouse.rightLabel: 		Jobb
+*xfmouse.accelerationLabel: 	Gyorsitàs
+*xfmouse.thresholdLabel: 	Hatàrérték

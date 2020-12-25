@@ -1,0 +1,87 @@
+*flAlert.dismiss.label:         Chiudere
+*flQuestion.yes.label:          Si
+*flQuestion.no.label:           No
+*flInput.ok.label:              Ok
+*flInput.clear.label:           Cancella
+*flInput.cancel.label:          Abbandona
+
+*tiny.font:			-adobe-helvetica-medium-r-*-*-10-*-75-75-*-*-*-*
+*regular.font:			-adobe-helvetica-medium-r-*-*-12-*-75-75-*-*-*-*
+*bold.font:			-adobe-helvetica-bold-r-*-*-12-*-75-75-*-*-*-*
+*big.font:			-adobe-helvetica-medium-r-*-*-14-*-75-75-*-*-*-*
+*title.font:			-adobe-helvetica-bold-r-*-*-14-*-75-75-*-*-*-*
+
+*button.loadLabel:              Apri...
+*button.saveLabel:              Salva..
+*button.defaultLabel:           Default
+*button.okLabel:                Ok
+*button.applyLabel:             Applica
+*button.cancelLabel:            Abbandona
+*button.clearLabel:             Pulisci
+*button.agreementLabel:         Accetto!
+*button.browseLabel:            Scegli...
+*button.removeLabel:            Rimuovi
+*button.filenameLabel:          Nome file
+*startup.waitText:              Attendere, XFCE viene caricato.
+*pulldown.addiconLabel:         Aggiungi...
+*dialog.additemTitle:           Aggiungi...
+*additem.commandText:           Comando :
+*additem.iconfileText:          Icona :
+*additem.menulabelText:         Nome :
+*additem.previewText:           Anteprima  :
+*dialog.defcomTitle:            Definisci icona 
+*defcom.commandText:            Comando :
+*defcom.iconstyleText:          Stile icone:
+*dialog.screenTitle:            Nome schermi..
+*screen.labelText:              Nuovo nome :
+*dialog.infoTitle:              Info...
+*dialog.modifyTitle:            Modifica ...
+*dialog.setupTitle:             Imposta...
+*dialog.xfbdTitle:              XFbd - XFce Backdrop Manager
+*setup.repaintText:             Ridisegna lo sfondo
+*setup.gradientText:            Sfumato
+*setup.detachText:              Usa menu distaccabili
+*setup.clicktofocusText:        Click per attivare
+*setup.opaquemoveText:		Movimento finestra: Opaco
+*setup.autoraiseText:		Primo piano automatico
+*alert.quitText:                Sei sicuro di voler chiudere  ?\nQuesto potrebbe chiudere\nla tua sessione di lavoro.
+*alert.menufullText:            Attenzione\nIl menu e' completo\nProva ad utilizzarne un altro!
+*alert.FVWMonlyText:            Attenzione\nQuesta funzione richiede XFwm !\nVedi il man di XFwm...
+*alert.syntaxerrorText:         Errore\nErrore di sintassi\nnel file di configurazione !
+*alert.datamismatchText:        Errore\nDati inconsistenti \nnel file di configurazione !
+*alert.filetruncText:           Errore\nFile incompleto !
+*alert.createText:              Errore\nNon posso creare\nil file di configurazione !
+*alert.resetText:               Errore\nNon posso ripristinare\nil file di configurazione !
+*alert.openText:                Errore\nNon posso aprire\nil file di configurazione !
+*alert.loadText:                Attenzione\nNon posso aprire il file !
+*alert.saveText:                Attenzione\nNon posso salvare il file !
+*alert.writeText:               Attenzione\nNon posso scrivere nel file !
+*alert.notfoundText:            Attenzione\nFile non trovato !
+*alert.toolongText:             Attenzione\nStringa troppo lunga !
+*alert.overwriteText:           Attenzione\nIl file existe: Sostituire ?
+*alert.delentryText:            Attenzione\nSei sicuro di voler rimuovere\nquesta voce?
+*alert.filloutText:             Attenzione\nCompilare i campi Nome\ne Comando...
+*alert.openpixText:             Errore\nImpossibile aprire il file
+*alert.formatText:              Errore\nIl formato del file non e` valido
+*alert.allocateText:            Errore\nImpossibile allocare i colori.
+*alert.colorText:               Errore\nColore non valido.
+*alert.memoryText:              Errore\nMemoria insufficiente.
+
+*selector.loadpalText:          Tavolozza da caricare :
+*selector.savepalText:          Tavolozza da salvare :
+*selector.execfileText:         Scegli il file da esegire:
+*selector.iconfileText:         Scegli il file-icona :
+
+*dialog.xfsoundTitle:		XFSound - XFce Sound Manager
+*xfsound.commandText:           Comando :
+*button.playsndLabel:		Play Sound
+*button.testLabel:		Test
+*button.eventLabel:		Event :
+*xfsound.sndfileLabel:		Sound file :
+
+*xfmouse.buttonLabel: 		Button Settings
+*xfmouse.motionLabel: 		Motion Settings
+*xfmouse.leftLabel: 		Sinistra
+*xfmouse.rightLabel: 		Destra
+*xfmouse.accelerationLabel: 	Accelerazionne
+*xfmouse.thresholdLabel: 	Minimo

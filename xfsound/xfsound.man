@@ -1,0 +1,109 @@
+.\" SCCS ID: xfsound.man 18/03/1998
+.TH XFCE 1F "Olivier Fourdan"
+.SH NAME
+XFCE \- XFce Sound
+.SH SYNOPSYS
+.B xfsound
+.PP
+[-display host:dpy] [-bw borderwidth]
+[-visual visualname] [-depth depth] 
+[-debug level] [-sync] [-private] 
+[-shared] [-stdmap] [-name name] 
+.PP
+The following informations are taken from the xforms man page,
+and may vary from the xforms version.
+.PP
+.TP 6
+.BI \-display " host:dpy"
+specifies the server to connect to.
+.TP
+.BI \-bw " borderwidth"
+specifies the border width to use for built-in objects. 
+Use negative values for XFCE, to avoid the black border line arround objects
+.TP
+.BI \-visual " visualName"
+requests a visual by name such as TrueColor etc. By default the
+.B Forms Library
+always selects the visual that has the most depth.
+.TP
+.BI \-depth " depth"
+requests a specific depth.
+.TP
+.BI \-debug " level"
+generates some info about the state of the
+.B XForms. 
+where 
+.I level
+is an integer between 1-5 and controls the amount of
+information to output. Depending on the options used
+when the
+.B Forms Library
+was built, a level more than 3 might not be available.
+.TP
+.B \-sync
+runs the application in synchronous mode with debug level set to 4. 
+.TP
+.B \-private
+requests a private colormap for the application.
+.TP
+.B \-shared
+requests a shared colormap even if the application needs more
+colors than available. For those colors that can't be allocated
+in the shared colormap, substitutions are made so the closest
+matching color is used.
+.TP
+.B \-stdcmap
+requests a standard colormap.
+.TP
+.B \-name " newname"
+specifies the application name under which resources are to be
+obtained, rather than the default executable file name. 
+.PP
+.PP
+.SH DESCRIPTION
+xfsound is both a user interface and a module that actually plays sound
+defined through the GUI.
+If xfsound is started from the command prompt, a window will come out
+and display a user interface, defining a way to play a sound whenever an 
+event from XFwm is detected.
+.PP
+If xfsound is started from XFwm's config or from XFce using the keyword "Module"
+then xfsound will be started as a background module that keeps on listenning
+to XFwm events and play a sound accordingly.
+.PP
+xfsound does not actually plays sounds, it uses a user defined command that is
+supposed to play the sound. XFce provides the shell script xfplay to do that.
+.PP
+xfplay is a script that reads a .wav file and send it to /dev/dsp using sox
+.PP
+If you use XFce through a local network, you'd rather use rplay to play sound across
+the network.
+.PP
+.PP
+.SH SEE ALSO
+xforms, rplay
+.PP
+rplay is available from :
+.TP
+.I ftp://ftp.sdsu.edu/pub/rplay/
+.TP
+.I ftp://ftp.x.org/contrib/audio/rplay/
+.PP
+.SH AUTHOR
+Olivier Fourdan (fourdan@csi.com)
+.PP
+.B  This software is absolutely free of charge. Can be distributed 
+.B freely, but mention original name and author if modified.
+.PP  
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHOR (O. FOURDAN) BE 
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+.P
+Copyright
+.Cr
+1997-1998 Olivier Fourdan (fourdan@csi.com)

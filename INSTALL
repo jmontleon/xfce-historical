@@ -1,0 +1,60 @@
+How to compile and install ?
+----------------------------
+
+IMPORTANT : YOU NEED TO HAVE A ROOT ACCESS TO INSTALL XFCE PROPERLY
+DRIRECTORY STRUCTURE HAS CHANGED SINCE VERSION 1.10 - READ CAREFULLY
+FILE "NEW" FOR MORE INFORMATIONS.
+
+
+1) Untar source :
+
+	$ tar xvzf xfce-2.0.?.tar.gz; cd xfce-2.0.?
+(replace the question tag by the right release version)
+	
+2) Edit Imakefile to suit your system (this is quite important, don't miss
+   this point !)
+
+	$ vi Imakefile
+
+3) Create Makefile :
+
+	$ xmkmf
+	
+If you don't have Imake installed, then you can try with the one shipped in
+the package or get the makefile that someone else used for your platform, 
+or even better, get Imake from ftp.x.org !
+
+4) Build the Makefiles :
+  
+	$ make Makefiles
+
+5) Compile :
+
+	$ make
+	
+
+5) Install :
+
+	$ make install
+
+6) Start setup script
+
+	$ xfce_setup
+
+7) Choose your default language
+
+Define the environment variable XFCE_LANG to use the language of your choice :
+
+	$ export XFCE_LANG="fr"
+	$ export XFCE_LANG="en"
+	$ export XFCE_LANG="it"
+	$ export XFCE_LANG="de"
+	$ export XFCE_LANG="hu"
+	$ export XFCE_LANG="es"
+	$ export XFCE_LANG="sk"
+
+
+
+Regards,
+Olivier Fourdan -FRANCE- (fourdan@csi.com)
+

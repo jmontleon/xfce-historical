@@ -1,0 +1,151 @@
+--------------------------------------------------------------------------------
+                                   XFce FAQ
+--------------------------------------------------------------------------------
+
+
+
+Q: The clock on XFce panel is very wrong ! How can I change XFce clock ?
+A: You can't ! It's taken directly from the system time. If you get a mismatch
+   between your system time and the time displayed in XFce, it means that you
+   have installed the libc5 version of XFce on a libc6 (aka glibc) based system.
+   All you have to do is reinstall the proper pre-compiled version of XFce.
+   If you've compiled XFce yourself, it means that you've downloaded the 
+   version of XForms for libc5 instead of libc6.
+
+
+Q: I've tried to compile XFce on a DEBIAN 2.0 system, and I get a core dump
+   every time I start XFwm.
+A: You have to install the debian packages xpm4g-dev xlib6-altdev libc5-altdev
+   and xpm4-altdev,  which are not part of the standard installation, and
+   it works fine (Kevin Donnely)
+   I guess this might be also true for other distribution/platforms.
+
+
+Q: I've tried to compile XFce & XFwm on SUN Solaris (tm) and I get a core dump
+   every time I launch xfwm !
+A: XFce a XFwm require the latest GNU tools, including libXpm (see previous 
+   question). You can retrieve the latest version of libXpm and other GNU 
+   tools for SUN Solaris from your closest SUNSite site.
+
+
+Q: When I try to compile XFce of SUN Solaris, I get thousands warnings !
+A: Don't use option "-Wall" on Solaris !
+
+
+Q: When I don a "xmkmf -a" or a make Makefiles on SUN Solaris I get an error
+   message complaining that "make: Fatal error in reader: Makefile, line <xxx>:
+   Unexpected end of line seen". Your Makefile is buggy !
+A: Nop ! You don't use GNU make as default (once again, XFce requires the GNU
+   tools to compile). Edit your /usr/openwin/lib/X11/config/svr4.cf (for SUN)
+   to mention GNU make as default.
+
+
+Q: Because XFwm is based on FVWM2, can I use the FVWM2 documentation ?
+   If so, what if anything in there is not supported?  Is there anything
+   additional that is not in there?
+A: The code of XFwm is based on FVWM2, but a lot of things have been changed.
+   Some bugs have been fixed, many "unuseful" features removed, and the 
+   syntax of the configuration file has been modified. XFwm code is smaller and
+   faster. XFwm provides new functionalities such as dynamic color change or
+   window animations. As a result, some functions have been added.
+   The modules do not share the same format either. XFwm provides an 
+   additional parameter to the modules that could cause trouble to FVWM2
+   modules.
+
+
+Q: How can I change the size of the icons in XFce menus, It's really 
+   too big/small ?
+A: XFce 2.1.2 use standard resources to set these parameters. just edit your
+   $HOME/.Xdefaults file and add the following parameters :
+   *menu.iconwidth: 60
+   *menu.iconheight: 50
+   *menu.labelwidth: 150
+   *menu.detachheight: 9
+   Note: Since version 2.3.0, icons are automatically resized to fit the values
+         you define.
+
+
+Q: Is there a setting to make xfce remember which window was active in each
+   workspace?  Its really annoying to have to select the active window
+   after switching workspaces.
+A: No. XFwm gives focus the last used window, so if you use XFce to select 
+   another workspace, the focus will be set to XFce.
+
+
+Q: How do you specify where the default icons should be placed on the desktop ?
+A: Icons are automatically placed side by side, starting at the top left corner
+   of the screen.
+
+
+Q: My sound will often die. and the only way to get it going again is to 
+   restart the windon manager.
+A: The is a bug in XFSound 2.1.0 that cause the sound module to die whenever it
+   receives an event that it cannot handle. This  bug is fixed in version 2.1.1
+   By the way, it is not necessary to restart the whole window manager for this,
+   you just need to add an entry in some XFce menu with : Module "xfsound"
+   as command line.
+
+
+Q: Will it be difficult to compile it for Solaris ?
+A: XFce will compile and work on Solaris. There is a binary distribution avai-
+   -lable for Solaris 2.6 Intel Edition (sorry, but I don't have a Sparc yet !)
+
+
+Q: Can I add/remove workspaces in XFce ?
+A: No There are 4 desktops and that's it.
+
+
+Q: What are minimal requirements to run XFce/XFwm ?
+A: XFce and XFwm require at least a 256 color display in 640x480.
+   Since version 2.3.0, the panel is automatically resized, along with the
+   icons, so the panel will still look good on a laptop computer.
+   There is also a color dithering process that saves colors on a 256 color
+   screen. Of course, you'll get better results on a 65535 color display
+   in 1024x768 or upper resolution.
+
+
+Q: How do I start an X application on a given desktop automatically ?
+A: Edit your $HOME/.xinitrc configuration file and add the application before
+   starting XFwm. If you wish to start it on a given desktop, add 
+   -xrm "*Desk: x"
+   where x is the number of the desktop (0 to 3)
+
+
+Q: I've set the "gradient background" parameter in XFce, but though I don't get
+   any gradient backdrop ! Why ?
+A: Gradients are automatically disabled when running on a 256 or less color 
+   adapter. This is to save colors for other X applications. Try to configure
+   your video card to use a deeper color depth.
+
+
+Q: I've set option Autoraise window, but how to increase the timeout before the
+   focused window os actually raised ?
+A: Edit $HOME/.xfwmrc and set "AUTORAISEDELAY" to what you want (default is 
+   250 milliseconds)
+
+
+Q: I don't want XFce to be in /usr/X11R6/bin but rather in /usr/local/bin...
+A: Edit XFCE.def and change (or set) BINDIR to whatever you want.
+
+
+Q: ...But I don't want the goodies to be in /var/XFCE either !
+A: Change the value of XFCE_DIR in XFCE.def. Unfortunately, this is not
+   enough as xfce_setup and xfce_remove will still look in /var/XFCE.
+   Therefore, you have to create a symbolic link between the actual
+   directory and /var/XFCE. E.g.: ln -sf /usr/local/lib/XFCE /var/XFCE
+
+   
+Q: I used xfce_setup to install XFce, and then I've tried to install another
+   WM. But now I would like to remove XFCE and xfce_remove doesn't work !
+A: xfce_setup takes a snapshot of your current configuration files and copy
+   them to $HOME/.xfce_bckp. If you install other programs that alter your 
+   configuration files after XFce, xfce_remove will not be able to keep a 
+   trace of what you've done afterwards !
+
+
+Q: Ok, but where are my original files ? Did I loose them ?
+A: No, xfce_remove saves all versions with extension .MMDDHHMMSS
+   (Month, Day, Hours, Minutes, Seconds). E.g. .Xclients.1212144954 has been
+   saved on December 12th at 2:49:54 pm. You can retrieve all you files using
+   this method, nothing is lost.
+   

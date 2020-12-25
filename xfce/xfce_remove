@@ -1,0 +1,33 @@
+#!/bin/sh
+#
+# xfce_remove - remove XFCE and restore user config files
+#
+#
+
+BKUP=$HOME/.xfce_bkup
+FILES=".Xclients .xinitrc .xsession"
+XFCE_DIR=/var/XFCE
+
+# Check existance of files to restore
+
+if [ ! -d $BKUP ]; then
+	echo No backup directory, nothing to restore !
+	exit 1;
+fi
+
+for i in $FILES; do
+	if [ -f $BKUP/$i ]; then
+		mv -f $BKUP/$i $HOME
+	else
+		echo Warning: Unable to restore $i
+		echo File might have been created on XFce installation.
+		echo Answer \'y\' to remove XFce\'s files
+		rm -i $HOME/$i
+	fi
+done
+
+# Remove directory
+rmdir $BKUP
+
+echo Deinstallation complete
+exit 0
