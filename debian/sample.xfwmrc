@@ -1,0 +1,115 @@
+MenuFont            -*-helvetica-bold-r-*-*-12-*-*-*-*-*-*-*
+WindowFont          -*-helvetica-bold-r-*-*-12-*-*-*-*-*-*-*
+IconFont            -*-helvetica-medium-r-*-*-10-*-*-*-*-*-*-*
+
+AnimateWin          On
+ColormapFocus       FollowsFocus
+FocusMode           ClickToFocus
+AutoRaise           Off
+AutoRaiseDelay      250
+
+Style "*"           BorderWidth 6
+Style "XFce*"	    Sticky
+# Style "XFce*"       StaysOnTop
+Style "XFbd*"       Sticky 
+Style "Popup*"      Sticky
+Style "Alert*"	    Sticky, StaysOnTop
+Style "Question*"   Sticky, StaysOnTop
+Style "Message*"    Sticky, StaysOnTop
+Style "*Pager"	    Sticky
+Style "*lock"       Sticky
+
+# Default icons for most common apps
+
+Style "*term*"      icon "/usr/share/xfce/icons/CheckMarkMonitor.xpm"
+Style "Term*"       icon "/usr/share/xfce/icons/CheckMarkMonitor.xpm"
+Style "rxvt*"       icon "/usr/share/xfce/icons/CheckMarkMonitor.xpm"
+Style "*mag*"       icon "/usr/share/xfce/icons/MagnifyGlas.xpm"
+Style "xosview*"    icon "/usr/share/xfce/icons/CPUChip.xpm"
+Style "editres*"    icon "/usr/share/xfce/icons/Editres.xpm"
+Style "*calc*"      icon "/usr/share/xfce/icons/OldBlueAddingMachine.xpm"
+Style "*GIMP*"      icon "/usr/share/xfce/icons/Gimp2.xpm"
+Style "*paint*"     icon "/usr/share/xfce/icons/3dpaint.xpm"
+Style "*game*"      icon "/usr/share/xfce/icons/TrueDie.xpm"
+Style "*.jpg*"      icon "/usr/share/xfce/icons/Monalisa.xpm"
+Style "*.gif*"      icon "/usr/share/xfce/icons/Monalisa.xpm"
+Style "*.png*"      icon "/usr/share/xfce/icons/Monalisa.xpm"
+Style "*.bmp*"      icon "/usr/share/xfce/icons/Monalisa.xpm"
+Style "*.xpm*"      icon "/usr/share/xfce/icons/Monalisa.xpm"
+Style "*.xwd*"      icon "/usr/share/xfce/icons/Monalisa.xpm"
+Style "*.JPG*"      icon "/usr/share/xfce/icons/Monalisa.xpm"
+Style "*.GIF*"      icon "/usr/share/xfce/icons/Monalisa.xpm"
+Style "*.PNG*"      icon "/usr/share/xfce/icons/Monalisa.xpm"
+Style "*.BMP*"      icon "/usr/share/xfce/icons/Monalisa.xpm"
+Style "*.XPM*"      icon "/usr/share/xfce/icons/Monalisa.xpm"
+Style "*.XWD*"      icon "/usr/share/xfce/icons/Monalisa.xpm"
+Style "XMMS*"       icon "/usr/share/xfce/icons/CDPlayer.xpm"
+Style "*gnome*"     icon "/usr/share/xfce/icons/Gnome-apps.xpm"
+Style "*Gnome*"     icon "/usr/share/xfce/icons/Gnome-apps.xpm"
+Style "*GNOME*"     icon "/usr/share/xfce/icons/Gnome-apps.xpm"
+
+# Common init and restart functions
+#AddToFunc "InitFunction"
+#+ "I" Module xfpager
+#+ "I" Exec xterm
+#AddToFunc "RestartFunction"
+#+ "I" Module xfpager
+#+ "I" Exec xterm
+
+# Adding a user menu to the default root menu :
+# (This is just a sample, modify it to fit your need)
+# Uncomment the following lines to create a user menu
+#
+#AddToMenu "user_menu"
+#+ "&Gnome Terminal" Exec gnome-terminal
+#+ "" Nop
+#+ "&The GIMP" Exec gimp
+#
+# Menu "__builtin_root_menu__" is the name of the default root menu
+#
+#AddToMenu "__builtin_root_menu__"
+#+ "&User menu" popup "user_menu
+
+# Uncomment the following if you want tot remove default keyboard shortcuts
+# (Some applications require this, as they use the same shortcuts)
+#Key Tab A M -
+#Key Escape A S -
+#Key Escape A C -
+#Key Left A SC -
+#Key Right A SC -
+#Key Up A SC -
+#Key Down A SC  -
+#Key Left A SM  -
+#Key Right A SM  -
+#Key Up A SM  -
+#Key Down A SM  -
+#Key F1 A M -
+#Key F2 A M -
+#Key F3 A M -
+#Key F4 A M -
+#Key F5 A M -
+#Key F6 A M -
+#Key F7 A M -
+#Key F8 A M -
+#Key F9 A M -
+#Key F10 A M -
+#Key F11 A M -
+#Key F1 A C -
+#Key F2 A C -
+#Key F3 A C -
+#Key F4 A C -
+#Key F5 A C -
+#Key F6 A C -
+#Key F7 A C -
+#Key F8 A C -
+#Key F9 A C -
+#Key F10 A  C -
+#Key L5 IW N -
+#Key L5 IW S -
+#Key L5 IW C -
+#Key L7 IW A -
+
+# Options for xfpager :
+
+*xfpager.geometry -0+0
+*xfpager.smallfont 5x8

@@ -1,0 +1,25 @@
+- xfce, xfclock, xfbd, xfmouse & xfsound are written by :
+  Olivier Fourdan (fourdan@xfce.org)
+
+- xftree is based on xtree (C) Rasca Gmelch :
+  Rasca Gmelch <thron@gmx.de>
+
+- xfwm and xfpager are originally based on fvwm and fvwm2 from :
+  Robert Nation
+  Charles Hines
+
+- xfgnome is based on Gnome module for Afterstep by :
+  Rafal Wierzbicki <rafal@mcss.mcmaster.ca>
+
+Patches contributed by (in no special order)
+
+- Guido Draheim <guidod@gmx.de>
+- <anubis@dotd.mudservices.com>
+- Adam Sampson <azz@gnu.org>
+- Albert Chin-A-Young <china@thewrittenword.com>
+- Yamahata Kenichiro <mogutan@din.or.jp>
+- Beau Kuiper <ekuiperba@cc.curtin.edu.au>
+- Joakim Andreasson <karanne@flashback.net>
+- Francois Petitjean <francois.petitjean@bureauveritas.com>
+- Khadiyd Idris <khadx@francemel.com>
+

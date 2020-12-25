@@ -1,0 +1,90 @@
+#!/bin/sh
+#
+#  gxfce
+#
+#  Copyright (C) 1999 Olivier Fourdan (fourdan@xfce.org)
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 2 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+#
+#
+# xfce_install - set up XFce on a user account
+#
+#
+
+BKUP=$HOME/.xfce_bkup
+FILES=".Xclients .xinitrc .xsession .gtkrc"
+DATE=`date +%m%d%H%M%S`
+
+# Check existance of variable $XFCE_DATA
+
+if [ "x$XFCE_DATA" = "x" ]
+then
+  XFCE_DATA=XFCE_DIR
+  echo Environment variable XFCE_DATA is not set. Using XFCE_DIR instead
+fi
+
+# Check existance of $BKUP directory
+# and create it if it does not exist
+
+if [ ! -d $BKUP ]; then
+	mkdir $BKUP
+fi
+
+if [ ! -d $HOME/.xap ]; then
+	mkdir $HOME/.xap
+fi
+
+if [ ! -d $HOME/.xap/.trash ]; then
+	mkdir $HOME/.xap/.trash
+fi
+
+if [ ! -d $HOME/Desktop ]; then
+	mkdir $HOME/Desktop
+fi
+
+if [ ! -d $HOME/Desktop/Autostart ]; then
+	mkdir $HOME/Desktop/Autostart
+fi
+
+if [ ! -f $HOME/.xap/xtree.reg ]; then
+	cp $XFCE_DATA/sample.xtree.reg $HOME/.xap/xtree.reg
+fi
+
+if [ ! -f $HOME/Desktop/Autostart/xfdefs.py ]; then
+	cp $XFCE_DATA/xfdefs.py $HOME/Desktop/Autostart/xfdefs.py
+	chmod a+x $HOME/Desktop/Autostart/xfdefs.py
+fi
+
+# Save previous version and install new one
+
+for i in $FILES; do
+	if [ ! -f $BKUP/$i.$DATE ]; then
+		mv -f $HOME/$i $BKUP/$i.$DATE 2>/dev/null
+		cp -f $BKUP/$i.$DATE $BKUP/$i 2>/dev/null
+	else
+		echo Warning: $i.$DATE already saved from previous installation
+	fi
+	if [ -f $XFCE_DATA/sample$i ]; then
+		cp -f $XFCE_DATA/sample$i $HOME/$i 
+		chmod -f u+x $HOME/$i
+	fi
+done
+
+if [ ! -f $HOME/.xfcolors ]; then
+	cp -f $XFCE_DATA/palettes/Symbiose $HOME/.xfcolors
+fi
+
+echo Installation complete
+exit 0

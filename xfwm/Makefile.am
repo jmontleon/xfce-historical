@@ -1,0 +1,51 @@
+## Process this file with automake to produce Makefile.in
+
+PACKAGE = @PACKAGE@
+VERSION = @VERSION@
+
+CLEANFILES=*~ *.bak core *.core *.o .depend .deps/* 
+
+INCLUDES = -I../ -I../libs/ @X_CFLAGS@ @IMLIB_CFLAGS@ -DXFCE_DIR=\"@XFCE_DIR@\" \
+	-DXFCE_LOCALE_DIR=\"@XFCE_LOCALE_DIR@\"
+
+bin_PROGRAMS = xfwm
+
+xfwm_DEPENDENCIES = ../libs/libxfwm.a 
+
+xfwm_SOURCES = \
+	default_icon.h \
+	menus.h \
+	misc.h \
+	module.h \
+	parse.h \
+	screen.h \
+	version.h \
+	xfwm.h \
+	add_window.c \
+	bindings.c \
+	borders.c \
+	builtins.c \
+	colormaps.c \
+	colors.c \
+	complex.c \
+	decorations.c \
+	events.c \
+	focus.c \
+	functions.c \
+	icons.c \
+	menus.c \
+	misc.c \
+	module.c \
+	move.c \
+	placement.c \
+	read.c \
+	resize.c \
+	style.c \
+	virtual.c \
+	windows.c \
+	xfwm.c
+
+xfwm_LDADD = @INTLLIBS@ @LIBS@ @IMLIB_LIBS@ ../libs/libxfwm.a ${X_LIBS} \
+	${X_PRE_LIBS} -lXext -lX11 -lXpm -lm
+
+man_MANS=xfwm.1

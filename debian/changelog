@@ -1,0 +1,45 @@
+xfce (3.2.5-0.1) stable; urgency=low
+
+  * 2 backdrop images have been removed bacause of copyright notices not
+    being clear enough (don't want to take any risk)
+
+ -- Olivier Fourdan <fourdan@xfce.org>  Tue, 10 Jan 2000 22:05:33 +0200
+
+xfce (3.2.4-0.1) stable; urgency=low
+
+  * Updates for XFce 3.2.4
+
+ -- Olivier Fourdan <fourdan@xfce.org>  Tue, 10 Jan 2000 22:05:33 +0200
+
+xfce (3.2.3-0.1) stable; urgency=low
+
+  * Updates for XFce 3.2.3
+
+ -- Olivier Fourdan <fourdan@xfce.org>  Tue, 18 Dec 1999 14:10:00 +0200
+
+xfce (3.2.2-0.1) unstable; urgency=low
+
+  * Updates for XFce 3.2.2
+
+ -- Olivier Fourdan <fourdan@xfce.org>  Tue, 01 Dec 1999 18:16:30 +0200
+
+xfce (3.1.0-0.1) unstable; urgency=low
+
+  * New upstream release. Somebody wants to take it over officially 
+    maintaining it for Debian?
+  * Removed "xfce_{setup,remove}" and replaced it with a systemwide
+    startup wrapper script "xfce_start".  No need to touch already 
+    existing ~/.xinitrc or ~/.xsession files anymore.
+
+ -- Paul Seelig <pseelig@debian.org>  Mon, 06 Aug 1999 18:31:54 +0200
+
+xfce (3.0.2-0.1) unstable; urgency=low
+
+  * Initial release. Somebody wants to take it over officially 
+    maintaining it for Debian?
+
+ -- Paul Seelig <pseelig@debian.org>  Mon, 19 Jul 1999 18:31:54 +0200
+
+Local variables:
+mode: debian-changelog
+End:
