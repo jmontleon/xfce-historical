@@ -1,0 +1,1667 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+#
+# Translation into Estonian language
+# FIRST AUTHOR <Peeter.Vois@mail.ee>, 2000.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2000-01-02 18:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: libs/colorselect.c:68 xfclock/xfclock_closel.c:71
+#: xfclock/xfclock_colorsel.c:70
+msgid "Select Color"
+msgstr "Valige värv"
+
+#: libs/fileselect.c:72
+msgid "Select File"
+msgstr "Valige fail"
+
+#: libs/fontselection.c:76
+msgid "Font Selection"
+msgstr "Tekstikuju valik"
+
+#: libs/xfce-common.c:283
+msgid "OK"
+msgstr "Olgu"
+
+#: libs/xfce-common.c:303
+msgid "Message"
+msgstr "Teade"
+
+#: libs/xfce-common.c:401 xftree/gtk_dlg.c:191
+msgid "Yes"
+msgstr "Jah"
+
+#: libs/xfce-common.c:401 xftree/gtk_dlg.c:218
+msgid "No"
+msgstr "Ei"
+
+#: libs/xfce-common.c:434 xftree/gtk_dlg.c:162
+msgid "Question"
+msgstr "Küsimus"
+
+#: libs/xfce-common.c:622 xfwm/xfwm.c:1042
+msgid "Terminated: "
+msgstr "Kõrvaldatud: "
+
+#: libs/xpmext.c:361
+#, c-format
+msgid "*** WARNING ***: Cannot load image file %s\n"
+msgstr "HOIATUS: Ei suuda lugeda mustri faili %s\n"
+
+#: libs/xpmext.c:382
+#, c-format
+msgid "*** WARNING ***: Cannot load pixmap file %s\n"
+msgstr "HOIATUS: Ei suuda lugeda rasterpildi faili %s\n"
+
+#: xfce/action.c:60
+msgid "Define action ..."
+msgstr "Defineeri tegevus ..."
+
+#: xfce/action.c:100 xfce/modify.c:147
+msgid "Command Line :"
+msgstr "Käsklus :"
+
+#: xfce/action.c:110
+msgid "Icon Style :"
+msgstr "Ikooni stiil :"
+
+#: xfbd/xfbd.c:368 xfce/action.c:137 xfce/action.c:147 xfce/modify.c:201
+#: xfce/modify.c:210 xfsound/xfsound.c:391
+msgid "Browse ..."
+msgstr "Lehitse ..."
+
+#. ok and cancel buttons
+#: xfbd/xfbd.c:354 xfce/action.c:171 xfce/modify.c:241 xfce/screen.c:128
+#: xfce/setup.c:885 xfmouse/xfmouse.c:251 xfsound/xfsound.c:490
+#: xftree/gtk_dlg.c:189 xftree/gtk_exec.c:141 xftree/gtk_prop.c:173
+msgid "Ok"
+msgstr "Olgu"
+
+#: xfbd/xfbd.c:398 xfce/action.c:179 xfce/modify.c:249 xfce/screen.c:136
+#: xfce/setup.c:901 xfmouse/xfmouse.c:273 xfsound/xfsound.c:512
+#: xftree/gtk_cpy.c:410 xftree/gtk_dlg.c:216 xftree/gtk_exec.c:142
+#: xftree/gtk_get.c:122 xftree/gtk_prop.c:174
+msgid "Cancel"
+msgstr "Loobu"
+
+#: xfce/action_cb.c:70
+msgid "You must provide the command to execute !"
+msgstr "Te peate andma käsu mida käivitada !"
+
+#: xfce/configfile.c:44
+#, c-format
+msgid ""
+"XFce : Syntax error in configuration file\n"
+"(%s)\n"
+msgstr ""
+"XFce : Konfiguratsiooni failis on süntaksi viga\n"
+"(%s)\n"
+
+#: xfce/configfile.c:45 xfclock/xfclock_config.c:41
+msgid ""
+"Syntax error in configuration file\n"
+"Aborting"
+msgstr ""
+"Konfiguratsiooni failis on süntaksi viga\n"
+"Katkestan"
+
+#: xfce/configfile.c:52
+#, c-format
+msgid ""
+"XFce : Data mismatch error in config file\n"
+"(%s)\n"
+msgstr ""
+"XFce : Konfiguratsiooni failis andmed ei klapi\n"
+"(%s)\n"
+
+#: xfce/configfile.c:53 xfclock/xfclock_config.c:49
+msgid ""
+"Data mismatch error in configuration file\n"
+"Aborting"
+msgstr ""
+"Konfiguratsiooni failis andmed ei klapi\n"
+"Katkestan"
+
+#: xfce/configfile.c:167 xfclock/xfclock_config.c:112
+msgid "Cannot create file"
+msgstr "Ei suuda luua faili"
+
+#: xfce/configfile.c:288
+msgid "Cannot reset configuration file"
+msgstr "Ei suuda taasseada konfiguratsiooni faili."
+
+#: xfce/configfile.c:291
+msgid "Creating new config file...\n"
+msgstr "Loon uue konfiguratsioonifaili... \n"
+
+#: xfce/configfile.c:438 xfce/configfile.c:448 xfce/configfile.c:459
+#, c-format
+msgid "XFce : %s File not found.\n"
+msgstr "XFce : %s Faili ei leidu.\n"
+
+#: xfce/configfile.c:458 xfce/configfile.c:467
+msgid "Cannot open configuration file"
+msgstr "Ei suuda avada konfiguratsiooni faili"
+
+#: xfce/configfile.c:472
+msgid "Does not looks like an XFce 3 configuration file !"
+msgstr "Fail ei paista olevat XFce 3 -me konfiguratsioonifail !"
+
+#: xfce/configfile.c:473
+msgid ""
+"Do you want to reset the configuration file ?\n"
+" \t(The previous file will be saved with \".orig\" extension)"
+msgstr ""
+"Kas sa tahad konfiguratsiooni faili uuesti seada  ?\n"
+" \t(Eelmine fail salvestatkse koos \".orig\" laiendiga)"
+
+#: xfce/configfile.c:483
+msgid "Cannot open new config, Giving up..."
+msgstr "Ei suuda avada uut konfiguratsiooni, Annan alla..."
+
+#: xfce/configfile.c:484
+msgid "Cannot load configuration file"
+msgstr "Eis suuda lugeda konfiguratsiooni faili"
+
+#: xfce/configfile.c:490
+msgid "Cannot use old version of XFce configuration files"
+msgstr "Ei suuda kasutada XFce konfiguratsiooni faili vanu versioone"
+
+#: xfce/info.c:71
+msgid "Info ..."
+msgstr "Teave ..."
+
+#: xfbd/xfbd.c:311 xfce/info.c:98 xfce/modify.c:118 xfce/popup.c:111
+#: xfce/popup.c:231 xfce/startup.c:83 xfce/xfce.c:160 xfce/xfce.c:208
+#: xfce/xfce.c:426 xfce/xfce.c:451 xfce/xfce.c:554 xfce/xfce.c:577
+#: xfce/xfce.c:612 xfce/xfce.c:679 xfce/xfce.c:697 xfmouse/xfmouse.c:158
+msgid "Couldn't create pixmap"
+msgstr "Ei saa luua rasterpilti"
+
+#: xfce/info.c:112
+msgid "By Olivier Fourdan (c) 1997-2000"
+msgstr "Oliver Fourdan'ilt (c) 1997-2000"
+
+#: xfce/info.c:179
+msgid "Agreement"
+msgstr "Nõusolek"
+
+#: xfce/modify.c:66 xfce/modify.c:324
+msgid "Modify Item ..."
+msgstr "Modifitseeri eset ..."
+
+#: xfce/modify.c:125
+msgid "Preview Icon"
+msgstr "Ikooni eelvaade"
+
+#: xfce/modify.c:157
+msgid "Icon File :"
+msgstr "Ikooni fail :"
+
+#: xfce/modify.c:167
+msgid "Label :"
+msgstr "Pealkiri :"
+
+#: xfce/modify.c:257
+msgid "Remove"
+msgstr "Eemalda"
+
+#: xfce/modify.c:308
+msgid "Add Item ..."
+msgstr "Lisa programm ..."
+
+#: xfce/modify.c:334 xfce/modify_cb.c:97 xfce/modify_cb.c:160 xfce/setup.c:259
+msgid "Default"
+msgstr "Vaikimisi"
+
+#: xfce/modify_cb.c:108
+msgid "Are you sure you want to remove this entry ?"
+msgstr "Olete te kindel, et soovite eemaldada seda sissekannet ?"
+
+#: xfce/modify_cb.c:142 xfce/modify_cb.c:171
+msgid ""
+"You must provide the command\n"
+"and the label, at least !"
+msgstr ""
+"Te peate vähemalt andma käsu\n"
+"ja pealkirja !" 
+
+#: xfce/popup.c:211
+msgid "Add a new entry..."
+msgstr "Lisa uus sissekanne..."
+
+#: xfce/popup.c:238
+msgid "Add icon..."
+msgstr "Lisa programm"
+
+#: xfce/popup.c:260
+msgid "Click to tearoff popup menu"
+msgstr "Kliki rebitaval püstmenüül"
+
+#: xfce/popup_cb.c:200
+msgid "Cannot find the file you dropped !"
+msgstr "Ei leia teie veetud faili"
+
+#: xfce/screen.c:56
+msgid "Screen label ..."
+msgstr "Ekraani pealkiri ..."
+
+#: xfce/screen.c:96
+msgid "Define screen label :"
+msgstr "Defineeri ekraani pealkiri :"
+
+#: xfce/selects.c:56
+msgid "Files related"
+msgstr "Seostatud failid"
+
+#: xfce/selects.c:57
+msgid "Terminals/Connections"
+msgstr "Terminalid/Ühendused"
+
+#: xfce/selects.c:58
+msgid "Mail tools/browsers"
+msgstr "Kirja vahendid/lehitsejad"
+
+#: xfce/selects.c:59
+msgid "Print manager"
+msgstr "Trükkali mänedzer"
+
+#: xfce/selects.c:60
+msgid "Configuration"
+msgstr "Konfiguratsioon"
+
+#: xfce/selects.c:61
+msgid "Misc. tools/Utilities"
+msgstr "Erinevad vahendid/Võimalused"
+
+#: xfce/selects.c:62
+msgid "Manual/Help browser"
+msgstr "Juhend/ Abi lehitseja"
+
+#: xfce/selects.c:63
+msgid "Writing/Text tools"
+msgstr "Kirjutamise/teksti vahendid"
+
+#: xfce/selects.c:64
+msgid "Schedule/Appointments"
+msgstr "Ajakava/Kohtumised"
+
+#: xfce/selects.c:65
+msgid "Multimedia"
+msgstr "Multimeedia"
+
+#: xfce/selects.c:66
+msgid "Games"
+msgstr "Mängud"
+
+#: xfce/selects.c:67
+msgid "Network"
+msgstr "Andmevõrk"
+
+#: xfce/selects.c:68
+msgid "Sound"
+msgstr "Heli"
+
+#: xfce/selects.c:69
+msgid "External..."
+msgstr "Väline..."
+
+#: xfce/setup.c:168
+msgid "Setup"
+msgstr "Seade"
+
+#: xfce/setup.c:243
+msgid "Load ..."
+msgstr "Lae ..."
+
+#: xfce/setup.c:251
+msgid "Save ..."
+msgstr "Salvesta ..."
+
+#: xfce/setup.c:284
+msgid "Repaint root window of workspace"
+msgstr "Puhasta töökoha alusaken"
+
+#: xfce/setup.c:291
+msgid "Use gradient color as wallpaper"
+msgstr "Kasuta muutuvat taustavärvi"
+
+#: xfce/setup.c:298
+msgid "Use tear-off menus"
+msgstr "Kasuta rippmenüüsid"
+
+#: xfce/setup.c:305
+msgid "Clock"
+msgstr "Kell"
+
+#: xfce/setup.c:319
+msgid "Use digital clock on panel"
+msgstr "Kasuta digitaalset kellanäitu"
+
+#: xfce/setup.c:326
+msgid "Use military time (24 hours)"
+msgstr "Kasuta 24 tunnilist ajanäitu"
+
+#: xfce/setup.c:333
+msgid "Tooltips"
+msgstr "Märkused"
+
+#: xfce/setup.c:347
+msgid "Tooltips delay (ms.) : "
+msgstr "Märkuste viivitus (ms.) :"
+
+#: xfce/setup.c:362
+msgid "Virtual Screens"
+msgstr "Virtuaalekraanid"
+
+#: xfce/setup.c:376
+msgid "Number of virtual desktops : "
+msgstr "Virtuaalekraanide arv :"
+
+#: xfce/setup.c:390
+msgid "Popups & Icons"
+msgstr "Püstmenüüd ja ikoonid"
+
+#: xfce/setup.c:404
+msgid "Number of popup menus : "
+msgstr "Püstmenüüde arv"
+
+#: xfce/setup.c:418
+msgid "Size of Icons on Panel"
+msgstr "Ikoonide suurus paneelil"
+
+#: xfce/setup.c:431 xfce/setup.c:465
+msgid "Large"
+msgstr "Suur"
+
+#: xfce/setup.c:438 xfce/setup.c:472
+msgid "Medium"
+msgstr "Keskmine"
+
+#: xfce/setup.c:445 xfce/setup.c:479
+msgid "Small"
+msgstr "Väike"
+
+#: xfce/setup.c:452
+msgid "Size of Icons on Popup Menus"
+msgstr "Ikoonide suurus püstmenüüs"
+
+#: xfce/setup.c:486
+msgid "Font Style"
+msgstr "Tekstikuju stiil"
+
+#: xfce/setup.c:507 xfce/setup.c:770 xfce/setup.c:778 xfce/setup.c:786
+msgid "Browse..."
+msgstr "Lehitse..."
+
+#: xfce/setup.c:533
+msgid "Click to focus windows"
+msgstr "Akna fokusserimiseks toksa"
+
+#: xfce/setup.c:540
+msgid "Auto raise windows"
+msgstr "Too aken automaatselt esile"
+
+#: xfce/setup.c:547
+msgid "Show contents of window during move"
+msgstr "Näita akna liikumisel selle sisu"
+
+#: xfce/setup.c:554
+msgid "Show contents of window during resize"
+msgstr "Näita akna sisu selle suuruse muutmisel"
+
+#: xfce/setup.c:561
+msgid "Use gradient color for active window"
+msgstr "Aktiivse akna näitamiseks kasuta muutuvat värvi"
+
+#: xfce/setup.c:568
+msgid "Use gradient color for inactive window"
+msgstr "Kasuta passiivse akna näitamiseks muutuvat värvi"
+
+#: xfce/setup.c:589
+msgid "Windows snapping size (0 disable) : "
+msgstr "Akna napsamise kaugus (0 keelab) : "
+
+#: xfce/setup.c:616
+msgid "Icon position"
+msgstr "Ikooni asukoht"
+
+#: xfce/setup.c:628
+msgid "Top"
+msgstr "Ülal"
+
+#: xfce/setup.c:636 xfmouse/xfmouse.c:164
+msgid "Left"
+msgstr "Vasakul"
+
+#: xfce/setup.c:644
+msgid "bottom"
+msgstr "All"
+
+#: xfce/setup.c:652 xfmouse/xfmouse.c:175
+msgid "Right"
+msgstr "Paremal"
+
+#: xfce/setup.c:740
+msgid "Title font :"
+msgstr "Pealkirja teksti kuju"
+
+#: xfce/setup.c:750
+msgid "Icon font :"
+msgstr "Ikooni teksti kuju"
+
+#: xfce/setup.c:760
+msgid "Menu font :"
+msgstr "Menüü teksti kuju"
+
+#: xfce/setup.c:813
+msgid "Sound Module (xfsound)"
+msgstr "Helimoodul (xfsound) "
+
+#: xfce/setup.c:820
+msgid "Mouse settings (xfmouse)"
+msgstr "Hiire seadistused (xfmouse)"
+
+#: xfce/setup.c:827
+msgid "Backdrop settings (xfbd)"
+msgstr "Taustapildi seadistused (xfbd)"
+
+#: xfce/setup.c:834
+msgid "Pager (xfpager)"
+msgstr "Leheküljed (xfpager)"
+
+#: xfce/setup.c:841
+msgid "GNOME (xfgnome)"
+msgstr "GNOME (xfgnome)"
+
+#: xfce/setup.c:848
+msgid "Palette"
+msgstr "Värvivalik"
+
+#: xfce/setup.c:854
+msgid "XFce"
+msgstr "XFce"
+
+#: xfce/setup.c:860
+msgid "Windows"
+msgstr "Aknad"
+
+#: xfce/setup.c:866 xfce/startup.c:55 xfsound/xfsound.c:67
+msgid "Startup"
+msgstr "Alustus"
+
+#: xfbd/xfbd.c:378 xfce/setup.c:893 xfmouse/xfmouse.c:263
+#: xfsound/xfsound.c:503
+msgid "Apply"
+msgstr "Lisa"
+
+#: xfce/startup.c:89
+msgid "Please Wait, XFce is loading..."
+msgstr "Palun oota, XFce loeb..."
+
+#: xfce/xfce.c:58
+msgid "One"
+msgstr "Üks"
+
+#: xfce/xfce.c:58
+msgid "Two"
+msgstr "Kaks"
+
+#: xfce/xfce.c:58
+msgid "Three"
+msgstr "Kolm"
+
+#: xfce/xfce.c:58
+msgid "Four"
+msgstr "Neli"
+
+#: xfce/xfce.c:58
+msgid "Five"
+msgstr "Viis"
+
+#: xfce/xfce.c:59
+msgid "Six"
+msgstr "Kuus"
+
+#: xfce/xfce.c:59
+msgid "Seven"
+msgstr "Seitse"
+
+#: xfce/xfce.c:59
+msgid "Eight"
+msgstr "Kaheksa"
+
+#: xfce/xfce.c:59
+msgid "Nine"
+msgstr "Üheksa"
+
+#: xfce/xfce.c:59
+msgid "Ten"
+msgstr "Kümme"
+
+#: xfce/xfce.c:60
+msgid "Eleven"
+msgstr "Üksteist"
+
+#: xfce/xfce.c:60
+msgid "Twelve"
+msgstr "Kaksteist"
+
+#: xfce/xfce.c:60
+msgid "Thirteen"
+msgstr "Kolomteist"
+
+#: xfce/xfce.c:60
+msgid "Fourteen"
+msgstr "Neliteist"
+
+#: xfce/xfce.c:60
+msgid "Fifteen"
+msgstr "Viisteist"
+
+#: xfce/xfce.c:61
+msgid "Sixteen"
+msgstr "Kuusteist"
+
+#: xfce/xfce.c:61
+msgid "Seventeen"
+msgstr "Seitseteist"
+
+#: xfce/xfce.c:61
+msgid "Eighteen"
+msgstr "Kaheksateist"
+
+#: xfce/xfce.c:61
+msgid "Nineteen"
+msgstr "Üheksateist"
+
+#: xfce/xfce.c:61
+msgid "Twenty"
+msgstr "Kakskümmend"
+
+#: xfce/xfce.c:87 xfclock/xfclock_menus.c:114
+msgid "Digital mode"
+msgstr "Digitaalreziim"
+
+#: xfce/xfce.c:96 xfclock/xfclock_menus.c:124
+msgid "24 hours mode"
+msgstr "24 tunni reziim"
+
+#: xfce/xfce.c:572 xfclock/xfclock_menus.c:195
+msgid "About..."
+msgstr "Sellest..."
+
+#: xfce/xfce.c:607
+msgid "Setup..."
+msgstr "Sedistus..."
+
+#: xfce/xfce.c:629
+msgid "Whoooops !"
+msgstr "Oi !"
+
+#: xfce/xfce.c:632 xfclock/xfclock_menus.c:62 xfclock/xfclock_menus.c:89
+#: xftree/xtree_gui.c:2164 xftree/xtree_gui.c:2194 xftree/xtree_gui.c:2222
+#: xftree/xtree_gui.c:2247
+msgid "Quit"
+msgstr "Välju"
+
+#. kind of semphor
+#: xfce/xfce_cb.c:60
+msgid "Sunday"
+msgstr "Pühapäev"
+
+#: xfce/xfce_cb.c:61
+msgid "Monday"
+msgstr "Esmaspäev"
+
+#: xfce/xfce_cb.c:62
+msgid "Tuesday"
+msgstr "Teisipäev"
+
+#: xfce/xfce_cb.c:63
+msgid "Wednesday"
+msgstr "Kolmapäev"
+
+#: xfce/xfce_cb.c:64
+msgid "Thursday"
+msgstr "Neljapäev"
+
+#: xfce/xfce_cb.c:65
+msgid "Friday"
+msgstr "Reede"
+
+#: xfce/xfce_cb.c:66
+msgid "Saturday"
+msgstr "Laupäev"
+
+#: xfce/xfce_cb.c:68
+msgid "January"
+msgstr "Jaanuar"
+
+#: xfce/xfce_cb.c:69
+msgid "February"
+msgstr "Veebruar"
+
+#: xfce/xfce_cb.c:70
+msgid "March"
+msgstr "Märts"
+
+#: xfce/xfce_cb.c:71
+msgid "April"
+msgstr "Aprill"
+
+#: xfce/xfce_cb.c:72
+msgid "May"
+msgstr "Mai"
+
+#: xfce/xfce_cb.c:73
+msgid "June"
+msgstr "Juuni"
+
+#: xfce/xfce_cb.c:74
+msgid "July"
+msgstr "Juuli"
+
+#: xfce/xfce_cb.c:75
+msgid "August"
+msgstr "August"
+
+#: xfce/xfce_cb.c:76
+msgid "September"
+msgstr "September"
+
+#: xfce/xfce_cb.c:77
+msgid "October"
+msgstr "Oktoober"
+
+#: xfce/xfce_cb.c:78
+msgid "November"
+msgstr "November"
+
+#: xfce/xfce_cb.c:79
+msgid "December"
+msgstr "Detsember"
+
+#: xfce/xfce_cb.c:92
+msgid ""
+"Are you sure you want to Quit ?\n"
+"This might log you off !"
+msgstr ""
+"Olete te kindel, et soovite väljuda ?\n"
+"See võib teid välja kirjutada !"
+
+#: xfce/xfce_cb.c:164
+msgid ""
+"You've selected a desktop which is not currently\n"
+"visible in XFce panel."
+msgstr ""
+"Te valisite töölaua, mis ei ole hetkel nähtav\n"
+"XFce paneelil."
+
+#: xfce/xfwm.c:67
+msgid "XFCE: Communication pipe closed. Exiting...\n"
+msgstr "XFce: kommunikatsioonitoru suletud. Väljun...\n"
+
+#: xftree/gtk_cpy.c:60
+#, c-format
+msgid "transfer_view() %d\n"
+msgstr "transfer_view() %d\n"
+
+#: xftree/gtk_cpy.c:109
+msgid "Source and Target are the same"
+msgstr "Läte ja siht on samad"
+
+#: xftree/gtk_cpy.c:113 xftree/gtk_cpy.c:199
+#, c-format
+msgid "%d bytes"
+msgstr "%d baiti"
+
+#: xftree/gtk_cpy.c:122
+msgid "Can't transfer, same Inode !"
+msgstr ""
+
+#: xftree/gtk_cpy.c:124
+msgid "Override file?"
+msgstr ""
+
+#: xftree/gtk_cpy.c:139 xftree/gtk_cpy.c:142 xftree/gtk_cpy.c:271
+#: xftree/gtk_cpy.c:274
+msgid "Can't stat() file"
+msgstr ""
+
+#: xftree/gtk_cpy.c:158
+msgid "readlink()"
+msgstr ""
+
+#: xftree/gtk_cpy.c:174
+msgid "Can't copy device file"
+msgstr "Ei saa kopeerida seadme faili"
+
+#: xftree/gtk_cpy.c:178
+msgid "Can't copy FIFO"
+msgstr "Ei saa kopeerida FIFO-t"
+
+#: xftree/gtk_cpy.c:181
+msgid "Can't copy SOCKET"
+msgstr "Ei saa SOCKET'it kopeerida"
+
+#: xftree/gtk_cpy.c:213
+msgid "Too less bytes transfered ! Device full ?"
+msgstr "Liiga vähe baiti kanti edasi ! Kas seade on täis ?"
+
+#: xftree/gtk_cpy.c:215
+msgid "Too much bytes transfered !?"
+msgstr "Liialt palju baite kanti !?"
+
+#: xftree/gtk_cpy.c:259
+msgid "Source and Target directories are the same"
+msgstr "Lähte ja sihi kataloogid on samad"
+
+#: xftree/gtk_cpy.c:293
+msgid "exists and is not a directory"
+msgstr "eksisteerib ja ei ole kataloog"
+
+#: xftree/gtk_cpy.c:359
+msgid "XFTree: Copy"
+msgstr "XFTree: kopeeri"
+
+#: xftree/gtk_cpy.c:361
+msgid "XFTree: Move"
+msgstr "XFTree: Liiguta"
+
+#: xftree/gtk_cpy.c:363
+#, c-format
+msgid "Unknown transfer mode: %d\n"
+msgstr "Tundmatu kandmisviis: %d\n"
+
+#: xftree/gtk_cpy.c:368
+msgid "transfer()"
+msgstr "transfer()"
+
+#: xftree/gtk_cpy.c:368
+msgid "fatal error"
+msgstr "saatuslik viga"
+
+#: xftree/gtk_cpy.c:373
+msgid "Error getting info from"
+msgstr "Viga info saamisel"
+
+#: xftree/gtk_cpy.c:377
+msgid "Fatal Error"
+msgstr "Saatuslik Viga"
+
+#: xftree/gtk_cpy.c:377
+msgid "Can't transfer items to a file"
+msgstr "Ei saa neid kanda faili"
+
+#: xftree/gtk_cpy.c:395
+msgid "Source: "
+msgstr "Läte: "
+
+#: xftree/gtk_cpy.c:401
+msgid "Target: "
+msgstr "Siht: "
+
+#: xftree/gtk_cpy.c:407
+msgid "0 bytes transfered"
+msgstr "kanti 0 baiti"
+
+#: xftree/gtk_cpy.c:433 xftree/gtk_dlg.c:170
+msgid "Error"
+msgstr "Viga"
+
+#: xftree/gtk_cpy.c:433
+msgid "Can't transfer a directory to a file"
+msgstr "Ei saa kanda kataloogi faili"
+
+#: xftree/gtk_dlg.c:166
+msgid "Information"
+msgstr "Informatsioon"
+
+#: xftree/gtk_dlg.c:174
+msgid "Warning"
+msgstr "Hoiatus"
+
+#: xftree/gtk_dlg.c:176
+msgid "Dialog"
+msgstr "Dialoog"
+
+#: xftree/gtk_dlg.c:193
+msgid "Continue"
+msgstr "Jätka"
+
+#: xftree/gtk_dlg.c:206 xftree/gtk_prop.c:191
+msgid "Skip"
+msgstr "Jäta vahele"
+
+#: xftree/gtk_dlg.c:227 xftree/gtk_prop.c:192
+msgid "All"
+msgstr "Kõik"
+
+#: xftree/gtk_dlg.c:236
+msgid "Close"
+msgstr "Sulge"
+
+#: xftree/gtk_exec.c:126 xftree/xtree_gui.c:2171
+msgid "Open with ..."
+msgstr "Ava kasutades ..."
+
+#: xftree/gtk_exec.c:128 xftree/xtree_gui.c:2162 xftree/xtree_gui.c:2192
+#: xftree/xtree_gui.c:2220 xftree/xtree_gui.c:2245
+msgid "Run program ..."
+msgstr "Käivita programm ..."
+
+#: xftree/gtk_exec.c:172
+msgid "Open in terminal"
+msgstr "Ava terminalis"
+
+#. this should never happen
+#.
+#: xftree/gtk_exec.c:182
+#, c-format
+msgid "Fatal error in %s at %d\n"
+msgstr "Saatuslik viga failis %s kohal %d\n"
+
+#: xftree/gtk_get.c:73
+msgid "Override file ?"
+msgstr ""
+
+#: xftree/gtk_get.c:105
+msgid "Source : "
+msgstr "Läte : "
+
+#: xftree/gtk_get.c:112
+msgid "Target : "
+msgstr "Siht : "
+
+#: xftree/gtk_get.c:119
+msgid "0 bytes received"
+msgstr "0 baiti saabus"
+
+#: xftree/gtk_get.c:128
+msgid "XFTree: Download"
+msgstr "XFTree: Loe alla"
+
+#: xftree/gtk_get.c:152
+#, c-format
+msgid "%d bytes received (%d bps)"
+msgstr "Saabus %d baiti (%d B/s)"
+
+#: xftree/gtk_prop.c:164
+msgid "Properties"
+msgstr "Seadistused"
+
+#. date and size page
+#: xftree/gtk_prop.c:207
+msgid "Info"
+msgstr "Info"
+
+#: xftree/gtk_prop.c:212
+msgid "Name :"
+msgstr "Nimi :"
+
+#: xftree/gtk_prop.c:229
+msgid "Type :"
+msgstr "Tüüp :"
+
+#: xftree/gtk_prop.c:237
+#, c-format
+msgid "%ld Bytes"
+msgstr "%ld Baiti"
+
+#: xftree/gtk_prop.c:239
+msgid "Size :"
+msgstr "Suurus :"
+
+#: xftree/gtk_prop.c:249
+msgid "Creation Time :"
+msgstr "Loomise aeg :"
+
+#: xftree/gtk_prop.c:259
+msgid "Modification Time :"
+msgstr "Muudatuste aeg :"
+
+#: xftree/gtk_prop.c:269
+msgid "Access Time :"
+msgstr "Kasutamise aeg :"
+
+#: xftree/gtk_prop.c:276
+msgid "Permissions"
+msgstr "Õigused"
+
+#: xftree/gtk_prop.c:280 xftree/gtk_prop.c:387
+msgid "Owner :"
+msgstr "Omanik :"
+
+#: xftree/gtk_prop.c:281 xftree/gtk_prop.c:309 xftree/gtk_prop.c:336
+msgid "Read"
+msgstr "Lugemine"
+
+#: xftree/gtk_prop.c:286 xftree/gtk_prop.c:314 xftree/gtk_prop.c:341
+msgid "Write"
+msgstr "Kirjutamine"
+
+#: xftree/gtk_prop.c:291 xftree/gtk_prop.c:319 xftree/gtk_prop.c:346
+msgid "Execute"
+msgstr "Käivitamine"
+
+#: xftree/gtk_prop.c:296
+msgid "Set UID"
+msgstr "Sea kasutaja ID"
+
+#: xftree/gtk_prop.c:308 xftree/gtk_prop.c:398
+msgid "Group :"
+msgstr "Grupp :"
+
+#: xftree/gtk_prop.c:324
+msgid "Set GID"
+msgstr "Sea grupi ID"
+
+#: xftree/gtk_prop.c:335
+msgid "Other :"
+msgstr "Muu :"
+
+#: xftree/gtk_prop.c:351
+msgid "Sticky"
+msgstr "Naelutatud"
+
+#: xftree/gtk_prop.c:376
+msgid "Owner"
+msgstr "Omanik"
+
+#: xftree/gtk_prop.c:381 xftree/gtk_prop.c:392
+msgid "unknown"
+msgstr "tundmatu"
+
+#: xftree/xtree.c:97
+#, c-format
+msgid "XFTree, based on XTree Version %s\n"
+msgstr "XFTree baseerub XTree Versioonil %s\n"
+
+#: xftree/xtree.c:98
+#, c-format
+msgid "directory: %s\n"
+msgstr "kataloog: %s\n"
+
+#: xftree/xtree.c:103 xftree/xtree.c:111
+#, c-format
+msgid "creating directory: %s\n"
+msgstr "kataloogi %s loomine \n"
+
+#: xftree/xtree.c:125
+#, c-format
+msgid "geometry: %dx%d+%d+%d\n"
+msgstr "geomeetria: %dx%d+%d+%d\n"
+
+#: xftree/xtree_gui.c:177
+#, c-format
+msgid "malloc error in %s at line %d\n"
+msgstr "mälueraldamise viga %s -s real %d\n"
+
+#: xftree/xtree_gui.c:322
+msgid "menu_detach()\n"
+msgstr "menu_detach()\n"
+
+#: xftree/xtree_gui.c:878
+msgid "Can't copy device, fifo and socket files as regular files!\n"
+msgstr "Ei saa kopeerida seadmeid, fifot ja pesa faile nagu tavalisi!\n"
+
+#: xftree/xtree_gui.c:959
+msgid "Moving file..\n"
+msgstr "Liigutan faili..\n"
+
+#: xftree/xtree_gui.c:989
+msgid "move_dir() recursive failed\n"
+msgstr "move_dir() rekursiivselt ebaõnnestus\n"
+
+#: xftree/xtree_gui.c:994
+msgid "move_dir() move_file() failed\n"
+msgstr "move_dir() move_file() ebaõnnestus\n"
+
+#. nothing to delete
+#: xftree/xtree_gui.c:1097 xftree/xtree_gui.c:1817
+msgid "No files marked !"
+msgstr "Ühtki faili poe märgitud !"
+
+#: xftree/xtree_gui.c:1113 xftree/xtree_gui.c:1115
+msgid "Delete item ?"
+msgstr "Kustutada see ?"
+
+#: xftree/xtree_gui.c:1129
+msgid "move_file()"
+msgstr "move_file()"
+
+#: xftree/xtree_gui.c:1131
+msgid "Move to trash failed"
+msgstr "Prügikasti viskamine ebaõnnestus"
+
+#: xftree/xtree_gui.c:1141
+msgid "Failed"
+msgstr "Keelatud"
+
+#: xftree/xtree_gui.c:1147
+msgid "Can't move file to trash, hard delete ?"
+msgstr "Ei saa visata faili prügikasti, kas hävitan julmalt ?"
+
+#: xftree/xtree_gui.c:1177
+#, c-format
+msgid "Find pattern in '%s'"
+msgstr "Leia muster '%s' -s"
+
+#: xftree/xtree_gui.c:1190
+msgid ""
+"This is XFTree, based on 'XTree' \n"
+"(c) by Rasca\n"
+"published under GNU GPL\n"
+"http://home.pages.de/~rasca/xap/"
+msgstr ""
+"See on XFTree, mis baseerub 'XTree'-l\n"
+"(c) by Rasca\n"
+"publitseeritud GNU GPL all\n"
+"http://home.pages.de/~rasca/xap/"
+
+#: xftree/xtree_gui.c:1217
+msgid "Can't find row data\n"
+msgstr "Ei leidnud reainfot\n"
+
+#: xftree/xtree_gui.c:1305
+msgid "Go to"
+msgstr "Mine"
+
+#: xftree/xtree_gui.c:1637
+msgid "New_Folder"
+msgstr "Uus kataloog"
+
+#: xftree/xtree_gui.c:1680
+msgid "File exists ! Override ?"
+msgstr "Failid leiduvad ! Kas kirjutame üle ?"
+
+#: xftree/xtree_gui.c:1687
+msgid "Can't create : "
+msgstr "Ei saa luua : "
+
+#: xftree/xtree_gui.c:1761
+msgid "No item marked !"
+msgstr "Midagi pole märgitud !"
+
+#: xftree/xtree_gui.c:1771
+msgid "Rename to : "
+msgstr "Nimeta sinna ümber : "
+
+#: xftree/xtree_gui.c:1774
+msgid "Character not allowed in filename"
+msgstr "Sümbol ei ole failinimes lubatud"
+
+#: xftree/xtree_gui.c:1784
+msgid "Override ?"
+msgstr "Kas eirame ?"
+
+#: xftree/xtree_gui.c:1977
+msgid "Can't find suffix in filename, using complete filename"
+msgstr "Ei leia laiendit faili nimes, kasutam täielikku nime"
+
+#: xftree/xtree_gui.c:1983
+#, c-format
+msgid "Register program for file \"%s\""
+msgstr "Registreeri programm faili jaoks \"%s\""
+
+#: xftree/xtree_gui.c:1985
+#, c-format
+msgid "Register program for suffix \"%s\""
+msgstr "Registreeri programm laiendile \"%s\""
+
+#: xftree/xtree_gui.c:2137
+msgid "Open in new"
+msgstr "Ava uues"
+
+#: xftree/xtree_gui.c:2139 xftree/xtree_gui.c:2229
+msgid "New Folder ..."
+msgstr "Uus kataloog ..."
+
+#: xftree/xtree_gui.c:2140 xftree/xtree_gui.c:2230
+msgid "New file ..."
+msgstr "Uus fail ..."
+
+#: xftree/xtree_gui.c:2142 xftree/xtree_gui.c:2173
+msgid "Rename ..."
+msgstr "Ümbernimetus ..."
+
+#: xftree/xtree_gui.c:2143 xftree/xtree_gui.c:2174 xftree/xtree_gui.c:2201
+msgid "Delete ..."
+msgstr "Kustutamine ..."
+
+#: xftree/xtree_gui.c:2145 xftree/xtree_gui.c:2177 xftree/xtree_gui.c:2203
+#: xftree/xtree_gui.c:2232
+msgid "Go to ..."
+msgstr "Mine ..."
+
+#: xftree/xtree_gui.c:2146
+msgid "Go to marked"
+msgstr "Mine märgitu juurde"
+
+#: xftree/xtree_gui.c:2147 xftree/xtree_gui.c:2178 xftree/xtree_gui.c:2204
+#: xftree/xtree_gui.c:2233
+msgid "Go up"
+msgstr "Mine ülesse"
+
+#: xftree/xtree_gui.c:2148 xftree/xtree_gui.c:2179 xftree/xtree_gui.c:2205
+#: xftree/xtree_gui.c:2234
+msgid "Go home"
+msgstr "Mine koju"
+
+#: xftree/xtree_gui.c:2150 xftree/xtree_gui.c:2181 xftree/xtree_gui.c:2207
+msgid "Unselect"
+msgstr "Eemalda märgistus"
+
+#: xftree/xtree_gui.c:2151 xftree/xtree_gui.c:2182 xftree/xtree_gui.c:2208
+#: xftree/xtree_gui.c:2236
+msgid "Select all"
+msgstr "Märgi kõik"
+
+#: xftree/xtree_gui.c:2152 xftree/xtree_gui.c:2183 xftree/xtree_gui.c:2209
+#: xftree/xtree_gui.c:2237
+msgid "Unselect all"
+msgstr "Eemalda kõigilt märgistus"
+
+#: xftree/xtree_gui.c:2153 xftree/xtree_gui.c:2210 xftree/xtree_gui.c:2240
+msgid "Find ..."
+msgstr "Otsi ..."
+
+#: xftree/xtree_gui.c:2154 xftree/xtree_gui.c:2211 xftree/xtree_gui.c:2238
+msgid "Toggle Dotfiles"
+msgstr "Märgi ümber punktifailid"
+
+#: xftree/xtree_gui.c:2156 xftree/xtree_gui.c:2185
+msgid "Properties ..."
+msgstr "Seadistused ..."
+
+#: xftree/xtree_gui.c:2158 xftree/xtree_gui.c:2188 xftree/xtree_gui.c:2213
+#: xftree/xtree_gui.c:2216 xftree/xtree_gui.c:2241
+msgid "Empty Trash"
+msgstr "Tühjenda prügikast"
+
+#: xftree/xtree_gui.c:2159 xftree/xtree_gui.c:2189 xftree/xtree_gui.c:2214
+#: xftree/xtree_gui.c:2217 xftree/xtree_gui.c:2242
+msgid "Open Trash"
+msgstr "Ava prügikast"
+
+#: xftree/xtree_gui.c:2160 xftree/xtree_gui.c:2190 xftree/xtree_gui.c:2218
+#: xftree/xtree_gui.c:2243
+msgid "About ..."
+msgstr "Sellest ..."
+
+#: xftree/xtree_gui.c:2163 xftree/xtree_gui.c:2193 xftree/xtree_gui.c:2221
+#: xftree/xtree_gui.c:2246
+msgid "Close window"
+msgstr "Sulge aken"
+
+#: xftree/xtree_gui.c:2169 xftree/xtree_gui.c:2227
+msgid "New window"
+msgstr "Uus aken"
+
+#: xftree/xtree_gui.c:2175
+msgid "Duplicate"
+msgstr "Dublitseeeri"
+
+#: xftree/xtree_gui.c:2186
+msgid "Register ..."
+msgstr "Registreeri ..."
+
+#: xftree/xtree_gui.c:2199
+msgid "New windows"
+msgstr "Uus aken"
+
+#: xftree/xtree_gui.c:2255
+msgid "Name"
+msgstr "Nimi"
+
+#: xftree/xtree_gui.c:2256
+msgid "Size (bytes)"
+msgstr "Suurus (Baitides)"
+
+#: xftree/xtree_gui.c:2257
+msgid "Last changed (Y-M-D hh:mm)"
+msgstr "Viimati muudetud (A-K-P tt:mm)"
+
+#: xftree/xtree_dnd.c:96
+msgid "move"
+msgstr "liiguta"
+
+#: xftree/xtree_dnd.c:99
+msgid "copy"
+msgstr "kopeeri"
+
+#: xftree/xtree_dnd.c:102
+msgid "Unknown action !"
+msgstr "Tundmatu tegevus !"
+
+#: xftree/xtree_dnd.c:116
+msgid "Target must be a directory !"
+msgstr "Sihtkoht peab olema kataloog !"
+
+#: xftree/xtree_dnd.c:122
+#, c-format
+msgid "Do you want to %s the item(s) to"
+msgstr "Kas sa tahad %s -da neid asju ka"
+
+#: xftree/xtree_dnd.c:145
+#, c-format
+msgid "Type not supported.. (%d)\n"
+msgstr "Tüüp ei ole toetatud.. (%d)\n"
+
+#: xfclock/xfclock.c:114
+msgid "XFClock - XFce Clock & Calendar"
+msgstr "XFClock - XFce Kell & kalender"
+
+#: xfclock/xfclock_cb.c:199
+msgid ""
+"XFClock\n"
+"(c) 1997-2000 Olivier Fourdan"
+msgstr ""
+"XFClock\n"
+"(c) 1997-2000 Olivier Fourdan"
+
+#: xfclock/xfclock_config.c:40
+#, c-format
+msgid ""
+"XFclock : Syntax error in configuration file\n"
+"(%s)\n"
+msgstr ""
+"XFclock : Süntaksi viga konfiguratsiooni faili\n"
+"(%s)\n"
+
+#: xfclock/xfclock_config.c:48
+#, c-format
+msgid ""
+"XFclock : Data mismatch error in config file\n"
+"(%s)\n"
+msgstr ""
+"XFclock : Konfiguratsiooni failis andmed ei sobi\n"
+"(%s)\n"
+
+#: xfclock/xfclock_menus.c:41
+msgid "Hide/show menubar"
+msgstr "Varja/näita menüüriba"
+
+#: xfclock/xfclock_menus.c:49 xfclock/xfclock_menus.c:103
+msgid "Hide/show calendar"
+msgstr "Varja/näita kalendrit"
+
+#. Create "File" menu
+#: xfclock/xfclock_menus.c:83
+msgid "File"
+msgstr "Fail"
+
+#. Create "Settings" menu
+#: xfclock/xfclock_menus.c:96
+msgid "Settings"
+msgstr "Seadistused"
+
+#: xfclock/xfclock_menus.c:133
+msgid "Display AM/PM"
+msgstr "Näita EL/PL"
+
+#: xfclock/xfclock_menus.c:142
+msgid "Display seconds"
+msgstr "Näita sekundeid"
+
+#: xfclock/xfclock_menus.c:155
+msgid "Background color..."
+msgstr "Tausta värv..."
+
+#: xfclock/xfclock_menus.c:162
+msgid "Foreground color..."
+msgstr "Kujutise värv..."
+
+#: xfclock/xfclock_menus.c:169
+msgid "Font..."
+msgstr "Tekstikuju..."
+
+#: xfclock/xfclock_menus.c:180
+msgid "Hide menubar"
+msgstr "Varja menüüriba"
+
+#. Create "Help" menu
+#: xfclock/xfclock_menus.c:188
+msgid "Help"
+msgstr "Appi!"
+
+#: xfmouse/xfmouse.c:106
+msgid "XFMouse - XFce Mouse Configuration"
+msgstr "XFMouse - XFce Hiire konfiguraator"
+
+#: xfmouse/xfmouse.c:135
+msgid "Button Settings"
+msgstr "Nupu seadistused"
+
+#: xfmouse/xfmouse.c:185
+msgid "Motion Settings"
+msgstr "Liikumise seadistused"
+
+#: xfmouse/xfmouse.c:214
+msgid "Threshold : "
+msgstr "Hoideväärtus : "
+
+#: xfmouse/xfmouse.c:224
+msgid "Acceleration : "
+msgstr "Kiirendus : "
+
+#: xfbd/xfbd.c:475 xfmouse/xfmouse.c:446
+#, c-format
+msgid "Usage : %s [OPTIONS]\n"
+msgstr "Kasutus : %s [SEADISTUSED]\n"
+
+#: xfbd/xfbd.c:476 xfmouse/xfmouse.c:447
+msgid "   Where OPTIONS are :\n"
+msgstr "   Milles SEADISTUSED on :\n"
+
+#: xfmouse/xfmouse.c:448
+msgid "   -i : interactive\n"
+msgstr "   -i : interaktiivne\n"
+
+#: xfmouse/xfmouse.c:449
+msgid ""
+"   -d : apply configuration and exit (default)\n"
+"\n"
+msgstr ""
+"   -d : lisa konfiguratsioon ja välju (vaikimisi)\n"
+"\n"
+
+#: xfbd/xfbd.c:479 xfmouse/xfmouse.c:450
+#, c-format
+msgid ""
+"%s is part of the XFce distribution, written by Olivier Fourdan\n"
+"\n"
+msgstr ""
+"%s on osa XFce turustusest, kirjutas Oliver Fourdan\n"
+"\n"
+
+#: xfsound/xfsound.c:54
+msgid "New Desk"
+msgstr "Uus laud"
+
+#: xfsound/xfsound.c:55
+msgid "Add Window"
+msgstr "Lisa aken"
+
+#: xfsound/xfsound.c:56
+msgid "Raise Window"
+msgstr "Tõsta aken"
+
+#: xfsound/xfsound.c:57
+msgid "Lower Window"
+msgstr "Langeta aken"
+
+#: xfsound/xfsound.c:58
+msgid "Configure Window"
+msgstr "Konfigureeri aken"
+
+#: xfsound/xfsound.c:59
+msgid "Focus Change"
+msgstr "Fookuse muutmine"
+
+#: xfsound/xfsound.c:60
+msgid "Destroy Window"
+msgstr "Hävita aken"
+
+#: xfsound/xfsound.c:61
+msgid "Iconify"
+msgstr "Muuda tillukeseks"
+
+#: xfsound/xfsound.c:62
+msgid "De-iconify"
+msgstr "Taasta suurus"
+
+#: xfsound/xfsound.c:63
+msgid "Shade"
+msgstr "Varjuta"
+
+#: xfsound/xfsound.c:64
+msgid "Un-Shade"
+msgstr "Ära varjuta"
+
+#: xfsound/xfsound.c:65
+msgid "Maximize"
+msgstr "Maksimiseeri"
+
+#: xfsound/xfsound.c:66
+msgid "De-maximize"
+msgstr "Ära maksimiseeri"
+
+#: xfsound/xfsound.c:68
+msgid "Shutdown"
+msgstr "Seiska"
+
+#: xfsound/xfsound.c:69
+msgid "Unknown"
+msgstr "Teadmatu"
+
+#: xfsound/xfsound.c:325
+msgid "XFSound - XFce Sound Manager"
+msgstr "XFSound - XFce Heli Seadistaja"
+
+#: xfsound/xfsound.c:368
+msgid "Event : "
+msgstr "Sündmus : "
+
+#: xfsound/xfsound.c:376
+msgid "Sound file : "
+msgstr "Helifail : "
+
+#: xfsound/xfsound.c:384
+msgid "Test"
+msgstr "Test"
+
+#: xfsound/xfsound.c:428
+msgid "Play Sound"
+msgstr "Mängi Lugu"
+
+#: xfsound/xfsound.c:436
+msgid "Command : "
+msgstr "Käsklus : "
+
+#: xfsound/xfsound.c:460
+msgid "Internal"
+msgstr "Sisemine"
+
+#: xfsound/xfsound.c:466
+msgid "External"
+msgstr "Välimine"
+
+#: xfbd/xfbd.c:130
+msgid ""
+"Error\n"
+"Cannot open file"
+msgstr ""
+"Viga \n"
+"Ei saa avada faili"
+
+#: xfbd/xfbd.c:132
+msgid ""
+"Error\n"
+"Cannot allocate colors"
+msgstr ""
+"Viga\n"
+"Ei saa seada värve paika"
+
+#: xfbd/xfbd.c:134
+msgid ""
+"Error\n"
+"File format invalid"
+msgstr ""
+"Viga\n"
+"Vale failiformaat"
+
+#: xfbd/xfbd.c:136
+msgid ""
+"Error\n"
+"Color definition invalid"
+msgstr ""
+"Viga\n"
+"Vale värvidefinitsioon"
+
+#: xfbd/xfbd.c:138
+msgid ""
+"Error\n"
+"Not enough Memory"
+msgstr ""
+"Viga\n"
+"Selleks ei jagu mälu"
+
+#: xfbd/xfbd.c:284
+msgid "XFbd - XFce Backdrop Manager"
+msgstr "XFbd - XFce taustapildi seadja"
+
+#: xfbd/xfbd.c:323
+msgid "Filename : "
+msgstr "Failinimi : "
+
+#: xfbd/xfbd.c:388
+msgid "Clear"
+msgstr "Puhasta"
+
+#: xfbd/xfbd.c:477
+msgid "   -i : interactive, prompts for backdrop to display\n"
+msgstr "   -i : interaktiivne, võimaldab taustapilti näidata\n"
+
+#: xfbd/xfbd.c:478
+msgid ""
+"   -d : display, reads configuration and exit (default)\n"
+"\n"
+msgstr ""
+"   -d : display, loeb konfiguratsioon ja väljub (vaikimisi)\n"
+"\n"
+
+#: xfwm/xfwm.c:670
+msgid "&Restart"
+msgstr "&R -Taaskäivitus"
+
+#: xfwm/xfwm.c:671
+msgid "&Quit"
+msgstr "&Q -Välju"
+
+#: xfwm/xfwm.c:673
+msgid "&Cancel"
+msgstr "&C -Loobu"
+
+#: xfwm/xfwm.c:675
+msgid "Workspace &1"
+msgstr "Tööruum &1"
+
+#: xfwm/xfwm.c:676
+msgid "Workspace &2"
+msgstr "Tööruum &2"
+
+#: xfwm/xfwm.c:677
+msgid "Workspace &3"
+msgstr "Tööruum &3"
+
+#: xfwm/xfwm.c:678
+msgid "Workspace &4"
+msgstr "Tööruum &4"
+
+#: xfwm/xfwm.c:679
+msgid "Workspace &5"
+msgstr "Tööruum &5"
+
+#: xfwm/xfwm.c:680
+msgid "Workspace &6"
+msgstr "Tööruum &6"
+
+#: xfwm/xfwm.c:681
+msgid "Workspace &7"
+msgstr "Tööruum &7"
+
+#: xfwm/xfwm.c:682
+msgid "Workspace &8"
+msgstr "Tööruum &8"
+
+#: xfwm/xfwm.c:683
+msgid "Workspace &9"
+msgstr "Tööruum &9"
+
+#: xfwm/xfwm.c:684
+msgid "Workspace 1&0"
+msgstr "Tööruum 1&0"
+
+#: xfwm/xfwm.c:686
+msgid "&Move"
+msgstr "&M -Nihuta"
+
+#: xfwm/xfwm.c:687
+msgid "&Resize"
+msgstr "&R -Muuda suurus"
+
+#: xfwm/xfwm.c:688
+msgid "(De)&Iconify"
+msgstr "&I -Taasta tillukesest suureks"
+
+#: xfwm/xfwm.c:689
+msgid "(Un)&Stick"
+msgstr "&S -Naeluta lahti"
+
+#: xfwm/xfwm.c:690
+msgid "(Un)S&hade"
+msgstr "&h -Eemalda vari"
+
+#: xfwm/xfwm.c:691
+msgid "(Un)Ma&ximize"
+msgstr "&x -Taasta väikeseks"
+
+#: xfwm/xfwm.c:693
+msgid "Se&nd to..."
+msgstr "&n -Saada..."
+
+#: xfwm/xfwm.c:694
+msgid "S&witch to..."
+msgstr "&w -Lülita..."
+
+#: xfwm/xfwm.c:696
+msgid "&Close"
+msgstr "&C Sulge"
+
+#: xfwm/xfwm.c:698
+msgid "&New window"
+msgstr "&N -Uus aken"
+
+#: xfwm/xfwm.c:699
+msgid "Shuffle &Up"
+msgstr "&U -Juhuslikult ülesse"
+
+#: xfwm/xfwm.c:700
+msgid "Shuffle &Down"
+msgstr "&D - Juhuslikult alla"
+
+#: xfwm/xfwm.c:701
+msgid "&Refresh"
+msgstr "&R -Joonista üle"
+
+#: xfwm/xfwm.c:702
+msgid "&Arrange icons"
+msgstr "&A -Järjesta ikoonid"
+
+#: xfwm/xfwm.c:704
+msgid "&Mouse..."
+msgstr "&M -Hiir"
+
+#: xfwm/xfwm.c:706
+msgid "&Backdrop..."
+msgstr "&B -Taustapilt..."
+
+#: xfwm/xfwm.c:708
+msgid "&Sound..."
+msgstr "&S -Heli..."
+
+#: xfwm/xfwm.c:710
+msgid "&Quit XFwm"
+msgstr "&Q -Välju XFwm"

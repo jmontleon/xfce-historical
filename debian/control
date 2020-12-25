@@ -1,0 +1,11 @@
+Source: xfce
+Section: unknown
+Priority: optional
+Maintainer: Paul Seelig <pseelig@debian.org>
+Standards-Version: 2.5.0
+
+Package: xfce
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: CDE clone based on gtk+ without the resource hunger
+ Subject says it all. ;-)
