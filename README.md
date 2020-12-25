@@ -3,6 +3,7 @@ xfce-1.10
 xfce-1.11  
 xfce-1.11b  
 xfce-1.2.4  
+xfce-2.0.1  
 xfce-2.4.0  
 xfce-3.2.5  
 xfce-3.4.0  
