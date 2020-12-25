@@ -1,0 +1,54 @@
+1) Configuration and Compilation 
+================================
+
+1.1) For those upgrading from previous versions of XFce :
+---------------------------------------------------------
+
+./configure --prefix=/usr/X11R6 --datadir=/var
+make
+make install-strip
+
+1.2) If you want to stay in the GNU spirit :
+--------------------------------------------
+
+./configure --prefix=/usr/local --datadir=/usr/local/share
+make
+make install-strip
+
+You can override compilation option regarding XFCE_DIR (usually $datadir/XFCE/)
+by setting the environment variable XFCE_DATA
+
+Eg.:
+
+export XFCE_DATA=/usr/local/share; xfce
+
+If you are using a system with CDE installed, you can also specify --enable-dt 
+at configure time.
+
+This will copy some configurations files to /usr/dt/config in order to dtlogin
+to be able to display XFce in the list of default sessions available.
+
+Eg.:
+
+./configure --prefix=/usr/local --datadir=/usr/local/share --enable-dt
+
+2) User setup
+=============
+
+XFce provides 2 convenient scripts for easy installation/configuration of XFce.
+
+Run xfce_setup to set up replacement files in user's home directory. These files
+will fire up xfwm and xfce every time the user starts an X session 
+(through startx or through xdm).
+
+The previous configurations files are saved in a hidden directory .xfce_bckp/
+
+Afterwards, one can use xfce_remove to restore the previous files.
+
+As XFce supports Native Language Supports (NLS), make sure the environment 
+variable LANG is correctly set for your country.
+
+E.g.:
+bash : 	export LANG="fr"
+csh : 	setenv LANG "fr"
+

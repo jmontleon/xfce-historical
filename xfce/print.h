@@ -1,0 +1,70 @@
+/* XPM */
+static char *print[] =
+{
+/*
+   width height num_colors chars_per_pixel 
+ */
+  "    48    48       9            1",
+/*
+   colors 
+ */
+  "+ m mask c none",
+  ". c #bebebe",
+  "# c #a2a2a2",
+  "a c #ffffff",
+  "c c #595959",
+  "d c #183c59",
+  "e c #797979",
+  "f c #00ff00",
+  "g c #ff6145",
+/*
+   pixels 
+ */
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "+++++++++++######################+++++++++++++++",
+  "+++++++++++aaaaaaaaaaaaaaaaaaaaaa+++++++++++++++",
+  "+++++++++++aaaaaaaaaaaaaaaaaaaaaa+++++++++++++++",
+  "+++++++++++aaaaaaaaaaaaaaaaaaaaaa+++++++++++++++",
+  "+++++++ccccaaaaaaaaaaaaaaaaaaaaaacccccccca++++++",
+  "++++++ca...aaaaaaaaaaaaaaaaaaaaaa........da+++++",
+  "+++++ca...eaaaaaaaaaaaaaaaaaaaaaa.........da++++",
+  "++++ca...e#aaaaaaaaaaaaaaaaaaaaaa..........da+++",
+  "+++ca...dceeeeeeeeeeeeeeeeeeeeeeee..........da++",
+  "+++caaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaada++",
+  "+++caaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaada++",
+  "+++ca..eeeeeeeeeeeeeeeeeeeeeeeeeeeecccccccc.da++",
+  "+++ca..eeeeeeeeeeeeeeeeeeeeeeeeeeeceffeeggc.da++",
+  "+++ca..eaaaaaaaaaaaaaaaaaaaaaaaaaaceffeeggc.da++",
+  "+++ca..eeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccc.da++",
+  "+++ca.......................................da++",
+  "+++ca.......................................da++",
+  "+++ca.##############################eee#ee#.da++",
+  "+++ca.###############################ee#ee#.da++",
+  "+++ca.......................................da++",
+  "+++ca...eeeeeeeeeeeeeeeeeeeeeeeeeeee........da++",
+  "+++ca...edddddddddddddddddddddddddd.........da++",
+  "+++ca...ed#eeeeeeeeeeeeeeeeeeeeeeedd........da++",
+  "+++cadddd#eeeeeeeeeeeeeeeeeeeeeeeeedddddddddda++",
+  "+++caaadd##########################ddddddddaaa++",
+  "+++++cadd#eeeeeeeeeeeeeeeeeeeeeeeeedddddddda++++",
+  "+++++caad#eeeeeeeeeeeeeeeeeeeeeeeeedcaaaaaaa++++",
+  "+++++++#ddddddddddddddddddddddddddddc#++++++++++",
+  "++++++++#cccccccccccccccccccccccccccc##+++++++++",
+  "+++++++++###############################++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++",
+  "++++++++++++++++++++++++++++++++++++++++++++++++"};

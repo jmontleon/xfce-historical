@@ -1,0 +1,1510 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1999-07-15 17:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: libs/colorselect.c:68
+msgid "Select Color"
+msgstr ""
+
+#: libs/fileselect.c:69
+msgid "Select File"
+msgstr ""
+
+#: libs/fontselection.c:75
+msgid "Font Selection"
+msgstr ""
+
+#: libs/xfce-common.c:275
+msgid "OK"
+msgstr ""
+
+#: libs/xfce-common.c:295
+msgid "Message"
+msgstr ""
+
+#: libs/xfce-common.c:391 xftree/gtk_dlg.c:190
+msgid "Yes"
+msgstr ""
+
+#: libs/xfce-common.c:391 xftree/gtk_dlg.c:217
+msgid "No"
+msgstr ""
+
+#: libs/xfce-common.c:424 xftree/gtk_dlg.c:162
+msgid "Question"
+msgstr ""
+
+#: libs/xfce-common.c:612
+msgid "terminated: "
+msgstr ""
+
+#: libs/xpmext.c:342
+#, c-format
+msgid "*** WARNING ***: Cannot load pixmap file %s\n"
+msgstr ""
+
+#: xfce/action.c:59
+msgid "Define action ..."
+msgstr ""
+
+#: xfce/action.c:98 xfce/modify.c:145
+msgid "Command Line :"
+msgstr ""
+
+#: xfce/action.c:108
+msgid "Icon Style :"
+msgstr ""
+
+#: xfbd/xfbd.c:316 xfce/action.c:135 xfce/action.c:145 xfce/modify.c:199
+#: xfce/modify.c:208 xfsound/xfsound.c:385
+msgid "Browse ..."
+msgstr ""
+
+#. ok and cancel buttons
+#: xfbd/xfbd.c:302 xfce/action.c:169 xfce/modify.c:239 xfce/screen.c:126
+#: xfce/setup.c:686 xfmouse/xfmouse.c:244 xfsound/xfsound.c:484
+#: xftree/gtk_dlg.c:188 xftree/gtk_exec.c:141 xftree/gtk_prop.c:173
+msgid "Ok"
+msgstr ""
+
+#: xfbd/xfbd.c:346 xfce/action.c:177 xfce/modify.c:247 xfce/screen.c:134
+#: xfce/setup.c:702 xfmouse/xfmouse.c:266 xfsound/xfsound.c:506
+#: xftree/gtk_cpy.c:410 xftree/gtk_dlg.c:215 xftree/gtk_exec.c:142
+#: xftree/gtk_get.c:122 xftree/gtk_prop.c:174
+msgid "Cancel"
+msgstr ""
+
+#: xfce/action_cb.c:70
+msgid "You must provide the command to execute !"
+msgstr ""
+
+#: xfce/configfile.c:44
+#, c-format
+msgid ""
+"XFce : Syntax error in configuration file\n"
+"(%s)\n"
+msgstr ""
+
+#: xfce/configfile.c:45
+msgid ""
+"Syntax error in configuration file\n"
+"Aborting"
+msgstr ""
+
+#: xfce/configfile.c:52
+#, c-format
+msgid ""
+"XFce : Data mismatch error in config file\n"
+"(%s)\n"
+msgstr ""
+
+#: xfce/configfile.c:53
+msgid ""
+"Data mismatch error in configuration file\n"
+"Aborting"
+msgstr ""
+
+#: xfce/configfile.c:160
+msgid "Cannot create file"
+msgstr ""
+
+#: xfce/configfile.c:273
+msgid "Cannot reset configuration file"
+msgstr ""
+
+#: xfce/configfile.c:276
+msgid "Creating new config file...\n"
+msgstr ""
+
+#: xfce/configfile.c:351 xfce/configfile.c:361 xfce/configfile.c:371
+#, c-format
+msgid "XFce : %s File not found.\n"
+msgstr ""
+
+#: xfce/configfile.c:370 xfce/configfile.c:379
+msgid "Cannot open configuration file"
+msgstr ""
+
+#: xfce/configfile.c:384
+msgid "Does not looks like an XFce 3 configuration file !"
+msgstr ""
+
+#: xfce/configfile.c:385
+msgid ""
+"Do you want to reset the configuration file ?\n"
+" \t(The previous file will be saved with \".orig\" extension)"
+msgstr ""
+
+#: xfce/configfile.c:395
+msgid "Cannot open new config, Giving up..."
+msgstr ""
+
+#: xfce/configfile.c:396
+msgid "Cannot load configuration file"
+msgstr ""
+
+#: xfce/configfile.c:402
+msgid "Cannot use old version of XFce configuration files"
+msgstr ""
+
+#: xfce/info.c:70
+msgid "Info ..."
+msgstr ""
+
+#: xfbd/xfbd.c:259 xfce/info.c:96 xfce/modify.c:116 xfce/popup.c:110
+#: xfce/popup.c:228 xfce/startup.c:83 xfce/xfce.c:123 xfce/xfce.c:171
+#: xfce/xfce.c:390 xfce/xfce.c:416 xfce/xfce.c:516 xfce/xfce.c:539
+#: xfce/xfce.c:574 xfce/xfce.c:642 xfce/xfce.c:660 xfmouse/xfmouse.c:151
+msgid "Couldn't create pixmap"
+msgstr ""
+
+#: xfce/info.c:110
+msgid "By Olivier Fourdan (c) 1997, 1998, 1999"
+msgstr ""
+
+#: xfce/info.c:177
+msgid "Agreement"
+msgstr ""
+
+#: xfce/modify.c:65 xfce/modify.c:322
+msgid "Modify Item ..."
+msgstr ""
+
+#: xfce/modify.c:123
+msgid "Preview Icon"
+msgstr ""
+
+#: xfce/modify.c:155
+msgid "Icon File :"
+msgstr ""
+
+#: xfce/modify.c:165
+msgid "Label :"
+msgstr ""
+
+#: xfce/modify.c:255
+msgid "Remove"
+msgstr ""
+
+#: xfce/modify.c:306
+msgid "Add Item ..."
+msgstr ""
+
+#: xfce/modify.c:332 xfce/modify_cb.c:88 xfce/modify_cb.c:151 xfce/setup.c:231
+msgid "Default"
+msgstr ""
+
+#: xfce/modify_cb.c:99
+msgid "Are you sure you want to remove this entry ?"
+msgstr ""
+
+#: xfce/modify_cb.c:133 xfce/modify_cb.c:162
+msgid ""
+"You must provide the command\n"
+"and the label, at least !"
+msgstr ""
+
+#: xfce/popup.c:208
+msgid "Add a new entry..."
+msgstr ""
+
+#: xfce/popup.c:235
+msgid "Add icon..."
+msgstr ""
+
+#: xfce/popup.c:257
+msgid "Click to tearoff popup menu"
+msgstr ""
+
+#: xfce/popup_cb.c:196
+msgid "Cannot find the file you dropped !"
+msgstr ""
+
+#: xfce/screen.c:55
+msgid "Screen label ..."
+msgstr ""
+
+#: xfce/screen.c:94
+msgid "Define screen label :"
+msgstr ""
+
+#: xfce/selects.c:49
+msgid "Files related"
+msgstr ""
+
+#: xfce/selects.c:50
+msgid "Terminals/Connections"
+msgstr ""
+
+#: xfce/selects.c:51
+msgid "Mail tools/browsers"
+msgstr ""
+
+#: xfce/selects.c:52
+msgid "Print manager"
+msgstr ""
+
+#: xfce/selects.c:53
+msgid "Configuration"
+msgstr ""
+
+#: xfce/selects.c:54
+msgid "Misc. tools/Utilities"
+msgstr ""
+
+#: xfce/selects.c:55
+msgid "Manual/Help browser"
+msgstr ""
+
+#: xfce/selects.c:56
+msgid "Writing/Text tools"
+msgstr ""
+
+#: xfce/selects.c:57
+msgid "Schedule/Appointments"
+msgstr ""
+
+#: xfce/selects.c:58
+msgid "Multimedia"
+msgstr ""
+
+#: xfce/selects.c:59
+msgid "Games"
+msgstr ""
+
+#: xfce/selects.c:60
+msgid "Network"
+msgstr ""
+
+#: xfce/selects.c:61
+msgid "Sound"
+msgstr ""
+
+#: xfce/selects.c:62
+msgid "External..."
+msgstr ""
+
+#: xfce/setup.c:153
+msgid "Setup"
+msgstr ""
+
+#: xfce/setup.c:215
+msgid "Load ..."
+msgstr ""
+
+#: xfce/setup.c:223
+msgid "Save ..."
+msgstr ""
+
+#: xfce/setup.c:252
+msgid "Repaint root window of workspace"
+msgstr ""
+
+#: xfce/setup.c:259
+msgid "Use gradient color as wallpaper"
+msgstr ""
+
+#: xfce/setup.c:266
+msgid "Use tear-off menus"
+msgstr ""
+
+#: xfce/setup.c:273
+msgid "Virtual Screens"
+msgstr ""
+
+#: xfce/setup.c:287
+msgid "Number of virtual desktops : "
+msgstr ""
+
+#: xfce/setup.c:301
+msgid "Popups & Icons"
+msgstr ""
+
+#: xfce/setup.c:315
+msgid "Number of popup menus : "
+msgstr ""
+
+#: xfce/setup.c:329
+msgid "Size of Icons on Panel"
+msgstr ""
+
+#: xfce/setup.c:342 xfce/setup.c:376
+msgid "Large"
+msgstr ""
+
+#: xfce/setup.c:349 xfce/setup.c:383
+msgid "Medium"
+msgstr ""
+
+#: xfce/setup.c:356 xfce/setup.c:390
+msgid "Small"
+msgstr ""
+
+#: xfce/setup.c:363
+msgid "Size of Icons on Popup Menus"
+msgstr ""
+
+#: xfce/setup.c:397
+msgid "Font Style"
+msgstr ""
+
+#: xfce/setup.c:418 xfce/setup.c:631 xfce/setup.c:639 xfce/setup.c:647
+msgid "Browse..."
+msgstr ""
+
+#: xfce/setup.c:433
+msgid "Click to focus windows"
+msgstr ""
+
+#: xfce/setup.c:440
+msgid "Auto raise windows"
+msgstr ""
+
+#: xfce/setup.c:447
+msgid "Show contents of window during move"
+msgstr ""
+
+#: xfce/setup.c:454
+msgid "Use gradient color for active window"
+msgstr ""
+
+#: xfce/setup.c:461
+msgid "Use gradient color for inactive window"
+msgstr ""
+
+#: xfce/setup.c:481
+msgid "Icon position"
+msgstr ""
+
+#: xfce/setup.c:493
+msgid "Top"
+msgstr ""
+
+#: xfce/setup.c:501 xfmouse/xfmouse.c:157
+msgid "Left"
+msgstr ""
+
+#: xfce/setup.c:509
+msgid "bottom"
+msgstr ""
+
+#: xfce/setup.c:517 xfmouse/xfmouse.c:168
+msgid "Right"
+msgstr ""
+
+#: xfce/setup.c:601
+msgid "Title font :"
+msgstr ""
+
+#: xfce/setup.c:611
+msgid "Icon font :"
+msgstr ""
+
+#: xfce/setup.c:621
+msgid "Menu font :"
+msgstr ""
+
+#: xfce/setup.c:655
+msgid "Palette"
+msgstr ""
+
+#: xfce/setup.c:661
+msgid "XFce"
+msgstr ""
+
+#: xfce/setup.c:667
+msgid "Windows"
+msgstr ""
+
+#: xfbd/xfbd.c:326 xfce/setup.c:694 xfmouse/xfmouse.c:256
+#: xfsound/xfsound.c:497
+msgid "Apply"
+msgstr ""
+
+#: xfce/startup.c:55 xfsound/xfsound.c:62
+msgid "Startup"
+msgstr ""
+
+#: xfce/startup.c:89
+msgid "Please Wait, XFce is loading..."
+msgstr ""
+
+#: xfce/xfce.c:58
+msgid "One"
+msgstr ""
+
+#: xfce/xfce.c:58
+msgid "Two"
+msgstr ""
+
+#: xfce/xfce.c:58
+msgid "Three"
+msgstr ""
+
+#: xfce/xfce.c:58
+msgid "Four"
+msgstr ""
+
+#: xfce/xfce.c:58
+msgid "Five"
+msgstr ""
+
+#: xfce/xfce.c:59
+msgid "Six"
+msgstr ""
+
+#: xfce/xfce.c:59
+msgid "Seven"
+msgstr ""
+
+#: xfce/xfce.c:59
+msgid "Eight"
+msgstr ""
+
+#: xfce/xfce.c:59
+msgid "Nine"
+msgstr ""
+
+#: xfce/xfce.c:59
+msgid "Ten"
+msgstr ""
+
+#: xfce/xfce.c:60
+msgid "Eleven"
+msgstr ""
+
+#: xfce/xfce.c:60
+msgid "Twelve"
+msgstr ""
+
+#: xfce/xfce.c:60
+msgid "Thirteen"
+msgstr ""
+
+#: xfce/xfce.c:60
+msgid "Fourteen"
+msgstr ""
+
+#: xfce/xfce.c:60
+msgid "Fifteen"
+msgstr ""
+
+#: xfce/xfce.c:61
+msgid "Sixteen"
+msgstr ""
+
+#: xfce/xfce.c:61
+msgid "Seventeen"
+msgstr ""
+
+#: xfce/xfce.c:61
+msgid "Eighteen"
+msgstr ""
+
+#: xfce/xfce.c:61
+msgid "Nineteen"
+msgstr ""
+
+#: xfce/xfce.c:61
+msgid "Twenty"
+msgstr ""
+
+#: xfce/xfce.c:534
+msgid "About..."
+msgstr ""
+
+#: xfce/xfce.c:569
+msgid "Setup..."
+msgstr ""
+
+#: xfce/xfce.c:591
+msgid "Whoooops !"
+msgstr ""
+
+#: xfce/xfce.c:594 xftree/xtree_gui.c:2168 xftree/xtree_gui.c:2198
+#: xftree/xtree_gui.c:2226 xftree/xtree_gui.c:2251
+msgid "Quit"
+msgstr ""
+
+#. kind of semphor
+#: xfce/xfce_cb.c:53
+msgid "Sunday"
+msgstr ""
+
+#: xfce/xfce_cb.c:54
+msgid "Monday"
+msgstr ""
+
+#: xfce/xfce_cb.c:55
+msgid "Tuesday"
+msgstr ""
+
+#: xfce/xfce_cb.c:56
+msgid "Wednesday"
+msgstr ""
+
+#: xfce/xfce_cb.c:57
+msgid "Thursday"
+msgstr ""
+
+#: xfce/xfce_cb.c:58
+msgid "Friday"
+msgstr ""
+
+#: xfce/xfce_cb.c:59
+msgid "Saturday"
+msgstr ""
+
+#: xfce/xfce_cb.c:61
+msgid "January"
+msgstr ""
+
+#: xfce/xfce_cb.c:62
+msgid "February"
+msgstr ""
+
+#: xfce/xfce_cb.c:63
+msgid "March"
+msgstr ""
+
+#: xfce/xfce_cb.c:64
+msgid "April"
+msgstr ""
+
+#: xfce/xfce_cb.c:65
+msgid "May"
+msgstr ""
+
+#: xfce/xfce_cb.c:66
+msgid "June"
+msgstr ""
+
+#: xfce/xfce_cb.c:67
+msgid "July"
+msgstr ""
+
+#: xfce/xfce_cb.c:68
+msgid "August"
+msgstr ""
+
+#: xfce/xfce_cb.c:69
+msgid "September"
+msgstr ""
+
+#: xfce/xfce_cb.c:70
+msgid "October"
+msgstr ""
+
+#: xfce/xfce_cb.c:71
+msgid "November"
+msgstr ""
+
+#: xfce/xfce_cb.c:72
+msgid "December"
+msgstr ""
+
+#: xfce/xfce_cb.c:85
+msgid ""
+"Are you sure you want to Quit ?\n"
+"This might log you off !"
+msgstr ""
+
+#: xfce/xfce_cb.c:156
+msgid ""
+"You've selected a desktop which is not currently\n"
+"visible in XFce panel."
+msgstr ""
+
+#: xfce/xfwm.c:65
+msgid "XFCE: Communication pipe closed. Exiting...\n"
+msgstr ""
+
+#: xftree/gtk_cpy.c:60
+#, c-format
+msgid "transfer_view() %d\n"
+msgstr ""
+
+#: xftree/gtk_cpy.c:109
+msgid "Source and Target are the same"
+msgstr ""
+
+#: xftree/gtk_cpy.c:113 xftree/gtk_cpy.c:199
+#, c-format
+msgid "%d bytes"
+msgstr ""
+
+#: xftree/gtk_cpy.c:122
+msgid "Can't transfer, same Inode !"
+msgstr ""
+
+#: xftree/gtk_cpy.c:124
+msgid "Override file?"
+msgstr ""
+
+#: xftree/gtk_cpy.c:139 xftree/gtk_cpy.c:142 xftree/gtk_cpy.c:271
+#: xftree/gtk_cpy.c:274
+msgid "Can't stat() file"
+msgstr ""
+
+#: xftree/gtk_cpy.c:158
+msgid "readlink()"
+msgstr ""
+
+#: xftree/gtk_cpy.c:174
+msgid "Can't copy device file"
+msgstr ""
+
+#: xftree/gtk_cpy.c:178
+msgid "Can't copy FIFO"
+msgstr ""
+
+#: xftree/gtk_cpy.c:181
+msgid "Can't copy SOCKET"
+msgstr ""
+
+#: xftree/gtk_cpy.c:213
+msgid "Too less bytes transfered ! Device full ?"
+msgstr ""
+
+#: xftree/gtk_cpy.c:215
+msgid "Too much bytes transfered !?"
+msgstr ""
+
+#: xftree/gtk_cpy.c:259
+msgid "Source and Target directories are the same"
+msgstr ""
+
+#: xftree/gtk_cpy.c:293
+msgid "exists and is not a directory"
+msgstr ""
+
+#: xftree/gtk_cpy.c:359
+msgid "XFTree: Copy"
+msgstr ""
+
+#: xftree/gtk_cpy.c:361
+msgid "XFTree: Move"
+msgstr ""
+
+#: xftree/gtk_cpy.c:363
+#, c-format
+msgid "Unknown transfer mode: %d\n"
+msgstr ""
+
+#: xftree/gtk_cpy.c:368
+msgid "transfer()"
+msgstr ""
+
+#: xftree/gtk_cpy.c:368
+msgid "fatal error"
+msgstr ""
+
+#: xftree/gtk_cpy.c:373
+msgid "Error getting info from"
+msgstr ""
+
+#: xftree/gtk_cpy.c:377
+msgid "Fatal Error"
+msgstr ""
+
+#: xftree/gtk_cpy.c:377
+msgid "Can't transfer items to a file"
+msgstr ""
+
+#: xftree/gtk_cpy.c:395
+msgid "Source: "
+msgstr ""
+
+#: xftree/gtk_cpy.c:401
+msgid "Target: "
+msgstr ""
+
+#: xftree/gtk_cpy.c:407
+msgid "0 bytes transfered"
+msgstr ""
+
+#: xftree/gtk_cpy.c:433 xftree/gtk_dlg.c:170
+msgid "Error"
+msgstr ""
+
+#: xftree/gtk_cpy.c:433
+msgid "Can't transfer a directory to a file"
+msgstr ""
+
+#: xftree/gtk_dlg.c:166
+msgid "Information"
+msgstr ""
+
+#: xftree/gtk_dlg.c:174
+msgid "Warning"
+msgstr ""
+
+#: xftree/gtk_dlg.c:176
+msgid "Dialog"
+msgstr ""
+
+#: xftree/gtk_dlg.c:192
+msgid "Continue"
+msgstr ""
+
+#: xftree/gtk_dlg.c:205 xftree/gtk_prop.c:191
+msgid "Skip"
+msgstr ""
+
+#: xftree/gtk_dlg.c:226 xftree/gtk_prop.c:192
+msgid "All"
+msgstr ""
+
+#: xftree/gtk_dlg.c:235
+msgid "Close"
+msgstr ""
+
+#: xftree/gtk_exec.c:126 xftree/xtree_gui.c:2175
+msgid "Open with ..."
+msgstr ""
+
+#: xftree/gtk_exec.c:128 xftree/xtree_gui.c:2166 xftree/xtree_gui.c:2196
+#: xftree/xtree_gui.c:2224 xftree/xtree_gui.c:2249
+msgid "Run program ..."
+msgstr ""
+
+#: xftree/gtk_exec.c:172
+msgid "Open in terminal"
+msgstr ""
+
+#. this should never happen
+#.
+#: xftree/gtk_exec.c:182
+#, c-format
+msgid "Fatal error in %s at %d\n"
+msgstr ""
+
+#: xftree/gtk_get.c:73
+msgid "Override file ?"
+msgstr ""
+
+#: xftree/gtk_get.c:105
+msgid "Source : "
+msgstr ""
+
+#: xftree/gtk_get.c:112
+msgid "Target : "
+msgstr ""
+
+#: xftree/gtk_get.c:119
+msgid "0 bytes received"
+msgstr ""
+
+#: xftree/gtk_get.c:128
+msgid "XFTree: Download"
+msgstr ""
+
+#: xftree/gtk_get.c:152
+#, c-format
+msgid "%d bytes received (%d bps)"
+msgstr ""
+
+#: xftree/gtk_prop.c:164
+msgid "Properties"
+msgstr ""
+
+#. date and size page
+#: xftree/gtk_prop.c:207
+msgid "Info"
+msgstr ""
+
+#: xftree/gtk_prop.c:212
+msgid "Name :"
+msgstr ""
+
+#: xftree/gtk_prop.c:229
+msgid "Type :"
+msgstr ""
+
+#: xftree/gtk_prop.c:237
+#, c-format
+msgid "%ld Bytes"
+msgstr ""
+
+#: xftree/gtk_prop.c:239
+msgid "Size :"
+msgstr ""
+
+#: xftree/gtk_prop.c:249
+msgid "Creation Time :"
+msgstr ""
+
+#: xftree/gtk_prop.c:259
+msgid "Modification Time :"
+msgstr ""
+
+#: xftree/gtk_prop.c:269
+msgid "Access Time :"
+msgstr ""
+
+#: xftree/gtk_prop.c:276
+msgid "Permissions"
+msgstr ""
+
+#: xftree/gtk_prop.c:280 xftree/gtk_prop.c:387
+msgid "Owner :"
+msgstr ""
+
+#: xftree/gtk_prop.c:281 xftree/gtk_prop.c:309 xftree/gtk_prop.c:336
+msgid "Read"
+msgstr ""
+
+#: xftree/gtk_prop.c:286 xftree/gtk_prop.c:314 xftree/gtk_prop.c:341
+msgid "Write"
+msgstr ""
+
+#: xftree/gtk_prop.c:291 xftree/gtk_prop.c:319 xftree/gtk_prop.c:346
+msgid "Execute"
+msgstr ""
+
+#: xftree/gtk_prop.c:296
+msgid "Set UID"
+msgstr ""
+
+#: xftree/gtk_prop.c:308 xftree/gtk_prop.c:398
+msgid "Group :"
+msgstr ""
+
+#: xftree/gtk_prop.c:324
+msgid "Set GID"
+msgstr ""
+
+#: xftree/gtk_prop.c:335
+msgid "Other :"
+msgstr ""
+
+#: xftree/gtk_prop.c:351
+msgid "Sticky"
+msgstr ""
+
+#: xftree/gtk_prop.c:376
+msgid "Owner"
+msgstr ""
+
+#: xftree/gtk_prop.c:381 xftree/gtk_prop.c:392
+msgid "unknown"
+msgstr ""
+
+#: xftree/xtree.c:95
+#, c-format
+msgid "XFTree, based on XTree Version %s\n"
+msgstr ""
+
+#: xftree/xtree.c:96
+#, c-format
+msgid "directory: %s\n"
+msgstr ""
+
+#: xftree/xtree.c:101 xftree/xtree.c:109
+#, c-format
+msgid "creating directory: %s\n"
+msgstr ""
+
+#: xftree/xtree.c:123
+#, c-format
+msgid "geometry: %dx%d+%d+%d\n"
+msgstr ""
+
+#: xftree/xtree_gui.c:175
+#, c-format
+msgid "malloc error in %s at line %d\n"
+msgstr ""
+
+#: xftree/xtree_gui.c:319
+msgid "menu_detach()\n"
+msgstr ""
+
+#: xftree/xtree_gui.c:875
+msgid "Can't copy device, fifo and socket files as regular files!\n"
+msgstr ""
+
+#: xftree/xtree_gui.c:956
+msgid "Moving file..\n"
+msgstr ""
+
+#: xftree/xtree_gui.c:986
+msgid "move_dir() recursive failed\n"
+msgstr ""
+
+#: xftree/xtree_gui.c:991
+msgid "move_dir() move_file() failed\n"
+msgstr ""
+
+#. nothing to delete
+#: xftree/xtree_gui.c:1094 xftree/xtree_gui.c:1814
+msgid "No files marked !"
+msgstr ""
+
+#: xftree/xtree_gui.c:1110 xftree/xtree_gui.c:1112
+msgid "Delete item ?"
+msgstr ""
+
+#: xftree/xtree_gui.c:1126
+msgid "move_file()"
+msgstr ""
+
+#: xftree/xtree_gui.c:1128
+msgid "Move to trash failed"
+msgstr ""
+
+#: xftree/xtree_gui.c:1138
+msgid "Failed"
+msgstr ""
+
+#: xftree/xtree_gui.c:1144
+msgid "Can't move file to trash, hard delete ?"
+msgstr ""
+
+#: xftree/xtree_gui.c:1174
+#, c-format
+msgid "Find pattern in '%s'"
+msgstr ""
+
+#: xftree/xtree_gui.c:1187
+msgid ""
+"This is XFTree, based on 'XTree' \n"
+"(c) by Rasca\n"
+"published under GNU GPL\n"
+"http://home.pages.de/~rasca/xap/"
+msgstr ""
+
+#: xftree/xtree_gui.c:1214
+msgid "Can't find row data\n"
+msgstr ""
+
+#: xftree/xtree_gui.c:1302
+msgid "Go to"
+msgstr ""
+
+#: xftree/xtree_gui.c:1634
+msgid "New_Folder"
+msgstr ""
+
+#: xftree/xtree_gui.c:1677
+msgid "File exists ! Override ?"
+msgstr ""
+
+#: xftree/xtree_gui.c:1684
+msgid "Can't create : "
+msgstr ""
+
+#: xftree/xtree_gui.c:1758
+msgid "No item marked !"
+msgstr ""
+
+#: xftree/xtree_gui.c:1768
+msgid "Rename to : "
+msgstr ""
+
+#: xftree/xtree_gui.c:1771
+msgid "Character not allowed in filename"
+msgstr ""
+
+#: xftree/xtree_gui.c:1781
+msgid "Override ?"
+msgstr ""
+
+#: xftree/xtree_gui.c:1974
+msgid "Can't find suffix in filename, using complete filename"
+msgstr ""
+
+#: xftree/xtree_gui.c:1980
+#, c-format
+msgid "Register program for file \"%s\""
+msgstr ""
+
+#: xftree/xtree_gui.c:1982
+#, c-format
+msgid "Register program for suffix \"%s\""
+msgstr ""
+
+#: xftree/xtree_gui.c:2032 xftree/xtree_gui.c:2046
+msgid "Are you sure you want to quit ?"
+msgstr ""
+
+#: xftree/xtree_gui.c:2141
+msgid "Open in new"
+msgstr ""
+
+#: xftree/xtree_gui.c:2143 xftree/xtree_gui.c:2233
+msgid "New Folder ..."
+msgstr ""
+
+#: xftree/xtree_gui.c:2144 xftree/xtree_gui.c:2234
+msgid "New file ..."
+msgstr ""
+
+#: xftree/xtree_gui.c:2146 xftree/xtree_gui.c:2177
+msgid "Rename ..."
+msgstr ""
+
+#: xftree/xtree_gui.c:2147 xftree/xtree_gui.c:2178 xftree/xtree_gui.c:2205
+msgid "Delete ..."
+msgstr ""
+
+#: xftree/xtree_gui.c:2149 xftree/xtree_gui.c:2181 xftree/xtree_gui.c:2207
+#: xftree/xtree_gui.c:2236
+msgid "Go to ..."
+msgstr ""
+
+#: xftree/xtree_gui.c:2150
+msgid "Go to marked"
+msgstr ""
+
+#: xftree/xtree_gui.c:2151 xftree/xtree_gui.c:2182 xftree/xtree_gui.c:2208
+#: xftree/xtree_gui.c:2237
+msgid "Go up"
+msgstr ""
+
+#: xftree/xtree_gui.c:2152 xftree/xtree_gui.c:2183 xftree/xtree_gui.c:2209
+#: xftree/xtree_gui.c:2238
+msgid "Go home"
+msgstr ""
+
+#: xftree/xtree_gui.c:2154 xftree/xtree_gui.c:2185 xftree/xtree_gui.c:2211
+msgid "Unselect"
+msgstr ""
+
+#: xftree/xtree_gui.c:2155 xftree/xtree_gui.c:2186 xftree/xtree_gui.c:2212
+#: xftree/xtree_gui.c:2240
+msgid "Select all"
+msgstr ""
+
+#: xftree/xtree_gui.c:2156 xftree/xtree_gui.c:2187 xftree/xtree_gui.c:2213
+#: xftree/xtree_gui.c:2241
+msgid "Unselect all"
+msgstr ""
+
+#: xftree/xtree_gui.c:2157 xftree/xtree_gui.c:2214 xftree/xtree_gui.c:2244
+msgid "Find ..."
+msgstr ""
+
+#: xftree/xtree_gui.c:2158 xftree/xtree_gui.c:2215 xftree/xtree_gui.c:2242
+msgid "Toggle Dotfiles"
+msgstr ""
+
+#: xftree/xtree_gui.c:2160 xftree/xtree_gui.c:2189
+msgid "Properties ..."
+msgstr ""
+
+#: xftree/xtree_gui.c:2162 xftree/xtree_gui.c:2192 xftree/xtree_gui.c:2217
+#: xftree/xtree_gui.c:2220 xftree/xtree_gui.c:2245
+msgid "Empty Trash"
+msgstr ""
+
+#: xftree/xtree_gui.c:2163 xftree/xtree_gui.c:2193 xftree/xtree_gui.c:2218
+#: xftree/xtree_gui.c:2221 xftree/xtree_gui.c:2246
+msgid "Open Trash"
+msgstr ""
+
+#: xftree/xtree_gui.c:2164 xftree/xtree_gui.c:2194 xftree/xtree_gui.c:2222
+#: xftree/xtree_gui.c:2247
+msgid "About ..."
+msgstr ""
+
+#: xftree/xtree_gui.c:2167 xftree/xtree_gui.c:2197 xftree/xtree_gui.c:2225
+#: xftree/xtree_gui.c:2250
+msgid "Close window"
+msgstr ""
+
+#: xftree/xtree_gui.c:2173 xftree/xtree_gui.c:2231
+msgid "New window"
+msgstr ""
+
+#: xftree/xtree_gui.c:2179
+msgid "Duplicate"
+msgstr ""
+
+#: xftree/xtree_gui.c:2190
+msgid "Register ..."
+msgstr ""
+
+#: xftree/xtree_gui.c:2203
+msgid "New windows"
+msgstr ""
+
+#: xftree/xtree_gui.c:2259
+msgid "Name"
+msgstr ""
+
+#: xftree/xtree_gui.c:2260
+msgid "Size (bytes)"
+msgstr ""
+
+#: xftree/xtree_gui.c:2261
+msgid "Last changed (Y-M-D hh:mm)"
+msgstr ""
+
+#: xftree/xtree_gui.c:2507
+msgid " Starting XFTree ... "
+msgstr ""
+
+#: xftree/xtree_dnd.c:157 xftree/xtree_dnd.c:233
+msgid "Target must be a directory !"
+msgstr ""
+
+#: xftree/xtree_dnd.c:169
+msgid "Error in 'DnD' ?!"
+msgstr ""
+
+#: xftree/xtree_dnd.c:169
+msgid "Wrong number of items"
+msgstr ""
+
+#: xftree/xtree_dnd.c:182
+msgid "Copy item(s) to ?"
+msgstr ""
+
+#: xftree/xtree_dnd.c:186
+msgid "Move item(s) to ?"
+msgstr ""
+
+#: xftree/xtree_dnd.c:191
+#, c-format
+msgid "on_drag_data() action not supported (=%d)\n"
+msgstr ""
+
+#: xftree/xtree_dnd.c:239
+msgid "move"
+msgstr ""
+
+#: xftree/xtree_dnd.c:242
+msgid "copy"
+msgstr ""
+
+#: xftree/xtree_dnd.c:245
+msgid "Unknown action !"
+msgstr ""
+
+#: xftree/xtree_dnd.c:250
+#, c-format
+msgid "Do you want to %s the item(s) to"
+msgstr ""
+
+#: xftree/xtree_dnd.c:274
+#, c-format
+msgid "Type not supported.. (%d)\n"
+msgstr ""
+
+#: xfclock/xfclock.c:95
+msgid "XFClock - XFce Clock & Calendar"
+msgstr ""
+
+#: xfmouse/xfmouse.c:99
+msgid "XFMouse - XFce Mouse Configuration"
+msgstr ""
+
+#: xfmouse/xfmouse.c:128
+msgid "Button Settings"
+msgstr ""
+
+#: xfmouse/xfmouse.c:178
+msgid "Motion Settings"
+msgstr ""
+
+#: xfmouse/xfmouse.c:207
+msgid "Threshold : "
+msgstr ""
+
+#: xfmouse/xfmouse.c:217
+msgid "Acceleration : "
+msgstr ""
+
+#: xfbd/xfbd.c:416 xfmouse/xfmouse.c:431
+#, c-format
+msgid "Usage : %s [OPTIONS]\n"
+msgstr ""
+
+#: xfbd/xfbd.c:417 xfmouse/xfmouse.c:432
+msgid "   Where OPTIONS are :\n"
+msgstr ""
+
+#: xfmouse/xfmouse.c:433
+msgid "   -i : interactive\n"
+msgstr ""
+
+#: xfmouse/xfmouse.c:434
+msgid ""
+"   -d : apply configuration and exit (default)\n"
+"\n"
+msgstr ""
+
+#: xfbd/xfbd.c:420 xfmouse/xfmouse.c:435
+#, c-format
+msgid ""
+"%s is part of the XFce distribution, written by Olivier Fourdan\n"
+"\n"
+msgstr ""
+
+#: xfsound/xfsound.c:51
+msgid "New Desk"
+msgstr ""
+
+#: xfsound/xfsound.c:52
+msgid "Add Window"
+msgstr ""
+
+#: xfsound/xfsound.c:53
+msgid "Raise Window"
+msgstr ""
+
+#: xfsound/xfsound.c:54
+msgid "Lower Window"
+msgstr ""
+
+#: xfsound/xfsound.c:55
+msgid "Configure Window"
+msgstr ""
+
+#: xfsound/xfsound.c:56
+msgid "Focus Change"
+msgstr ""
+
+#: xfsound/xfsound.c:57
+msgid "Destroy Window"
+msgstr ""
+
+#: xfsound/xfsound.c:58
+msgid "Iconify"
+msgstr ""
+
+#: xfsound/xfsound.c:59
+msgid "De-iconify"
+msgstr ""
+
+#: xfsound/xfsound.c:60
+msgid "Maximize"
+msgstr ""
+
+#: xfsound/xfsound.c:61
+msgid "De-maximize"
+msgstr ""
+
+#: xfsound/xfsound.c:63
+msgid "Shutdown"
+msgstr ""
+
+#: xfsound/xfsound.c:64
+msgid "Unknown"
+msgstr ""
+
+#: xfsound/xfsound.c:319
+msgid "XFSound - XFce Sound Manager"
+msgstr ""
+
+#: xfsound/xfsound.c:362
+msgid "Event : "
+msgstr ""
+
+#: xfsound/xfsound.c:370
+msgid "Sound file : "
+msgstr ""
+
+#: xfsound/xfsound.c:378
+msgid "Test"
+msgstr ""
+
+#: xfsound/xfsound.c:422
+msgid "Play Sound"
+msgstr ""
+
+#: xfsound/xfsound.c:430
+msgid "Command : "
+msgstr ""
+
+#: xfsound/xfsound.c:454
+msgid "Internal"
+msgstr ""
+
+#: xfsound/xfsound.c:460
+msgid "External"
+msgstr ""
+
+#: xfbd/xfbd.c:88
+msgid ""
+"Error\n"
+"Cannot open file"
+msgstr ""
+
+#: xfbd/xfbd.c:90
+msgid ""
+"Error\n"
+"Cannot allocate colors"
+msgstr ""
+
+#: xfbd/xfbd.c:92
+msgid ""
+"Error\n"
+"File format invalid"
+msgstr ""
+
+#: xfbd/xfbd.c:94
+msgid ""
+"Error\n"
+"Color definition invalid"
+msgstr ""
+
+#: xfbd/xfbd.c:96
+msgid ""
+"Error\n"
+"Not enough Memory"
+msgstr ""
+
+#: xfbd/xfbd.c:232
+msgid "XFbd - XFce Backdrop Manager"
+msgstr ""
+
+#: xfbd/xfbd.c:271
+msgid "Filename : "
+msgstr ""
+
+#: xfbd/xfbd.c:336
+msgid "Clear"
+msgstr ""
+
+#: xfbd/xfbd.c:418
+msgid "   -i : interactive, prompts for backdrop to display\n"
+msgstr ""
+
+#: xfbd/xfbd.c:419
+msgid ""
+"   -d : display, reads configuration and exit (default)\n"
+"\n"
+msgstr ""
+
+#: xfwm/xfwm.c:632
+msgid "&Restart"
+msgstr ""
+
+#: xfwm/xfwm.c:633
+msgid "&Quit"
+msgstr ""
+
+#: xfwm/xfwm.c:635
+msgid "&Cancel"
+msgstr ""
+
+#: xfwm/xfwm.c:637
+msgid "Workspace &1"
+msgstr ""
+
+#: xfwm/xfwm.c:638
+msgid "Workspace &2"
+msgstr ""
+
+#: xfwm/xfwm.c:639
+msgid "Workspace &3"
+msgstr ""
+
+#: xfwm/xfwm.c:640
+msgid "Workspace &4"
+msgstr ""
+
+#: xfwm/xfwm.c:641
+msgid "Workspace &5"
+msgstr ""
+
+#: xfwm/xfwm.c:642
+msgid "Workspace &6"
+msgstr ""
+
+#: xfwm/xfwm.c:643
+msgid "Workspace &7"
+msgstr ""
+
+#: xfwm/xfwm.c:644
+msgid "Workspace &8"
+msgstr ""
+
+#: xfwm/xfwm.c:645
+msgid "Workspace &9"
+msgstr ""
+
+#: xfwm/xfwm.c:646
+msgid "Workspace 1&0"
+msgstr ""
+
+#: xfwm/xfwm.c:648
+msgid "&Move"
+msgstr ""
+
+#: xfwm/xfwm.c:649
+msgid "&Resize"
+msgstr ""
+
+#: xfwm/xfwm.c:650
+msgid "(De)&Iconify"
+msgstr ""
+
+#: xfwm/xfwm.c:651
+msgid "(Un)&Stick"
+msgstr ""
+
+#: xfwm/xfwm.c:652
+msgid "(Un)Ma&ximize"
+msgstr ""
+
+#: xfwm/xfwm.c:654
+msgid "Se&nd to..."
+msgstr ""
+
+#: xfwm/xfwm.c:655
+msgid "S&witch to..."
+msgstr ""
+
+#: xfwm/xfwm.c:657
+msgid "&Close"
+msgstr ""
+
+#: xfwm/xfwm.c:659
+msgid "&New window"
+msgstr ""
+
+#: xfwm/xfwm.c:660
+msgid "Shuffle &Up"
+msgstr ""
+
+#: xfwm/xfwm.c:661
+msgid "Shuffle &Down"
+msgstr ""
+
+#: xfwm/xfwm.c:662
+msgid "&Refresh"
+msgstr ""
+
+#: xfwm/xfwm.c:663
+msgid "&Arrange icons"
+msgstr ""
+
+#: xfwm/xfwm.c:665
+msgid "&Mouse..."
+msgstr ""
+
+#: xfwm/xfwm.c:667
+msgid "&Backdrop..."
+msgstr ""
+
+#: xfwm/xfwm.c:669
+msgid "&Sound..."
+msgstr ""
+
+#: xfwm/xfwm.c:671
+msgid "&Quit XFwm"
+msgstr ""

@@ -1,0 +1,85 @@
+PACKAGE = @PACKAGE@
+VERSION = @VERSION@
+XFCE_DIR = @XFCE_DIR@
+
+SHELL = /bin/sh
+@SET_MAKE@
+
+srcdir = @srcdir@
+top_srcdir = @top_srcdir@
+VPATH = @srcdir@
+
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+bindir = @bindir@
+dtconfdir = /usr/dt/config
+subdir = dt
+
+ACLOCAL = @ACLOCAL@
+AUTOCONF = @AUTOCONF@
+AUTOMAKE = @AUTOMAKE@
+AUTOHEADER = @AUTOHEADER@
+
+INSTALL = @INSTALL@
+INSTALL_PROGRAM = @INSTALL_PROGRAM@ $(AM_INSTALL_PROGRAM_FLAGS)
+INSTALL_DATA = @INSTALL_DATA@
+INSTALL_SCRIPT = @INSTALL_SCRIPT@
+
+MKINSTALLDIRS = $(top_srcdir)/@MKINSTALLDIRS@
+
+DEFS = @DEFS@
+
+DISTFILES = Makefile.in Xinitrc.xfce.in Xsession.xfce Xresources.xfce.in
+
+.SUFFIXES:
+
+all:
+	@sed -e "s%XFCE_DIR%$(XFCE_DIR)%g" \
+	$(srcdir)/Xinitrc.xfce.in > $(srcdir)/Xinitrc.xfce
+	@sed -e "s%BIN_DIR%$(bindir)%g" \
+	$(srcdir)/Xresources.xfce.in > $(srcdir)/Xresources.xfce
+	
+install: install-exec install-data
+install-exec:
+install-data: install-data-@USE_DT@
+install-data-no: all
+
+install-data-yes: all
+	if test -r "$(MKINSTALLDIRS)"; then \
+	  $(MKINSTALLDIRS) $(dtconfdir)/C/Xresources.d/; \
+	else \
+	  $(SHELL) $(top_srcdir)/mkinstalldirs $(dtconfdir)/C/Xresources.d/; \
+	fi
+	$(INSTALL_SCRIPT) $(srcdir)/Xinitrc.xfce $(dtconfdir)
+	$(INSTALL_SCRIPT) $(srcdir)/Xsession.xfce $(dtconfdir)
+	$(INSTALL_DATA) $(srcdir)/Xresources.xfce \
+		  	$(dtconfdir)/C/Xresources.d/
+
+# Define this as empty until I found a useful application.
+installcheck:
+
+uninstall:
+	rm -f $(dtconfdir)/Xsession.xfce;
+	rm -f $(dtconfdir)/Xsession.xfce
+	rm -f $(dtconfdir)/C/Xresources.d/Xresources.xfce
+
+check: all
+
+dvi info tags TAGS ID:
+
+mostlyclean:
+	rm -f core core.*
+	rm -fr *.bak
+
+clean: mostlyclean
+
+distclean: clean
+	rm -f Makefile
+
+maintainer-clean: distclean
+
+Makefile:
+
+# Tell versions [3.59,3.63) of GNU make not to export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:

@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<GTK-Interface>
+
+<project>
+  <name>xfsound</name>
+  <directory></directory>
+  <source_directory></source_directory>
+  <pixmaps_directory>pixmaps</pixmaps_directory>
+  <language>C</language>
+  <gettext_support>True</gettext_support>
+  <use_widget_names>True</use_widget_names>
+  <main_source_file>xfsound.c</main_source_file>
+  <main_header_file>xfsound.h</main_header_file>
+  <handler_source_file>xfsound_cb.c</handler_source_file>
+  <handler_header_file>xfsound_cb.h</handler_header_file>
+</project>
+
+<widget>
+  <class>GtkWindow</class>
+  <name>xfsound</name>
+  <width>0</width>
+  <height>0</height>
+  <title>XFSound - XFce Sound Manager</title>
+  <type>GTK_WINDOW_TOPLEVEL</type>
+  <position>GTK_WIN_POS_CENTER</position>
+  <allow_shrink>True</allow_shrink>
+  <allow_grow>True</allow_grow>
+  <auto_shrink>False</auto_shrink>
+
+  <widget>
+    <class>GtkFrame</class>
+    <name>xfsound_mainframe</name>
+    <label_xalign>0</label_xalign>
+    <shadow_type>GTK_SHADOW_OUT</shadow_type>
+
+    <widget>
+      <class>GtkVBox</class>
+      <name>vbox1</name>
+      <homogeneous>False</homogeneous>
+      <spacing>0</spacing>
+
+      <widget>
+	<class>GtkFrame</class>
+	<name>frame2</name>
+	<border_width>5</border_width>
+	<child>
+	  <padding>0</padding>
+	  <expand>True</expand>
+	  <fill>True</fill>
+	</child>
+	<label_xalign>0</label_xalign>
+	<shadow_type>GTK_SHADOW_ETCHED_IN</shadow_type>
+
+	<widget>
+	  <class>GtkVBox</class>
+	  <name>vbox2</name>
+	  <homogeneous>False</homogeneous>
+	  <spacing>0</spacing>
+
+	  <widget>
+	    <class>GtkFrame</class>
+	    <name>frame4</name>
+	    <border_width>5</border_width>
+	    <child>
+	      <padding>0</padding>
+	      <expand>True</expand>
+	      <fill>True</fill>
+	    </child>
+	    <label_xalign>0</label_xalign>
+	    <shadow_type>GTK_SHADOW_ETCHED_IN</shadow_type>
+
+	    <widget>
+	      <class>GtkTable</class>
+	      <name>table1</name>
+	      <rows>2</rows>
+	      <columns>3</columns>
+	      <homogeneous>False</homogeneous>
+	      <row_spacing>0</row_spacing>
+	      <column_spacing>0</column_spacing>
+
+	      <widget>
+		<class>GtkLabel</class>
+		<name>label1</name>
+		<child>
+		  <left_attach>0</left_attach>
+		  <right_attach>1</right_attach>
+		  <top_attach>0</top_attach>
+		  <bottom_attach>1</bottom_attach>
+		  <xpad>0</xpad>
+		  <ypad>0</ypad>
+		  <xexpand>True</xexpand>
+		  <yexpand>True</yexpand>
+		  <xshrink>False</xshrink>
+		  <yshrink>False</yshrink>
+		  <xfill>True</xfill>
+		  <yfill>True</yfill>
+		</child>
+		<label>Event : </label>
+		<justify>GTK_JUSTIFY_CENTER</justify>
+		<xalign>1</xalign>
+		<yalign>0.5</yalign>
+		<xpad>0</xpad>
+		<ypad>0</ypad>
+	      </widget>
+
+	      <widget>
+		<class>GtkLabel</class>
+		<name>label3</name>
+		<child>
+		  <left_attach>0</left_attach>
+		  <right_attach>1</right_attach>
+		  <top_attach>1</top_attach>
+		  <bottom_attach>2</bottom_attach>
+		  <xpad>0</xpad>
+		  <ypad>0</ypad>
+		  <xexpand>True</xexpand>
+		  <yexpand>True</yexpand>
+		  <xshrink>False</xshrink>
+		  <yshrink>False</yshrink>
+		  <xfill>True</xfill>
+		  <yfill>True</yfill>
+		</child>
+		<label>Sound file : </label>
+		<justify>GTK_JUSTIFY_CENTER</justify>
+		<xalign>1</xalign>
+		<yalign>0.5</yalign>
+		<xpad>0</xpad>
+		<ypad>0</ypad>
+	      </widget>
+
+	      <widget>
+		<class>GtkButton</class>
+		<name>test_button</name>
+		<child>
+		  <left_attach>2</left_attach>
+		  <right_attach>3</right_attach>
+		  <top_attach>0</top_attach>
+		  <bottom_attach>1</bottom_attach>
+		  <xpad>0</xpad>
+		  <ypad>0</ypad>
+		  <xexpand>True</xexpand>
+		  <yexpand>True</yexpand>
+		  <xshrink>False</xshrink>
+		  <yshrink>False</yshrink>
+		  <xfill>True</xfill>
+		  <yfill>False</yfill>
+		</child>
+		<can_focus>True</can_focus>
+		<label>Test</label>
+	      </widget>
+
+	      <widget>
+		<class>GtkButton</class>
+		<name>browse_button</name>
+		<child>
+		  <left_attach>2</left_attach>
+		  <right_attach>3</right_attach>
+		  <top_attach>1</top_attach>
+		  <bottom_attach>2</bottom_attach>
+		  <xpad>0</xpad>
+		  <ypad>0</ypad>
+		  <xexpand>True</xexpand>
+		  <yexpand>True</yexpand>
+		  <xshrink>False</xshrink>
+		  <yshrink>False</yshrink>
+		  <xfill>True</xfill>
+		  <yfill>False</yfill>
+		</child>
+		<can_focus>True</can_focus>
+		<label>Browse ...</label>
+	      </widget>
+
+	      <widget>
+		<class>GtkEntry</class>
+		<name>soundfile_entry</name>
+		<child>
+		  <left_attach>1</left_attach>
+		  <right_attach>2</right_attach>
+		  <top_attach>1</top_attach>
+		  <bottom_attach>2</bottom_attach>
+		  <xpad>5</xpad>
+		  <ypad>5</ypad>
+		  <xexpand>True</xexpand>
+		  <yexpand>True</yexpand>
+		  <xshrink>False</xshrink>
+		  <yshrink>False</yshrink>
+		  <xfill>True</xfill>
+		  <yfill>True</yfill>
+		</child>
+		<can_focus>True</can_focus>
+		<editable>True</editable>
+		<text_visible>True</text_visible>
+		<text_max_length>0</text_max_length>
+		<text></text>
+	      </widget>
+
+	      <widget>
+		<class>GtkOptionMenu</class>
+		<name>list_event_optionmenu</name>
+		<child>
+		  <left_attach>1</left_attach>
+		  <right_attach>2</right_attach>
+		  <top_attach>0</top_attach>
+		  <bottom_attach>1</bottom_attach>
+		  <xpad>5</xpad>
+		  <ypad>5</ypad>
+		  <xexpand>True</xexpand>
+		  <yexpand>False</yexpand>
+		  <xshrink>False</xshrink>
+		  <yshrink>False</yshrink>
+		  <xfill>True</xfill>
+		  <yfill>False</yfill>
+		</child>
+		<can_focus>True</can_focus>
+		<items></items>
+		<initial_choice>0</initial_choice>
+	      </widget>
+	    </widget>
+	  </widget>
+
+	  <widget>
+	    <class>GtkFrame</class>
+	    <name>frame5</name>
+	    <border_width>5</border_width>
+	    <child>
+	      <padding>0</padding>
+	      <expand>False</expand>
+	      <fill>True</fill>
+	    </child>
+	    <label_xalign>0</label_xalign>
+	    <shadow_type>GTK_SHADOW_ETCHED_IN</shadow_type>
+
+	    <widget>
+	      <class>GtkHBox</class>
+	      <name>hbox1</name>
+	      <homogeneous>False</homogeneous>
+	      <spacing>0</spacing>
+
+	      <widget>
+		<class>GtkCheckButton</class>
+		<name>play_sound_checkbutton</name>
+		<border_width>5</border_width>
+		<child>
+		  <padding>5</padding>
+		  <expand>True</expand>
+		  <fill>True</fill>
+		</child>
+		<can_focus>True</can_focus>
+		<has_focus>True</has_focus>
+		<label>Play Sound</label>
+		<active>False</active>
+		<draw_indicator>True</draw_indicator>
+	      </widget>
+
+	      <widget>
+		<class>GtkLabel</class>
+		<name>command_label</name>
+		<child>
+		  <padding>0</padding>
+		  <expand>True</expand>
+		  <fill>True</fill>
+		</child>
+		<label>Command : </label>
+		<justify>GTK_JUSTIFY_CENTER</justify>
+		<xalign>1</xalign>
+		<yalign>0.5</yalign>
+		<xpad>0</xpad>
+		<ypad>0</ypad>
+	      </widget>
+
+	      <widget>
+		<class>GtkEntry</class>
+		<name>command_entry</name>
+		<child>
+		  <padding>5</padding>
+		  <expand>False</expand>
+		  <fill>False</fill>
+		</child>
+		<can_focus>True</can_focus>
+		<editable>True</editable>
+		<text_visible>True</text_visible>
+		<text_max_length>0</text_max_length>
+		<text></text>
+	      </widget>
+
+	      <widget>
+		<class>GtkVButtonBox</class>
+		<name>vbuttonbox1</name>
+		<child>
+		  <padding>0</padding>
+		  <expand>True</expand>
+		  <fill>True</fill>
+		</child>
+		<layout_style>GTK_BUTTONBOX_SPREAD</layout_style>
+		<spacing>0</spacing>
+		<child_min_width>0</child_min_width>
+		<child_min_height>0</child_min_height>
+		<child_ipad_x>0</child_ipad_x>
+		<child_ipad_y>0</child_ipad_y>
+
+		<widget>
+		  <class>GtkButton</class>
+		  <name>internal_player_button</name>
+		  <can_focus>True</can_focus>
+		  <label>Internal</label>
+		</widget>
+
+		<widget>
+		  <class>GtkButton</class>
+		  <name>external_player_button</name>
+		  <can_focus>True</can_focus>
+		  <label>External</label>
+		</widget>
+	      </widget>
+	    </widget>
+	  </widget>
+	</widget>
+      </widget>
+
+      <widget>
+	<class>GtkFrame</class>
+	<name>frame3</name>
+	<border_width>5</border_width>
+	<child>
+	  <padding>0</padding>
+	  <expand>True</expand>
+	  <fill>True</fill>
+	</child>
+	<label_xalign>0</label_xalign>
+	<shadow_type>GTK_SHADOW_ETCHED_IN</shadow_type>
+
+	<widget>
+	  <class>GtkHButtonBox</class>
+	  <name>hbuttonbox2</name>
+	  <layout_style>GTK_BUTTONBOX_SPREAD</layout_style>
+	  <spacing>30</spacing>
+	  <child_min_width>85</child_min_width>
+	  <child_min_height>27</child_min_height>
+	  <child_ipad_x>7</child_ipad_x>
+	  <child_ipad_y>0</child_ipad_y>
+
+	  <widget>
+	    <class>GtkButton</class>
+	    <name>ok_button</name>
+	    <can_default>True</can_default>
+	    <can_focus>True</can_focus>
+	    <accelerator>
+	      <modifiers>0</modifiers>
+	      <key>GDK_Return</key>
+	      <signal>clicked</signal>
+	    </accelerator>
+	    <accelerator>
+	      <modifiers>GDK_CONTROL_MASK</modifiers>
+	      <key>GDK_o</key>
+	      <signal>clicked</signal>
+	    </accelerator>
+	    <label>Ok</label>
+	  </widget>
+
+	  <widget>
+	    <class>GtkButton</class>
+	    <name>apply_button</name>
+	    <can_default>True</can_default>
+	    <can_focus>True</can_focus>
+	    <accelerator>
+	      <modifiers>GDK_CONTROL_MASK</modifiers>
+	      <key>GDK_a</key>
+	      <signal>clicked</signal>
+	    </accelerator>
+	    <label>Apply</label>
+	  </widget>
+
+	  <widget>
+	    <class>GtkButton</class>
+	    <name>cancel_button</name>
+	    <can_default>True</can_default>
+	    <can_focus>True</can_focus>
+	    <accelerator>
+	      <modifiers>0</modifiers>
+	      <key>GDK_Escape</key>
+	      <signal>clicked</signal>
+	    </accelerator>
+	    <accelerator>
+	      <modifiers>GDK_CONTROL_MASK</modifiers>
+	      <key>GDK_c</key>
+	      <signal>clicked</signal>
+	    </accelerator>
+	    <label>Cancel</label>
+	  </widget>
+	</widget>
+      </widget>
+    </widget>
+  </widget>
+</widget>
+
+</GTK-Interface>

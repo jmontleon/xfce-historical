@@ -1,0 +1,147 @@
+# XFce 3 Configuration File - Do not edit
+[Coords]
+	-1
+	-1
+[ButtonLabels]
+	One
+	Two
+	Three
+	Four
+	Five
+	Six
+	Seven
+	Eight
+	Nine
+	Ten
+[External_Icons]
+	None
+	None
+	XFCE_DIR/icons/Penguin.xpm
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+[Popups]
+	6
+[Icons]
+	0,5,99,4,2,3,6,9,8,9,10,11,7
+[WorkSpace]
+	NoRepaint
+	Solid
+[Lock]
+	xlock -mode blank -echokeys -mousemotion
+[MenuOption]
+	Detach
+[XFwmOption]
+	ClickToFocus
+	OpaqueMove
+	NoAutoraise
+	GradientActive
+	GradientInactive
+	IconsOnTop
+	-b&h-lucida-medium-r-normal-*-12-*-*-*-p-*-iso8859-1
+	-b&h-lucida-medium-r-normal-*-12-*-*-*-p-*-iso8859-1
+	-b&h-lucida-medium-r-normal-*-10-*-*-*-p-*-iso8859-1
+[Screens]
+	4
+[Sizes]
+	MediumPanelIcons
+	SmallMenuIcons
+[Commands]
+	xftree
+	xcalc
+	xterm
+	xfmouse -i
+	netscape -mail
+	xlpq
+	xfhelp
+	xv
+	None
+	None
+	None
+	None
+	xwp
+[Menu1]
+	XFClock
+	XFCE_DIR/icons/Clock.xpm
+	xfclock
+	XFTree
+	XFCE_DIR/icons/Disk_blue.xpm
+	xftree
+[Menu2]
+	Calculator
+	XFCE_DIR/icons/Calculator.xpm
+	xcalc
+	Editres
+	XFCE_DIR/icons/Editres.xpm
+	editres
+	System load
+	XFCE_DIR/icons/Meter.xpm
+	xosview
+	Magnify
+	XFCE_DIR/icons/Magnify.xpm
+	xmag
+[Menu3]
+	X-Terminal
+	XFCE_DIR/icons/Xterm.xpm
+	xterm
+	X-Edit
+	XFCE_DIR/icons/TextEditor.xpm
+	xedit
+	Vi
+	XFCE_DIR/icons/Keys.xpm
+	Term vi
+[Menu4]
+	XFPager
+	XFCE_DIR/icons/Drawing3.xpm
+	Module xfpager
+	XFMouse
+	XFCE_DIR/icons/Mouse.xpm
+	xfmouse -i
+	XFSound
+	XFCE_DIR/icons/Sound.xpm
+	xfsound -i
+	Backdrop
+	XFCE_DIR/icons/Palette.xpm
+	xfbd -i
+[Menu5]
+	Netscape Browser
+	XFCE_DIR/icons/Netscape.xpm
+	netscape
+	Netscape Mail
+	XFCE_DIR/icons/Mail.xpm
+	netscape -mail
+[Menu6]
+	Printer
+	XFCE_DIR/icons/ABC.xpm
+	xlpq
+[Menu7]
+	WordPerfect
+	XFCE_DIR/icons/WordProcessing2.xpm
+	xwp
+	GNotepad+
+	XFCE_DIR/icons/Edit.xpm
+	gnp
+	Nedit
+	XFCE_DIR/icons/Reader.xpm
+	nedit
+[Menu8]
+	Gimp
+	XFCE_DIR/icons/Colormap.xpm
+	gimp
+	XV
+	XFCE_DIR/icons/Xv.xpm
+	xv
+	X-Paint
+	XFCE_DIR/icons/Drawing.xpm
+	xpaint
+[Menu9]
+[Menu10]
+[Menu11]
+[Menu12]

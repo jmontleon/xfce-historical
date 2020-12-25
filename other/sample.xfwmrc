@@ -1,0 +1,38 @@
+MenuFont            -*-helvetica-bold-r-*-*-12-*-*-*-*-*-*-*
+WindowFont          -*-helvetica-bold-r-*-*-12-*-*-*-*-*-*-*
+IconFont            -*-helvetica-medium-r-*-*-10-*-*-*-*-*-*-*
+
+AnimateWin          On
+ColormapFocus       FollowsFocus
+FocusMode           ClickToFocus
+AutoRaise           Off
+AutoRaiseDelay      250
+
+Style "*"           BorderWidth 7
+Style "XFce*"	    Sticky
+# Style "XFce*"       StaysOnTOp
+Style "XFbd*"       Sticky 
+Style "Popup*"      Sticky
+Style "Alert*"	    Sticky, StaysOnTOp
+Style "Question*"   Sticky, StaysOnTOp
+Style "Message*"    Sticky, StaysOnTOp
+Style "*Pager"	    Sticky
+
+Style "*lock"       Sticky
+
+# Common init and restart functions
+
+AddToFunc "InitFunction"
++              "I" Exec   xfmouse -d
++              "I" Module xfsound
++              "I" Module xfpager
+
+AddToFunc "RestartFunction"
++              "I" Exec   xfmouse -d
++              "I" Module xfsound
++              "I" Module xfpager
+
+#Options for xfpager :
+
+*xfpager.geometry 150x60-0+0
+*xfpager.smallfont 5x8

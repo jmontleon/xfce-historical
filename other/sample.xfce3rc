@@ -1,0 +1,147 @@
+# XFce 3 Configuration File - Do not edit
+[Coords]
+	-1
+	-1
+[ButtonLabels]
+	One
+	Two
+	Three
+	Four
+	Five
+	Six
+	Seven
+	Eight
+	Nine
+	Ten
+[External_Icons]
+	None
+	None
+	/var/XFCE/icons/Penguin.xpm
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+[Popups]
+	6
+[Icons]
+	0,5,99,4,2,3,6,9,8,9,10,11,7
+[WorkSpace]
+	NoRepaint
+	Solid
+[Lock]
+	xlock -mode blank -echokeys -mousemotion
+[MenuOption]
+	Detach
+[XFwmOption]
+	ClickToFocus
+	OpaqueMove
+	NoAutoraise
+	GradientActive
+	GradientInactive
+	IconsOnTop
+	-b&h-lucida-medium-r-normal-*-12-*-*-*-p-*-iso8859-1
+	-b&h-lucida-medium-r-normal-*-12-*-*-*-p-*-iso8859-1
+	-b&h-lucida-medium-r-normal-*-10-*-*-*-p-*-iso8859-1
+[Screens]
+	4
+[Sizes]
+	MediumPanelIcons
+	SmallMenuIcons
+[Commands]
+	xftree
+	xcalc
+	xterm
+	xfmouse -i
+	netscape -mail
+	xlpq
+	xfhelp
+	xv
+	None
+	None
+	None
+	None
+	xwp
+[Menu1]
+	XFClock
+	/var/XFCE/icons/Clock.xpm
+	xfclock
+	XFTree
+	/var/XFCE/icons/Disk_blue.xpm
+	xftree
+[Menu2]
+	Calculator
+	/var/XFCE/icons/Calculator.xpm
+	xcalc
+	Editres
+	/var/XFCE/icons/Editres.xpm
+	editres
+	System load
+	/var/XFCE/icons/Meter.xpm
+	xosview
+	Magnify
+	/var/XFCE/icons/Magnify.xpm
+	xmag
+[Menu3]
+	X-Terminal
+	/var/XFCE/icons/Xterm.xpm
+	xterm
+	X-Edit
+	/var/XFCE/icons/TextEditor.xpm
+	xedit
+	Vi
+	/var/XFCE/icons/Keys.xpm
+	Term vi
+[Menu4]
+	XFPager
+	/var/XFCE/icons/Drawing3.xpm
+	Module xfpager
+	XFMouse
+	/var/XFCE/icons/Mouse.xpm
+	xfmouse -i
+	XFSound
+	/var/XFCE/icons/Sound.xpm
+	xfsound -i
+	Backdrop
+	/var/XFCE/icons/Palette.xpm
+	xfbd -i
+[Menu5]
+	Netscape Browser
+	/var/XFCE/icons/Netscape.xpm
+	netscape
+	Netscape Mail
+	/var/XFCE/icons/Mail.xpm
+	netscape -mail
+[Menu6]
+	Printer
+	/var/XFCE/icons/ABC.xpm
+	xlpq
+[Menu7]
+	WordPerfect
+	/var/XFCE/icons/WordProcessing2.xpm
+	xwp
+	GNotepad+
+	/var/XFCE/icons/Edit.xpm
+	gnp
+	Nedit
+	/var/XFCE/icons/Reader.xpm
+	nedit
+[Menu8]
+	Gimp
+	/var/XFCE/icons/Colormap.xpm
+	gimp
+	XV
+	/var/XFCE/icons/Xv.xpm
+	xv
+	X-Paint
+	/var/XFCE/icons/Drawing.xpm
+	xpaint
+[Menu9]
+[Menu10]
+[Menu11]
+[Menu12]
