@@ -1,0 +1,20 @@
+XCOMM Compile options : Please check !
+XCOMM ================================
+
+XCOMM BINDIR         = /usr/local/bin
+XFCE_DIR       = /var/XFCE
+XBINDIR        = $(BINDIR) 
+XFCE_PAL       = $(XFCE_DIR)/palettes
+XFCE_BACKDROPS = $(XFCE_DIR)/backdrops
+XFCE_HELP      = $(XFCE_DIR)/help
+XFCE_ICONS     = $(XFCE_DIR)/icons
+XFCE_SOUNDS    = $(XFCE_DIR)/sounds
+
+DESTDIR        = $(RPM_BUILD_ROOT)
+DEST_BIN       = $(DESTDIR)$(XBINDIR)
+DEST_XFCE      = $(DESTDIR)$(XFCE_DIR)
+DEST_PAL       = $(DESTDIR)$(XFCE_PAL)
+DEST_BACKDROPS = $(DESTDIR)$(XFCE_BACKDROPS)
+DEST_HELP      = $(DESTDIR)$(XFCE_HELP)
+DEST_ICONS     = $(DESTDIR)$(XFCE_ICONS)
+DEST_SOUNDS    = $(DESTDIR)$(XFCE_SOUNDS)

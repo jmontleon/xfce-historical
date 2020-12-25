@@ -1,0 +1,21 @@
+#####################################################################
+###  File:              Xinitrc.xfce
+###
+###  Default Location:  /usr/dt/config/Xinitrc.xfce
+###
+###  Invoked by:        /usr/dt/config/Xsession.xfce
+###
+#####################################################################
+
+unset SDT_ALT_SESSION
+unset SDT_ALT_HELLO
+unset SDT_NO_DSDM
+
+if [ -f $HOME/.Xdefaults ]; then
+    xrdb -merge $HOME/.Xdefaults	# Load Users X11 resource database
+fi
+
+DEFAULT_XINITRC="/var/XFCE/sample.xinitrc"
+set PATH=/usr/local/bin:/usr/dt/bin:/usr/openwin/bin:$PATH export $PATH
+
+/bin/ksh /var/XFCE/sample.xinitrc

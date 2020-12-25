@@ -1,0 +1,101 @@
+[Coords]
+	-1
+	-1
+[ButtonLabels]
+	One
+	Two
+	Three
+	Four
+[External_Icons]
+	None
+	/var/XFCE/icons/Penguin.xpm
+	None
+	None
+	None
+	None
+	None
+[Icons]
+	0,99,2,12,4,5,6
+[WorkSpace]
+	NoRepaint
+	Solid
+[Lock]
+	xlock -echokey -mode pyro -batchcount 2000 -size 500 -install
+[MenuOption]
+	Detach
+[XFwmOption]
+	ClickToFocus
+[Commands]
+	xfm
+	xterm
+	netscape -mail
+	xfsound
+	xfbd -i
+	xcalc
+	netscape /var/XFCE/help/index.html
+[Menu1]
+2
+	File Manager
+	/var/XFCE/icons/Disks.xpm
+	xfm
+	Clock
+	/var/XFCE/icons/Clock.xpm
+	oclock -minute red -hour red -bd blue -transparent -geometry -0+0
+[Menu2]
+2
+	XTerm
+	/var/XFCE/icons/Xterm.xpm
+	xterm
+	X editor
+	/var/XFCE/icons/TextEditor.xpm
+	xedit
+[Menu3]
+2
+	Communicator 4
+	/var/XFCE/icons/Netscape.xpm
+	netscape -component-bar
+	Mail
+	/var/XFCE/icons/Mail.xpm
+	netscape -mail
+[Menu4]
+2
+	Shutdown NOW !!
+	/var/XFCE/icons/Plug.xpm
+	shutdown -h now
+	Reboot NOW !!
+	/var/XFCE/icons/Warning.xpm
+	shutdown -r now
+[Menu5]
+5
+	Xmag
+	/var/XFCE/icons/Magnify.xpm
+	xmag
+	XLoad
+	/var/XFCE/icons/Graph_bar.xpm
+	xload
+	Editres
+	/var/XFCE/icons/Editres.xpm
+	editres
+	Mouse settings
+	/var/XFCE/icons/Mouse.xpm
+	xfmouse -i
+	Pager
+	/var/XFCE/icons/Viewer.xpm
+	Module xfpager
+[Menu6]
+5
+	XCalc
+	/var/XFCE/icons/Calculator.xpm
+	xcalc
+	Xpaint
+	/var/XFCE/icons/Palette.xpm
+	xpaint
+	The GIMP
+	/var/XFCE/icons/Drawing.xpm
+	gimp
+	XV
+	/var/XFCE/icons/Xv.xpm
+	xv
+	Capture screen
+	/var/XFCE/icons/Camera.xpm
+	xwd -root -out ~/capture

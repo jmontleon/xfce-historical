@@ -1,0 +1,34 @@
+#!/bin/ksh 
+#####################################################################
+###  File:              Xsession.xfce
+###
+###  Default Location:  /usr/dt/config/Xsession.xfce
+###
+###  Invoked by:        Solaris Desktop Login Manager (dtlogin)
+###
+#####################################################################
+
+
+if [ -z "$SESSIONTYPE" ]
+then
+	export SESSIONTYPE="altDt"
+fi
+
+if [ -z "$DTSTARTIMS" ]
+then
+	export DTSTARTIMS="False"
+fi
+
+if [ -z "$SDT_ALT_SESSION" ]
+then
+	export SDT_ALT_SESSION="/usr/dt/config/Xinitrc.xfce"
+fi
+
+if [ -z "$SDT_ALT_HELLO" ]
+then
+     export SDT_ALT_HELLO="/usr/dt/bin/dthello -string 'Starting the XFce Desktop Environment' &"
+fi
+
+export SDT_NO_DSDM=""
+
+/usr/dt/bin/Xsession

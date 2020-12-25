@@ -1,0 +1,74 @@
+#include "XFCE.def"
+
+install.palettes::
+	@echo Installing palettes
+	@mkdir -p $(DEST_PAL)
+	@chmod a+w $(DEST_PAL)
+	@$(CP)  -pf palettes\/* $(DEST_PAL)
+
+install.help::
+	@echo Installing help files
+	@mkdir -p $(DEST_HELP)
+	@$(CP)  -fR help\/* $(DEST_HELP)
+	@chmod -R a+r $(DEST_HELP)
+
+install.icons::
+	@echo Installing icons
+	@mkdir -p $(DEST_ICONS)
+	@$(CP)  -pf icons\/* $(DEST_ICONS)
+	@chmod -R a+r $(DEST_ICONS)
+
+install.sounds::
+	@echo Installing sounds
+	@mkdir -p $(DEST_SOUNDS)
+	@$(CP)  -pf sounds\/* $(DEST_SOUNDS)
+	@chmod -R a+r $(DEST_SOUNDS)
+
+install.backdrops::
+	@echo Installing backdrops
+	@mkdir -p $(DEST_BACKDROPS)
+	@$(CP)  -pf backdrops\/* $(DEST_BACKDROPS)
+	@chmod -R a+r $(DEST_BACKDROPS)
+
+install.sample::
+	@echo Installing samples
+	@$(CP)  -pf sample.* $(DEST_XFCE)/;
+	@(cd $(DEST_XFCE);\
+	$(RM) -f system.fvwmrc;ln -sf sample.fvwmrc  system.fvwmrc;\
+	$(RM) -f system.fvwm2rc;ln -sf sample.fvwm2rc system.fvwm2rc;\
+	$(RM) -f system.xfwmrc;ln -sf sample.xfwmrc  system.xfwmrc;\
+	$(RM) -f system.xsession;ln -sf sample.xsession system.xsession;)
+	@(cd $(DEST_XFCE);\
+	$(RM) -f .xfcerc;ln -sf sample.xfcerc  .xfcerc;\
+	$(RM) -f .xinitrc;ln -sf sample.xinitrc .xinitrc;\
+	$(RM) -f .xfbdrc;ln -sf sample.xfbdrc  .xfbdrc;\
+	$(RM) -f .xfsoundrc;ln -sf sample.xfsoundrc  .xfsoundrc;\
+	$(RM) -f sample.xsession;ln -sf sample.Xclients sample.xsession;)
+	@chmod -R a+r $(DEST_XFCE)
+	
+install.bin::
+	@echo Installing executables
+	@$(CP)  -pf Quickstart $(DEST_XFCE)/;
+	@chmod 0755 $(DEST_XFCE)/Quickstart;
+	@chmod -R a+r $(DEST_XFCE)
+
+install.dt::
+	@echo Installing CDE configuration files
+	@mkdir -p $(DESTDIR)/usr/dt/config/C/Xresources.d/
+	@$(CP)  -pf Xsession.xfce $(DESTDIR)/usr/dt/config/
+	@chmod 555 $(DESTDIR)/usr/dt/config/Xsession.xfce
+	@$(CP)  -pf Xinitrc.xfce $(DESTDIR)/usr/dt/config/
+	@chmod 555 $(DESTDIR)/usr/dt/config/Xinitrc.xfce
+	@$(CP)  -pf Xresources.xfce $(DESTDIR)/usr/dt/config/C/Xresources.d/
+	@chmod 444 $(DESTDIR)/usr/dt/config/C/Xresources.d/Xresources.xfce
+	
+	
+
+install:: install.palettes install.help install.icons install.backdrops \
+ install.sounds install.sample install.bin install.dt
+	@if [ ! -d /var/XFCE ]; then \
+	ln -s $(DEST_XFCE) /var/XFCE; fi
+ 	
+
+all::
+	@echo Nothing to build for the goodies !
