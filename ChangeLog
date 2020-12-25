@@ -1,0 +1,609 @@
+27-NOV-2000: Xfce 3.6.3
+=======================
+
+- xfce
+  * Fixed a small bug in xfce popup menus
+
+26-NOV-2000: Xfce 3.6.2
+=======================
+
+- xfclock
+  * Added calendar options by Edscott Wilson Garcia <edscott@imp.mx>
+- xfwm
+  * Improve Xinerama support
+  * Problem with window initial placement on wrong desk fixed
+- all
+  * Added new configure options by Albert Chin-A-Young 
+    <china@thewrittenword.com>
+
+19-NOV-2000: XFce 3.6.0 & 3.6.1
+===============================
+- xfrun
+  * Add history list (patch contributed by daniel mcsorley 
+    <mcsorley@cis.ohio-state.edu>)
+- xfce
+  * Change panel size : Smallest size is pretty small now, thanks to a 
+    new widget positionning. Medium size is now equivalent to previous 
+    smallest size and biggest size is previous medium size.
+  * Change panel design. Old style can still be selected at compile time.
+  * Automatic drawer/popup close down when new popup is opened (patch
+    contributed by Jason Litowitz <jlitowitz@visto.com>
+  * Bug fix : Panel crashing when selecting several times a desktop that 
+    was not listed in the panel (Actually that was a design problem in the
+    xfce libs).
+  * Virtual desktops can now be turned off by setting number of destops to zero.
+- xfwm
+  * Add Xinerama support
+  * Added query for Xinerama extension (based on a patch by 
+    Peter Novodvorsky <nidd@debian.org>
+  * Add new style "Authorize_Trnaslate" to force xfwm to place windows on the 
+    current physical screen when using Xinerama even if the application asks
+    for another location.
+  * Add strict checking to avoid iconification/maximization of transient windows
+    (ICCCM compliancy)
+  * New builtin function "ShowMeMouse" : You can't find your mouse pointer on
+    the screen ? Just Alt+Click ! You'll be amazed.
+  * Enhanced virtual desktop routines : 
+      - Xfwm refuses to switch to a desktop if it is off limits.
+      - Switching to a window that is on a desktop off limits cause the 
+        window to be bring back to the current desktop.
+  * Add the ability to restart xfwm by sending signal USR1 or USR2 to xfwm's 
+    process id. This allows external programs to restart xfwm or even 
+    sysadmins to restart all instances of xfwm at once.
+  * Bug fix : Sometimes (rarely) focus did not go to the right window when 
+    the current window was unmapped.
+  * Bug fix : Use of fontsets (Chineese, Korean, etc.) caused xfwm to crash
+- Help
+  * Added topic overview thanks to Ruediger <ruediger@gmx.net>
+  * Add Dutch translation of the help file by J.B. Huijsmans 
+    <j.b.huijsmams@chem.rug.nl>
+- xfgnome
+  * Remove unclear portion of code that dealed with iconification.
+- all
+  * More 64-bit safe.
+  * Add new themes : Aluminium, BlueX, Glass, Liquid, Power, Power2
+  * Move the locale files from the "$XFCE_DIR" to "$prefix/share/locale"
+    (Change contributed by Fernando M. Roxo da Motta <roxo@conectiva.com.br>)
+  * Updated Spanish translation (Change contributed by Fernando M. Roxo da 
+    Motta <roxo@conectiva.com.br>)
+  * New Brasilian Portuguese translation (contributed by 
+    Ingo "LaSombra" Hoffmann <lasombra@terra.com.br> and
+    Fernando M. Roxo da Motta <roxo@conectiva.com.br>)
+  * Updated spec (rpm) file (Change contributed by Fernando M. Roxo da Motta 
+    <roxo@conectiva.com.br>)
+  * New Czech translation thanks to Petr Blaha <pblaha@suse.cz> and 
+    Rudolf Ulc <Rudolf.Ulc@oku-st.cz>
+  * Updated Dutch translation by J.B. Huijsmans <j.b.huijsmams@chem.rug.nl>
+
+01-OCT-2000: XFce 3.5.2
+=======================
+- scripts
+  * Fix a vulnerability in xinitrc script shipped with xfce 3.5.0/3.5.1
+    (Need to rerun xfce_setup for all users)
+- all
+  * New default icon
+- all
+  * Updated italian translation by Giancarlo Rosso <gianca.rosso@katamail.com>
+  * New textured theme "Modern"
+  
+24-SEP-2000: XFce 3.5.1
+=======================
+- xfwm
+  * Change "on top" window stacking order : transient windows are kept on top
+    of their parent window even if the parent window has "KeepOnTop" attribute
+    set.
+  * Add a "User menu" entry in root menu (patch from Chuck Mead)
+- xfce
+  * Improve routine handling mouse pointer color : Mouse pointer background 
+    color is now computed, depending on the brightness of the foreground 
+    color (ie allow use of a white pointer, ala Windows).
+- xfbd
+  * fix problem with root image not being enlarged when using gdk-pixbuf 
+    library.
+- xfsound
+  * Fixed shutdown event not being played sometimes.
+- xfrun
+  * New tool.
+- libs
+  * Increase image rendering quality when using gdk-pixbuf
+- all
+  * Include David Weber's changes in all Makefile.am for Darwin 
+    (David Weber <david_weber@gmx.de>)
+  * Add support for wait3/wait4 and waitpid depending on system capability
+  * Improve program launching (X won't lock if an application that requires 
+    terminal io is launched without a terminal)
+  * New updated Estonian translation by Peeter Vois <Peeter.Vois@mail.ee>
+  * Add a few new backdrops and palettes
+  
+21-AUG-2000: XFce 3.5.0
+=======================
+- xfce
+  * Add a new subprocess diagnostic dialog, allowing user to see
+    what's going wrong with a task spawned from xfce (wrong file name, etc.)
+  * Add new configuration to enable/disable diagnostic dialog popup
+  * Redesign style management, all driven by standard GTK+ functions using 
+    gtkrc file ($HOME/.xfcegtkrc is used for user customization if needed).
+  * Add builtin support for GTK theme engines
+  * Add support for X resources management (formerly managed by xfdefs.py) 
+    within xfce.
+  * Add a new configuration option to enable/disable use of xfce palette for
+    all X applications
+  * Improve shadow move mode redraw
+- xfwm
+  * Change and improve window shade mode
+  * Improve focus management when switching desk under focus follow 
+    mouse mode
+  * The "Switch to..." menu now indicates the screen label (instead of
+    just the screen number)
+  * Add "Iconify all" function
+  * The "StartsOnDesk" flag now counts from desk 1 instead of desk 0
+  * Improve desk change routine : Windows now gets an UnmapNotify event on 
+    desk switch. This is required by XawTV to track map/unmap and clipping 
+    changes because XawTV has to reprogram the grabber card accordingly.
+- xftree
+  * Improve X error handler
+  * Fix bug causing xftree to crash when run on a remote display
+- xfce_theme
+  * Added my own theme engine for xfce ;-)
+- xfdefs.py
+  * Removed.
+- All
+  * Move to libtools
+  * Add a shell script xfce_upgrade for upgrading config files
+  * Update Slovak translation by Martin Pekar <cortex@nextra.sk>
+  * icons cleanup. Add some icons from the wm-icons collection
+    (Some are from KDE, GNOME, etc.)
+  * Reduce icon's colors and reduce disk space used.
+  * Add "xhost + $HOSTNAME" to default xinitrc because RedHat 6.x seems to
+    require this.
+  
+15-JUL-2000: XFce 3.4.4
+=======================
+- xfwm
+  * Fix race condition between application and colormapNotify event in 256 
+    color mode
+  * Partially fixed resize problem with XForms apps (the rest is not under WM control)
+
+09-JUL-2000: XFce 3.4.3
+=======================
+- xfwm
+  * Add config option "ForceFocus" to allow focus changes in focus follow mouse
+    even if mouse pointer didn't move
+  * Add config option "ClickRaise" to raise a window when a click occurs inside
+    the application window even if focus follow mouse mode
+  * Add a popup menu to Maximize button to allow vertical or horizontal 
+     maximization
+  * Fix problem causing Ted (Text Editor) to crash with a XSetInputFocus failed
+    error
+  * Fix problem with windows name and icon name causing xfwm to crash if no
+    window name was provided by the applications.
+  * Removed all "smart" or "clever" placements that were not clever at all and
+    replaced them by a real dummy placement, smaller and faster.
+  * Improve memory management (get rid of "free (0)" errors)
+  * Improve speed
+  * Various cleanup
+- all
+  * Add support for dmalloc (debug malloc)
+
+26-JUN-2000: XFce 3.4.2
+=======================
+- xfwm
+  * Fix problem with move icons
+
+25-JUN-2000: XFce 3.4.1
+=======================
+- xfwm
+  * Improve "fake" modifiers handling (Caps/Num/Scroll Lock)
+  * Add Alt+Click move window (very handy)
+  * Change default to raise window whenever a click occurs, even in focus follow
+    mouse mode.
+  * Add a small black frame around windows (cosmetics !)
+  * Automatically change bitmap button color (black/white) depending on the 
+    brightness of the current border color.
+  * Double reparenting is back. MWM (tm) is designed like this, and I suspect 
+    the removal of double reparenting to be the cause of some trouble with 
+    Java (tm) and some other applications.
+- xfce
+  * Fixed memory leaks in libs/xpmext.c (function MyCreatePixmapFromXpmImage())
+  * Remove polling
+- all
+  * Change module codes from M_* to XFCE_M_* 
+  * Add new palette Helice
+  * Add new default palette Helice
+  * Add new palette (textured) "Bronze" by Thomas A. Gilchrist based on a 
+    GNOME theme by Berin Loritsch.
+- scripts
+  * Fixed a bug preventing xcreensaver to be launched at startup
+  * Update xfce_setup to reflect new directory structure (patch contributed by 
+    Ken Sodemann, stufflehead@bigfoot.com)
+- libs
+  * Reduce redraw for clock widget
+- other
+  New fvwm2 configuration file contributed by Joerg Koenig
+  (J.C.koenig@t-online.de)
+  
+04-JUN-2000: XFce 3.4.0
+=======================
+- xfwm
+  * Improve focus-follow-mouse mode
+  * Improve ButtonPress event handling
+  * Remove double reparenting of windows.
+  * Add bitmap buttons
+  * Add a new function to set the number of visible buttons on the title bar
+  * Fix some small memory leak in xfwm's configuration parsing functions.
+  * Add new command line option -sync to run xfwm in synchronized mode
+  * Add Ctrl+Meta+Left/Right to navigate between virtual desktops
+    (Suggested by Jon_Winquist@raytheon.com)
+  * Fix incompatibility between gnome-session and autoraise mode, causing the whole system
+    to freeze.
+- xfce 
+  * Bug fixed : Adding an item to a popup menu without specifying an icon 
+    could cause xfce to crash sometimes (bug reported by Victor Meghesan 
+    <meghesan@usa.net>)
+  * Reduce memory consumption (more than 500Kb less)
+  * Add new palette "Standards" by Victor Meghesan <meghesan@usa.net>
+  * Patch to handle a list of programs in config file by damien 
+    <damien@mandrakesoft.com> (The idea is: instead of putting just one program,
+    you can write a coma separated list of program, and the browser will take 
+    the first one that matches)
+- libs 
+  * Update image redering functions to reflect latest gdk-pixbuf API changes.
+  * Small code cleanup
+  * Reduce memory leaks in xfcolor.c
+- xfmountdev
+  * Add a new script to be used as an action from xfce's toolbar.
+    xfmountdev mounts a device on the specified mount point and launches xftree,
+    and unmounts the device when xftree finishes.
+- xftree
+  * File extension is not case sensitive anymore
+  * Add new extensions supported by default (xtree.reg file)
+- xfterm
+  * New implementation of the xfterm shell script by 
+    Joakim Andreasson <karanne@flashback.net>
+- all
+  * Change system-wide configuration files location to be FHS compliant
+    (Filesystem Hierarchy Standard). Contributed by Josip Rodin 
+    <joy@cibalia.gkvk.hr>
+  * New script by Victor Meghesan <meghesan@usa.net> to convert CDE(tm)
+    style palettes to Xfce style.
+  * Romanian localization by Daniel Statescu <Daniel.Statescu@bigfoot.com>
+    Thanks Daniel !
+  * Dutch localization by Myckel Habets <myckel@superweb.nl>
+    Thanks Myckel !
+    
+02-APR-2000: XFce 3.3.3
+=======================
+- xftree
+  * Add a menubar and a toolbar
+- xfbd
+  * Fix colormap allocation problem with 256 colors.
+- libs
+  * Improve pixmaps and colors allocation with 256 colors.
+- documentation
+  * New help file by Roy Culley <tgdcuro1@gd2.swissptt.ch>
+  * New Galician help file by Ramón Flores d'as Seixas <fa2ramon@usc.es>
+- all
+  * Update Galician translation by Ramón Flores d'as Seixas <fa2ramon@usc.es>
+  * Problem with rpm missing po files fixed
+  
+15-MAR-2000: XFce 3.3.2
+=======================
+- all
+  * Change code to be (more ?) ANSI compliant (based on patch contributed by 
+    Thomas Jaeger <jaeger@mathematik.tu-darmstadt.de>)
+  * Add support for gdk-pixbuf if imlib is missing
+- xfce
+  * Add open/close popup menu animation
+  * Highly decrease startup time
+  * Improve memory consumption
+- xfwm
+  * Fixed a discrepancy in borders' color
+  * Improved title bar redraw
+
+01-MAR-2000: XFce 3.3.1
+=======================
+- xfwm
+  * Fix problem with window disapearing against shadow move and auto switch 
+    desk
+  * Fix a compilation error on system without ICE (X11R6 Session Management)
+  * Fix some compilation problems on AIX (thanx to Carlo Corridore 
+    <Carlo@alenianola.finmeccanica.it>)
+
+27-FEB-2000: XFce 3.3.0
+=======================
+- xfwm
+  * Added support for X session management (gnome-session, xsm, etc.)
+  * Added builtin session management if X session management not available
+  * On multihead screens, a session is saved for every screen, so every screen
+    will be restored separately by session management.
+  * Icon position is free (not limited to an iconbox anymore) and saved along 
+    with session.
+  * New redesigned title bar (rounded frame, additionnal buttons, ...)
+  * Improve rendering quality of buttons and frames
+  * Redesigned handling of frame drawing, to reduce redraws and flickering
+    (ie speed up opaque move/resizes and improve look)
+  * New event handling for move/resize windows
+  * Window buttons show when they are pressed
+  * Added check to prevent moving a window completely off screen
+  * Added icon grid option
+  * Added icon spacing option
+  * Various improvements for icon management (check overlapping icons, etc.)
+  * Fixed a focus problem with shade/unshade
+  * Fixed refresh problem with shaded windows when title height changed.
+  * Fixed a refresh problem during desktop change
+  * Fixed a problem with xmovie and opaque resize
+  * Improved restart function so desktop state is restored properly
+  * Add command line option "-noxfce" to avoid startup of XFce
+  * Simplification/cleanup
+  * ...And a *lot* of small enhancements/changes
+- xfpager
+  * Cleanup code (Areas within desktop not used in XFwm)
+- xfce
+  * Add support for session management, allowing a session shutdown from xfce
+    itself
+  * Remove automatic "arrange icon" when user changes default icon location
+    This allow to customize the desktop by placing the icons everywhere and
+    the position is restored by session management.
+- xfbd
+  * Bug fix (looping process remaining after GUI has terminated) 
+- xfgnome
+  * XFGnome was not removing GNOME specific flags (Window Property) when a 
+    window was unmapped. So, when the window was mapped again, it inherited the
+    previous settings, including default desktop which was not necessarily the 
+    current user's desktop, causing the window to be moved to a wrong desktop.
+  * Cleanup (Areas within desktop not used in XFwm)
+- xftree
+  * Add new functionality to drag and drop : Pressing [CTRL+SHIFT] link
+    destination items instead of copying.
+  * Fix an annoying bug causing the window to scroll (sometimes) when selecting
+    files.
+  * Fixed popup dialogs being displayed before being built (uggly visual effect)
+  * Some cleanup.
+- xfdefs.py
+  * Added a reload of user's .Xdefault and .Xresources files to restore 
+    standard user defined resources.
+- xfsound
+  * Changed default to esdplay (xfplay still available and usable)
+- Configuration 
+  * Changed option --disable-imlib to --enable-imlib=PFX to set prefix where 
+    Imlib is installed (use --enable-imlib=no to disable imlib support)
+- startxfce
+  * Add a test to allow usage of startxfce from within an already running X session
+    (could be usefull for xdm/kdm/gdm)
+- all
+  * Add hungarian translation by Gergely Nagy <algernon@madhouse.lonyay.edu.hu>
+  * Change default palette and font.
+  * Add a new textured theme "silver" -Nice one, my favorite now-
+  * And another one, Stripe (very clean theme)
+  * Fix Russian, Slovak and Chineese translations for SUN Solaris gettext.
+  
+20-JAN-2000: XFce 3.2.5
+=======================
+- Similar to 3.2.4, but 2 backdrop images have been removed bacause of
+  copyright notices not being clear enough (don't want to take any risk)
+  
+19-JAN-2000: XFce 3.2.4
+=======================
+- all
+  * New Estonian translation by Peeter Vois <Peeter.Vois@mail.ee>
+  * New updated spanish translation by creyl@dimetronic.es
+  * New themes "hitech" (textured)
+- xfmouse
+  * Change app design : A new connection to the X server is performed each
+    time setting must be applied.
+- xfclock
+  * Bug fix with "About..." box
+- xfmouse
+  * Bug fix for mouses with more or less than 3 buttons
+  
+04-JAN-2000: XFce 3.2.3
+=======================
+- xfwm
+  * add a little engraved frame around the title bar of unselected windows
+  * Remove support for OpenWindows specific hints
+  * Update Motif WM window hints structure
+  * Change window frame and parent properties
+  * support backing store (when available).
+  * Remove continuous window update during opaque move. Increases speed and
+    fixes a bug with XView applications
+- all
+  * New Slovak translation by Martin Pekar <cortex@nextra.sk>
+  * Improve tootips style
+- xfbd
+  * Improved pixmap handling and GNOME (terminal transparency) compatibility.
+- New FVWM configuration file by Rui Fernando A. Silva, <ruifs@teleweb.pt>
+- New configuration options by Albert Chin-A-Young <china@thewrittenword.com>
+  1. Add a --with-xpm option to specify an alternate location for the
+     Xpm library outside of the normal search paths.
+  2. Add --with-dt-suffix to append a string to the CDE install
+     files to support more than one version of XFce.
+     
+12-DEC-1999: XFce 3.2.2
+=======================
+- scripts
+  * Improve xfterm to accept any kind of command line options
+- xfce
+  * Add support for textures in XFce palettes. Looks closer to a "theme".
+  * Add a few new textured palettes (Cheese, Metal, OldWood, Paper, Craters,
+    Ground and Military)
+  * Add some textures (a few from GTK themes series, others made with GIMP)
+  * Fix popup menu overlapping close button if the panel is located on top 
+    of screen.
+- xfwm
+  * Improve opaque move procedure
+  * Change edge resistance to 3 times snap size value (but edge resistance is
+    still equal to snapsize when dragging a window from a desktop to another) 
+- all
+  * Many small bug fixes
+  * Fix bug with rpm -Uvh removing /usr/share/xfce
+    
+30-NOV-1999: XFce 3.2.1
+=======================
+- All
+  * Add Swedish translation, thanks to Joakim Andreasson 
+    <karanne@flashback.net>
+  * Add Danish translation, thanks to Birger Langkjer 
+    <birger.langkjer@image.dk>
+  * Add Symbiose color palette
+  * Change default color scheme to "Symbiose"
+- xfwm
+  * Display window geometry, window position and current desk during
+    move/resize operations (with outline mode only, not opaque move/resize)
+  * Add auto-switchdesk feature, by Guido Draheim <guidod@gmx.de>
+  * Add Shift+click or middle mouse button click on window border perform
+    move, handy when the window is moved off the screen.
+  * Add more configuration sample in sample.xfwmrc
+  * Fix bug in move window with KDE apps
+  * Improve opaque move/resize routines.
+- xfce
+  * improve mail icon (based on a patch submitted by 
+    <anubis@dotd.mudservices.com>)
+- scripts
+  * Minor patch to xfdefs.py for Netscape font/colors by Adam Sampson 
+    <azz@gnu.org>
+    
+14-NOV-1999: XFce 3.2.0
+=======================
+- All
+  * Graphic support managed by Imlib if available (most common types of image
+    format can now be used in xfce/xfwm/xfbd thanks to Imlib)
+  * New Finnish translation by Ismo Jokinen <ismo@joki.net>
+  * new CDE configuration files from Albert Chin-A-Young 
+    (<china@thewrittenword.com>)
+  * Updated Russian translation by Andrew Lebedenko (<andrew@rostov.net>)
+  * New Galician translation by Ramon Flores <J.R.Flores@ukc.ac.uk>
+    (Ramon has translated the help file too)
+-xfgnome
+  * A new optional GNOME compliancy module based on Gnome module for AfterStep
+    by Rafal Wierzbicki <rafal@mcss.mcmaster.ca>
+- xfce
+  * Added GNOME protocols. XFce panel now works with any GNOME compatible
+    window manager (Icewm, Enlightenment, etc.)
+  * Mail icons on the XFCE bar change to show if the user has any mail in 
+    their mailbox (patch contributed by Adam Sampson <azz@gnu.org>)
+  * XFce can now read XFCE_DIR/sample.xfce3rc.[current locale] on XFce startup
+    to improve MBS languages support (Yamahata Kenichiro <mogutan@din.or.jp>).
+  * Change popup menu type from GTK_WINDOW_TOPLEVEL to GTK_WINDOW_DIALOG
+- xfwm
+  * Fix potential bug (patch contributed by Beau Kuiper 
+    <ekuiperba@cc.curtin.edu.au>)
+  * Fix window state update when window is de-iconified (for GNOME module 
+    compatibility)
+- libs
+  * Add my_gtk_clock_suspend() and my_gtk_clock_resume() functions to the clock 
+    widget.
+- xfhelp
+  * Add support for locale : Tries to load help.<$LANG>.html if available
+  
+01-OCT-1999 : XFce-3.1.2
+========================
+- xfwm
+  * Fix bug in title height computation
+- all
+  * patch to display Multi-Byte charactors such as Japanese, Chinese or Korean
+    properly in menus and titlebars and icons by Yamahata Kenichiro 
+    <mogutan@din.or.jp>
+  * Japanese translation by Yamahata Kenichiro <mogutan@din.or.jp>
+- setup/startup scripts
+  * Fixes to be compatible with ksh
+  
+24-SEP-1999 : XFce-3.1.1
+========================
+- xfwm
+  * Improve event handling (better performance) for move/resize ops.
+  * Add configurable XPM icons for iconified windows
+  * Implement workarounds to buggy GTK+ 1.2.4  
+  * Fix key bindings
+  * Ignore dummy modifers such as Num Lock or Scroll Lock for keyboard shortcuts
+- xfce
+  * Add digital clock
+- xfclock
+  * Totally new rewritten application !
+- xfterm
+  * A very usefull terminal wrapper submitted by Joakim Andreasson 
+   <karanne@flashback.net>
+- xftree
+  * Bug fixes
+  * Improve DnD
+  * Reduce memory leak (patch submitted by Francois Petitjean 
+    <francois.petitjean@bureauveritas.com>)
+- libs
+  * New clock widget (initially based on patches from a Cosource project 
+    http://www.cosource.com)
+  
+04-SEP-1999 : XFce-3.1.0
+========================
+- xfwm
+  * Add window snapping (based on a patch submitted by Khadiyd Idris 
+    <khadx@francemel.com>)
+  * Add window shading (based on a patch submitted by Khadiyd Idris 
+    <khadx@francemel.com>)
+  * Improve program structure/Makefiles to compile on Solaris 2.5.1, 2.6, 2.7,
+    IRIX 6.2 and 6.5 (patch submitted by Albert Chin-A-Young 
+    <china@thewrittenword.com>)
+  * Add window contents visible during resize
+  * General improvements/changes/bugs fixes
+- xfsound
+  * Update XFSound to allow sound for shade/unshade (patch submitted by Khadiyd
+    Idris <khadx@francemel.com>)
+- xfce
+  * Add user-configurable delay before displaying tooltips
+  * Improve configuration options/dialog
+  * Add options in configuration dialog to start modules according to user
+    preferences.
+- xfpager
+  * Implement shade/unshade message handling.
+- all
+  * New script to handle drag'n drop on the printer icon (xfprint)
+  * New script to handle drag'n drop on the recycle icon (xftrash)
+  * Change module startup procedure. Modules are now spawned by XFce (not XFwm)
+
+
+02-AUG-1999 : XFce-3.0.3
+========================
+- xfwm :
+  * Reduce memory leak
+  * Add new signal handlers
+  * Change window frames, to enhance "gtk" look of xfwm menus and windows
+  * Change contrast for 3D appearance
+  * Cleanup code
+  * Improve "destroy window" function.
+  * Update KDE hints handler
+- xfce-libs :
+  * Remove (some) nested functions to be more ANSI compliant.
+- other :
+  * Add Maurizio Porrato's pyhton script that in base distribution
+    (It reads Xfce's color settings and modifies the X resources database
+     accordingly.)
+  * Change "configure" script so it doesn't stop if libXpm is not found
+    (hopefully the user knows what he does)
+  * Improve xfhelp shell script for netscape
+  
+19-JUL-1999 : XFce-3.0.2
+========================
+- xfwm
+  * Improve window update routine for using with GTK apps.
+  * Fix discrepancy in transcient window handling.
+  
+17-JUL-1999 : XFce-3.0.1
+========================
+  * Add signal handler to all XFce apps.
+  
+14-JUL-1999 ; XFce-3.0.0 Final
+==============================
+  * Bug fixes
+  * New color handling : Now generates gtkrc files autmatically
+  * A lot of changes
+  
+20-JUN-1999 : XFce-3.0.0 Pre-release 2
+======================================
+  * bug fixes
+  * Improvements
+  
+03-JUN-1999 : XFce-3.0.0 Pre-release 1
+======================================
+  * First public release of GTK+XFce 
+
+17-MAR-1999 :
+=============
+  * Beginning first developpment of XFce 3.0 using GTK+

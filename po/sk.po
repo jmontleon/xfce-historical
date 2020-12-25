@@ -1,0 +1,1638 @@
+# Slovak translations of Xfce.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Martin Pekar <cortex@nextra.sk>, 2000.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 3.4.x\n"
+"POT-Creation-Date: 2000-07-17 17:29-0400\n"
+"PO-Revision-Date: 2000-07-26 10:00+ZONE\n"
+"Last-Translator: Martin Pekar <cortex@nextra.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding:  8bit\n"
+
+#: libs/colorselect.c:68 xfclock/xfclock_closel.c:71
+#: xfclock/xfclock_colorsel.c:70
+msgid "Select Color"
+msgstr "Voµba farby"
+
+#: libs/fileselect.c:72
+msgid "Select File"
+msgstr "Voµba súboru"
+
+#: libs/fontselection.c:76
+msgid "Font Selection"
+msgstr "Voµba písma"
+
+#: libs/xfce-common.c:283
+msgid "OK"
+msgstr "OK"
+
+#: libs/xfce-common.c:303
+msgid "Message"
+msgstr "Správa"
+
+#: libs/xfce-common.c:401 xftree/gtk_dlg.c:191
+msgid "Yes"
+msgstr "Áno"
+
+#: libs/xfce-common.c:401 xftree/gtk_dlg.c:218
+msgid "No"
+msgstr "Nie"
+
+#: libs/xfce-common.c:434 xftree/gtk_dlg.c:162
+msgid "Question"
+msgstr "Otázka"
+
+#: libs/xfce-common.c:622 xfwm/xfwm.c:1042
+msgid "Terminated: "
+msgstr "Ukonèené:"
+
+#: libs/xpmext.c:291
+#, c-format
+msgid "*** WARNING ***: Cannot load image file %s\n"
+msgstr "*** VAROVANIE ***: Nemo¾no naèíta» súbor obrázku %s\n"
+
+#: libs/xpmext.c:312
+#, c-format
+msgid "*** WARNING ***: Cannot load pixmap file %s\n"
+msgstr "*** VAROVANIE ***: Nemo¾no naèíta» súbor pixmapy %s\n"
+
+#: xfce/action.c:60
+msgid "Define action ..."
+msgstr "Definovanie akcie ..."
+
+#: xfce/action.c:100 xfce/modify.c:147
+msgid "Command Line :"
+msgstr "Príkazový riadok :"
+
+#: xfce/action.c:110
+msgid "Icon Style :"
+msgstr "©týl ikony :"
+
+#: xfbd/xfbd.c:354 xfce/action.c:137 xfce/action.c:147 xfce/modify.c:201
+#: xfce/modify.c:210 xfsound/xfsound.c:391
+msgid "Browse ..."
+msgstr "Zvoli»..."
+
+#. ok and cancel buttons
+#: xfbd/xfbd.c:340 xfce/action.c:171 xfce/modify.c:241 xfce/screen.c:128
+#: xfce/setup.c:885 xfmouse/xfmouse.c:250 xfsound/xfsound.c:490
+#: xftree/gtk_dlg.c:189 xftree/gtk_exec.c:141 xftree/gtk_prop.c:173
+msgid "Ok"
+msgstr "Ok"
+
+#: xfbd/xfbd.c:384 xfce/action.c:179 xfce/modify.c:249 xfce/screen.c:136
+#: xfce/setup.c:901 xfmouse/xfmouse.c:272 xfsound/xfsound.c:512
+#: xftree/gtk_cpy.c:410 xftree/gtk_dlg.c:216 xftree/gtk_exec.c:142
+#: xftree/gtk_get.c:122 xftree/gtk_prop.c:174
+msgid "Cancel"
+msgstr "Zru¹i»"
+
+#: xfce/action_cb.c:70
+msgid "You must provide the command to execute !"
+msgstr "Je potrebné zada» príkaz ku spusteniu !"
+
+#: xfce/configfile.c:44
+#, c-format
+msgid ""
+"XFce : Syntax error in configuration file\n"
+"(%s)\n"
+msgstr ""
+"XFce : Chyba v syntaxe konfiguraèného súboru\n"
+"(%s)\n"
+
+
+#: xfce/configfile.c:45 xfclock/xfclock_config.c:41
+msgid ""
+"Syntax error in configuration file\n"
+"Aborting"
+msgstr ""
+"Chyba v syntaxe konfiguraèného súboru\n"
+"Konèím"
+
+#: xfce/configfile.c:52
+#, c-format
+msgid ""
+"XFce : Data mismatch error in config file\n"
+"(%s)\n"
+msgstr ""
+"XFce : Chybné dáta v konfiguraènom súbore\n"
+"(%s)\n"
+
+#: xfce/configfile.c:53 xfclock/xfclock_config.c:49
+msgid ""
+"Data mismatch error in configuration file\n"
+"Aborting"
+msgstr ""
+"Chybné dáta v konfiguraènom súbore\n"
+"Konèím"
+
+#: xfce/configfile.c:167 xfclock/xfclock_config.c:112
+msgid "Cannot create file"
+msgstr "Nemo¾no vytvori» súbor"
+
+#: xfce/configfile.c:288
+msgid "Cannot reset configuration file"
+msgstr "Nemo¾no resetova» konfiguraèný súbor"
+
+#: xfce/configfile.c:291
+msgid "Creating new config file...\n"
+msgstr "Prebieha vytváranie nového konfiguraèného súboru...\n"
+
+#: xfce/configfile.c:438 xfce/configfile.c:448 xfce/configfile.c:459
+#, c-format
+msgid "XFce : %s File not found.\n"
+msgstr "XFce : %s Súbor nebol nájdený.\n"
+
+#: xfce/configfile.c:458 xfce/configfile.c:467
+msgid "Cannot open configuration file"
+msgstr "Nemo¾no otvori» konfiguraèný súbor"
+
+#: xfce/configfile.c:472
+msgid "Does not looks like an XFce 3 configuration file !"
+msgstr "Toto nevyzerá ako XFce 3 konfiguraèný súbor !"
+
+#: xfce/configfile.c:473
+msgid ""
+"Do you want to reset the configuration file ?\n"
+" \t(The previous file will be saved with \".orig\" extension)"
+msgstr ""
+"Pokus o resetovanie konfiguraèného súboru ?\n"
+" \t(Pôvodný súbor bude ulo¾ený s príponou \".orig\" )"
+
+
+#: xfce/configfile.c:483
+msgid "Cannot open new config, Giving up..."
+msgstr "Nemo¾no otvori» nový konfiguraèný súbor..."
+
+#: xfce/configfile.c:484
+msgid "Cannot load configuration file"
+msgstr "Nemo¾no naèíta» konfiguraèný súbor"
+
+#: xfce/configfile.c:490
+msgid "Cannot use old version of XFce configuration files"
+msgstr "Nemo¾no pou¾i» starú verziu XFce konfiguraèných súborov"
+
+#: xfce/info.c:71
+msgid "Info ..."
+msgstr "Informácie ..."
+
+#: xfbd/xfbd.c:297 xfce/info.c:98 xfce/modify.c:118 xfce/popup.c:111
+#: xfce/popup.c:231 xfce/startup.c:83 xfce/xfce.c:160 xfce/xfce.c:208
+#: xfce/xfce.c:426 xfce/xfce.c:451 xfce/xfce.c:554 xfce/xfce.c:577
+#: xfce/xfce.c:612 xfce/xfce.c:679 xfce/xfce.c:697 xfmouse/xfmouse.c:157
+msgid "Couldn't create pixmap"
+msgstr "Nemo¾no vytvori» pixmap-u"
+
+#: xfce/info.c:112
+msgid "By Olivier Fourdan (c) 1997-2000"
+msgstr "Od Oliviera Fourdana (c) 1997-2000"
+
+#: xfce/info.c:179
+msgid "Agreement"
+msgstr "Potvrdenie"
+
+#: xfce/modify.c:66 xfce/modify.c:324
+msgid "Modify Item ..."
+msgstr "Zmeni» polo¾ku ..."
+
+#: xfce/modify.c:125
+msgid "Preview Icon"
+msgstr "Náhµad ikony"
+
+#: xfce/modify.c:157
+msgid "Icon File :"
+msgstr "Súbor ikony:"
+
+#: xfce/modify.c:167
+msgid "Label :"
+msgstr "Názov :"
+
+#: xfce/modify.c:257
+msgid "Remove"
+msgstr "Odstráni»"
+
+#: xfce/modify.c:308
+msgid "Add Item ..."
+msgstr "Prida» polo¾ku ..."
+
+#: xfce/modify.c:334 xfce/modify_cb.c:97 xfce/modify_cb.c:160 xfce/setup.c:259
+msgid "Default"
+msgstr "©tandardná"
+
+#: xfce/modify_cb.c:108
+msgid "Are you sure you want to remove this entry ?"
+msgstr "Naozaj odstráni» túto polo¾ku ?"
+
+#: xfce/modify_cb.c:142 xfce/modify_cb.c:171
+msgid ""
+"You must provide the command\n"
+"and the label, at least !"
+msgstr ""
+"Treba zada» aspoò príkaz\n"
+"a názov !"
+
+
+#: xfce/popup.c:211
+msgid "Add a new entry..."
+msgstr "Prida» novú polo¾ku ..."
+
+#: xfce/popup.c:238
+msgid "Add icon..."
+msgstr "Prida» ikonu ..."
+
+#: xfce/popup.c:260
+msgid "Click to tearoff popup menu"
+msgstr "Kliknutie spôsobí odpojenie ponuky"
+
+#: xfce/popup_cb.c:200
+msgid "Cannot find the file you dropped !"
+msgstr "Nemo¾no nájs» padnutý súbor !"
+
+#: xfce/screen.c:56
+msgid "Screen label ..."
+msgstr "Názov obrazovky ..."
+
+#: xfce/screen.c:96
+msgid "Define screen label :"
+msgstr "Vlo¾enie názvu obrazovky :"
+
+#: xfce/selects.c:56
+msgid "Files related"
+msgstr "Vz»ahujúce sa na súbory"
+
+#: xfce/selects.c:57
+msgid "Terminals/Connections"
+msgstr "Terminály/Pripojenia"
+
+#: xfce/selects.c:58
+msgid "Mail tools/browsers"
+msgstr "Po¹tové náradie/prehliadaèe"
+
+#: xfce/selects.c:59
+msgid "Print manager"
+msgstr "Mana¾ér tlaèe"
+
+#: xfce/selects.c:60
+msgid "Configuration"
+msgstr "Nastavenia"
+
+#: xfce/selects.c:61
+msgid "Misc. tools/Utilities"
+msgstr "Doplò. nástroje/Pomôcky"
+
+#: xfce/selects.c:62
+msgid "Manual/Help browser"
+msgstr "Manuál/Prehliadaè nápovedy"
+
+#: xfce/selects.c:63
+msgid "Writing/Text tools"
+msgstr "Písanie/Náradia pre text"
+
+#: xfce/selects.c:64
+msgid "Schedule/Appointments"
+msgstr "Plánovanie/Termíny"
+
+#: xfce/selects.c:65
+msgid "Multimedia"
+msgstr "Multimédiá"
+
+#: xfce/selects.c:66
+msgid "Games"
+msgstr "Hry"
+
+#: xfce/selects.c:67
+msgid "Network"
+msgstr "Sie»"
+
+#: xfce/selects.c:68
+msgid "Sound"
+msgstr "Zvuk"
+
+#: xfce/selects.c:69
+msgid "External..."
+msgstr "Externé..."
+
+#: xfce/setup.c:168
+msgid "Setup"
+msgstr "Nastavenia"
+
+#: xfce/setup.c:243
+msgid "Load ..."
+msgstr "Naèíta» ..."
+
+#: xfce/setup.c:251
+msgid "Save ..."
+msgstr "Ulo¾i» ..."
+
+#: xfce/setup.c:284
+msgid "Repaint root window of workspace"
+msgstr "Prekresµova» pozadie plochy"
+
+#: xfce/setup.c:291
+msgid "Use gradient color as wallpaper"
+msgstr "Pou¾i» gradientové farby ako pozadie"
+
+#: xfce/setup.c:298
+msgid "Use tear-off menus"
+msgstr "Pou¾i» vysúvacie ponuky"
+
+#: xfce/setup.c:305
+msgid "Clock"
+msgstr "Hodiny"
+
+#: xfce/setup.c:319
+msgid "Use digital clock on panel"
+msgstr "Pou¾i» digitálne hodiny v panely"
+
+#: xfce/setup.c:326
+msgid "Use military time (24 hours)"
+msgstr "Pou¾i» vojenský èas (24 hodín)"
+
+#: xfce/setup.c:333
+msgid "Tooltips"
+msgstr "Bublinky"
+
+#: xfce/setup.c:347
+msgid "Tooltips delay (ms.) : "
+msgstr "Oneskorenie bubliniek (ms.) :"
+
+#: xfce/setup.c:362
+msgid "Virtual Screens"
+msgstr "Virtuálne obrazovky"
+
+#: xfce/setup.c:376
+msgid "Number of virtual desktops : "
+msgstr "Poèet virtuálnych plôch :"
+
+#: xfce/setup.c:390
+msgid "Popups & Icons"
+msgstr "Ponuky a ikony"
+
+#: xfce/setup.c:404
+msgid "Number of popup menus : "
+msgstr "Poèet výsuvných ponúk :"
+
+#: xfce/setup.c:418
+msgid "Size of Icons on Panel"
+msgstr "Veµkos» ikôn na panely"
+
+#: xfce/setup.c:431 xfce/setup.c:465
+msgid "Large"
+msgstr "Veµké"
+
+#: xfce/setup.c:438 xfce/setup.c:472
+msgid "Medium"
+msgstr "Stredné"
+
+#: xfce/setup.c:445 xfce/setup.c:479
+msgid "Small"
+msgstr "Malé"
+
+#: xfce/setup.c:452
+msgid "Size of Icons on Popup Menus"
+msgstr "Veµkos» ikôn v ponuke"
+
+#: xfce/setup.c:486
+msgid "Font Style"
+msgstr "©týl písma"
+
+#: xfce/setup.c:507 xfce/setup.c:770 xfce/setup.c:778 xfce/setup.c:786
+msgid "Browse..."
+msgstr "Zvoli»..."
+
+#: xfce/setup.c:533
+msgid "Click to focus windows"
+msgstr "Kliknutie pre aktiváciu okna"
+
+#: xfce/setup.c:540
+msgid "Auto raise windows"
+msgstr "Automaticky aktivova» okná"
+
+#: xfce/setup.c:547
+msgid "Show contents of window during move"
+msgstr "Zobrazova» obsah okien poèas presunu"
+
+#: xfce/setup.c:554
+msgid "Show contents of window during resize"
+msgstr "Zobrazova» obsah okna poèas zmeny veµkosti"
+
+#: xfce/setup.c:561
+msgid "Use gradient color for active window"
+msgstr "Pou¾i» gradientovú farbu pre aktívne okno"
+
+#: xfce/setup.c:568
+msgid "Use gradient color for inactive window"
+msgstr "Pou¾i» gradientovú farbu pre neaktívne okno"
+
+#: xfce/setup.c:589
+msgid "Windows snapping size (0 disable) : "
+msgstr "Plocha uchytenia okna (0 vypnuté) :"
+
+#: xfce/setup.c:616
+msgid "Icon position"
+msgstr "Umiestnenie ikony"
+
+#: xfce/setup.c:628
+msgid "Top"
+msgstr "Hore"
+
+#: xfce/setup.c:636 xfmouse/xfmouse.c:163
+msgid "Left"
+msgstr "Vµavo"
+
+#: xfce/setup.c:644
+msgid "bottom"
+msgstr "Dolu"
+
+#: xfce/setup.c:652 xfmouse/xfmouse.c:174
+msgid "Right"
+msgstr "Vpravo"
+
+#: xfce/setup.c:740
+msgid "Title font :"
+msgstr "Písmo titulku :"
+
+#: xfce/setup.c:750
+msgid "Icon font :"
+msgstr "Písmo ikony :"
+
+#: xfce/setup.c:760
+msgid "Menu font :"
+msgstr "Písmo ponuky :"
+
+#: xfce/setup.c:813
+msgid "Sound Module (xfsound)"
+msgstr "Zvukový modul (xfsound)"
+
+#: xfce/setup.c:820
+msgid "Mouse settings (xfmouse)"
+msgstr "Nastavenie my¹i (xfmouse)"
+
+#: xfce/setup.c:827
+msgid "Backdrop settings (xfbd)"
+msgstr "Nastavenie pozadia (xfbd)"
+
+#: xfce/setup.c:834
+msgid "Pager (xfpager)"
+msgstr "Pager (xfpager)"
+
+#: xfce/setup.c:841
+msgid "GNOME (xfgnome)"
+msgstr "GNOME (xfgnome)"
+
+#: xfce/setup.c:848
+msgid "Palette"
+msgstr "Paleta"
+
+#: xfce/setup.c:854
+msgid "XFce"
+msgstr "XFce"
+
+#: xfce/setup.c:860
+msgid "Windows"
+msgstr "Okná"
+
+#: xfce/setup.c:866 xfce/startup.c:55 xfsound/xfsound.c:67
+msgid "Startup"
+msgstr "Úvod"
+
+#: xfbd/xfbd.c:364 xfce/setup.c:893 xfmouse/xfmouse.c:262
+#: xfsound/xfsound.c:503
+msgid "Apply"
+msgstr "Pou¾i»"
+
+#: xfce/startup.c:89
+msgid "Please Wait, XFce is loading..."
+msgstr "Prosím èaka», naèítava sa prostredie XFce ..."
+
+#: xfce/xfce.c:58
+msgid "One"
+msgstr "Prvá"
+
+#: xfce/xfce.c:58
+msgid "Two"
+msgstr "Druhá"
+
+#: xfce/xfce.c:58
+msgid "Three"
+msgstr "Tretia"
+
+#: xfce/xfce.c:58
+msgid "Four"
+msgstr "©tvrtá"
+
+#: xfce/xfce.c:58
+msgid "Five"
+msgstr "Piata"
+
+#: xfce/xfce.c:59
+msgid "Six"
+msgstr "©iesta"
+
+#: xfce/xfce.c:59
+msgid "Seven"
+msgstr "Siedma"
+
+#: xfce/xfce.c:59
+msgid "Eight"
+msgstr "Ôsma"
+
+#: xfce/xfce.c:59
+msgid "Nine"
+msgstr "Deviata"
+
+#: xfce/xfce.c:59
+msgid "Ten"
+msgstr "Desiata"
+
+#: xfce/xfce.c:60
+msgid "Eleven"
+msgstr "Jedenásta"
+
+#: xfce/xfce.c:60
+msgid "Twelve"
+msgstr "Dvanásta"
+
+#: xfce/xfce.c:60
+msgid "Thirteen"
+msgstr "Trinásta"
+
+#: xfce/xfce.c:60
+msgid "Fourteen"
+msgstr "©trnásta"
+
+#: xfce/xfce.c:60
+msgid "Fifteen"
+msgstr "Pätnásta"
+
+#: xfce/xfce.c:61
+msgid "Sixteen"
+msgstr "©estnásta"
+
+#: xfce/xfce.c:61
+msgid "Seventeen"
+msgstr "Sedemnásta"
+
+#: xfce/xfce.c:61
+msgid "Eighteen"
+msgstr "Osemnásta"
+
+#: xfce/xfce.c:61
+msgid "Nineteen"
+msgstr "Devätnásta"
+
+#: xfce/xfce.c:61
+msgid "Twenty"
+msgstr "Dvatsiata"
+
+#: xfce/xfce.c:87 xfclock/xfclock_menus.c:114
+msgid "Digital mode"
+msgstr "Digitálny mód"
+
+#: xfce/xfce.c:96 xfclock/xfclock_menus.c:124
+msgid "24 hours mode"
+msgstr "24 hodinový mód"
+
+#: xfce/xfce.c:572 xfclock/xfclock_menus.c:195
+msgid "About..."
+msgstr "O programe..."
+
+#: xfce/xfce.c:607
+msgid "Setup..."
+msgstr "Nastavenia..."
+
+#: xfce/xfce.c:629
+msgid "Whoooops !"
+msgstr "Whoooops !"
+
+#: xfce/xfce.c:632 xfclock/xfclock_menus.c:62 xfclock/xfclock_menus.c:89
+#: xftree/xtree_gui.c:2164 xftree/xtree_gui.c:2194 xftree/xtree_gui.c:2222
+#: xftree/xtree_gui.c:2247
+msgid "Quit"
+msgstr "Ukonèi»"
+
+#. kind of semphor
+#: xfce/xfce_cb.c:60
+msgid "Sunday"
+msgstr "Nedeµa"
+
+#: xfce/xfce_cb.c:61
+msgid "Monday"
+msgstr "Pondelok"
+
+#: xfce/xfce_cb.c:62
+msgid "Tuesday"
+msgstr "Utorok"
+
+#: xfce/xfce_cb.c:63
+msgid "Wednesday"
+msgstr "Streda"
+
+#: xfce/xfce_cb.c:64
+msgid "Thursday"
+msgstr "©tvrtok"
+
+#: xfce/xfce_cb.c:65
+msgid "Friday"
+msgstr "Piatok"
+
+#: xfce/xfce_cb.c:66
+msgid "Saturday"
+msgstr "Sobota"
+
+#: xfce/xfce_cb.c:68
+msgid "January"
+msgstr "Január"
+
+#: xfce/xfce_cb.c:69
+msgid "February"
+msgstr "Február"
+
+#: xfce/xfce_cb.c:70
+msgid "March"
+msgstr "Marec"
+
+#: xfce/xfce_cb.c:71
+msgid "April"
+msgstr "Apríl"
+
+#: xfce/xfce_cb.c:72
+msgid "May"
+msgstr "Máj"
+
+#: xfce/xfce_cb.c:73
+msgid "June"
+msgstr "Jún"
+
+#: xfce/xfce_cb.c:74
+msgid "July"
+msgstr "Júl"
+
+#: xfce/xfce_cb.c:75
+msgid "August"
+msgstr "August"
+
+#: xfce/xfce_cb.c:76
+msgid "September"
+msgstr "September"
+
+#: xfce/xfce_cb.c:77
+msgid "October"
+msgstr "Október"
+
+#: xfce/xfce_cb.c:78
+msgid "November"
+msgstr "November"
+
+#: xfce/xfce_cb.c:79
+msgid "December"
+msgstr "December"
+
+#: xfce/xfce_cb.c:92
+msgid ""
+"Are you sure you want to Quit ?\n"
+"This might log you off !"
+msgstr ""
+"Naozaj skonèi» ?\n"
+"Mô¾e to spôsobi» odhlásenie !"
+
+
+#: xfce/xfce_cb.c:164
+msgid ""
+"You've selected a desktop which is not currently\n"
+"visible in XFce panel."
+msgstr ""
+"Bola zvolená plocha, ktorá nie je momentálne\n"
+"viditeµná na panely XFce."
+
+
+#: xfce/xfwm.c:67
+msgid "XFCE: Communication pipe closed. Exiting...\n"
+msgstr "XFCE: Komunikaèná rúra bola ukonèená. Ukonèenie...\n"
+
+#: xftree/gtk_cpy.c:60
+#, c-format
+msgid "transfer_view() %d\n"
+msgstr "transfer_view() %d\n"
+
+#: xftree/gtk_cpy.c:109
+msgid "Source and Target are the same"
+msgstr "Zdroj a cieµ sú tie isté"
+
+#: xftree/gtk_cpy.c:113 xftree/gtk_cpy.c:199
+#, c-format
+msgid "%d bytes"
+msgstr "%d bajtov"
+
+#: xftree/gtk_cpy.c:122
+msgid "Can't transfer, same Inode !"
+msgstr "Nemo¾no to presunú», je to rovnaký uzol !"
+
+#: xftree/gtk_cpy.c:124
+msgid "Override file?"
+msgstr "Prepísa» súbor?"
+
+#: xftree/gtk_cpy.c:139 xftree/gtk_cpy.c:142 xftree/gtk_cpy.c:271
+#: xftree/gtk_cpy.c:274
+msgid "Can't stat() file"
+msgstr "Nemo¾no zisti» informácie o súbore"
+
+#: xftree/gtk_cpy.c:158
+msgid "readlink()"
+msgstr "readlink()"
+
+#: xftree/gtk_cpy.c:174
+msgid "Can't copy device file"
+msgstr "Nemo¾no kopírova» súbor zariadenia (device)"
+
+#: xftree/gtk_cpy.c:178
+msgid "Can't copy FIFO"
+msgstr "Nemo¾no kopírova» FIFO"
+
+#: xftree/gtk_cpy.c:181
+msgid "Can't copy SOCKET"
+msgstr "Nemo¾no kopírova» SOCKET"
+
+#: xftree/gtk_cpy.c:213
+msgid "Too less bytes transfered ! Device full ?"
+msgstr "Primálo bajtov bolo prenesených ! Nie je zariadenie plné ?"
+
+#: xftree/gtk_cpy.c:215
+msgid "Too much bytes transfered !?"
+msgstr "Priveµa bajtov bolo transferovaných !?"
+
+#: xftree/gtk_cpy.c:259
+msgid "Source and Target directories are the same"
+msgstr "Zdrojové a cieµové adresáre sú tie isté"
+
+#: xftree/gtk_cpy.c:293
+msgid "exists and is not a directory"
+msgstr "existuje a nie je adresár"
+
+#: xftree/gtk_cpy.c:359
+msgid "XFTree: Copy"
+msgstr "XFTree: Kopírovanie"
+
+#: xftree/gtk_cpy.c:361
+msgid "XFTree: Move"
+msgstr "XFTree: Presúvanie"
+
+#: xftree/gtk_cpy.c:363
+#, c-format
+msgid "Unknown transfer mode: %d\n"
+msgstr "Neznámy transferový mód: %d\n"
+
+#: xftree/gtk_cpy.c:368
+msgid "transfer()"
+msgstr "transfer()"
+
+#: xftree/gtk_cpy.c:368
+msgid "fatal error"
+msgstr "fatálna chyba"
+
+#: xftree/gtk_cpy.c:373
+msgid "Error getting info from"
+msgstr "Chyba získavania informácie z"
+
+#: xftree/gtk_cpy.c:377
+msgid "Fatal Error"
+msgstr "Fatálna chyba"
+
+#: xftree/gtk_cpy.c:377
+msgid "Can't transfer items to a file"
+msgstr "Nemo¾no prenies» polo¾ku do súboru"
+
+#: xftree/gtk_cpy.c:395
+msgid "Source: "
+msgstr "Zdroj:"
+
+#: xftree/gtk_cpy.c:401
+msgid "Target: "
+msgstr "Cieµ:"
+
+#: xftree/gtk_cpy.c:407
+msgid "0 bytes transfered"
+msgstr "0 bajtov transferovaných"
+
+#: xftree/gtk_cpy.c:433 xftree/gtk_dlg.c:170
+msgid "Error"
+msgstr "Chyba"
+
+#: xftree/gtk_cpy.c:433
+msgid "Can't transfer a directory to a file"
+msgstr "Nemo¾no prenies» adresár do súboru"
+
+#: xftree/gtk_dlg.c:166
+msgid "Information"
+msgstr "Informácie"
+
+#: xftree/gtk_dlg.c:174
+msgid "Warning"
+msgstr "Varovanie"
+
+#: xftree/gtk_dlg.c:176
+msgid "Dialog"
+msgstr "Dialóg"
+
+#: xftree/gtk_dlg.c:193
+msgid "Continue"
+msgstr "Pokraèovanie"
+
+#: xftree/gtk_dlg.c:206 xftree/gtk_prop.c:191
+msgid "Skip"
+msgstr "Preskoèi»"
+
+#: xftree/gtk_dlg.c:227 xftree/gtk_prop.c:192
+msgid "All"
+msgstr "V¹etky"
+
+#: xftree/gtk_dlg.c:236
+msgid "Close"
+msgstr "Zavrie»"
+
+#: xftree/gtk_exec.c:126 xftree/xtree_gui.c:2171
+msgid "Open with ..."
+msgstr "Otvori» s ..."
+
+#: xftree/gtk_exec.c:128 xftree/xtree_gui.c:2162 xftree/xtree_gui.c:2192
+#: xftree/xtree_gui.c:2220 xftree/xtree_gui.c:2245
+msgid "Run program ..."
+msgstr "Spusti» program ..."
+
+#: xftree/gtk_exec.c:172
+msgid "Open in terminal"
+msgstr "Otvori» v terminály"
+
+#. this should never happen
+#.
+#: xftree/gtk_exec.c:182
+#, c-format
+msgid "Fatal error in %s at %d\n"
+msgstr "Fatálna chyba v %s na %d\n"
+
+#: xftree/gtk_get.c:73
+msgid "Override file ?"
+msgstr "Prepísa» súbor ?"
+
+#: xftree/gtk_get.c:105
+msgid "Source : "
+msgstr "Zdroj :"
+
+#: xftree/gtk_get.c:112
+msgid "Target : "
+msgstr "Cieµ :"
+
+#: xftree/gtk_get.c:119
+msgid "0 bytes received"
+msgstr "0 bajtov prijatých"
+
+#: xftree/gtk_get.c:128
+msgid "XFTree: Download"
+msgstr "XFTree: S»ahovanie"
+
+#: xftree/gtk_get.c:152
+#, c-format
+msgid "%d bytes received (%d bps)"
+msgstr "%d bajtov prijatých (%d bps)"
+
+#: xftree/gtk_prop.c:164
+msgid "Properties"
+msgstr "Vlastnosti"
+
+#. date and size page
+#: xftree/gtk_prop.c:207
+msgid "Info"
+msgstr "Informácie"
+
+#: xftree/gtk_prop.c:212
+msgid "Name :"
+msgstr "Názov :"
+
+#: xftree/gtk_prop.c:229
+msgid "Type :"
+msgstr "Typ :"
+
+#: xftree/gtk_prop.c:237
+#, c-format
+msgid "%ld Bytes"
+msgstr "%ld bajtov"
+
+#: xftree/gtk_prop.c:239
+msgid "Size :"
+msgstr "Veµkos» :"
+
+#: xftree/gtk_prop.c:249
+msgid "Creation Time :"
+msgstr "Èas vytvorenia :"
+
+#: xftree/gtk_prop.c:259
+msgid "Modification Time :"
+msgstr "Èas modifikácie :"
+
+#: xftree/gtk_prop.c:269
+msgid "Access Time :"
+msgstr "Èas prístupu :"
+
+#: xftree/gtk_prop.c:276
+msgid "Permissions"
+msgstr "Práva :"
+
+#: xftree/gtk_prop.c:280 xftree/gtk_prop.c:387
+msgid "Owner :"
+msgstr "Vlastník :"
+
+#: xftree/gtk_prop.c:281 xftree/gtk_prop.c:309 xftree/gtk_prop.c:336
+msgid "Read"
+msgstr "Èíta»"
+
+#: xftree/gtk_prop.c:286 xftree/gtk_prop.c:314 xftree/gtk_prop.c:341
+msgid "Write"
+msgstr "Zapisova»"
+
+#: xftree/gtk_prop.c:291 xftree/gtk_prop.c:319 xftree/gtk_prop.c:346
+msgid "Execute"
+msgstr "Spusti»"
+
+#: xftree/gtk_prop.c:296
+msgid "Set UID"
+msgstr "Nastavi» UID"
+
+#: xftree/gtk_prop.c:308 xftree/gtk_prop.c:398
+msgid "Group :"
+msgstr "Skupina :"
+
+#: xftree/gtk_prop.c:324
+msgid "Set GID"
+msgstr "Nastavi» GID"
+
+#: xftree/gtk_prop.c:335
+msgid "Other :"
+msgstr "Ostatní :"
+
+#: xftree/gtk_prop.c:351
+msgid "Sticky"
+msgstr "Sticky"
+
+#: xftree/gtk_prop.c:376
+msgid "Owner"
+msgstr "Vlastník"
+
+#: xftree/gtk_prop.c:381 xftree/gtk_prop.c:392
+msgid "unknown"
+msgstr "neznáme"
+
+#: xftree/xtree.c:97
+#, c-format
+msgid "XFTree, based on XTree Version %s\n"
+msgstr "XFTree, podµa XTree verzie %s\n"
+
+#: xftree/xtree.c:98
+#, c-format
+msgid "directory: %s\n"
+msgstr "adresár: %s\n"
+
+#: xftree/xtree.c:103 xftree/xtree.c:111
+#, c-format
+msgid "creating directory: %s\n"
+msgstr "vytváram adresár: %s\n"
+
+#: xftree/xtree.c:125
+#, c-format
+msgid "geometry: %dx%d+%d+%d\n"
+msgstr "geometria: %dx%d+%d+%d\n"
+
+#: xftree/xtree_gui.c:177
+#, c-format
+msgid "malloc error in %s at line %d\n"
+msgstr "chyba malloc v %s na riadku %d\n"
+
+#: xftree/xtree_gui.c:322
+msgid "menu_detach()\n"
+msgstr "menu_detach()\n"
+
+#: xftree/xtree_gui.c:878
+msgid "Can't copy device, fifo and socket files as regular files!\n"
+msgstr "Nemo¾no kopírova» zariadenie (device), fifo a socket ako normálne súbory!\n"
+
+#: xftree/xtree_gui.c:959
+msgid "Moving file..\n"
+msgstr "Presúvanie súboru..\n"
+
+#: xftree/xtree_gui.c:989
+msgid "move_dir() recursive failed\n"
+msgstr "move_dir() rekurzívne zlyhalo\n"
+
+#: xftree/xtree_gui.c:994
+msgid "move_dir() move_file() failed\n"
+msgstr "move_dir() move_file() zlyhalo\n"
+
+#. nothing to delete
+#: xftree/xtree_gui.c:1097 xftree/xtree_gui.c:1817
+msgid "No files marked !"
+msgstr "Nie sú oznaèené ¾iadne súbory !"
+
+#: xftree/xtree_gui.c:1113 xftree/xtree_gui.c:1115
+msgid "Delete item ?"
+msgstr "Zmaza» polo¾ku ?"
+
+#: xftree/xtree_gui.c:1129
+msgid "move_file()"
+msgstr "move_file()"
+
+#: xftree/xtree_gui.c:1131
+msgid "Move to trash failed"
+msgstr "Presun do ko¹a zlyhal"
+
+#: xftree/xtree_gui.c:1141
+msgid "Failed"
+msgstr "Zlyhalo"
+
+#: xftree/xtree_gui.c:1147
+msgid "Can't move file to trash, hard delete ?"
+msgstr "Nemo¾no presunú» súbor do ko¹a, tvrdo ho zmaza» ?"
+
+#: xftree/xtree_gui.c:1177
+#, c-format
+msgid "Find pattern in '%s'"
+msgstr "Nájs» v '%s'"
+
+#: xftree/xtree_gui.c:1190
+msgid ""
+"This is XFTree, based on 'XTree' \n"
+"(c) by Rasca\n"
+"published under GNU GPL\n"
+"http://home.pages.de/~rasca/xap/"
+msgstr ""
+"Toto je XFTree, zalo¾ené na 'XTree' \n"
+"(c) od Rasca\n"
+"zverejnené pod GNU GPL\n"
+"http://home.pages.de/~rasca/xap/"
+
+
+#: xftree/xtree_gui.c:1217
+msgid "Can't find row data\n"
+msgstr "Nemo¾no nájs» dáta v riadku\n"
+
+#: xftree/xtree_gui.c:1305
+msgid "Go to"
+msgstr "Otvori»"
+
+#: xftree/xtree_gui.c:1637
+msgid "New_Folder"
+msgstr "Nový adresár"
+
+msgid "New_File.c"
+msgstr "Nový súbor.c"
+
+#: xftree/xtree_gui.c:1680
+msgid "File exists ! Override ?"
+msgstr "Súbor existuje ! Prepísa» ?"
+
+#: xftree/xtree_gui.c:1687
+msgid "Can't create : "
+msgstr "Nemo¾no vytvori» : "
+
+#: xftree/xtree_gui.c:1761
+msgid "No item marked !"
+msgstr "®iadna polo¾ka nie je oznaèená !"
+
+#: xftree/xtree_gui.c:1771
+msgid "Rename to : "
+msgstr "Premenova» na : "
+
+#: xftree/xtree_gui.c:1774
+msgid "Character not allowed in filename"
+msgstr "Znak v mene nie je povolený"
+
+#: xftree/xtree_gui.c:1784
+msgid "Override ?"
+msgstr "Prepísa» ?"
+
+#: xftree/xtree_gui.c:1977
+msgid "Can't find suffix in filename, using complete filename"
+msgstr "Nemo¾no nájs» príponu v mene, pou¾ije sa kompletné meno"
+
+#: xftree/xtree_gui.c:1983
+#, c-format
+msgid "Register program for file \"%s\""
+msgstr "Registrova» program k súboru \"%s\""
+
+#: xftree/xtree_gui.c:1985
+#, c-format
+msgid "Register program for suffix \"%s\""
+msgstr "Registrova» program ku prípone \"%s\""
+
+#: xftree/xtree_gui.c:2137
+msgid "Open in new"
+msgstr "Otvori» v novom"
+
+#: xftree/xtree_gui.c:2139 xftree/xtree_gui.c:2229
+msgid "New Folder ..."
+msgstr "Nový adresár ..."
+
+#: xftree/xtree_gui.c:2140 xftree/xtree_gui.c:2230
+msgid "New file ..."
+msgstr "Nový súbor ..."
+
+#: xftree/xtree_gui.c:2142 xftree/xtree_gui.c:2173
+msgid "Rename ..."
+msgstr "Premenova» ..."
+
+#: xftree/xtree_gui.c:2143 xftree/xtree_gui.c:2174 xftree/xtree_gui.c:2201
+msgid "Delete ..."
+msgstr "Zmaza» ..."
+
+#: xftree/xtree_gui.c:2145 xftree/xtree_gui.c:2177 xftree/xtree_gui.c:2203
+#: xftree/xtree_gui.c:2232
+msgid "Go to ..."
+msgstr "Otvori» ..."
+
+#: xftree/xtree_gui.c:2146
+msgid "Go to marked"
+msgstr "Otvori» oznaèené"
+
+#: xftree/xtree_gui.c:2147 xftree/xtree_gui.c:2178 xftree/xtree_gui.c:2204
+#: xftree/xtree_gui.c:2233
+msgid "Go up"
+msgstr "Prejs» o stupeò vy¹¹ie"
+
+#: xftree/xtree_gui.c:2148 xftree/xtree_gui.c:2179 xftree/xtree_gui.c:2205
+#: xftree/xtree_gui.c:2234
+msgid "Go home"
+msgstr "Otvori» domovský adresár"
+
+#: xftree/xtree_gui.c:2150 xftree/xtree_gui.c:2181 xftree/xtree_gui.c:2207
+msgid "Unselect"
+msgstr "Odznaèi»"
+
+#: xftree/xtree_gui.c:2151 xftree/xtree_gui.c:2182 xftree/xtree_gui.c:2208
+#: xftree/xtree_gui.c:2236
+msgid "Select all"
+msgstr "Oznaèi» v¹etky"
+
+#: xftree/xtree_gui.c:2152 xftree/xtree_gui.c:2183 xftree/xtree_gui.c:2209
+#: xftree/xtree_gui.c:2237
+msgid "Unselect all"
+msgstr "Odznaèi» v¹etky"
+
+#: xftree/xtree_gui.c:2153 xftree/xtree_gui.c:2210 xftree/xtree_gui.c:2240
+msgid "Find ..."
+msgstr "Nájs» ..."
+
+#: xftree/xtree_gui.c:2154 xftree/xtree_gui.c:2211 xftree/xtree_gui.c:2238
+msgid "Toggle Dotfiles"
+msgstr "Zobrazi» súbory zaèínajúce bodkou"
+
+#: xftree/xtree_gui.c:2156 xftree/xtree_gui.c:2185
+msgid "Properties ..."
+msgstr "Vlastnosti ..."
+
+#: xftree/xtree_gui.c:2158 xftree/xtree_gui.c:2188 xftree/xtree_gui.c:2213
+#: xftree/xtree_gui.c:2216 xftree/xtree_gui.c:2241
+msgid "Empty Trash"
+msgstr "Vyprázdni» kô¹"
+
+#: xftree/xtree_gui.c:2159 xftree/xtree_gui.c:2189 xftree/xtree_gui.c:2214
+#: xftree/xtree_gui.c:2217 xftree/xtree_gui.c:2242
+msgid "Open Trash"
+msgstr "Otvori» kô¹"
+
+#: xftree/xtree_gui.c:2160 xftree/xtree_gui.c:2190 xftree/xtree_gui.c:2218
+#: xftree/xtree_gui.c:2243
+msgid "About ..."
+msgstr "O programe ..."
+
+#: xftree/xtree_gui.c:2163 xftree/xtree_gui.c:2193 xftree/xtree_gui.c:2221
+#: xftree/xtree_gui.c:2246
+msgid "Close window"
+msgstr "Zavrie» okno"
+
+#: xftree/xtree_gui.c:2169 xftree/xtree_gui.c:2227
+msgid "New window"
+msgstr "Nové okno"
+
+#: xftree/xtree_gui.c:2175
+msgid "Duplicate"
+msgstr "Duplikova»"
+
+#: xftree/xtree_gui.c:2186
+msgid "Register ..."
+msgstr "Registrova» ..."
+
+#: xftree/xtree_gui.c:2199
+msgid "New windows"
+msgstr "Nové okná"
+
+#: xftree/xtree_gui.c:2255
+msgid "Name"
+msgstr "Názov"
+
+#: xftree/xtree_gui.c:2256
+msgid "Size (bytes)"
+msgstr "Veµkos» (v bajtoch)"
+
+#: xftree/xtree_gui.c:2257
+msgid "Last changed (Y-M-D hh:mm)"
+msgstr "Posledná zmena (R-M-D hh:mm)"
+
+#: xftree/xtree_dnd.c:96
+msgid "move"
+msgstr "presunú»"
+
+#: xftree/xtree_dnd.c:99
+msgid "copy"
+msgstr "kopírova»"
+
+#: xftree/xtree_dnd.c:102
+msgid "Unknown action !"
+msgstr "Neznáma akcia !"
+
+#: xftree/xtree_dnd.c:116
+msgid "Target must be a directory !"
+msgstr "Zdroj musí by» adresár !"
+
+#: xftree/xtree_dnd.c:122
+#, c-format
+msgid "Do you want to %s the item(s) to"
+msgstr "Naozaj %s polo¾ky do"
+
+#: xftree/xtree_dnd.c:145
+#, c-format
+msgid "Type not supported.. (%d)\n"
+msgstr "Typ nie je poskytovaný.. (%d)\n"
+
+#: xfclock/xfclock.c:114
+msgid "XFClock - XFce Clock & Calendar"
+msgstr "XFClock - XFce hodiny a kalendár"
+
+#: xfclock/xfclock_cb.c:199
+msgid ""
+"XFClock\n"
+"(c) 1997-2000 Olivier Fourdan"
+msgstr ""
+"XFClock\n"
+"(c) 1997-2000 Olivier Fourdan"
+
+
+#: xfclock/xfclock_config.c:40
+#, c-format
+msgid ""
+"XFclock : Syntax error in configuration file\n"
+"(%s)\n"
+msgstr ""
+"XFclock : Chyba syntaxe v konfiguraènom súbore\n"
+"(%s)\n"
+
+#: xfclock/xfclock_config.c:48
+#, c-format
+msgid ""
+"XFclock : Data mismatch error in config file\n"
+"(%s)\n"
+msgstr ""
+"XFclock : Chybné dáta v konfiguraènom súbore\n"
+"(%s)\n"
+
+#: xfclock/xfclock_menus.c:41
+msgid "Hide/show menubar"
+msgstr "Skry»/zobrazi» ponuku"
+
+#: xfclock/xfclock_menus.c:49 xfclock/xfclock_menus.c:103
+msgid "Hide/show calendar"
+msgstr "Skry»/zobrazi» kalendár"
+
+#. Create "File" menu
+#: xfclock/xfclock_menus.c:83
+msgid "File"
+msgstr "Súbor"
+
+#. Create "Settings" menu
+#: xfclock/xfclock_menus.c:96
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: xfclock/xfclock_menus.c:133
+msgid "Display AM/PM"
+msgstr "Zobrazi» AM/PM"
+
+#: xfclock/xfclock_menus.c:142
+msgid "Display seconds"
+msgstr "Zobrazi» sekundy"
+
+#: xfclock/xfclock_menus.c:155
+msgid "Background color..."
+msgstr "Farba pozadia..."
+
+#: xfclock/xfclock_menus.c:162
+msgid "Foreground color..."
+msgstr "Farba popredia..."
+
+#: xfclock/xfclock_menus.c:169
+msgid "Font..."
+msgstr "Písmo..."
+
+#: xfclock/xfclock_menus.c:180
+msgid "Hide menubar"
+msgstr "Skry» ponukovú li¹tu"
+
+#. Create "Help" menu
+#: xfclock/xfclock_menus.c:188
+msgid "Help"
+msgstr "Nápoveda"
+
+#: xfmouse/xfmouse.c:105
+msgid "XFMouse - XFce Mouse Configuration"
+msgstr "XFMouse - XFce konfigurácia my¹i"
+
+#: xfmouse/xfmouse.c:134
+msgid "Button Settings"
+msgstr "Nastavenie tlaèidiel"
+
+#: xfmouse/xfmouse.c:184
+msgid "Motion Settings"
+msgstr "Nastavenie pohybu"
+
+#: xfmouse/xfmouse.c:213
+msgid "Threshold : "
+msgstr "Oneskorenie :"
+
+#: xfmouse/xfmouse.c:223
+msgid "Acceleration : "
+msgstr "Zrýchlenie :"
+
+#: xfbd/xfbd.c:461 xfmouse/xfmouse.c:445
+#, c-format
+msgid "Usage : %s [OPTIONS]\n"
+msgstr "Pou¾itie : %s [VO¥BY]\n"
+
+#: xfbd/xfbd.c:462 xfmouse/xfmouse.c:446
+msgid "   Where OPTIONS are :\n"
+msgstr "   Kde VO¥BY sú :\n"
+
+#: xfmouse/xfmouse.c:447
+msgid "   -i : interactive\n"
+msgstr "   -i : interaktívne\n"
+
+#: xfmouse/xfmouse.c:448
+msgid ""
+"   -d : apply configuration and exit (default)\n"
+"\n"
+msgstr ""
+"   -d : nastavi» konfiguráciu a ukonèi» (¹tandardne)\n"
+"\n"
+
+#: xfbd/xfbd.c:465 xfmouse/xfmouse.c:449
+#, c-format
+msgid ""
+"%s is part of the XFce distribution, written by Olivier Fourdan\n"
+"\n"
+msgstr ""
+"%s je súèas»ou distribúcie XFce, napísanou Olivierom Fourdanom\n"
+"\n"
+
+#: xfsound/xfsound.c:54
+msgid "New Desk"
+msgstr "Nová plocha"
+
+#: xfsound/xfsound.c:55
+msgid "Add Window"
+msgstr "Prida» okno"
+
+#: xfsound/xfsound.c:56
+msgid "Raise Window"
+msgstr "Vyzdvihnutie okna"
+
+#: xfsound/xfsound.c:57
+msgid "Lower Window"
+msgstr "Zní¾enie okna"
+
+#: xfsound/xfsound.c:58
+msgid "Configure Window"
+msgstr "Konfigurované okno"
+
+#: xfsound/xfsound.c:59
+msgid "Focus Change"
+msgstr "Zmena aktivované/deaktivované"
+
+#: xfsound/xfsound.c:60
+msgid "Destroy Window"
+msgstr "Zavretie okna"
+
+#: xfsound/xfsound.c:61
+msgid "Iconify"
+msgstr "Ikonizované"
+
+#: xfsound/xfsound.c:62
+msgid "De-iconify"
+msgstr "De-ikonizované"
+
+#: xfsound/xfsound.c:63
+msgid "Shade"
+msgstr "Zbalené"
+
+#: xfsound/xfsound.c:64
+msgid "Un-Shade"
+msgstr "Rozbalené"
+
+#: xfsound/xfsound.c:65
+msgid "Maximize"
+msgstr "Maximalizované"
+
+#: xfsound/xfsound.c:66
+msgid "De-maximize"
+msgstr "Obnovené"
+
+#: xfsound/xfsound.c:68
+msgid "Shutdown"
+msgstr "Ukonèenie"
+
+#: xfsound/xfsound.c:69
+msgid "Unknown"
+msgstr "Neznáme"
+
+#: xfsound/xfsound.c:325
+msgid "XFSound - XFce Sound Manager"
+msgstr "XFSound - XFce správca zvuku"
+
+#: xfsound/xfsound.c:368
+msgid "Event : "
+msgstr "Udalos» :"
+
+#: xfsound/xfsound.c:376
+msgid "Sound file : "
+msgstr "Zvukový súbor :"
+
+#: xfsound/xfsound.c:384
+msgid "Test"
+msgstr "Testova»"
+
+#: xfsound/xfsound.c:428
+msgid "Play Sound"
+msgstr "Prehra» zvuk"
+
+#: xfsound/xfsound.c:436
+msgid "Command : "
+msgstr "Príkaz :"
+
+#: xfsound/xfsound.c:460
+msgid "Internal"
+msgstr "Interné"
+
+#: xfsound/xfsound.c:466
+msgid "External"
+msgstr "Externé"
+
+#: xfbd/xfbd.c:125
+msgid ""
+"Error\n"
+"Cannot open file"
+msgstr ""
+"Chyba\n"
+"Nemo¾no otvori» súbor"
+
+#: xfbd/xfbd.c:127
+msgid ""
+"Error\n"
+"Cannot allocate colors"
+msgstr ""
+"Chyba\n"
+"Nemo¾no alokova» farby"
+
+#: xfbd/xfbd.c:129
+msgid ""
+"Error\n"
+"File format invalid"
+msgstr ""
+"Chyba\n"
+"Formá» súboru je chybný"
+
+#: xfbd/xfbd.c:131
+msgid ""
+"Error\n"
+"Color definition invalid"
+msgstr ""
+"Chyba\n"
+"Definícia farby je chybná"
+
+#: xfbd/xfbd.c:133
+msgid ""
+"Error\n"
+"Not enough Memory"
+msgstr ""
+"Chyba\n"
+"Nedostatok pamäte"
+
+#: xfbd/xfbd.c:270
+msgid "XFbd - XFce Backdrop Manager"
+msgstr "XFbd - XFce správca pozadia"
+
+#: xfbd/xfbd.c:309
+msgid "Filename : "
+msgstr "Meno súboru : "
+
+#: xfbd/xfbd.c:374
+msgid "Clear"
+msgstr "Vyèisti»"
+
+#: xfbd/xfbd.c:463
+msgid "   -i : interactive, prompts for backdrop to display\n"
+msgstr "   -i : interaktívne, opýta sa na pozadie\n"
+
+#: xfbd/xfbd.c:464
+msgid ""
+"   -d : display, reads configuration and exit (default)\n"
+"\n"
+msgstr ""
+"   -d : zobrazí, naèíta konfiguráciu a skonèí (¹tandardne)\n"
+"\n"
+
+#: xfwm/xfwm.c:670
+msgid "&Restart"
+msgstr "&Re¹tartova»"
+
+#: xfwm/xfwm.c:671
+msgid "&Quit"
+msgstr "&Ukonèi»"
+
+#: xfwm/xfwm.c:673
+msgid "&Cancel"
+msgstr "&Zru¹i»"
+
+#: xfwm/xfwm.c:675
+msgid "Workspace"
+msgstr "Plochu"
+
+#: xfwm/xfwm.c:686
+msgid "&Move"
+msgstr "&Presunú»"
+
+#: xfwm/xfwm.c:687
+msgid "&Resize"
+msgstr "&Zmeni» veµkos»"
+
+#: xfwm/xfwm.c:688
+msgid "(De)&Iconify"
+msgstr "(De)&Ikonizova»"
+
+#: xfwm/xfwm.c:689
+msgid "(Un)&Stick"
+msgstr "(Od)&Lepi»"
+
+#: xfwm/xfwm.c:690
+msgid "(Un)S&hade"
+msgstr "(Od)R&olova»"
+
+#: xfwm/xfwm.c:691
+msgid "(Un)Ma&ximize"
+msgstr "(Od)Ma&ximalizova»"
+
+#: xfwm/xfwm.c:693
+msgid "Se&nd to..."
+msgstr "Po&sla» na..."
+
+#: xfwm/xfwm.c:694
+msgid "S&witch to..."
+msgstr "P&repnú» na..."
+
+#: xfwm/xfwm.c:696
+msgid "&Close"
+msgstr "&Zavrie»"
+
+#: xfwm/xfwm.c:698
+msgid "&New window"
+msgstr "&Nové okno"
+
+#: xfwm/xfwm.c:699
+msgid "Shuffle &Up"
+msgstr "Posunú» &Hore"
+
+#: xfwm/xfwm.c:700
+msgid "Shuffle &Down"
+msgstr "Posunú» &Dole"
+
+#: xfwm/xfwm.c:701
+msgid "&Refresh"
+msgstr "&Obnovi»"
+
+#: xfwm/xfwm.c:702
+msgid "&Arrange icons"
+msgstr "&Usporiada» ikony"
+
+#: xfwm/xfwm.c:704
+msgid "&Mouse..."
+msgstr "&My¹..."
+
+#: xfwm/xfwm.c:706
+msgid "&Backdrop..."
+msgstr "&Pozadie..."
+
+#: xfwm/xfwm.c:708
+msgid "&Sound..."
+msgstr "&Zvuk..."
+
+#: xfwm/xfwm.c:710
+msgid "&Quit XFwm"
+msgstr "&Ukonèi» XFwm"

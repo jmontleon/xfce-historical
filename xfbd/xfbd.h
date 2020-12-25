@@ -1,0 +1,42 @@
+/*  xfbd
+ *  Copyright (C) 1999 Olivier Fourdan (fourdan@xfce.org)
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+*/
+
+#ifndef __XFBD_H__
+#define __XFBD_H__
+
+#include <gtk/gtk.h>
+
+#define RCFILE          "xfbdrc"
+#define NOBACK          "None"
+#define BACKTYPE        "*.xpm"
+
+GtkWidget *xfbd;
+GtkWidget *preview_pixmap_frame;
+GtkWidget *preview_pixmap;
+GtkWidget *filename_entry;
+
+char *backdrp;
+
+int setroot (char *str);
+void readstr (char *str);
+int writestr (char *str);
+void display_back (char *str);
+
+GtkWidget *create_xfbd ();
+
+#endif

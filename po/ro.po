@@ -1,0 +1,1615 @@
+# XFCE - traducere in Limba Romana
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Daniel Statescu <Daniel.Statescu@bigfoot.com>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2000-04-12 17:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Daniel Statescu <Daniel.Statescu@bigfoot.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: libs/colorselect.c:76 xfclock/xfclock_closel.c:71
+#: xfclock/xfclock_colorsel.c:75
+msgid "Select Color"
+msgstr "Selectionati Culoarea"
+
+#: libs/fileselect.c:77
+msgid "Select File"
+msgstr "Selectionati Fisierul"
+
+#: libs/fontselection.c:79
+msgid "Font Selection"
+msgstr "Selectionati Tipul de Caracter"
+
+#: libs/xfce-common.c:288
+msgid "OK"
+msgstr "OK"
+
+#: libs/xfce-common.c:308
+msgid "Message"
+msgstr "Mesaj"
+
+#. FIXME : how make this short and ANSI ?
+#: libs/xfce-common.c:433 xftree/gtk_dlg.c:191
+msgid "Yes"
+msgstr "Da"
+
+#: libs/xfce-common.c:433 xftree/gtk_dlg.c:218
+msgid "No"
+msgstr "Nu"
+
+#: libs/xfce-common.c:442 xftree/gtk_dlg.c:162
+msgid "Question"
+msgstr "Intrebare"
+
+#: libs/xfce-common.c:630 xfwm/xfwm.c:1094
+msgid "Terminated: "
+msgstr "Terminat: "
+
+#: libs/xpmext.c:375 libs/xpmext.c:396
+#, c-format
+msgid "*** WARNING ***: Cannot load image file %s\n"
+msgstr "*** AVERTISMENT ***: Eroare la incarcarea fisierului imagine %s\n"
+
+#: libs/xpmext.c:421
+#, c-format
+msgid "*** WARNING ***: Cannot load pixmap file %s\n"
+msgstr "*** AVERTISMENT ***: Eroare la incarcarea fisierului pixmap %s\n"
+
+#: xfce/action.c:60
+msgid "Define action ..."
+msgstr "Definiti actiunea ..."
+
+#: xfce/action.c:99 xfce/modify.c:146
+msgid "Command Line :"
+msgstr "Linie de Comanda :"
+
+#: xfce/action.c:109
+msgid "Icon Style :"
+msgstr "Stil Pictograma :"
+
+#: xfbd/xfbd.c:364 xfce/action.c:136 xfce/action.c:146 xfce/modify.c:200
+#: xfce/modify.c:209 xfsound/xfsound.c:391
+msgid "Browse ..."
+msgstr "Alegere ..."
+
+#. ok and cancel buttons
+#: xfbd/xfbd.c:350 xfce/action.c:170 xfce/modify.c:240 xfce/screen.c:127
+#: xfce/setup.c:884 xfmouse/xfmouse.c:278 xfsound/xfsound.c:490
+#: xftree/gtk_dlg.c:189 xftree/gtk_exec.c:141 xftree/gtk_prop.c:173
+msgid "Ok"
+msgstr "Ok"
+
+#: xfbd/xfbd.c:394 xfce/action.c:178 xfce/modify.c:248 xfce/screen.c:135
+#: xfce/setup.c:900 xfmouse/xfmouse.c:300 xfsound/xfsound.c:512
+#: xftree/gtk_cpy.c:429 xftree/gtk_dlg.c:216 xftree/gtk_exec.c:142
+#: xftree/gtk_get.c:122 xftree/gtk_prop.c:174
+msgid "Cancel"
+msgstr "Anulare"
+
+#: xfce/action_cb.c:70
+msgid "You must provide the command to execute !"
+msgstr "Trebuie sa specificati o comanda pentru executie !"
+
+#: xfce/configfile.c:44
+#, c-format
+msgid ""
+"XFce : Syntax error in configuration file\n"
+"(%s)\n"
+msgstr "XFce : Eroare de sintaxa in fisierul de configurare\n(%s)\n"
+
+#: xfce/configfile.c:45 xfclock/xfclock_config.c:41
+msgid ""
+"Syntax error in configuration file\n"
+"Aborting"
+msgstr "Eroare de sintaxa in fisierul de configurare\nAborting"
+
+#: xfce/configfile.c:52
+#, c-format
+msgid ""
+"XFce : Data mismatch error in config file\n"
+"(%s)\n"
+msgstr "XFce : Nepotrivire de date in fisierul de configurare\n(%s)\n"
+
+#: xfce/configfile.c:53 xfclock/xfclock_config.c:49
+msgid ""
+"Data mismatch error in configuration file\n"
+"Aborting"
+msgstr "Nepotrivire de date in fisierul de configurare\nAborting"
+
+#: xfce/configfile.c:167 xfclock/xfclock_config.c:112
+msgid "Cannot create file"
+msgstr "Eroare la crearea fisierului"
+
+#: xfce/configfile.c:288
+msgid "Cannot reset configuration file"
+msgstr "Eroare la recrearea fisierului de configuratie"
+
+#: xfce/configfile.c:291
+msgid "Creating new config file...\n"
+msgstr "Crearea unui nou fisier de configurare in curs...\n"
+
+#: xfce/configfile.c:438 xfce/configfile.c:448 xfce/configfile.c:459
+#, c-format
+msgid "XFce : %s File not found.\n"
+msgstr "XFce : %s Fisier inexistent.\n"
+
+#: xfce/configfile.c:458 xfce/configfile.c:467
+msgid "Cannot open configuration file"
+msgstr "Eroare la deschiderea fisierului de configurare"
+
+#: xfce/configfile.c:472
+msgid "Does not looks like an XFce 3 configuration file !"
+msgstr "Nu pare sa fie un fisier de configurare XFce 3!"
+
+#: xfce/configfile.c:473
+msgid ""
+"Do you want to reset the configuration file ?\n"
+" \t(The previous file will be saved with \".orig\" extension)"
+msgstr "Vreti sa resetati fisierul de configurare ?\n\t(Fisierul actual va fi salvat cu extensia \".orig\")"
+
+#: xfce/configfile.c:483
+msgid "Cannot open new config, Giving up..."
+msgstr "Eroare la deschiderea noului fisier de configurare, Renunt..."
+
+#: xfce/configfile.c:484
+msgid "Cannot load configuration file"
+msgstr "Eroare la incarcarea fisierului de configurare"
+
+#: xfce/configfile.c:490
+msgid "Cannot use old version of XFce configuration files"
+msgstr "Nu pot fii folosite versiuni ale fisierelor de configurare XFce mai vechi"
+
+#: xfce/info.c:71
+msgid "Info ..."
+msgstr "Info ..."
+
+#: xfbd/xfbd.c:307 xfce/info.c:98 xfce/modify.c:117 xfce/popup.c:111
+#: xfce/popup.c:221 xfce/startup.c:83 xfce/xfce.c:162 xfce/xfce.c:210
+#: xfce/xfce.c:428 xfce/xfce.c:453 xfce/xfce.c:556 xfce/xfce.c:579
+#: xfce/xfce.c:614 xfce/xfce.c:681 xfce/xfce.c:699 xfmouse/xfmouse.c:185
+#: xftree/xtree_gui.c:2179 xftree/xtree_gui.c:2199 xftree/xtree_gui.c:2223
+#: xftree/xtree_gui.c:2243 xftree/xtree_gui.c:2263 xftree/xtree_gui.c:2283
+#: xftree/xtree_gui.c:2307 xftree/xtree_gui.c:2327 xftree/xtree_gui.c:2351
+#: xftree/xtree_gui.c:2371 xftree/xtree_gui.c:2391 xftree/xtree_gui.c:2415
+msgid "Couldn't create pixmap"
+msgstr "Eroare la crearea pixmap"
+
+#: xfce/info.c:112
+msgid "By Olivier Fourdan (c) 1997-2000"
+msgstr "Conceput de Olivier Fourdan (c) 1997-2000"
+
+#: xfce/info.c:179
+msgid "Agreement"
+msgstr "Intelegere"
+
+#: xfce/modify.c:66 xfce/modify.c:323
+msgid "Modify Item ..."
+msgstr "Modificare Obiect ..."
+
+#: xfce/modify.c:124
+msgid "Preview Icon"
+msgstr "Icon Preliminar"
+
+#: xfce/modify.c:156
+msgid "Icon File :"
+msgstr "Fisier "
+
+#: xfce/modify.c:166
+msgid "Label :"
+msgstr "Eticheta :"
+
+#: xfce/modify.c:256
+msgid "Remove"
+msgstr "Sterge"
+
+#: xfce/modify.c:307
+msgid "Add Item ..."
+msgstr "Adauga Obiect ..."
+
+#: xfce/modify_cb.c:108
+msgid "Are you sure you want to remove this entry ?"
+msgstr "Sinteti sigur ca vreti sa stergeti aceasta inregistrare ?"
+
+#: xfce/modify_cb.c:142 xfce/modify_cb.c:171
+msgid ""
+"You must provide the command\n"
+"and the label, at least !"
+msgstr "Trebuie sa tastati o comanda\nsi eticheta, in final!"
+
+#: xfce/popup.c:201
+msgid "Add a new entry..."
+msgstr "Adauga o inregistrare noua..."
+
+#: xfce/popup.c:228
+msgid "Add icon..."
+msgstr "Adauga o pictograma..."
+
+#: xfce/popup.c:257
+msgid "Click to tearoff popup menu"
+msgstr "Click pentru a detasa meniul popup"
+
+#: xfce/popup_cb.c:197
+msgid "Cannot find the file you dropped !"
+msgstr "Nu pot gasi fisierul pe care l-ati lasat !"
+
+#: xfce/screen.c:56
+msgid "Screen label ..."
+msgstr "Eticheta ecran ..."
+
+#: xfce/screen.c:95
+msgid "Define screen label :"
+msgstr "Defineste eticheta ecran :"
+
+#: xfce/selects.c:56
+msgid "Files related"
+msgstr "Fisiere inrudite"
+
+#: xfce/selects.c:57
+msgid "Terminals/Connections"
+msgstr "Terminale/Conexiuni"
+
+#: xfce/selects.c:58
+msgid "Mail tools/browsers"
+msgstr "Utilitare posta/browsere"
+
+#: xfce/selects.c:59
+msgid "Print manager"
+msgstr "Manager tiparire"
+
+#: xfce/selects.c:60
+msgid "Configuration"
+msgstr "Configurare"
+
+#: xfce/selects.c:61
+msgid "Misc. tools/Utilities"
+msgstr "Utilitare diverse"
+
+#: xfce/selects.c:62
+msgid "Manual/Help browser"
+msgstr "Manuel/Browser ajutor"
+
+#: xfce/selects.c:63
+msgid "Writing/Text tools"
+msgstr "Utilitare procesare text"
+
+#: xfce/selects.c:64
+msgid "Schedule/Appointments"
+msgstr "Calendar/Intilniri"
+
+#: xfce/selects.c:65
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: xfce/selects.c:66
+msgid "Games"
+msgstr "Jocuri"
+
+#: xfce/selects.c:67
+msgid "Network"
+msgstr "retea"
+
+#: xfce/selects.c:68
+msgid "Sound"
+msgstr "Sunet"
+
+#: xfce/selects.c:69
+msgid "External..."
+msgstr "Extern..."
+
+#: xfce/setup.c:168
+msgid "Setup"
+msgstr "Setup"
+
+#: xfce/setup.c:242
+msgid "Load ..."
+msgstr "Incarcare ..."
+
+#: xfce/setup.c:250
+msgid "Save ..."
+msgstr "Salvare ..."
+
+#: xfce/setup.c:258
+msgid "Default"
+msgstr "Original"
+
+#: xfce/setup.c:283
+msgid "Repaint root window of workspace"
+msgstr "Redesenare fereastra parinte"
+
+#: xfce/setup.c:290
+msgid "Use gradient color as wallpaper"
+msgstr "Foloseste ca background culoarea in degradeu"
+
+#: xfce/setup.c:297
+msgid "Use tear-off menus"
+msgstr "Foloseste meniuri detasabile"
+
+#: xfce/setup.c:304
+msgid "Clock"
+msgstr "Ceas"
+
+#: xfce/setup.c:318
+msgid "Use digital clock on panel"
+msgstr "Foloseste ceasul digital pe panou"
+
+#: xfce/setup.c:325
+msgid "Use military time (24 hours)"
+msgstr "Foloseste ceasul militar (24 ore)"
+
+#: xfce/setup.c:332
+msgid "Tooltips"
+msgstr "Trucuri"
+
+#: xfce/setup.c:346
+msgid "Tooltips delay (ms.) : "
+msgstr "Interval trucuri (ms.) : "
+
+#: xfce/setup.c:361
+msgid "Virtual Screens"
+msgstr "Ecrane Virtuale"
+
+#: xfce/setup.c:375
+msgid "Number of virtual desktops : "
+msgstr "Numar de desktop-uri virtuale"
+
+#: xfce/setup.c:389
+msgid "Popups & Icons"
+msgstr "Meniuri popup & Pictograme"
+
+#: xfce/setup.c:403
+msgid "Number of popup menus : "
+msgstr "Numar de meniuri popup : "
+
+#: xfce/setup.c:417
+msgid "Size of Icons on Panel"
+msgstr "Marime Pictograme pe Panou"
+
+#: xfce/setup.c:430 xfce/setup.c:464
+msgid "Large"
+msgstr "Mare"
+
+#: xfce/setup.c:437 xfce/setup.c:471
+msgid "Medium"
+msgstr "Mediu"
+
+#: xfce/setup.c:444 xfce/setup.c:478
+msgid "Small"
+msgstr "Mic"
+
+#: xfce/setup.c:451
+msgid "Size of Icons on Popup Menus"
+msgstr "Marime Pictograme si Meniuri Popup"
+
+#: xfce/setup.c:485
+msgid "Font Style"
+msgstr "Marime Fonturi"
+
+#: xfce/setup.c:506 xfce/setup.c:769 xfce/setup.c:777 xfce/setup.c:785
+msgid "Browse..."
+msgstr "Alegere..."
+
+#: xfce/setup.c:532
+msgid "Click to focus windows"
+msgstr "Click pentru a activa fereastra"
+
+#: xfce/setup.c:539
+msgid "Auto raise windows"
+msgstr "Aducere in prim-plan automata"
+
+#: xfce/setup.c:546
+msgid "Show contents of window during move"
+msgstr "Arata continutul ferestrei pe durata deplasarii"
+
+#: xfce/setup.c:553
+msgid "Show contents of window during resize"
+msgstr "Arata continutul ferestrei pe durata redimensionarii"
+
+#: xfce/setup.c:560
+msgid "Use gradient color for active window"
+msgstr "Foloseste culoarea gradient pentru fereastra activa"
+
+#: xfce/setup.c:567
+msgid "Use gradient color for inactive window"
+msgstr "Foloseste culoarea gradient pentru fereastra inactiva"
+
+#: xfce/setup.c:588
+msgid "Windows snapping size (0 disable) : "
+msgstr "Zona de magnetisare a ferestrei (0 dezactivare) : "
+
+#: xfce/setup.c:615
+msgid "Icon position"
+msgstr "Pozitie Pictograma"
+
+#: xfce/setup.c:627
+msgid "Top"
+msgstr "Sus"
+
+#: xfce/setup.c:635 xfmouse/xfmouse.c:191
+msgid "Left"
+msgstr "Stƒnga"
+
+#: xfce/setup.c:643
+msgid "bottom"
+msgstr "Jos"
+
+#: xfce/setup.c:651 xfmouse/xfmouse.c:202
+msgid "Right"
+msgstr "Dreapta"
+
+#: xfce/setup.c:739
+msgid "Title font :"
+msgstr "Caractere titlu :"
+
+#: xfce/setup.c:749
+msgid "Icon font :"
+msgstr "caractere pictograma"
+
+#: xfce/setup.c:759
+msgid "Menu font :"
+msgstr "Caractere meniu"
+
+#: xfce/setup.c:812
+msgid "Sound Module (xfsound)"
+msgstr "Modul de sunet (xfsound)"
+
+#: xfce/setup.c:819
+msgid "Mouse settings (xfmouse)"
+msgstr "Set†ri mouse (xfmouse)"
+
+#: xfce/setup.c:826
+msgid "Backdrop settings (xfbd)"
+msgstr "Set†ri imagine background (xfbd)"
+
+#: xfce/setup.c:833
+msgid "Pager (xfpager)"
+msgstr "Pager (xfpager)"
+
+#: xfce/setup.c:840
+msgid "GNOME (xfgnome)"
+msgstr "GNOME (xfgnome)"
+
+#: xfce/setup.c:847
+msgid "Palette"
+msgstr "Palet†"
+
+#: xfce/setup.c:853
+msgid "XFce"
+msgstr "XFce"
+
+#: xfce/setup.c:859
+msgid "Windows"
+msgstr "Ferestre"
+
+#: xfce/setup.c:865 xfce/startup.c:55 xfsound/xfsound.c:67
+msgid "Startup"
+msgstr "Pornire"
+
+#: xfbd/xfbd.c:374 xfce/setup.c:892 xfmouse/xfmouse.c:290
+#: xfsound/xfsound.c:503
+msgid "Apply"
+msgstr "Activeaz†"
+
+#: xfce/startup.c:89
+msgid "Please Wait, XFce is loading..."
+msgstr "va rog asteptati, XFce este in curs de inc†rcare..."
+
+#: xfce/xfce.c:58
+msgid "One"
+msgstr "Unu"
+
+#: xfce/xfce.c:58
+msgid "Two"
+msgstr "Doi"
+
+#: xfce/xfce.c:58
+msgid "Three"
+msgstr "Trei"
+
+#: xfce/xfce.c:58
+msgid "Four"
+msgstr "Patru"
+
+#: xfce/xfce.c:58
+msgid "Five"
+msgstr "Cinci"
+
+#: xfce/xfce.c:59
+msgid "Six"
+msgstr "Sase"
+
+#: xfce/xfce.c:59
+msgid "Seven"
+msgstr "Sapte"
+
+#: xfce/xfce.c:59
+msgid "Eight"
+msgstr "Opt"
+
+#: xfce/xfce.c:59
+msgid "Nine"
+msgstr "Nou†"
+
+#: xfce/xfce.c:59
+msgid "Ten"
+msgstr "Zece"
+
+#: xfce/xfce.c:60
+msgid "Eleven"
+msgstr "Unsprezece"
+
+#: xfce/xfce.c:60
+msgid "Twelve"
+msgstr "Doisprezece"
+
+#: xfce/xfce.c:60
+msgid "Thirteen"
+msgstr "Treisprezece"
+
+#: xfce/xfce.c:60
+msgid "Fourteen"
+msgstr "Paisprezece"
+
+#: xfce/xfce.c:60
+msgid "Fifteen"
+msgstr "Cincisprezece"
+
+#: xfce/xfce.c:61
+msgid "Sixteen"
+msgstr "Saisprezece"
+
+#: xfce/xfce.c:61
+msgid "Seventeen"
+msgstr "Saptesprezece"
+
+#: xfce/xfce.c:61
+msgid "Eighteen"
+msgstr "Optsprezece"
+
+#: xfce/xfce.c:61
+msgid "Nineteen"
+msgstr "Nouasprezece"
+
+#: xfce/xfce.c:61
+msgid "Twenty"
+msgstr "Douazeci"
+
+#: xfce/xfce.c:87 xfclock/xfclock_menus.c:114
+msgid "Digital mode"
+msgstr "Modul digital"
+
+#: xfce/xfce.c:97 xfclock/xfclock_menus.c:124
+msgid "24 hours mode"
+msgstr "Modul 25 ore"
+
+#: xfce/xfce.c:574 xfclock/xfclock_menus.c:195
+msgid "About..."
+msgstr "Despre..."
+
+#: xfce/xfce.c:609
+msgid "Setup..."
+msgstr "Setup..."
+
+#: xfce/xfce.c:631
+msgid "Whoooops !"
+msgstr "V†leeeuuuu !"
+
+#: xfce/xfce.c:634 xfclock/xfclock_menus.c:62 xfclock/xfclock_menus.c:89
+#: xftree/xtree_gui.c:2526 xftree/xtree_gui.c:2648 xftree/xtree_gui.c:2678
+#: xftree/xtree_gui.c:2706 xftree/xtree_gui.c:2731
+msgid "Quit"
+msgstr "Iesire"
+
+#. kind of semphor
+#: xfce/xfce_cb.c:61
+msgid "Sunday"
+msgstr "Duminica"
+
+#: xfce/xfce_cb.c:62
+msgid "Monday"
+msgstr "Luni"
+
+#: xfce/xfce_cb.c:63
+msgid "Tuesday"
+msgstr "Marti"
+
+#: xfce/xfce_cb.c:64
+msgid "Wednesday"
+msgstr "Miercuri"
+
+#: xfce/xfce_cb.c:65
+msgid "Thursday"
+msgstr "Joi"
+
+#: xfce/xfce_cb.c:66
+msgid "Friday"
+msgstr "Vineri"
+
+#: xfce/xfce_cb.c:67
+msgid "Saturday"
+msgstr "Sƒmb†t†"
+
+#: xfce/xfce_cb.c:69
+msgid "January"
+msgstr "Ianuarie"
+
+#: xfce/xfce_cb.c:70
+msgid "February"
+msgstr "Februarie"
+
+#: xfce/xfce_cb.c:71
+msgid "March"
+msgstr "Martie"
+
+#: xfce/xfce_cb.c:72
+msgid "April"
+msgstr "Aprilie"
+
+#: xfce/xfce_cb.c:73
+msgid "May"
+msgstr "Mai"
+
+#: xfce/xfce_cb.c:74
+msgid "June"
+msgstr "Iunie"
+
+#: xfce/xfce_cb.c:75
+msgid "July"
+msgstr "Iulie"
+
+#: xfce/xfce_cb.c:76
+msgid "August"
+msgstr "August"
+
+#: xfce/xfce_cb.c:77
+msgid "September"
+msgstr "Septembrie"
+
+#: xfce/xfce_cb.c:78
+msgid "October"
+msgstr "Octombrie"
+
+#: xfce/xfce_cb.c:79
+msgid "November"
+msgstr "Noiembrie"
+
+#: xfce/xfce_cb.c:80
+msgid "December"
+msgstr "Decembrie"
+
+#: xfce/xfce_cb.c:95
+msgid ""
+"Are you sure you want to Quit ?\n"
+"This might log you off !"
+msgstr "Sunteti sigur c† vreti s† iesiti ?\nAsta ar putea sa va de-logheze!"
+
+#: xfce/xfce_cb.c:167
+msgid ""
+"You've selected a desktop which is not currently\n"
+"visible in XFce panel."
+msgstr "Ati selectat un desktop care nu este este actualmente\nvizibil in panoul XFce"
+
+#: xfce/xfwm.c:67
+msgid "XFCE: Communication pipe closed. Exiting...\n"
+msgstr "XFCE: Pipe de comunicatie inchis. Terminare...\n"
+
+#: xftree/gtk_cpy.c:60
+#, c-format
+msgid "transfer_view() %d\n"
+msgstr "transfer_vizualizare() %d\n"
+
+#: xftree/gtk_cpy.c:109
+msgid "Source and Target are the same"
+msgstr "Sursa si Destinatia sunt identice"
+
+#: xftree/gtk_cpy.c:113 xftree/gtk_cpy.c:208
+#, c-format
+msgid "%d bytes"
+msgstr "%d bytes"
+
+#: xftree/gtk_cpy.c:122
+msgid "Can't transfer, same Inode !"
+msgstr "Nu pot sa transfer, acelasi Inode !"
+
+#: xftree/gtk_cpy.c:124
+msgid "Override file?"
+msgstr "Suprascriu fisierul?"
+
+#: xftree/gtk_cpy.c:140 xftree/gtk_cpy.c:143 xftree/gtk_cpy.c:280
+#: xftree/gtk_cpy.c:283
+msgid "Can't stat() file"
+msgstr "Nu pot sa stat() fisierul"
+
+#: xftree/gtk_cpy.c:167
+msgid "readlink()"
+msgstr "readlink()"
+
+#: xftree/gtk_cpy.c:183
+msgid "Can't copy device file"
+msgstr "Nu pot copia fisierul device"
+
+#: xftree/gtk_cpy.c:187
+msgid "Can't copy FIFO"
+msgstr "Nu pot copia FIFO"
+
+#: xftree/gtk_cpy.c:190
+msgid "Can't copy SOCKET"
+msgstr "Nu pot copia SOCKET"
+
+#: xftree/gtk_cpy.c:222
+msgid "Too less bytes transfered ! Device full ?"
+msgstr "Prea putini bytes transferati ! Este plin discul ?"
+
+#: xftree/gtk_cpy.c:224
+msgid "Too much bytes transfered !?"
+msgstr "Prea multi bytes transferati !?"
+
+#: xftree/gtk_cpy.c:268
+msgid "Source and Target directories are the same"
+msgstr "Directoarele Sursa si Destinatie sint identice"
+
+#: xftree/gtk_cpy.c:310
+msgid "exists and is not a directory"
+msgstr "exist† si nu este un director"
+
+#: xftree/gtk_cpy.c:376
+msgid "XFTree: Copy"
+msgstr "XFTree: Copiaza"
+
+#: xftree/gtk_cpy.c:378
+msgid "XFTree: Move"
+msgstr "XFTree: Mut†"
+
+#: xftree/gtk_cpy.c:380
+msgid "XFTree: Link"
+msgstr "XFTree: Link"
+
+#: xftree/gtk_cpy.c:382
+#, c-format
+msgid "Unknown transfer mode: %d\n"
+msgstr "Mod de transfer necunoscut: %d\n"
+
+#: xftree/gtk_cpy.c:387
+msgid "transfer()"
+msgstr "transfer()"
+
+#: xftree/gtk_cpy.c:387
+msgid "fatal error"
+msgstr "eroare fatal†"
+
+#: xftree/gtk_cpy.c:392
+msgid "Error getting info from"
+msgstr "Eroare la preluarea informatiei de la"
+
+#: xftree/gtk_cpy.c:396
+msgid "Fatal Error"
+msgstr "Eroare Fatal†"
+
+#: xftree/gtk_cpy.c:396
+msgid "Can't transfer items to a file"
+msgstr "Nu pot transfera obiectele intr-un fisier"
+
+#: xftree/gtk_cpy.c:414
+msgid "Source: "
+msgstr "Sursa: "
+
+#: xftree/gtk_cpy.c:420
+msgid "Target: "
+msgstr "Destinatia: "
+
+#: xftree/gtk_cpy.c:426
+msgid "0 bytes transfered"
+msgstr "0 bytes transferati"
+
+#: xftree/gtk_cpy.c:452 xftree/gtk_dlg.c:170
+msgid "Error"
+msgstr "Eroare"
+
+#: xftree/gtk_cpy.c:452
+msgid "Can't transfer a directory to a file"
+msgstr "Nu pot transfera directorul intr-un fisier"
+
+#: xftree/gtk_dlg.c:166
+msgid "Information"
+msgstr "Informatie"
+
+#: xftree/gtk_dlg.c:174
+msgid "Warning"
+msgstr "Avertisment"
+
+#: xftree/gtk_dlg.c:176
+msgid "Dialog"
+msgstr "Dialog"
+
+#: xftree/gtk_dlg.c:193
+msgid "Continue"
+msgstr "Continu†"
+
+#: xftree/gtk_dlg.c:206 xftree/gtk_prop.c:191
+msgid "Skip"
+msgstr "Sari"
+
+#: xftree/gtk_dlg.c:227 xftree/gtk_prop.c:192
+msgid "All"
+msgstr "Toate"
+
+#: xftree/gtk_dlg.c:236
+msgid "Close"
+msgstr "Inchide"
+
+#: xftree/gtk_exec.c:126 xftree/xtree_gui.c:2655
+msgid "Open with ..."
+msgstr "Deschide cu ..."
+
+#: xftree/gtk_exec.c:128 xftree/xtree_gui.c:2467 xftree/xtree_gui.c:2646
+#: xftree/xtree_gui.c:2676 xftree/xtree_gui.c:2704 xftree/xtree_gui.c:2729
+msgid "Run program ..."
+msgstr "Porneste programul ..."
+
+#: xftree/gtk_exec.c:172
+msgid "Open in terminal"
+msgstr "Deschide in terminal"
+
+#. this should never happen
+#.
+#: xftree/gtk_exec.c:182
+#, c-format
+msgid "Fatal error in %s at %d\n"
+msgstr "Eroare fatala in %s la %d\n"
+
+#: xftree/gtk_get.c:73
+msgid "Override file ?"
+msgstr "Suprascriu fisierul ?"
+
+#: xftree/gtk_get.c:105
+msgid "Source : "
+msgstr "Surs† :"
+
+#: xftree/gtk_get.c:112
+msgid "Target : "
+msgstr "Destinatie : "
+
+#: xftree/gtk_get.c:119
+msgid "0 bytes received"
+msgstr "0 bytes primiti"
+
+#: xftree/gtk_get.c:128
+msgid "XFTree: Download"
+msgstr "XFTree: Download"
+
+#: xftree/gtk_get.c:152
+#, c-format
+msgid "%d bytes received (%d bps)"
+msgstr "%d bytes primiti (%d bps)"
+
+#: xftree/gtk_prop.c:164
+msgid "Properties"
+msgstr "Propriet†ti"
+
+#. date and size page
+#: xftree/gtk_prop.c:207
+msgid "Info"
+msgstr "Info"
+
+#: xftree/gtk_prop.c:212
+msgid "Name :"
+msgstr "Nume :"
+
+#: xftree/gtk_prop.c:229
+msgid "Type :"
+msgstr "Tip :"
+
+#: xftree/gtk_prop.c:237
+#, c-format
+msgid "%ld Bytes"
+msgstr "%Id Bytes"
+
+#: xftree/gtk_prop.c:239
+msgid "Size :"
+msgstr "M†rime :"
+
+#: xftree/gtk_prop.c:249
+msgid "Creation Time :"
+msgstr "Ora Cre†rii :"
+
+#: xftree/gtk_prop.c:259
+msgid "Modification Time :"
+msgstr "Ora Modific†rii :"
+
+#: xftree/gtk_prop.c:269
+msgid "Access Time :"
+msgstr "Ora Acces†rii :"
+
+#: xftree/gtk_prop.c:276
+msgid "Permissions"
+msgstr "Permisiuni"
+
+#: xftree/gtk_prop.c:280 xftree/gtk_prop.c:387
+msgid "Owner :"
+msgstr "Proprietar :"
+
+#: xftree/gtk_prop.c:281 xftree/gtk_prop.c:309 xftree/gtk_prop.c:336
+msgid "Read"
+msgstr "Citire"
+
+#: xftree/gtk_prop.c:286 xftree/gtk_prop.c:314 xftree/gtk_prop.c:341
+msgid "Write"
+msgstr "Scriere"
+
+#: xftree/gtk_prop.c:291 xftree/gtk_prop.c:319 xftree/gtk_prop.c:346
+msgid "Execute"
+msgstr "Executie"
+
+#: xftree/gtk_prop.c:296
+msgid "Set UID"
+msgstr "Setare UID"
+
+#: xftree/gtk_prop.c:308 xftree/gtk_prop.c:398
+msgid "Group :"
+msgstr "Grup :"
+
+#: xftree/gtk_prop.c:324
+msgid "Set GID"
+msgstr "Setare GID"
+
+#: xftree/gtk_prop.c:335
+msgid "Other :"
+msgstr "Altele :"
+
+#: xftree/gtk_prop.c:351
+msgid "Sticky"
+msgstr "Lipicios"
+
+#: xftree/gtk_prop.c:376
+msgid "Owner"
+msgstr "Proprietar"
+
+#: xftree/gtk_prop.c:381 xftree/gtk_prop.c:392
+msgid "unknown"
+msgstr "necunoscut"
+
+#: xftree/xtree.c:109
+#, c-format
+msgid "XFTree, based on XTree Version %s\n"
+msgstr "XFTree, bazat pe XTree Versiunea %s\n"
+
+#: xftree/xtree.c:110
+#, c-format
+msgid "directory: %s\n"
+msgstr "director: %s\n"
+
+#: xftree/xtree.c:115 xftree/xtree.c:123
+#, c-format
+msgid "creating directory: %s\n"
+msgstr "creare director: %s\n"
+
+#: xftree/xtree.c:137
+#, c-format
+msgid "geometry: %dx%d+%d+%d\n"
+msgstr "geometrie: %dx%d+%d+%d\n"
+
+#: xftree/xtree_gui.c:194
+#, c-format
+msgid "malloc error in %s at line %d\n"
+msgstr "eroare de alocare de memorie in %s la linia %d\n"
+
+#: xftree/xtree_gui.c:339
+msgid "menu_detach()\n"
+msgstr "menu_detach()\n"
+
+#: xftree/xtree_gui.c:895
+msgid "Can't copy device, fifo and socket files as regular files!\n"
+msgstr "Nu pot copia ca fisiere obisnuite fisiere device, fifo so socket!\n"
+
+#: xftree/xtree_gui.c:976
+msgid "Moving file..\n"
+msgstr "Mut fisierul..\n"
+
+#: xftree/xtree_gui.c:1006
+msgid "move_dir() recursive failed\n"
+msgstr "move_dir() recursiv eronat\n"
+
+#: xftree/xtree_gui.c:1011
+msgid "move_dir() move_file() failed\n"
+msgstr "move_dir() move_file() eronat\n"
+
+#. nothing to delete
+#: xftree/xtree_gui.c:1114 xftree/xtree_gui.c:1832
+msgid "No files marked !"
+msgstr "Nici un fisier selectat !"
+
+#: xftree/xtree_gui.c:1130 xftree/xtree_gui.c:1132
+msgid "Delete item ?"
+msgstr "Sterg obiectul ?"
+
+#: xftree/xtree_gui.c:1146
+msgid "move_file()"
+msgstr "move_file()"
+
+#: xftree/xtree_gui.c:1148
+msgid "Move to trash failed"
+msgstr "Mutare la gunoi nereusita"
+
+#: xftree/xtree_gui.c:1158
+msgid "Failed"
+msgstr "Nereusita"
+
+#: xftree/xtree_gui.c:1164
+msgid "Can't move file to trash, hard delete ?"
+msgstr "Nu pot muta la gunoi fisierele, le sterg definitiv ?"
+
+#: xftree/xtree_gui.c:1194
+#, c-format
+msgid "Find pattern in '%s'"
+msgstr "Gaseste potrivirea in '%s'"
+
+#: xftree/xtree_gui.c:1207
+msgid ""
+"This is XFTree, based on 'XTree' \n"
+"(c) by Rasca\n"
+"published under GNU GPL\n"
+"http://home.pages.de/~rasca/xap/"
+msgstr "Acesta este XFTree, bazat pe 'XTree' \n(c) Rasca\npublicat sub licenta GNU GPL\nhttp://home.pages.de/~rasca/xap/"
+
+#: xftree/xtree_gui.c:1234
+msgid "Can't find row data\n"
+msgstr "Nu pot g†si rƒndul de date\n"
+
+#: xftree/xtree_gui.c:1322
+msgid "Go to"
+msgstr "Mergi la"
+
+#: xftree/xtree_gui.c:1652
+msgid "New_Folder"
+msgstr "Dosar_Nou"
+
+#: xftree/xtree_gui.c:1695
+msgid "File exists ! Override ?"
+msgstr "Fisierul exista ! Il suprascriu ?"
+
+#: xftree/xtree_gui.c:1702
+msgid "Can't create : "
+msgstr "Nu pot crea : "
+
+#: xftree/xtree_gui.c:1776
+msgid "No item marked !"
+msgstr "Nici un obiect selectat !"
+
+#: xftree/xtree_gui.c:1786
+msgid "Rename to : "
+msgstr "Redenumeste in : "
+
+#: xftree/xtree_gui.c:1789
+msgid "Character not allowed in filename"
+msgstr "caracter nepermis in numele fisierului"
+
+#: xftree/xtree_gui.c:1799
+msgid "Override ?"
+msgstr "Suprascriu ?"
+
+#: xftree/xtree_gui.c:1992
+msgid "Can't find suffix in filename, using complete filename"
+msgstr "Nu gasesc sufixul in fisier, folosesc numele complet de fisier"
+
+#: xftree/xtree_gui.c:1998
+#, c-format
+msgid "Register program for file \"%s\""
+msgstr "Inregistrez programul pentru fisierul \"%s\""
+
+#: xftree/xtree_gui.c:2000
+#, c-format
+msgid "Register program for suffix \"%s\""
+msgstr "Inregistrez programul pentru sufixul \"%s\""
+
+#: xftree/xtree_gui.c:2171 xftree/xtree_gui.c:2442 xftree/xtree_gui.c:2653
+#: xftree/xtree_gui.c:2711
+msgid "New window"
+msgstr "Fereastr† nou†"
+
+#: xftree/xtree_gui.c:2191 xftree/xtree_gui.c:2515 xftree/xtree_gui.c:2647
+#: xftree/xtree_gui.c:2677 xftree/xtree_gui.c:2705 xftree/xtree_gui.c:2730
+msgid "Close window"
+msgstr "Inchide fereastra"
+
+#: xftree/xtree_gui.c:2215 xftree/xtree_gui.c:2449 xftree/xtree_gui.c:2623
+#: xftree/xtree_gui.c:2713
+msgid "New Folder ..."
+msgstr "Dosar Nou ..."
+
+#: xftree/xtree_gui.c:2235 xftree/xtree_gui.c:2456 xftree/xtree_gui.c:2624
+#: xftree/xtree_gui.c:2714
+msgid "New file ..."
+msgstr "Fisier nou ..."
+
+#: xftree/xtree_gui.c:2255 xftree/xtree_gui.c:2485 xftree/xtree_gui.c:2640
+#: xftree/xtree_gui.c:2669
+msgid "Properties ..."
+msgstr "Propriet†ti ..."
+
+#: xftree/xtree_gui.c:2275 xftree/xtree_gui.c:2474 xftree/xtree_gui.c:2627
+#: xftree/xtree_gui.c:2658 xftree/xtree_gui.c:2685
+msgid "Delete ..."
+msgstr "Stergere ..."
+
+#: xftree/xtree_gui.c:2299 xftree/xtree_gui.c:2497 xftree/xtree_gui.c:2643
+#: xftree/xtree_gui.c:2673 xftree/xtree_gui.c:2698 xftree/xtree_gui.c:2701
+#: xftree/xtree_gui.c:2726
+msgid "Open Trash"
+msgstr "Deschide Gunoiul"
+
+#: xftree/xtree_gui.c:2319 xftree/xtree_gui.c:2504 xftree/xtree_gui.c:2642
+#: xftree/xtree_gui.c:2672 xftree/xtree_gui.c:2697 xftree/xtree_gui.c:2700
+#: xftree/xtree_gui.c:2725
+msgid "Empty Trash"
+msgstr "Arunc† Gunoiul"
+
+#: xftree/xtree_gui.c:2343 xftree/xtree_gui.c:2540 xftree/xtree_gui.c:2629
+#: xftree/xtree_gui.c:2661 xftree/xtree_gui.c:2687 xftree/xtree_gui.c:2716
+msgid "Go to ..."
+msgstr "Mergi la ..."
+
+#: xftree/xtree_gui.c:2363 xftree/xtree_gui.c:2548 xftree/xtree_gui.c:2631
+#: xftree/xtree_gui.c:2662 xftree/xtree_gui.c:2688 xftree/xtree_gui.c:2717
+msgid "Go up"
+msgstr "Mergi in sus"
+
+#: xftree/xtree_gui.c:2383 xftree/xtree_gui.c:2556 xftree/xtree_gui.c:2632
+#: xftree/xtree_gui.c:2663 xftree/xtree_gui.c:2689 xftree/xtree_gui.c:2718
+msgid "Go home"
+msgstr "Merci acas†"
+
+#: xftree/xtree_gui.c:2407 xftree/xtree_gui.c:2568 xftree/xtree_gui.c:2638
+#: xftree/xtree_gui.c:2695 xftree/xtree_gui.c:2722
+msgid "Toggle Dotfiles"
+msgstr "Fisiere Ascunse"
+
+#. Create "File" menu
+#: xfclock/xfclock_menus.c:83 xftree/xtree_gui.c:2435
+msgid "File"
+msgstr "Fisier"
+
+#. Create "Settings" menu
+#: xfclock/xfclock_menus.c:96 xftree/xtree_gui.c:2533
+msgid "Settings"
+msgstr "Set†ri"
+
+#. Create "Help" menu
+#: xfclock/xfclock_menus.c:188 xftree/xtree_gui.c:2577
+msgid "Help"
+msgstr "Ajutor"
+
+#: xftree/xtree_gui.c:2584 xftree/xtree_gui.c:2644 xftree/xtree_gui.c:2674
+#: xftree/xtree_gui.c:2702 xftree/xtree_gui.c:2727
+msgid "About ..."
+msgstr "Despre ..."
+
+#: xftree/xtree_gui.c:2621
+msgid "Open in new"
+msgstr "Dechide in fereastra noua"
+
+#: xftree/xtree_gui.c:2626 xftree/xtree_gui.c:2657
+msgid "Rename ..."
+msgstr "Redenumeste ..."
+
+#: xftree/xtree_gui.c:2630
+msgid "Go to marked"
+msgstr "Du-te la semn"
+
+#: xftree/xtree_gui.c:2634 xftree/xtree_gui.c:2665 xftree/xtree_gui.c:2691
+msgid "Unselect"
+msgstr "Deselecteaz†"
+
+#: xftree/xtree_gui.c:2635 xftree/xtree_gui.c:2666 xftree/xtree_gui.c:2692
+#: xftree/xtree_gui.c:2720
+msgid "Select all"
+msgstr "Selecteaz† totul"
+
+#: xftree/xtree_gui.c:2636 xftree/xtree_gui.c:2667 xftree/xtree_gui.c:2693
+#: xftree/xtree_gui.c:2721
+msgid "Unselect all"
+msgstr "Deselecteaz† totul"
+
+#: xftree/xtree_gui.c:2637 xftree/xtree_gui.c:2694 xftree/xtree_gui.c:2724
+msgid "Find ..."
+msgstr "G†seste ..."
+
+#: xftree/xtree_gui.c:2659
+msgid "Duplicate"
+msgstr "Duplic†"
+
+#: xftree/xtree_gui.c:2670
+msgid "Register ..."
+msgstr "Inregistreaz†"
+
+#: xftree/xtree_gui.c:2683
+msgid "New windows"
+msgstr "Ferestre noi"
+
+#: xftree/xtree_gui.c:2742
+msgid "Name"
+msgstr "Nume"
+
+#: xftree/xtree_gui.c:2743
+msgid "Size (bytes)"
+msgstr "M†rime (bytes)"
+
+#: xftree/xtree_gui.c:2744
+msgid "Last changed (Y-M-D hh:mm)"
+msgstr "Ultima schimbare (A-L-Z oo:mm)"
+
+#: xftree/xtree_dnd.c:96
+msgid "move"
+msgstr "misti"
+
+#: xftree/xtree_dnd.c:99
+msgid "copy"
+msgstr "copiezi"
+
+#: xftree/xtree_dnd.c:102
+msgid "link"
+msgstr "link-ezi"
+
+#: xftree/xtree_dnd.c:105
+msgid "Unknown action !"
+msgstr "Actiune necunoscut† !"
+
+#: xftree/xtree_dnd.c:119
+msgid "Target must be a directory !"
+msgstr "Destinatia trebuie s† fie un director !"
+
+#: xftree/xtree_dnd.c:125
+#, c-format
+msgid "Do you want to %s the item(s) to"
+msgstr "Vrei sa %s obiectele la"
+
+#: xftree/xtree_dnd.c:148
+#, c-format
+msgid "Type not supported.. (%d)\n"
+msgstr "Tip nesuportat.. (%d)\n"
+
+#: xfclock/xfclock.c:115
+msgid "XFClock - XFce Clock & Calendar"
+msgstr "XFClock - XFce Ceas & Calendar"
+
+#: xfclock/xfclock_cb.c:199
+msgid ""
+"XFClock\n"
+"(c) 1997-2000 Olivier Fourdan"
+msgstr "XFClock\n(c) 1997-2000 Olivier Fourdan"
+
+#: xfclock/xfclock_config.c:40
+#, c-format
+msgid ""
+"XFclock : Syntax error in configuration file\n"
+"(%s)\n"
+msgstr "XFClock : Eroare de sintax† in configurarea fisierului\n(%s)\n"
+
+#: xfclock/xfclock_config.c:48
+#, c-format
+msgid ""
+"XFclock : Data mismatch error in config file\n"
+"(%s)\n"
+msgstr "XFClock : Date incompatibile in fisierul de congigurare\n(%s)\n"
+
+#: xfclock/xfclock_menus.c:41
+msgid "Hide/show menubar"
+msgstr "Ascunde/arat† bara de meniuri"
+
+#: xfclock/xfclock_menus.c:49 xfclock/xfclock_menus.c:103
+msgid "Hide/show calendar"
+msgstr "Ascunde/arat† calendarul"
+
+#: xfclock/xfclock_menus.c:133
+msgid "Display AM/PM"
+msgstr "Afiseaz† AM/PM"
+
+#: xfclock/xfclock_menus.c:142
+msgid "Display seconds"
+msgstr "Afiseaz† secundele"
+
+#: xfclock/xfclock_menus.c:155
+msgid "Background color..."
+msgstr "Culoare background..."
+
+#: xfclock/xfclock_menus.c:162
+msgid "Foreground color..."
+msgstr "Culoare afisare..."
+
+#: xfclock/xfclock_menus.c:169
+msgid "Font..."
+msgstr "Caractere..."
+
+#: xfclock/xfclock_menus.c:180
+msgid "Hide menubar"
+msgstr "Ascunde bara de meniuri"
+
+#: xfmouse/xfmouse.c:57
+msgid "xfmouse: Error, cannot open display.\n"
+msgstr ""
+
+#: xfmouse/xfmouse.c:58
+msgid "Is X running and $DISPLAY correctly set ?\n"
+msgstr "Este X pornit si $DISPLAY setat corect?\n"
+
+#: xfmouse/xfmouse.c:133
+msgid "XFMouse - XFce Mouse Configuration"
+msgstr "XFMouse - XFce Configurare Mouse"
+
+#: xfmouse/xfmouse.c:162
+msgid "Button Settings"
+msgstr "Set†ri Buton"
+
+#: xfmouse/xfmouse.c:212
+msgid "Motion Settings"
+msgstr "Set†ri Miscare"
+
+#: xfmouse/xfmouse.c:241
+msgid "Threshold : "
+msgstr "Sol : "
+
+#: xfmouse/xfmouse.c:251
+msgid "Acceleration : "
+msgstr "Accelerare : "
+
+#: xfbd/xfbd.c:471 xfmouse/xfmouse.c:472
+#, c-format
+msgid "Usage : %s [OPTIONS]\n"
+msgstr "Folosire : %s [OPTIUNI]\n"
+
+#: xfbd/xfbd.c:472 xfmouse/xfmouse.c:473
+msgid "   Where OPTIONS are :\n"
+msgstr "   Unde OPTIUNI sint :\n"
+
+#: xfmouse/xfmouse.c:474
+msgid "   -i : interactive\n"
+msgstr "   -i : interactiv\n"
+
+#: xfmouse/xfmouse.c:475
+msgid ""
+"   -d : apply configuration and exit (default)\n"
+"\n"
+msgstr "   -d : aplic† configurarea si iesi (original)\n\n"
+
+#: xfbd/xfbd.c:475 xfmouse/xfmouse.c:476
+#, c-format
+msgid ""
+"%s is part of the XFce distribution, written by Olivier Fourdan\n"
+"\n"
+msgstr "%s face parte din distributia XFce, scris† de Olivier Fourdan\n\n"
+
+#: xfsound/xfsound.c:54
+msgid "New Desk"
+msgstr "Birou Nou"
+
+#: xfsound/xfsound.c:55
+msgid "Add Window"
+msgstr "Adaug† Fereastr†"
+
+#: xfsound/xfsound.c:56
+msgid "Raise Window"
+msgstr "Acucere in prim-plan Fereastr†"
+
+#: xfsound/xfsound.c:57
+msgid "Lower Window"
+msgstr "Mutare mai in spate Fereastr†"
+
+#: xfsound/xfsound.c:58
+msgid "Configure Window"
+msgstr "Configurare Fereastr†"
+
+#: xfsound/xfsound.c:59
+msgid "Focus Change"
+msgstr "Schimbare Focus"
+
+#: xfsound/xfsound.c:60
+msgid "Destroy Window"
+msgstr "Distruge Fereastra"
+
+#: xfsound/xfsound.c:61
+msgid "Iconify"
+msgstr "Micsorare"
+
+#: xfsound/xfsound.c:62
+msgid "De-iconify"
+msgstr "Refacere"
+
+#: xfsound/xfsound.c:63
+msgid "Shade"
+msgstr "Umbrire"
+
+#: xfsound/xfsound.c:64
+msgid "Un-Shade"
+msgstr "De-umbrire"
+
+#: xfsound/xfsound.c:65
+msgid "Maximize"
+msgstr "M†rire"
+
+#: xfsound/xfsound.c:66
+msgid "De-maximize"
+msgstr "De-m†rire"
+
+#: xfsound/xfsound.c:68
+msgid "Shutdown"
+msgstr "Inchidere"
+
+#: xfsound/xfsound.c:69
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: xfsound/xfsound.c:325
+msgid "XFSound - XFce Sound Manager"
+msgstr "XFSound - XFce Manager Sunet"
+
+#: xfsound/xfsound.c:368
+msgid "Event : "
+msgstr "Eveniment : "
+
+#: xfsound/xfsound.c:376
+msgid "Sound file : "
+msgstr "Fisier sunet : "
+
+#: xfsound/xfsound.c:384
+msgid "Test"
+msgstr "Test"
+
+#: xfsound/xfsound.c:428
+msgid "Play Sound"
+msgstr "Asculta Sunet"
+
+#: xfsound/xfsound.c:436
+msgid "Command : "
+msgstr "Comand† : "
+
+#: xfsound/xfsound.c:460
+msgid "Internal"
+msgstr "Intern"
+
+#: xfsound/xfsound.c:466
+msgid "External"
+msgstr "Extern"
+
+#: xfbd/xfbd.c:162
+msgid ""
+"Error\n"
+"Cannot open file"
+msgstr "Eroare\nNu pot deschide fisierul"
+
+#: xfbd/xfbd.c:164
+msgid ""
+"Error\n"
+"Cannot allocate colors"
+msgstr "Eroare\nNu pot aloca culorile"
+
+#: xfbd/xfbd.c:166
+msgid ""
+"Error\n"
+"File format invalid"
+msgstr "Eroare\nFormat fisier invalid"
+
+#: xfbd/xfbd.c:168
+msgid ""
+"Error\n"
+"Color definition invalid"
+msgstr "Eroare\nDefinire incorect† de culoare"
+
+#: xfbd/xfbd.c:170
+msgid ""
+"Error\n"
+"Not enough Memory"
+msgstr "Eroare\nMemorie insuficient†"
+
+#: xfbd/xfbd.c:280
+msgid "XFbd - XFce Backdrop Manager"
+msgstr "XFbd - XFce Gestionar Ecran"
+
+#: xfbd/xfbd.c:319
+msgid "Filename : "
+msgstr "Fisier : "
+
+#: xfbd/xfbd.c:384
+msgid "Clear"
+msgstr "Curata"
+
+#: xfbd/xfbd.c:473
+msgid "   -i : interactive, prompts for backdrop to display\n"
+msgstr "   -i : interactiv, v† ilas† sa alegeti background-ul\n"
+
+#: xfbd/xfbd.c:474
+msgid ""
+"   -d : display, reads configuration and exit (default)\n"
+"\n"
+msgstr "   -d : afisare, citeste configuratia si iese (original)\n\n"
+
+#: xfwm/xfwm.c:749
+msgid "&Restart"
+msgstr "&Repornire"
+
+#: xfwm/xfwm.c:750
+msgid "&Quit"
+msgstr "&Iesire"
+
+#: xfwm/xfwm.c:752
+msgid "&Cancel"
+msgstr "&Anulare"
+
+#: xfwm/xfwm.c:754
+msgid "Workspace"
+msgstr "Spatiul"
+
+#: xfwm/xfwm.c:765
+msgid "&Move"
+msgstr "&Mut†"
+
+#: xfwm/xfwm.c:766
+msgid "&Resize"
+msgstr "&Redimensioneaz†"
+
+#: xfwm/xfwm.c:767
+msgid "(De)&Iconify"
+msgstr "(De)&Micsoreaz†"
+
+#: xfwm/xfwm.c:768
+msgid "(Un)&Stick"
+msgstr "(Des)&Lipeste"
+
+#: xfwm/xfwm.c:769
+msgid "(Un)S&hade"
+msgstr "(De)&Umbreste"
+
+#: xfwm/xfwm.c:770
+msgid "(Un)Ma&ximize"
+msgstr "(De)M†re&ste"
+
+#: xfwm/xfwm.c:772
+msgid "Se&nd to..."
+msgstr "&Trimite la..."
+
+#: xfwm/xfwm.c:773
+msgid "S&witch to..."
+msgstr "Schim&b† la..."
+
+#: xfwm/xfwm.c:775
+msgid "&Close"
+msgstr "&Inchide"
+
+#: xfwm/xfwm.c:777
+msgid "&New window"
+msgstr "Fereastr† &nou†"
+
+#: xfwm/xfwm.c:778
+msgid "Shuffle &Up"
+msgstr "Amestec† &Sus"
+
+#: xfwm/xfwm.c:779
+msgid "Shuffle &Down"
+msgstr "Amestec† &Jos"
+
+#: xfwm/xfwm.c:780
+msgid "&Refresh"
+msgstr "&Reimprospateaz†"
+
+#: xfwm/xfwm.c:781
+msgid "&Arrange icons"
+msgstr "&Aranjeaz† pictogramele"
+
+#: xfwm/xfwm.c:783
+msgid "&Mouse..."
+msgstr "&Mouse"
+
+#: xfwm/xfwm.c:785
+msgid "&Backdrop..."
+msgstr "&Backgound..."
+
+#: xfwm/xfwm.c:787
+msgid "&Sound..."
+msgstr "&Sunet..."
+
+#: xfwm/xfwm.c:789
+msgid "&Quit XFwm"
+msgstr "&Iesire XFwm"

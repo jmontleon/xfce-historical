@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# This script is part of XFce
+# "ossdsp" option submitted by "Sami Tikka" <sami.tikka@kolumbus.fi>
+exec sox $1 -t ossdsp /dev/dsp

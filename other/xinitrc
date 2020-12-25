@@ -1,0 +1,27 @@
+#!/bin/sh
+#
+# xinitrc file for XFce 3 startxfce script
+
+# Some distro needs to allow even localhost to use the display
+# Uncomment this if you experience "Can't open display" when running 
+# programs from xfce. BEWARE this is considered as a vulnerability !
+#
+# xhost +$HOSTNAME
+#
+xsetroot -solid black -cursor_name watch
+
+# Start-up stuff from ~/Desktop/Autostart directory, if it exists
+# (as it seems to be the new standard)
+if [ -d "$HOME/Desktop/Autostart" ]; then
+  for i in `ls -1 ${HOME}/Desktop/Autostart/ 2>/dev/null`; do
+    if [ -x $HOME/Desktop/Autostart/$i ]; then
+      $HOME/Desktop/Autostart/$i &
+    fi
+  done
+fi
+
+# Launch xscreensaver (if available)
+xscreensaver -no-splash -lock-mode &
+
+# Finally, launch XFce window manager
+exec xfwm
