@@ -1,0 +1,23 @@
+962927186: 4729: Dmalloc version '4.6.0' from 'http://dmalloc.com/'
+962927186: 4729: flags = 0, logfile 'log'
+962927186: 4729: interval = 0, addr = 0, seen # = 0
+962927186: 4729: starting time = 962927182
+962927186: 4729: WARNING: tried to free(0) from 'ra=0x4008c0b9'
+962927186: 4729: free: invalid pointer: from 'ra=0x4008c0b9'
+962927186: 4729: ERROR: _chunk_free: pointer is null (err 20)
+962927197: 19203: WARNING: tried to free(0) from 'ra=0x4008c0b9'
+962927197: 19203: free: invalid pointer: from 'ra=0x4008c0b9'
+962927197: 19203: ERROR: _chunk_free: pointer is null (err 20)
+962927206: 33682: WARNING: tried to free(0) from 'ra=0x4008c0b9'
+962927206: 33682: free: invalid pointer: from 'ra=0x4008c0b9'
+962927206: 33682: ERROR: _chunk_free: pointer is null (err 20)
+962927218: 46098: WARNING: tried to free(0) from 'ra=0x4008c0b9'
+962927218: 46098: free: invalid pointer: from 'ra=0x4008c0b9'
+962927218: 46098: ERROR: _chunk_free: pointer is null (err 20)
+962927223: 54401: WARNING: tried to free(0) from 'ra=0x4008c0b9'
+962927223: 54401: free: invalid pointer: from 'ra=0x4008c0b9'
+962927223: 54401: ERROR: _chunk_free: pointer is null (err 20)
+962927229: 62668: WARNING: tried to free(0) from 'ra=0x4008c0b9'
+962927229: 62668: free: invalid pointer: from 'ra=0x4008c0b9'
+962927229: 62668: ERROR: _chunk_free: pointer is null (err 20)
+962927239: 77615: ending time = 962927239, elapsed since start = 0:00:57
