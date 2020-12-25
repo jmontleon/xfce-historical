@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# This script is part of XFce
+#
+sox $1 -t .raw -r 8000 - > /dev/dsp

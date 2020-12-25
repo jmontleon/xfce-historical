@@ -1,0 +1,144 @@
+# Fonts (should be overridden by xfce options)
+MenuFont            -*-helvetica-bold-r-*-*-12-*-*-*-*-*-*-*
+WindowFont          -*-helvetica-bold-r-*-*-12-*-*-*-*-*-*-*
+IconFont            -*-helvetica-medium-r-*-*-10-*-*-*-*-*-*-*
+
+# Do you want a small animation ?
+AnimateWin          On
+
+# Colormap policy :
+ColormapFocus       FollowsFocus
+
+# Focus mode (should be overridden by xfce options)
+FocusMode           ClickToFocus
+AutoRaise           Off
+
+# Set the delay for auto-raise mode :
+AutoRaiseDelay      250
+
+# Enable/disable session management :
+SessionManagement   On
+# Delay session startup (in seconds) to reduce disk/cpu usage
+WaitSession         5
+
+# Icon placing stuff :
+IconGrid            10
+IconSpacing         5
+
+# You can change the number of visible buttons on the title bar here :
+ShowButtons Right   3
+ShowButtons Left    3
+
+# You can toggle bitmap/vector buttons on the title bar here :
+BitmapButtons       Yes
+
+# Style used for some known applications :
+Style "*"           BorderWidth 5
+Style "XFce*"	    Sticky
+# Style "XFce*"       StaysOnTop
+Style "Popup*"      Sticky
+Style "Alert*"	    Sticky, StaysOnTop
+Style "Question*"   Sticky, StaysOnTop
+Style "Message*"    Sticky, StaysOnTop
+Style "XFbd*"       Sticky 
+Style "*Pager"	    Sticky
+Style "*lock"       Sticky
+Style "gmc"         WindowListSkip
+Style "xeyes"       NoTitle
+
+# Default icons for most common apps
+Style "*term*"      icon "XFCE_DIR/icons/CheckMarkMonitor.xpm"
+Style "Term*"       icon "XFCE_DIR/icons/CheckMarkMonitor.xpm"
+Style "rxvt*"       icon "XFCE_DIR/icons/CheckMarkMonitor.xpm"
+Style "*mag*"       icon "XFCE_DIR/icons/MagnifyGlas.xpm"
+Style "xosview*"    icon "XFCE_DIR/icons/CPUChip.xpm"
+Style "editres*"    icon "XFCE_DIR/icons/Editres.xpm"
+Style "*calc*"      icon "XFCE_DIR/icons/OldBlueAddingMachine.xpm"
+Style "*GIMP*"      icon "XFCE_DIR/icons/Gimp2.xpm"
+Style "*paint*"     icon "XFCE_DIR/icons/3dpaint.xpm"
+Style "*game*"      icon "XFCE_DIR/icons/TrueDie.xpm"
+Style "*.jpg*"      icon "XFCE_DIR/icons/Monalisa.xpm"
+Style "*.gif*"      icon "XFCE_DIR/icons/Monalisa.xpm"
+Style "*.png*"      icon "XFCE_DIR/icons/Monalisa.xpm"
+Style "*.bmp*"      icon "XFCE_DIR/icons/Monalisa.xpm"
+Style "*.xpm*"      icon "XFCE_DIR/icons/Monalisa.xpm"
+Style "*.xwd*"      icon "XFCE_DIR/icons/Monalisa.xpm"
+Style "*.JPG*"      icon "XFCE_DIR/icons/Monalisa.xpm"
+Style "*.GIF*"      icon "XFCE_DIR/icons/Monalisa.xpm"
+Style "*.PNG*"      icon "XFCE_DIR/icons/Monalisa.xpm"
+Style "*.BMP*"      icon "XFCE_DIR/icons/Monalisa.xpm"
+Style "*.XPM*"      icon "XFCE_DIR/icons/Monalisa.xpm"
+Style "*.XWD*"      icon "XFCE_DIR/icons/Monalisa.xpm"
+Style "XMMS*"       icon "XFCE_DIR/icons/CDPlayer.xpm"
+Style "*gnome*"     icon "XFCE_DIR/icons/Gnome-apps.xpm"
+Style "*Gnome*"     icon "XFCE_DIR/icons/Gnome-apps.xpm"
+Style "*GNOME*"     icon "XFCE_DIR/icons/Gnome-apps.xpm"
+
+# Common init and restart functions
+#AddToFunc "InitFunction"
+#+ "I" Module xfpager
+#+ "I" Exec xterm
+#AddToFunc "RestartFunction"
+#+ "I" Module xfpager
+#+ "I" Exec xterm
+
+# Adding a user menu to the default root menu :
+# (This is just a sample, modify it to fit your need)
+# Uncomment the following lines to create a user menu
+#
+#AddToMenu "user_menu"
+#+ "&Gnome Terminal" Exec gnome-terminal
+#+ "" Nop
+#+ "&The GIMP" Exec gimp
+#
+# Menu "__builtin_root_menu__" is the name of the default root menu
+#
+#AddToMenu "__builtin_root_menu__"
+#+ "&User menu" popup "user_menu
+
+# Uncomment the following if you want tot remove default keyboard shortcuts
+# (Some applications require this, as they use the same shortcuts)
+#Key Tab A M -
+#Key Escape A S -
+#Key Escape A C -
+#Key Left A SC -
+#Key Right A SC -
+#Key Up A SC -
+#Key Down A SC  -
+#Key Left A SM  -
+#Key Right A SM  -
+#Key Up A SM  -
+#Key Down A SM  -
+#Key F1 A M -
+#Key F2 A M -
+#Key F3 A M -
+#Key F4 A M -
+#Key F5 A M -
+#Key F6 A M -
+#Key F7 A M -
+#Key F8 A M -
+#Key F9 A M -
+#Key F10 A M -
+#Key F11 A M -
+#Key F1 A C -
+#Key F2 A C -
+#Key F3 A C -
+#Key F4 A C -
+#Key F5 A C -
+#Key F6 A C -
+#Key F7 A C -
+#Key F8 A C -
+#Key F9 A C -
+#Key F10 A  C -
+#Key L5 IW N -
+#Key L5 IW S -
+#Key L5 IW C -
+#Key L7 IW A -
+#Key Delete A CM -
+#Key Left A CM -
+#Key Right A CM -
+
+# Options for xfpager :
+#
+#*xfpager.geometry -0+0
+#*xfpager.smallfont 5x8

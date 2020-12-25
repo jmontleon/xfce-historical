@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# xinitrc file for XFce 3 startxfce script
+
+# Start-up stuff from ~/Desktop/Autostart directory, if it exists
+# (as it seems to be the new standard)
+if [ -d "$HOME/Desktop/Autostart" ]; then
+  for i in `ls -1 ${HOME}/Desktop/Autostart/ 2>/dev/null`; do
+    if [ -x $HOME/Desktop/Autostart/$i ]; then
+      $HOME/Desktop/Autostart/$i &
+    fi
+  done
+fi
+
+# Launch xscreensaver (if available)
+if command -v install-docs >/dev/null 2>&1; then
+  xscreensaver -no-splash -lock-mode &
+fi
+
+# Finally, launch XFce window manager
+exec xfwm
