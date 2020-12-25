@@ -1,0 +1,82 @@
+#include "../XFCE.def"
+
+SRCS1 = XFCE.c XFCE_cb.c addicon.c addicon_cb.c color.c command.c command_cb.c\
+ configfile.c defcolor.c defcolor_cb.c fileutil.c info.c info_cb.c main.c\
+ move.c mwmdecor.c my_goodies.c my_string.c pulldown.c resources.c screen.c\
+ screen_cb.c selects.c sendinfo.c startup.c tiptools.c
+
+OBJS1 = XFCE.o XFCE_cb.o addicon.o addicon_cb.o color.o command.o command_cb.o\
+ configfile.o defcolor.o defcolor_cb.o fileutil.o info.o info_cb.o main.o\
+ move.o mwmdecor.o my_goodies.o my_string.o pulldown.o resources.o screen.o\
+ screen_cb.o selects.o sendinfo.o startup.o tiptools.o
+
+PROG1 = xfce
+
+SRCS2 = xfbd.c color.c my_string.c my_goodies.o fileutil.c sendinfo.c
+
+OBJS2 = xfbd.o color.o my_string.o my_goodies.o fileutil.o sendinfo.o
+
+PROG2 = xfbd
+
+XCOMM And then, use the right directory as extra include
+XCOMM for LINUX: 
+XCOMM EXTRA_LIBRARIES = -L/usr/local/lib -lforms -lXpm -lm 
+
+XCOMM for static link with XForms
+EXTRA_LIBRARIES = $(USRLIBDIR)/libforms.a -L/usr/local/lib -lXpm -lm
+
+XCOMM for SOLARIS 2.5.1
+XCOMM EXTRA_LIBRARIES = -L/usr/local/lib -lforms -lXpm -lm -lsocket
+
+EXTRA_INCLUDES = -I/usr/local/include -I/usr/X11R6/include/X11 -I. -I$(FVWM_INC) -Wall
+EXTRA_DEFINES = -DXFCE_ICONS=\"$(XFCE_ICONS)\" -DXFCE_DIR=\"$(XFCE_DIR)\"\
+ -DXBINDIR=\"$(XBINDIR)\" -DXFCE_PAL=\"$(XFCE_PAL)\"\
+ -DXFCE_BACKDROP=\"$(XFCE_BACKDROP)\"
+LDLIBS = $(EXTRA_LIBRARIES) $(EXTENSIONLIB) $(XLIB)
+PROGRAMS = $(PROG1) $(PROG2)
+
+AllTarget($(PROGRAMS))
+
+NormalProgramTarget($(PROG1),$(OBJS1), NullParameter, NullParameter, $(LDLIBS))
+NormalProgramTarget($(PROG2),$(OBJS2), NullParameter, NullParameter, $(LDLIBS))
+
+InstallAppDefaultsLong(./XFce-fr,XFce-fr)
+InstallAppDefaultsLong(./XFce-de,XFce-de)
+InstallAppDefaultsLong(./XFce-it,XFce-it)
+InstallAppDefaultsLong(./XFce-es,XFce-es)
+InstallAppDefaultsLong(./XFce-en,XFce-en)
+InstallAppDefaultsLong(./XFce-en,XFce)
+InstallManPage(xfce,$(MANDIR))
+
+
+install.bin::  	$(PROGRAMS) install.man
+	@umask 022
+	@if [ -d $(XBINDIR) ]; then set +x; \
+	else (set -x; $(MKDIRHIER) $(XBINDIR)); fi
+	@cp -vfb $(PROGRAMS) $(XBINDIR);
+	ln -svf $(XBINDIR)/$(PROG1) $(XBINDIR)/XFCE;
+	@chmod 0755 $(XBINDIR)/$(PROG1);
+	@chmod 0755 $(XBINDIR)/$(PROG2);
+	@if [ -d $(DESTDIR)$(XAPPLOADDIR) ]; then set +x; \
+	else (set -x; $(MKDIRHIER) $(DESTDIR)$(XAPPLOADDIR)); fi
+	$(INSTALL) $(INSTALLFLAGS) $(INSTAPPFLAGS) ./XFce-en.ad \
+	$(DESTDIR)$(XAPPLOADDIR)/XFce-en
+	@if [ -d $(DESTDIR)$(XAPPLOADDIR) ]; then set +x; \
+	else (set -x; $(MKDIRHIER) $(DESTDIR)$(XAPPLOADDIR)); fi
+	$(INSTALL) $(INSTALLFLAGS) $(INSTAPPFLAGS) ./XFce-fr.ad \
+	$(DESTDIR)$(XAPPLOADDIR)/XFce-fr
+	$(INSTALL) $(INSTALLFLAGS) $(INSTAPPFLAGS) ./XFce-it.ad \
+	$(DESTDIR)$(XAPPLOADDIR)/XFce-it
+	$(INSTALL) $(INSTALLFLAGS) $(INSTAPPFLAGS) ./XFce-de.ad \
+	$(DESTDIR)$(XAPPLOADDIR)/XFce-de
+	$(INSTALL) $(INSTALLFLAGS) $(INSTAPPFLAGS) ./XFce-es.ad \
+	$(DESTDIR)$(XAPPLOADDIR)/XFce-es
+	$(INSTALL) $(INSTALLFLAGS) $(INSTAPPFLAGS) ./XFce-hu.ad \
+	$(DESTDIR)$(XAPPLOADDIR)/XFce-hu
+	$(INSTALL) $(INSTALLFLAGS) $(INSTAPPFLAGS) ./XFce-en.ad \
+	$(DESTDIR)$(XAPPLOADDIR)/XFce
+
+install::	install.bin
+	@umask 022
+	@mkdir -p $(XFCE_DIR)
+	@cp -vpfb XFce2.logo $(XFCE_DIR);

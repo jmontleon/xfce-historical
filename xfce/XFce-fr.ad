@@ -1,0 +1,54 @@
+*flAlert.dismiss.label:		Annuler
+*flQuestion.yes.label:		Oui
+*flQuestion.no.label:		Non
+*flInput.ok.label:		Ok
+*flInput.clear.label:		Effacer
+*flInput.cancel.label:		Annuler
+
+*button.loadLabel: 		Charger
+*button.saveLabel: 		Sauver
+*button.defaultLabel: 		Défaut
+*button.okLabel: 		Ok
+*button.applyLabel: 		Appliquer
+*button.cancelLabel: 		Annuler
+*button.agreementLabel: 	D'accord
+*button.browseLabel: 		Parcourir...
+*button.removeLabel: 		Supprimer
+*startup.waitText:		Veuillez patienter,\ninitialisation de XFCE...
+*pulldown.addiconLabel: 	Ajouter une icône
+*dialog.additemTitle: 		Ajouter un élément...
+*additem.commandText: 		Commande :
+*additem.iconfileText: 		Icône :
+*additem.menulabelText: 	Label :
+*additem.previewText: 		Aperçu
+*dialog.defcomTitle: 		Définir une action...
+*defcom.commandText: 		Commande :
+*defcom.iconstyleText: 		Style :
+*dialog.screenTitle: 		Definition du label de l'écran...
+*screen.labelText: 		Label de l'écran :
+*dialog.infoTitle: 		Info...
+*dialog.modifyTitle: 		Modifier un élément...
+*dialog.setupTitle: 		Options...
+*setup.repaintText: 		Associer les couleurs au fond d'écran
+*setup.detachText: 		Utiliser les menus détachables
+*alert.quitText: 		Voulez-vous vraiment quitter ?\nCela peut vous déconnecter
+*alert.menufullText: 		Attention\nCe menu est plein !\nChoisissez-en un autre
+*alert.FVWMonlyText: 		Attention\nCette option nécessite FVWM !\nVoir la page man de FVWM
+*alert.syntaxerrorText: 	Erreur\nErreur de syntaxe\ndans la configuration !
+*alert.datamismatchText: 	Erreur\nErreur de donnee\ndans la configuration !
+*alert.filetruncText: 		Erreur\nFichier de configuration incomplet !
+*alert.createText: 		Erreur\nImpossible de créer le fichier de config !
+*alert.resetText: 		Erreur\nRAZ du fichier de config impossible !
+*alert.openText: 		Erreur\nImpossible d'ouvrir le fichier de config !
+*alert.loadText: 		Attention\nImpossible de charger le fichier !
+*alert.saveText: 		Attention\nImpossible de sauver le fichier !
+*alert.writeText: 		Attention\nEcriture impossible !
+*alert.notfoundText: 		Attention\nFichier introuvable !
+*alert.toolongText: 		Attention\nChaîne trop longue !
+*alert.overwriteText: 		Attention\nCe fichier existe deja :\nL'effacer ?
+*alert.delentryText: 		Attention\nEtes-vous sur de vouloir\n supprimer cette entrée ?
+*alert.filloutText: 		Attention\nVeuillez remplir tous les champs...
+*selector.loadpalText: 		Palette a charger :
+*selector.savepalText: 		Palette a sauver :
+*selector.execfileText: 	Fichier a exécuter :
+*selector.iconfileText: 	Fichier icône :

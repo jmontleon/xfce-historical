@@ -1,0 +1,307 @@
+/* XPM */
+static char *XFce_logo[] = {
+/* width height num_colors chars_per_pixel */
+"   250   103       65            2",
+/* colors */
+".. c #020204",
+".# c #060604",
+".a c #0a0a0c",
+".b c #0e0e0c",
+".c c #121214",
+".d c #161614",
+".e c #1a1a1c",
+".f c #1e1e1c",
+".g c #222224",
+".h c #262624",
+".i c #2a2a2c",
+".j c #2e2e2c",
+".k c #323234",
+".l c #363634",
+".m c #3a3a3c",
+".n c #3e3e3c",
+".o c #424244",
+".p c #464644",
+".q c #4a4a4c",
+".r c #4e4e4c",
+".s c #525254",
+".t c #565654",
+".u c #568ebc",
+".v c #5a5a5c",
+".w c #5e5e5c",
+".x c #626264",
+".y c #666664",
+".z c #6a6a6c",
+".A c #6e6e6c",
+".B c #727274",
+".C c #767674",
+".D c #7a7a7c",
+".E c #7e7e7c",
+".F c #828284",
+".G c #868684",
+".H c #8a8a8c",
+".I c #8e8e8c",
+".J c #929294",
+".K c #969694",
+".L c #9a9a9c",
+".M c #9e9e9c",
+".N c #a2a2a4",
+".O c #a6a6a4",
+".P c #aaaaac",
+".Q c #aeaeac",
+".R c #b2b2b4",
+".S c #b6b6b4",
+".T c #bababc",
+".U c #bebebc",
+".V c #c2c2c4",
+".W c #c6c6c4",
+".X c #cacacc",
+".Y c #cececc",
+".Z c #d2d2d4",
+".0 c #d6d6d4",
+".1 c #dadadc",
+".2 c #dededc",
+".3 c #e2e2e4",
+".4 c #e6e6e4",
+".5 c #eaeaec",
+".6 c #eeeeec",
+".7 c #f2f2f4",
+".8 c #f6f6f4",
+".9 c #fafafc",
+"#. c #fefefc",
+/* pixels */
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.w.w.x.y.A.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m.....a.a.b.c.d.f.g.h.i.k.v.U.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.#.#.a.a.a.a.b.b.b.b.b.b.d.h.p.D.S.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....#.#.a.a.a.b.b.c.e.j.t.I.W.6#..u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m...#.#.a.b.d.f.i.k.m.o.p.r.r.r.s.t.v.H.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.a.c.e.g.h.h.h.h.h.h.h.i.i.k.r.E.S.5.Z.u.u.u.u.u.u.u.u.u.u.u.u.u.....a.c.f.g.h.h.h.h.j.m.v.I.X.8.5.1.1.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m...#.#.a.d.g.j.n.r.w.z.C.E.G.G.H.H.G.F.F.F.H.S.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.b.d.h.n.r.v.v.v.w.w.w.w.w.w.x.B.K.Y.9.Y.u.u.u.u.u.u.u.u.u.u.u.u...#.a.d.j.o.s.v.w.w.w.z.F.Q.3.4.T.P.N.V.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.......a.d.h.l.r.y.D.H.M.P.R.T.V.W.V.V.V.T.R.Q.P.Q.T.8.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.s.f.n.x.G.K.M.N.M.M.N.N.N.N.O.R.X.7.Z.M.S...u.u.u.u.u.u.u.u.u.u...#.c.j.s.D.J.M.N.N.P.S.0.6.T.G.A.x.w.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.f.....#.c.g.l.r.A.H.M.R.W.Z.1.3.4.4.5.5.5.4.3.3.1.0.Y.Z.2.8.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.g.p.C.N.V.Y.0.0.0.0.0.1.1.0.2.5.7.T.F.t.......u.u.u.u.u.u.u.f...#.f.q.D.P.W.Z.0.1.4#..0.L.y.o.k.i.p...........u.u.u.u.u.u.u.u.u.u.u.u.u.f.....a.d.i.q.z.H.O.V.0.2.4.6.7.8.8.8.9.8.9.9.8.7.7.6.6.6.8.7.0.4.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.x.n.A.O.Z.4.6.7.7.7.7.7.7.8.8#..4.U.G.r.z.....u.u.u.u.u.u.u...#.c.j.x.M.Y.5.7.8.9.7.Y.L.w.k.e.b.a.............u.u.u.u.u.u.u.u.u.u.u.u.....#.b.f.m.v.E.M.U.0.4.6.8.9.9.9.9#.#.#.#..9#.#.#..9#.#..9.6.Y.Q.J.4.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.j.v.I.W.4.8.9.9#.#.#.#..9#.#..6.Y.M.x.m.......u.u.u.u.u.m...#.e.o.E.S.2.7.9#..7.1.Q.B.n.e.a.#.g...........u.u.u.u.u.u.u.u.u.u.u.u.....#.c.h.n.y.I.S.Y.3.6.8.9.9#.#.#.#.#.#.#.#.#.#.#.#.#..9.8.3.X.O.E.w.t.U.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.x.o.B.P.1.7.9#..9#.#.#.#.#..9.7.2.R.E.r.w.....u.u.u.u.u.....b.i.t.J.X.5.9#..9.5.V.H.s.h.a.#...............u.u.u.u.u.u.u.u.u.u.u.....#.c.h.p.B.L.U.1.6.8.9.9#.#.#.#.#.#.#.#.#.#.#.#.#.#..8.5.1.U.M.C.r.k.j.l.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.k.t.I.V.4.8#.#.#.#.#.#.#.#..9.6.X.L.z.v.......u.u.u.C...#.d.m.B.Q.2.8#..9.6.0.N.z.l.d.#...m...........u.u.u.u.u.u.u.u.u.u.u.f...#.b.h.p.B.N.W.2.6.9.9#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.7.5.Y.R.H.y.p.i.d.c.e.......u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.E.n.A.P.1.7.9#.#.#.#.#.#.#..9.7.3.T.H.D.Q.....u.u.u.h.#.b.g.r.H.V.4.9#..8.3.T.G.r.g.a.................u.u.u.u.u.u.u.u.u.u.t.....b.g.o.C.O.X.3.8.9.9#.#.#.#.#.#.#.#.#.#.#.#.#.#..8.6.3.W.O.F.v.l.f.b.#.#.#.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.k.t.I.V.5.8.9#.#.#.#.#.#.#..8.5.Z.R.N.R.......u.u.c.#.c.k.z.O.0.6#..9.6.Z.N.y.k.d.....m...........u.u.u.u.u.u.u.u.u.u.u.....a.e.n.z.M.W.4.7.9#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.8.5.0.T.K.A.q.i.d.a.#...g...........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.L.n.A.P.0.7.9#.#.#.#.#.#.#.#..8.5.Z.X.Z.7.....u.D.e.c.f.p.E.T.4.9#..8.3.T.E.q.g.a.................u.u.u.u.u.u.u.u.u.u.f...a.c.k.x.K.V.4.8#.#.#.#.#..9.9.7.8.8.9#.#.#.#..8.7.4.Y.P.G.x.n.g.c.a.....m.............u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.j.s.G.U.4.8#.#.#.#.#.#.#.#..9.7.5.4.5.9.E...M.w.k.f.j.w.L.Y.5.9.9.6.Y.M.x.k.c.#...C...........u.u.u.u.u.u.u.u.u.u.u.....b.h.r.G.T.2.7.9#.#.#..8.6.4.3.2.3.5.6.8#..9.9.6.1.V.N.D.s.k.f.b.......................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.L.m.z.N.Z.6.9#.#.#.#.#.#.#..9.9.8.8.9.9.6.f.1.E.q.k.p.C.Q.2.8#..8.2.S.D.o.f.#.................u.u.u.u.u.u.u.u.u.u.....a.f.n.C.P.0.6.9#.#.#..7.4.0.U.R.P.R.U.0.5.7.7.4.Z.S.J.z.p.i.d.a.....f.................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.j.r.G.U.3.8#.#.#.#.#.#.#.#.#.#..9#.#..9.F.X.L.z.r.x.K.W.5.9.9.5.X.L.w.i.c.#...B...........u.u.u.u.u.u.u.u.u.u.u...#.b.k.w.K.W.4.8#.#.#..9.5.X.P.H.C.z.C.H.P.X.1.1.W.P.F.v.m.f.c.#.....t.................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m.z.M.Z.6.9#.#.#.#.#.#.#.#.#.#.#.#.#..8.2.T.H.C.G.Q.1.7#..8.2.R.D.o.f.a...f.............u.u.u.u.u.u.u.u.u.u.f...a.f.p.E.S.2.7.9#.#..9.6.Z.P.D.s.m.l.m.t.C.L.S.R.L.B.r.k.e.b.......................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.q.r.G.U.3.8#.#.#.#.#.#.#.#.#.#.#.#.#..9.5.Z.R.M.P.X.4.9.9.5.X.J.v.i.b.................u.u.u.u.u.u.u.u.u.u.u.....c.j.x.M.Y.6.9#.#.#..8.4.T.G.s.i.d.c.d.i.q.z.E.D.x.o.h.c.#.#...f.................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m.x.M.Y.6.9.9#.#.#.#.#.#.#.#.#.#.#.#..8.4.Z.W.Y.3.8#..7.1.Q.C.n.d.#...f.............u.u.u.u.u.u.u.u.u.u.u...a.e.o.D.R.3.7.9#.#.#..8.0.P.z.k.d.a.#.h.N.......1.n.i.e.b.#...B.................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.v.n.#.a.b.b.c.s.C.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.v.g.#.a.b.c.d.s.D.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.q.q.E.S.2.8#.#.#.#.#.#.#.#.#.#.#.#.#..9.7.5.4.5.7#..9.4.V.I.s.i.b.................u.u.u.u.u.u.u.u.u.u.u.t...a.g.t.J.W.6.9#.#.#..9.6.Y.L.v.h.a...f...............i.g.e.i.................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.B.....#.a.b.c.d.f.g.h.h.i.k.l.n.G.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.t...#.#.a.c.d.e.f.g.h.i.i.j.m.o.P.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.l.x.K.X.5.8.9#.#.#.#.#.#.#.#.#.#.#.#..9.9.8.8.9.9.6.1.P.A.m.d.#...f...........u.u.u.u.u.u.u.u.u.u.u.u...#.c.k.z.O.1.7.9#.#.#..9.6.X.I.r.g.a...I.....................................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m.....#.b.c.e.h.k.n.q.s.v.w.w.v.w.v.w.x.B.8.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.g.....#.a.d.f.i.l.o.r.t.v.v.w.w.w.w.x.z.L.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.p.p.E.S.2.8#.#.#.#.#.#.#.#.#.#.#.#.#..9.9#.#.#..9.4.V.I.s.h.b.................u.u.u.u.u.u.u.u.u.u.u.u...#.d.n.D.S.3.8.9#.#.#..9.5.W.H.q.f.a.................u.u.u.................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m...#.#.a.d.h.l.p.t.z.C.G.J.L.M.N.M.M.K.I.H.H.J.N.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.f...#.a.b.e.h.m.q.w.A.D.H.K.M.N.N.M.L.J.I.H.I.K.W.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.l.w.K.Y.5.8#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..6.Z.O.z.l.c.#...m...........u.u.u.u.u.u.u.u.u.u.u.u.u...#.f.q.H.V.4.9#.#.#.#..9.5.W.H.q.f.#.t...........u.u.u.u.u.u.u.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....#.a.d.h.l.r.z.F.L.P.S.V.X.Z.0.0.0.Z.X.W.U.S.R.S.V.8.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m.....#.b.e.i.o.t.A.G.L.Q.T.W.Y.Z.0.0.0.Z.Y.W.U.S.S.T.X.X.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.x.p.C.R.2.7#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.9.3.T.G.r.g.a.................u.u.u.u.u.u.u.u.u.u.u.u.u...a.g.v.L.Z.6.9#.#.#.#..9.5.W.H.q.f.a.v...........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.t...#.#.b.f.k.s.A.H.O.T.Y.1.3.4.5.7.7.7.7.7.6.5.4.3.1.1.1.5.9.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.f...#.a.d.h.n.v.D.K.Q.V.Y.2.3.5.6.6.7.7.7.7.6.5.4.2.1.1.2.6.4.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.k.w.J.W.5.8#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.5.Z.N.y.k.d.#...m...........u.u.u.u.u.u.u.u.u.u.u.u.u.u...b.j.w.N.0.7#.#.#.#.#..9.5.W.H.q.f.#.t.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.f.....#.d.i.p.y.G.P.V.0.3.6.7.8.9.9.9.9.9.9.9#..9.9.8.7.6.7.8.8.3.1.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....#.b.f.k.s.C.J.Q.W.1.4.6.7.9.8.9.9.9#.#..9.9.8.8.8.7.6.8#..6.0.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.x.o.C.Q.1.7#.#.#.#.#.#.#.#.#.#.#.#.#.#..8.2.T.F.q.f.a.................u.u.u.u.u.u.u.u.u.u.u.u.u.u...b.k.z.P.2.8#.#.#.#.#..9.5.W.I.q.f.a.v.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.f.....b.d.k.s.D.M.T.0.3.7.8.9.9.9#.#.#.#.#.#..9#.#.#.#.#..9#.#..7.1.V.9.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....#.c.g.o.x.H.Q.X.2.5.8.9#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9#..8.3.X.S...u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.k.t.I.W.4.8#.#.#.#.#.#.#.#.#.#.#.#..9.5.Y.L.x.j.c.#...B...........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.c.l.B.R.2.8#.#.#.#.#..9.5.X.I.s.h.b.w.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.f.....b.e.l.v.G.P.Y.3.6.8.9.9#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..7.2.U.N.4.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....a.c.h.p.B.L.T.0.5.7.9.9.9.9.9.9#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.5.Y.P.J...u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.x.n.A.Q.1.7#.#.#.#.#.#.#.#.#.#.#..9.8.2.S.D.p.f.a.................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.c.l.B.R.2.8#.#.#.#.#..9.5.X.K.w.l.g.C.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.t...#.a.f.m.x.I.T.0.5.7.9.9#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..8.5.X.O.F.Y...u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....#.c.i.r.C.N.X.3.7#..9.7.5.3.4.5.6.8.9.9#.#.#.#.#.#.#.#.#.#.#..9.6.1.S.I.B...u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.j.t.I.V.4.8#.#.#.#.#.#.#.#.#.#..9.6.Z.M.x.j.c.....B...........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.d.m.B.R.3.8#.#.#.#.#..9.7.0.P.F.w.s.M.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....a.e.l.y.K.U.1.5.8#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.7.1.S.H.y.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.....#.b.h.q.D.P.Y.4.8.9.6.2.Y.V.U.T.V.Y.2.6.8.9#.#.#.#.#.#.#.#.#.#.#..9.4.W.L.B.C...u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.K.m.B.P.0.7#.#.#.#.#.#.#.#.#.#..9.5.V.H.r.g.a...f.............u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...c.l.C.R.3.8#.#.#.#.#..9.8.4.W.Q.K.I.1.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....#.d.l.w.I.T.2.7.9#.#.#.#.#.#.#..9.9.9#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.5.W.K.y.r.....u.u.u.u.u.u.u.u.u.u.u.u.f.....b.h.q.C.O.Y.5.9.8.4.Y.R.L.G.E.E.H.L.R.Y.4.8.9#.#.#.#.#.#.#.#.#.#.#..7.1.Q.D.s.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.i.s.H.U.3.8#.#.#.#.#.#.#.#.#..9.4.V.G.q.e.a...............u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.d.m.B.R.2.8#.#.#.#.#.#..9.7.4.0.X.V.5.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m...#.c.j.t.H.T.2.6.9#.#.#..9.8.7.6.6.7.8.9.9#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.7.1.R.D.r.C.....u.u.u.u.u.u.u.u.u.u.u.....b.f.o.B.O.Y.5.8.8.4.W.M.D.w.q.o.o.q.x.F.O.Y.4.9#.#.#.#.#.#.#.#.#.#.#..8.4.V.I.v.n.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.H.l.A.O.Z.6.9#.#.#.#.#.#.#.#..9.5.W.I.s.g.a.g.............u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...d.m.C.S.3.8#.#.#.#.#.#..9.9.7.7.6.5.W.i.......u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....a.f.p.D.R.0.7.9#.#..9.8.6.3.1.Z.Z.Z.1.5.6.9#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.4.V.H.t.l.....u.u.u.u.u.u.u.u.u.u.....#.e.l.y.L.X.4.9.9.5.X.M.B.q.k.g.f.f.g.k.s.D.Q.0.7#.#.#.#.#.#.#.#.#.#.#..9.7.0.N.z.m.z.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.h.q.F.T.4.8#.#.#.#.#.#.#.#..9.6.0.N.z.l.c.J...........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.c.m.B.R.2.8#.#.#.#.#.#.#.#.#..9.9.8.6.X.4#.#..u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.f...a.e.m.z.N.Y.5.8#.#..8.7.3.X.S.N.L.K.M.Q.V.0.4.7.9#.#.#.#.#.#.#..9#..9#..9.8.5.Y.M.x.k.o.....u.u.u.u.u.u.u.u.C...#.c.i.v.I.V.3.7#..7.Z.O.C.q.j.g.e.e.e.v.S.....0.9.6#.#.#.#.#.#.#.#.#.#.#.#..8.3.T.E.p.h.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.G.l.y.M.Z.6.9#.#.#.#.#.#.#.#..8.4.U.F.r.g.6.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.c.m.B.S.3.8#.#.#.#.#.#.#.#.#.#.#..9.8.3.W.O.N.S.Y.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....b.i.t.I.V.4.8.9#..9.6.1.U.L.E.y.v.v.x.A.I.Q.Y.3.6.7.8.8.8.8.8.8.7.8.7.7.7.6.3.Y.N.z.l.f.......u.u.u.u.u.u.u.....#.f.o.D.R.1.7.9.8.4.U.H.t.m.k.l.m.t...............t.7.5.6.8.9#.#.#.#.#.#.#..9.5.W.I.s.i.t.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.E.g.r.G.U.3.9#.#.#.#.#.#.#.#..9.6.Z.O.z.l.G.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.d.m.C.R.2.8#.#.#.#.#.#.#.#.#.#.#.#..8.4.V.L.H.J.O.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m...a.e.n.C.Q.1.7.9#..9.7.2.S.I.x.o.k.h.h.i.m.s.C.M.V.0.2.1.1.0.0.0.1.0.0.0.Z.Y.W.V.R.J.x.k.d.r.....u.u.u.u.u.u.u...#.c.j.x.M.X.6.9#..7.0.O.A.p.n.q.w.H.....................V.Y.2.5.8.9#.#.#.#.#..9.7.0.N.w.j.d.......u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.c.l.A.P.0.7#.#.#.#.#.#.#.#.#..8.3.U.H.s.h.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...c.m.B.S.3.8#.#.#.#.#.#.#.#.#.#.#.#..8.3.U.I.A.y.z.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....b.i.v.K.W.4.9#.#..9.3.V.I.w.l.f.c.a.b.c.e.x.L.G.I.N.Q.P.P.O.N.N.N.N.N.M.L.K.I.H.E.z.q.i.c.a.......u.u.u.u.u.m...a.f.q.E.T.2.8#..9.5.W.I.v.o.s.C.K...................u.u.4.L.S.Y.4.8.9#.#.#.#.#..8.1.Q.A.l.d.......u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.t...c.i.v.M.Z.6.9#.#.#.#.#.#.#.#..9.7.0.P.A.m.J.......u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.d.l.C.R.2.8#.#.#.#.#.#.#.#.#.#.#.#..9.4.T.F.t.n.m.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...a.d.n.C.Q.1.8.9#.#..6.Z.N.z.m.e.a.....m.............4.D.B.z.y.x.w.w.v.w.w.v.t.s.q.o.m.i.d.a.a.......u.u.u.u.u.....b.j.w.M.Y.6.9#..9.3.T.E.r.o.y.L.Q.............u.u.u.u.u.S.x.F.O.Y.4.9#.#.#.#.#..8.3.T.D.n.e.p.......u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....b.j.w.L.Z.6#.#.#.#.#.#.#.#.#.#..8.4.W.I.s.i.......u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.d.m.B.S.3.8#.#.#.#.#.#.#.#.#.#.#.#..8.3.S.D.o.g.d.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.t...a.g.s.I.W.4.9#.#..9.4.U.G.q.g.a.#...t...................C.q.o.l.k.i.h.h.h.h.g.f.f.e.e.c.a...#.........u.u.u.u...a.e.n.D.S.2.7.9#..9.2.R.A.p.p.B.Q.............u.u.u.u.u.W.Y.A.s.D.Q.0.7#.#.#.#.#..9.4.U.G.p.f.a.......u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m...#.d.l.A.P.1.7.9#.#.#.#.#.#.#.#.#.#..7.0.P.B.n.w.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...c.l.C.R.2.8#.#.#.#.#.#.#.#.#.#.#..9.9.3.S.C.n.e.a.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....b.j.x.N.0.7.9#.#..8.3.R.B.m.d.#...t.......................x.q.l.h.f.c.c.c.c.b.c.c.b.i.w.v.............u.u.u.v...a.g.s.I.W.5.9#.#..7.1.O.z.p.r.E.7.........P.D.r.k.h.f.e.e.g.h.n.x.K.W.4.8#.#.#.#..9.5.V.G.q.e.a.......u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...#.b.h.r.H.U.4.8#.#.#.#.#.#.#.#.#.#.#..9.4.V.I.t.j.......u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.d.m.B.S.3.8#.#.#.#.#.#.#.#.#.#.#..9.8.3.R.B.m.d.#.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...#.d.n.D.S.2.8#.#.#..8.1.P.y.j.b...f...............u.u.u.u.u.u...........................................u.u.u.w...b.j.x.N.0.7.9#.#..8.1.O.y.o.r.E.........U.G.t.m.k.l.m.m.m.n.n.r.y.J.V.4.9#.#.#..9.8.5.V.G.r.f.a.........u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.f...#.d.l.A.P.0.7#.#.#.#.#.#.#.#.#.#.#.#..9.7.1.Q.C.o.x.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.c.l.C.R.2.8#.#.#.#.#.#.#.#.#.#.#.#..9.3.S.C.m.d.#.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...a.f.q.G.V.5.8#.#.#..8.2.P.z.k.c...I.............u.u.u.u.u.u.u.u.u.......................................u.u.u.#.a.c.m.B.Q.2.7#.#.#..8.1.O.z.o.q.D.........Q.C.r.p.s.z.B.D.D.D.E.G.K.R.0.7#..9.9.8.8.7.3.V.G.p.f.a.v.......u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....a.h.t.H.V.4.8#.#.#.#.#.#.#.#.#.#.#.#.#..8.5.W.K.v.l.......u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.d.m.B.S.3.8#.#.#.#.#.#.#.#.#.#.#..9.8.2.R.C.m.c.#.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...a.g.v.K.Y.7.9#.#.#..8.3.S.D.n.e.#.............u.u.u.u.u.u.u.u.u.u.u.................................u.u.u.u.u.#.a.e.o.F.U.4.8#.#.#..7.2.P.A.o.o.z.........Q.C.w.A.J.S.X.Y.Z.Z.Z.Z.2.5#..6.4.3.3.3.3.2.Y.Q.D.o.e.#.v.......u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.f...a.e.n.B.Q.1.6.9#.#.#.#.#.#.#.#.#.#.#.#.#.#..7.2.R.D.o.x.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.c.l.C.R.2.8#.#.#.#.#.#.#.#.#.#.#.#..8.3.S.B.l.d.#.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...b.j.w.N.0.7.9#.#.#..9.5.W.I.t.i.c...........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...a.f.r.I.W.6.9#.#.#..9.3.S.D.q.m.t.........X.L.J.R.3.7.1.0.Z.Z.Y.Z.X.X.U.T.S.R.S.S.R.Q.N.H.x.k.c.#.t.......u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....b.i.v.J.W.5.9#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.9.5.X.L.w.l.......u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.d.m.B.S.3.8#.#.#.#.#.#.#.#.#.#.#..9.8.2.R.C.l.c.#.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.b.k.z.P.1.8#.#.#.#..9.7.0.P.C.q.h...........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...a.h.t.K.Y.7.9#.#.#..9.5.V.H.t.l.m........#..Z.0#..V.L.G.E.E.E.E.E.D.E.D.C.C.C.B.C.B.B.z.v.o.g.b.#.t.........u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....a.f.o.C.R.1.7.9#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.7.2.R.D.p.p.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.c.l.C.R.2.8#.#.#.#.#.#.#.#.#..9.8.8.6.1.Q.A.l.c.#.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...d.l.B.R.2.8#.#.#.#.#..8.5.Y.N.B.r.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...a.h.v.M.Z.7.9#.#.#..9.6.Z.M.x.l.h.........Y.7.5.U.F.t.o.n.m.n.m.m.m.m.m.m.m.m.m.m.m.l.l.i.f.c.#.............u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.B...#.b.j.w.K.X.5.9#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.6.Y.K.w.l.......u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.d.m.B.S.3.8#.#.#.#.#.#.#..8.7.5.4.3.1.W.M.y.k.c.#.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...d.l.B.R.3.8#.#.#.#.#.#..8.4.X.O.G.1.......u.u.u.u.u.u.u.u.u.u.....#.a.c.d.d.d.e.e.f.i.r.G.W.8.7.u.u.u.u.u.u.u.g.a.h.w.N.0.8#.#.#.#.#..8.3.S.E.q.h.........u.Z.W.L.x.m.g.f.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.c.a.#...............u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....a.f.p.E.S.3.8#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..7.2.S.E.p.p.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.c.l.C.R.2.8#.#.#.#.#.#..8.6.1.X.T.R.Q.M.E.s.i.b...........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.c.m.B.R.2.8.9#.#.#.#.#..9.7.4.Z.S.N.......u.u.u.u.u.u.u.u.u.g...#.b.e.i.k.m.m.m.m.o.t.E.T.8.2.Y.X.u.u.u.u.u.u.w.b.i.v.M.0.7.9#.#.#.#..9.5.Y.M.y.m.I.......u.u.u.u...........................................................u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.t...#.c.j.x.M.Y.6.9.9.8.7.7.8#.#.#.#.#.#.#.#.#.#.#.#.#.#..8.5.Y.L.x.l.......u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.d.m.B.S.3.8#.#.#.#.#.#..7.2.U.M.G.C.B.y.s.k.d.a...........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.c.l.B.R.2.8#.#.#.#.#.#.#.#..8.6.3.0.5.....u.u.u.u.u.u.u.u.t.....a.f.l.t.y.B.B.C.C.F.K.X.8.U.M.I.I.u.u.u.u.u.u.u.b.h.v.L.Z.7.9#.#.#.#.#..7.3.T.H.v.t.......u.u.u.u.........................................................u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....a.g.q.F.T.3.8#..8.4.2.3.5.7.9#.#.#.#.#.#.#.#.#.#.#.#.#..7.2.T.F.q.q.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.c.l.C.R.2.8#.#.#.#.#..9.6.Z.N.B.r.n.l.k.h.e.b.............u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.w.c.k.z.P.1.8#.#.#.#.#.#.#.#.#..9.7.6.6.9.I...u.u.u.u.u.u.t...#.b.e.m.x.H.N.Q.R.R.S.V.4.3.N.B.t.r.H.......u.u.u.u.b.g.s.K.Y.6#.#.#.#.#.#..9.6.1.S.H.y.......u.u.u.u.u.......................................................u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m...#.c.l.z.N.Z.6#..9.5.Z.U.U.Z.5.9#.#.#.#.#.#.#.#.#.#.#.#.#..9.5.Y.N.y.m.......u.u.u.u.u.u.u.u.u.u.u.u.u.#.d.m.B.S.3.8#.#.#.#.#..9.6.X.J.v.j.f.d.c.b.a.#.............u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.b.j.x.O.0.7#.#.#.#.#.#.#.#.#.#.#..9#..9.2.Z.6.8.u.N.w.#.#.#.b.e.l.x.J.T.Z.2.3.3.5#..0.M.x.m.h.f...........u.u.u.b.f.q.H.W.5.9#.#.#.#.#.#..8.6.1.T.M.O.......u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....a.h.r.G.U.3.8#..6.0.R.J.J.R.0.6.9#.#.#.#.#.#.#.#.#.#.#.#..9.8.3.T.F.r.q.....u.u.u.u.u.u.u.u.u.u.u.u.u.#.c.l.C.R.2.8#.#.#.#.#..9.5.W.I.r.g.a.n.R.Q.................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.c.h.v.L.Z.6.9#.#.#.#.#.#.#.#.#.#.#.#..9.6.Y.O.C.r.k.g.e.d.f.h.n.x.I.T.1.6.8.8.9.9.2.Q.A.m.e.a.a...........u.u.u.r.f.o.F.U.3.8#.#.#.#.#.#.#..8.6.2.Y.U.Y.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.f...#.d.m.A.O.0.7.9.9.4.V.J.A.z.I.U#..9#.#.#.#.#.#.#.#.#.#.#.#.#..9.6.Z.N.y.m.......u.u.u.u.u.u.u.u.u.u.u.u.#.d.m.B.S.3.8#.#.#.#.#..9.5.W.H.r.f.a.t.....................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.j.g.r.I.X.5.9#.#.#.#.#.#.#.#.#.#.#.#..9.8.4.Y.O.F.y.s.p.o.p.t.B.K.T.1.6.9#.#..9.4.U.H.s.h.b...g...........u.u.u.u.e.m.B.R.2.8#.#.#.#.#.#.#..9.9.7.6.4.4.J...u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...#.b.h.s.I.V.5.8#..7.1.P.B.q.p.z.N.T.L#.#.#.#.#.#.#.#.#.#.#.#.#.#..8.3.T.G.r.j.....u.u.u.u.u.u.u.u.u.u.u.u.#.c.l.C.R.2.8#.#.#.#.#..9.5.W.H.q.f.#.t...................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.f.o.E.T.4.8#.#.#.#.#.#.#.#.#.#.#.#.#..9.7.4.Z.T.N.H.E.D.G.K.P.V.1.6.9.9#..9.6.Y.N.z.l.c.#.............u.u.u.u.u.f.j.x.N.0.7.9#.#.#.#.#.#.#.#..9.9.8.9.8.5.Q.u.u.u.u.I.j.t.H.2.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.f...a.e.n.B.Q.0.7#..9.5.W.J.t.k.j.r.G.x.l.9.8.7.7.9.9#.#.#.#.#.#.#.#..9.6.Z.O.z.n.L.....u.u.u.u.u.u.u.u.u.u.u.#.d.m.B.S.3.8#.#.#.#.#..9.5.W.H.q.f.a.t.............u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.f.l.z.P.1.8.9#.#.#.#.#.#.#.#.#.#.#.#.#..9.8.6.2.Z.W.U.T.U.X.1.4.7.9#.#.#..7.2.S.E.p.g.a...............u.u.u.u.u.K.i.s.I.W.5.9.9#.#.#.#.#.#.#.#.#.#.#..9.3.U.I.w.l.g.e.g.m.A.P.8.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....b.i.v.J.W.5.9#..7.2.R.C.n.e.e.k.0.....K.6.2.2.4.8.9#.#.#.#.#.#.#.#..8.4.U.H.s.j.....u.u.u.u.u.u.u.u.u.u.u.#.c.l.C.R.2.8#.#.#.#.#..9.5.V.H.q.f.#.t.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.L.j.v.K.X.5#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.8.6.5.4.3.4.6.7.9#.#.#.#..8.4.W.J.v.j.c.#...m...........u.u.u.u.u.u.i.p.E.S.3.8#.#.#.#.#.#.#.#.#.#.#.#..9.7.1.S.H.y.q.m.m.q.A.Q.8.3.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....a.e.o.C.Q.1.7.9#..5.Y.K.v.i.b.b.g.........1.V.U.Z.5.8#.#.#.#.#.#.#.#..9.6.0.O.B.n.L.....u.u.u.u.u.u.u.u.u.u.#.d.m.B.S.3.8#.#.#.#.#..9.5.W.H.q.f.a.v.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.k.q.F.T.3.8#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.8.8.9.8.8.9#.#.#.#..8.5.Y.N.A.n.d.#...............u.u.u.u.u.u.u.O.m.y.M.Z.6#.#.#.#.#.#.#.#.#.#.#.#.#..8.5.0.T.L.F.A.z.B.I.V.8.R.9...u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.C...#.b.j.v.L.X.5.9#..8.3.S.E.o.f.a.a.r.........X.L.K.R.0.6.9#.#.#.#.#.#.#.#..9.4.V.I.t.j.......u.u.u.u.u.u.u.u.u.#.c.l.C.R.2.8#.#.#.#.#..9.5.V.H.q.f.#.t.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.o.z.N.Z.6.9#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9#.#.#.#.#.#..8.6.Z.P.C.p.f.b.#...............u.u.u.u.u.u.u.u.w.v.H.U.4.8#.#.#.#.#.#.#.#.#.#.#.#.#..9.6.3.Y.T.Q.P.R.V.3.5.S.H.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....a.f.p.D.S.2.7#..9.7.Z.N.x.j.c...#.............C.A.I.U.4.8#.#.#.#.#.#.#.#..9.7.0.Q.B.n.D.....u.u.u.u.u.u.u.u.u.#.d.m.B.S.3.8#.#.#.#.#..9.5.W.H.q.f.#.t.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.y.w.H.U.4.8#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..8.5.0.R.F.r.i.b.....f.............u.u.u.u.u.u.u.u.u.s.C.O.Z.6.9#.#.#.#.#.#.#.#.#.#.#.#.#..8.7.6.4.2.1.2.4.8.5.V.K.C.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.t...#.c.j.y.M.Y.6.9#..9.4.V.G.r.g.a...f...........u.Y.q.A.O.Z.6.9#.#.#.#.#.#.#.#..9.5.V.I.t.k.......u.u.u.u.u.u.u.u.#.c.l.C.R.2.8#.#.#.#.#..9.5.W.H.q.f.a.t.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.x.D.P.Z.6.9#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.7.5.Z.Q.F.t.j.c.#.................u.u.u.u.u.u.u.u.u.u.T.A.J.U.3.8#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.8.8.8.8.9#..7.0.Q.E.F.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....a.g.q.F.T.3.8#..9.7.0.O.z.l.c.#...............u.u.l.r.G.U.3.8#.#.#.#.#.#.#.#..9.7.1.Q.B.o.x.....u.u.u.u.u.u.u.u.#.d.m.B.S.3.8#.#.#.#.#..9.5.W.H.q.f.a.t.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.D.L.W.3.8#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.9.6.2.W.O.E.s.j.d.a.................u.u.u.u.u.u.u.u.u.u.u.u.K.I.Q.Z.6.9#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.9#..9.7.1.S.G.v.z...u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m...#.d.l.y.O.Z.6#.#..9.4.W.I.s.g.b...............u.u.u.M.m.y.N.Z.7.9#.#.#.#.#.#..9.9.8.4.V.J.t.k.......u.u.u.u.u.u.u.#.d.m.C.R.3.8#.#.#.#.#..9.4.W.H.q.e.#.t.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.4.M.S.1.7.9#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..8.7.4.0.U.L.B.q.i.d.#.....t.............u.u.u.u.u.u.u.u.u.u.u.u.u.R.P.X.4.9#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.6.2.W.N.B.p.j.J...u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.#.a.b.i.t.H.V.5.9#..8.7.1.Q.B.m.d.#...B...........u.u.u.u.j.s.H.U.4#.#.#.#..9.9.9.9.9.8.6.0.Q.B.n.x.....u.u.u.u.u.u.u.a.d.n.D.S.4.9#.#..9.9.9.8.4.V.H.q.f.#.t.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u#..U.0.6#.#.#.#.#.#.#.#.#.#.#.#.#.#.#..9.8.8.7.5.1.W.P.H.y.o.h.c.a.....t.............u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.0.X.3.9#..9.9#.#.#.#.#.#.#.#.#.#.#.#..9.9.7.5.3.Z.T.L.B.r.j.e.f.....u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.k.d.e.j.r.F.U.5.9.6.5.4.1.U.I.t.i.b...............u.u.u.u.u.O.q.E.T.4.9.6.5.5.5.5.5.5.5.4.4.Z.S.G.s.i.......u.u.u.u.u.u.e.i.r.H.X.8.8.5.5.5.5.5.4.0.S.E.p.e.a.v.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.2.8.8.6.6.7.8.8.9.9.9.9.9.9.8.8.7.7.5.2.0.V.R.K.B.s.k.f.b.#...................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.8.7.9.6.6.6.7.8.8.9.9.8.8.9.8.8.8.7.6.4.2.Y.T.M.F.x.p.i.c.a.b.......u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.m.n.p.w.I.W#..2.Y.W.W.V.S.K.z.m.d.#...m...........u.u.u.u.u.u.w.F.U.8.3.Y.W.W.W.W.W.V.W.V.V.T.O.F.s.i.t.....u.u.u.u.u.u.n.r.B.Q.6.3.Y.W.W.W.V.V.V.R.L.z.m.d.#.t.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.9.3.0.Z.0.2.2.4.4.5.5.5.5.4.3.1.0.W.S.O.H.B.v.n.i.d.a.....f.................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.P.5.0.Y.Y.0.2.2.4.5.5.5.5.4.4.3.1.Z.V.R.L.F.y.q.k.f.c.#.#.#.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.J.D.D.I.R.4.2.R.K.I.H.H.G.D.y.o.g.b.#...............u.u.u.u.u.u#..P.2.4.T.L.J.H.H.I.H.H.H.H.H.G.D.x.n.h.c.......u.u.u.u.u.D.H.Q.4.0.O.K.I.H.H.H.H.G.F.z.q.i.b...t.........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.6.U.S.Q.Q.S.T.V.V.W.V.U.T.S.P.M.I.D.y.s.n.i.e.a.#.....m.................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.4.S.Q.P.Q.S.T.U.V.V.V.V.S.Q.O.K.G.B.v.p.j.g.c.a.#...............u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.R.T.V.2.7.S.F.x.s.r.r.r.q.n.l.g.c.....f...........u.u.u.u.u.u.u.u.0#..W.I.y.t.r.q.q.r.q.q.q.q.p.o.m.h.d.a.j.....u.u.u.u.u.T.W.6.0.L.y.s.r.q.r.q.q.p.p.m.h.d.a.............u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.U.I.F.E.F.G.G.H.H.G.E.D.z.w.r.n.k.g.d.b.a.....f.................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.3.J.G.E.E.F.G.H.H.G.G.E.B.z.v.q.m.i.f.c.a.......B.............u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.4.5#..2.N.A.o.i.g.f.f.f.f.e.c.a.#.................u.u.u.u.u.u.u.u.u.5.S.E.q.j.g.f.g.f.f.f.f.f.f.e.d.c.a.#.a.......u.u.u.u.4.8.4.P.z.n.h.f.g.f.f.f.f.e.e.c.a...............u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...I.w.s.s.r.r.q.p.o.m.k.i.g.d.b.a.#.....m...................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...6.y.v.s.r.q.q.q.p.n.m.j.h.f.d.b.#.......B.................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.R.X#..X.K.D.z.y.x.x.x.x.x.x.v.w...............u.u.u.u.u.u.u.u.u.u.u.u.1.N.E.z.x.x.x.x.x.x.x.x.x.w.w.w...........u.u.u.u.u.u.0.5.Q.F.A.x.x.x.x.x.x.w.w.w.w...............u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....N.n.j.i.h.f.e.e.c.b.b.a.#.#.n.......................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.....M.m.j.h.g.f.e.d.c.b.a.#.#.#.t.....................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.........................................u.u.u.u.u.u.u.u.u.u.u.u.u...........................................u.u.u.u.u.u.u.......................................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...........A.z.x.x.w.............................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.............A.y.x.x.v.............................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.......................................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.........................................u.u.u.u.u.u.u.......................................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.........................................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...........................................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.................................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.................................u.u.u.u.u.u.u.u.u.u.u...............................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...............................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...............................u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u...........u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u",
+".u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u.u"
+};
+SIMPLE  =                    T                                                  BITPIX  =                    8                                                  NAXIS   =                    2                                                  NAXIS1  =                  250                                                  NAXIS2  =                  103                                                  HISTORY Written by XV 3.10a                                                     END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             mjbb]mebbZ²ÊıÊ•zjebbbbbbZ]Ú¢}jbbbbbbbbb]]]Õê­‚mbbbbbb]]]]¢=-*%
+=:-%"
+Uåêıİ¢mB*"
+êµ}J-""
+
+åõåªj=%"
+]RRMMJEB:2*"
+:íeZRMJJJE=:-%r²ºÂİòµ‚bRMMMJ=5"ÕıÅeUMJJMJJJJEB:%
+-ºÅíÕšeRMJMJJEE:%
+½‚}‚……ŠŠ…}zj]M=2"
+â’…}}‚…ŠŠ……}rjZJ:*
+r’zz²åİ²•ŠŠ…zeB"ıªİåºš’ŠŠŠŠŠŠŠ…zb=%zŠ­åÕ¥•ŠŠŠŠ…‚jJ*Uí½µ­­µºÂÂÅÂ½ºµªzeR=*
+:åµ­ª­µº½ÂÂÂÂµ­¥•…rZE-"
+:=E]ÅıİÍÅÅÂµ•j::]‚½õâÍÅÅÅÅÅÂÅÂÂº¥‚R*U=Mr­íâÍÅÅÅÂÂÂ²šj:UúâÕÒÕİİååêêêêåâÚÕÅµ¥ŠrZ=*
+ªêÕÍÍÕİİåêêêêååâÚÒÂ²š‚eJ22-M‚½êúíêåÚ½U*¥J}ºåúíêêêêêêêååÒµ…R**MŠÊõõêêêêêåÕµ}E
+ZİõõííòõõúúúúúúõõòòêİÕÂ²•rR2õòúíííòõõúúõõúõõõòíåİÍº‚bE*
+
+*UŠÂêúıõòÚ­r:r-RŠ½åııııúúúúúõíÕ­r=b
+=zµåúııúúúõåÂŠJUı½ÕíıııııııııııııııúõõòêÚÅªŠeB%
+UÕÊâúıúúııııııııııııúúòêâÒºšrM-:5e¥ÒíııúåÅR":e¢ÒòúııııııúúõåÂ’U2:u²âõıııııúåÅŠJUåµÚòúııııııııııııııııııõòåÕ½šrJ*U²ªÊåúıııııııııııııııııııúíİÅ¢rE-’
+"J‚ºâõıúòÕ¥j55M…½âõııııııııúòÚ­rBb:rµâõıııııúêÅŠJ
+UzšÅâõııııııııııııııııııııúúíİÅ¥}R-
+•­ÒíúıııııııııııııııııúúıúòÚµ…ZjU-eÍíúıúåÂ…M"
+ÍJm¥ÒíúııııııııúêÂU25u²İõıııııúêÅŠJ
+UbzªÒíúııııııııııııııııııııııúòêÒ­‚U-ºm’½âõıııııııııııııııúõõõõúıòÕ­}‚
+EzµİòıúòÒ¢b-um½åõııııııııúòÕ­r=z:rµâõıııııúêÅŠJUe]Š½åõıııııııııııııııııııııııııõêÕ²‚M*Ru¥ÒíúıııııııııııııõòíåİÚİåõêÂ•uu-ZšÊêúıõâµ}B
+
+MÊš•²ÕíúııııııııúåÂU-5u²İõıııııúêÂŠJUBj¢ÒíúıııııııııııııııııııúııııııõíÒªuE]ZŠ½åõıııııııııııııúíâÍº­ª²ÂâêµŠ
+Bu­ÚòúıêÍ•Z*"ÚÂ½ÒêõııııııııúíÕ¥r=š:rµâõıııııúêÅŠJ
+Z2J‚ºâõıııııııııııııııııúõõúõõúııııõêÍ¢m=¥:eÒíıııııııııııııõêÕºš‚mjrÂõ²ú*Z’Åêúıòİ²u=2Õ•íİİåõúııııııııõå½ŠR-5u²İõıııııúêÂŠJUš-Z•ÊêııııııııııııııııúõíêåâåíòúııııõåÅ’Z-:*E}µâõııııııııııııúòÚµŠeJ::Jm­õâ
+=r­ÕòıúêÅ’U2-M…b5úõòòúúııııııııúíÒ¥j=š:rµâõıııııúêÅŠJ
+U5jªÚõúıııııııııııııúõíİÒÅ½º½ÊÚåòúıııòİµ}E"
+•*RÅêúúıııııııııııúâ½]5"":mªõ%RÂêõıòÚªrJEj¢ºšııııııııııııııõâº…M-5u²İõıııııúêÅŠJUB}ºåõıııııııııııııúòåÒº¢Š}z…•ªÂÚíúúıúíÍ¢j5-b¢Õòúııııııııúúõúõê­-UŠİ:m¥ÕòúúåÂ’mj½ıúıııııııııııııúíÒ¢e::rµâõıııııúêÅŠM
+U-"MÊêúııııııııııııúõåÍ¥‚eREBEUr•ºÚíúııúå½ŠR%":r²İõıııııııúúòíåå’
+%M…½âõıíÕ²’’²Õíúııııııııııııúõâº‚MJ5u²İõıııııúêÅM"
+=²­%ZšÒíúııııııııııııúíÍ¥uM2"%=bºÚíõõúúİ­m:
+
+MB‚½âõıııııııõíİÍ½Í:5j¢ÒíıúêÒ½½ÒêúıııııııııııııúêÍ¢e::rµâõıııııúíÊ’Z-
+-b¥ÕòıııııııııııúıúİÒíõ¢]5b’ºÒİââêıÕb:%JŠÅêúııııııõíÚº¥
+"J‚ºâõıõåİâêòúıııııııııııııòİº‚JJ5u²İõıııııúíÒ¢rM=52%]2jªÚõıııııııııúòííúU:bŠ¢­²²µÂåâ¢rUMŠ"R•ÍíııııııúíÚµŠeU-bÍíúúõòòõııııııııııııııõêÍšb5:rµâõııııııòİ½…ureR2
+5r²İõııııııııõíâÕêU
+5Uerruu‚•Êõ½%ZšÒòúıııııòâºŠZU
+E}µâõıııııııııııııııııııòİµ}EE5u²İõııııııõíÚÊº²­}R*:r²İõúıııııúòåÒµ¢"*2::::BU}ºõİÍÊ]*ZÕòúııııúêÍe:r-]•ÊêúıııııııııııııııııúíÍ•]5:rµâõıııııııõòêåâÚÅe25r²âõııııııõåÊ¥…Ú
+*M…Åõò"
+%]¢Õõıııııõâµ}J%ÒÅšb:"
+
+Bu²Úòúıııııııııııııııúòİ²zEE5u²İõıııııııııúõõíÚ­m55r²İõıııııõêÍ¢rM
+%ZÒòúıııúíÒb5%Íòê½‚UB=:=:::::::::::55**Z’ÅêúııııııııııııııúúêÊš]5:rµâõıııııııııııúõİ²u52jªÚõııııúòÕªuJ%
+%U•ÍòúıııúêÂŠU5:ıÒÕıÂš…}}}}}z}zuuururrjZB"U
+=r­Úíúııııııııııııııòİ²zBb5u²İõııııııııııııõâµr5-]¢ÕòúıııúêÅU*
+MÅíúıııúâµzJ:UÊš’²âòÚÕÒÒÍÒÊÊ½ºµ²µµ²­¢Šb2U
+%UŠÂåõıııııııııııııõêÅ•Z5:rµâõıııııııııııúõİ²u:
+"Z•Íòúıııõâµz=
+B‚½åõıııòİªmBBj­u]m’µÊÍÒÒÒÒİêıíåââââİÍ­zBZ5mªÕòııııııııııııúòÚ­uBb5u²İõııııııııııııúâµu:
+J…Âêõıııõİªj2
+:r­İòıııõÚ¥jBJz­uMERjrzzz}…•²ÕòıúúõõòâÂ…E
+Z%MŠ½åõıııııııııııúåÂU-:rµâõıııııııııııúõâ²r:=zµİõıııõÚªe-]-b¢ÕòúııõÚ¥eBM}½…U:25:::==Me’ÂåúıııúõêÂ…M
+:5mªÚòúııııııııııòÕªr=]5u²İõıııııııııııúúâµu=
+-b¢Õòúııõâ²r:UbJ5%*]ZZ
+"RÅêúııòÚ¥jEM}òªzM2%"%=b•ÅåõııııúêÂ…J
+-]šÒíııııııııııõåÅR*:rµâõııııııııııııõâµzB"U
+"RÅåúııúå½…J"
+UuJB52*%%%%"
+
+=zµİòúıúİ²mEEr­ÅÍmRz­Õòıııııúå½…E
+U*ZÒíúııııııııúòÕªm:’5u²İõııııııııııııúåº‚U=:
+=u­ÚõúııíÒ¢j:
+:åzrjeb]]Z]]ZURJB:*
+
+-]Ííúıúâº}MBeš­µb‚¥Íåúıııııõâºz=E5mªÕòıııııııııõâ½ŠR%:rµâõııııııııııııõâ½mej*Z•ÅåúııúâÂ]5
+bš…¢­ªª¥¢¢¢¢¢š•Š}jJ*
+:
+J}ºİõıúêÅZBRu•åšµÍåõúıııııõÚ­m5}"M…½âúııııııııúíÒ¥j5…:u²İõııııııııııııõåÂšŠ’¥:
+=u­ÚòúıúòİµbB2%%*:RuÂÕİÚÚÕÕÕÚÕÕÕÒÍÅÂ²’b2M-bÊíúıòÕ¥mE=J]ŠÂÍİêõúıııııúòÕ¢]-…5eÒíúııııııııõå½‚M"í:rµâõıııııııııııúõâÅ¥¢µÍ*UÂåõúıúíÚ½š}eZZbm­ÍâíòõõõõõõòõòòòíâÍ¢j5Bz²Úòúõå½ŠU:25:UUòêíõúıııııııúêÅR*U%J‚ºåõııııııııúíÕ¢j5’:r²İõıııııııııúúõíÊåıı
+:j¢ÍêõııõòâÊµ¢š•­ÂÕåòúıııııııúıúıúõêÍb2Bu*ZÂâòıòÒ¥uJ-"ZµÕúíııııııııııııõâº}E%Š5m¥ÒíúııııııııúêÅR"
+":uµâõııııııúúòòíêÅ*
+Ez²ÕòúııúõíâÚÒÒÒÚêíúııııııııııııııúåÂŠU55ešÊåúúêÊrJ2""2Rz­ÕòıııııııııııúòÕ¢j:j*RŠ½âõıııııııııúåÂ…J
+:r²İõııııııúòåÕÊÂê:-UŠºİíúıııúõòííòõúúııııııııııııııúòÚ²zMuBr¥ÍêõõåÅz]JBBJb‚¥ÍåúıııııııııııõåÂZ=•:rªÕòııııııııııúêÂŠM"
+5u²âõıııııúõåÅ­•Ú5]ºİòúıııııııúúúıııııııııııııııúêÅ•eM%Ju¥ÍêúõåÍ²š…}}Šš²ÍåõúıııııııııııòÚ­zR-UÂåõııııııııııúíÒb-r:r²âõıııııúòÕª‚]R
+5e•½ÚêõıııııııııııııııııııııııúòÚµŠe%JzªÍåõúíİÍÂ½ºÂÍİíõúıııııııııııúåÅšrub=m­ÚòıııııııııııúõİµzE
+5r²İõıııııúêÊ•]5"uU
+:bºÕêòúúııııııııııııııııııııõêÊ¥‚Í*Mu¢ÊâòıúòêâåêíõúúıııııııııııúíÚµr2UÅåõııııııııııııúêÍšb-r5r²İõıııııúêÊR%]5Z…ªÍâíõúúııııııııııııııııııòİ½¢å
+%EršºÕêòúúúúúúııııııııııııııúêÍª’bBu­Úòııııııııııııııõİº‚J
+2jªİõıııııúêÅJ
+Z2RzºÕâòõúúúııııııúıııııúııòÚÂú"BbŠ­ÊİêõúıııııııııııııııúıõâÊµ2]’ÅêõııııııııııııııúêÒ¢e2:-]¢ÕòıııııúêÅŠJU*Ee…ªÂÕâíòõúúúúúúúıúúõòíòõõâÚ2Ru’­ÅÚåíòúõúúúııúúõõõòíõıíÕbEu²İòıııııııııııııııúúâº…M"
+
+"ZšÒíúııııúêÅŠJ
+ZU2RmŠ¥ºÍÚâåêòòòòòíêåâÚÚÚêú
+%=Zz•­ÂÍİâêííòòòòíêåİÚÚİíå5]•ÍêõıııııııııııııııııíÒ¥j5:JŠÂåúııııúêÅŠJU
+%5Mj‚šªµÂÊÒÕÕÕÒÊÅ½µ²µÂõ:*BUm…š­ºÅÍÒÕÕÕÒÍÅ½µµºÊÊEE}µİõıııııııııııııúúıııúåÂR%=zµâõúıııúêÅŠJ
+:
+%5EUju…’š¢•ŠŠ’¢
+%:J]mzŠ•¢¢š’Š•Å5b•ÊêõúııııııııııııúúõõúúíÚªm:2j¥ÚòúıııúíÊM"
+:%2=JRZ]]Z]Z]brõ"
+*5BMUZZ]]]]bjšJJ}µİõıııııııııııııúòêåêòıúåÂR*U
+"U’ÅíúıııúíÍšZ%
+*"*r
+"%%*25=…U
+"%**-:Bª:bÍíúúııııııııııııõåÒÅÍâõıòÚ­u=
+Bz²âòúıııõÕªj2
+%¢Ú=*rZ=
+RuZ"
+RzJM…½âõıııııııııııııúêÒ²ªÊåúúêÊ’Z*-bÍíúıııõåº…R**Jj}zbB%:jÒíúıııııııııııııõİºŠu…­Úòıõİ²zB
+
+E}µİòúııúíÒªzR:5:Uušµ²šrM2-M…½âõııııııııııúııú‚ÊšjMb•ÅêúúêÊš]*r2]•ÅåõıııúêÊªŠujuŠªÊÚÚÅª‚Z:Uš:j¢ÒíúıııııııúúõõúúíÚ}J2Eu­İõıõİµzB
+=uªÕíúıııòåÕ½²ª²½ÕêòòåÒµ’jE*
+-R…½åõııııııııúòêåêú}]2-]šÍêúúíÍb2u%M…ºİòúıııõíåâİâêíõıúúíÚÂ¢zR2š=mªÕòúııııııııõêÒÊÒòzE}ºåúıõâº}J"
+
+2b•ÂåõıııııúúòõõúııııõòåÍª…b="
+:2UÂêõúıııııııõêÒ²¢²2j¥ÕíıúíÒ¢e2:
+=jÅåòúııııııııııııııúõêÕº•mJ*
+"}=mªÚòúıııııııúòâºŠz­%"MŠÂåúıõâº…M"
+U"Bu¥ÊâõúúııııııııııııııõíâÅ¥‚Z52UÂåõııııııııúíÊšjZu:r­İõıúíÕ¢j5:%Er¢ÅİíúúııııııııııııııúòêÍ²ŠeE*bBrªÚòúıúıııııúòİ²}M]*U’ÊêúıúêÂŠR%
+%Erš½ÚíõúúııııııııııııııõêÚ½uM2-5-ZÅåõúúııııúııíÍb::B}µİòúıòÚ­r=
+"%=eµÍâíõúúıııııııııııııúõâÊ¥}]U½b=m¥Òåíòòòòòòõõıå½…Mj-bÍêòõúòÍš]2
+:Z}½ÕåíõúúúúııııúıııúııúíÍ­’å"Eu¢ÂÍÕÕÕÕÕÚÚÕİêòº‚UJzªÅÒÕÚåıÕšeB2*E
+*JjŠ¥ÂÕİåíòõõõúõúúõòòíííõòÕåR=b…•¢¢¢¢¢¥²ÊòÒµ-Rz’¢¢ªµÕíº…mb]"5MmŠ²ÅÒÚâååêêêåââÚÕÍÒİõ%=MZZZ]]]]]]br•ÍúÍ
+-BRZ]]]j‚­âåºª¢Â
+%5MezŠª²ºÂÅÂÂÂº²­ª­ºõ
+"%%%%%%%**2M}µêÒ
+"%%%%-:ZÊõêÚÚ:
+"-=M]ju}……ŠŠ…‚‚‚Šµ
+
+
+
+%Ezµ
+
+
+-UÅíı:
+*2:BEMMMRUZŠ:
+
+"%*2Z½]]bem                                                                                                                                                                          

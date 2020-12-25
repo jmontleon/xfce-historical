@@ -1,0 +1,85 @@
+[Coords]
+	-1
+	-1
+[ButtonLabels]
+	One
+	Two
+	Three
+	Four
+[Icons]
+	0,1,2,3,4,5,6
+[WorkSpace]
+	NoRepaint
+[Lock]
+	xlock -echokey -mode pyro -batchcount 2000 -size 500 -install
+[MenuOption]
+	Detach
+[Commands]
+	xfm
+	xterm
+	netscape -mail
+	xlpq
+	xfbd -i
+	xcalc
+	netscape /var/XFCE/help/index.html
+[Menu1]
+1
+	File Manager
+	/var/XFCE/icons/Disks.xpm
+	xfm
+[Menu2]
+2
+	XTerm
+	/var/XFCE/icons/Xterm.xpm
+	xterm
+	X editor
+	/var/XFCE/icons/TextEditor.xpm
+	xedit
+[Menu3]
+2
+	Communicator 4
+	/var/XFCE/icons/Netscape.xpm
+	netscape -component-bar
+	Mail
+	/var/XFCE/icons/Mail.xpm
+	netscape -mail
+[Menu4]
+2
+	Shutdown NOW !!
+	/var/XFCE/icons/Plug.xpm
+	shutdown -h now
+	Reboot NOW !!
+	/var/XFCE/icons/Warning.xpm
+	shutdown -r now
+
+[Menu5]
+4
+	Xmag
+	/var/XFCE/icons/Magnify.xpm
+	xmag
+	XLoad
+	/var/XFCE/icons/Lightning.xpm
+	xload
+	System info
+	/var/XFCE/icons/Graph_bar.xpm
+	xsysinfo
+	Editres
+	/var/XFCE/icons/Editres.xpm
+	editres
+[Menu6]
+5
+	XCalc
+	/var/XFCE/icons/Calculator.xpm
+	xcalc
+	Xpaint
+	/var/XFCE/icons/Palette.xpm
+	xpaint
+	The GIMP
+	/var/XFCE/icons/Drawing.xpm
+	gimp
+	XV
+	/var/XFCE/icons/Xv.xpm
+	xv
+	Capture screen
+	/var/XFCE/icons/Camera.xpm
+	xwd -root -out ~/capture

@@ -1,0 +1,7 @@
+XBINDIR        = $(BINDIR) 
+XFCE_DIR       = /var/XFCE
+XFCE_PAL       = $(XFCE_DIR)/palettes
+XFCE_BACKDROPS = $(XFCE_DIR)/backdrops
+XFCE_HELP      = $(XFCE_DIR)/help
+XFCE_ICONS     = $(XFCE_DIR)/icons
+

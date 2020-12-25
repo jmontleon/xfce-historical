@@ -1,0 +1,54 @@
+*flAlert.dismiss.label:Cancelar
+*flQuestion.yes.label:Si
+*flQuestion.no.label:No
+*flInput.ok.label:Ok
+*flInput.clear.label:Borrar
+*flInput.cancel.label:Cancelar
+ 
+*button.loadLabel: Cargar...
+*button.saveLabel: 		Guardar...
+*button.defaultLabel: 		Por Defecto
+*button.okLabel: 		Ok
+*button.applyLabel: 		Aplicar
+*button.cancelLabel: 		Cancelar
+*button.agreementLabel: 	Agreement
+*button.browseLabel: 		Examinar...
+*button.removeLabel: 		Borrar
+*startup.waitText:Por 		favor espere,\ncargando XFCE...
+*pulldown.addiconLabel:		Añadir icono...
+*dialog.additemTitle: 		Añadir elemento...
+*additem.commandText: 		Linea de  \ncomandos :
+*additem.iconfileText: 		Archivo de icono :
+*additem.menulabelText: 	Etiqueta :
+*additem.previewText: 		Previsual.\nicono
+*dialog.defcomTitle: 		Definir acción...
+*defcom.commandText: 		Linea de  \ncomandos :
+*defcom.iconstyleText: 		Estilo de icono :
+*dialog.screenTitle: 		Nombre de pantalla...
+*screen.labelText: 		Defina la nueva  \netiqueta :
+*dialog.infoTitle: 		Info...
+*dialog.modifyTitle: 		Modificar elemento...
+*dialog.setupTitle: 		Configuración...
+*setup.repaintText: 		Repintar pantalla raiz del escritorio
+*setup.detachText: 		Usar menus desplegables...
+*alert.quitText: 		Esta seguro de querer salir ?\nEsto puede desconectarle
+*alert.menufullText: 		Atención\nEste menú esta lleno !\nPruebe a añadir elementos en otro
+*alert.FVWMonlyText: 		Atención\nEsta función solo funciona con FVWM !\nVea la página man de FVWM
+*alert.syntaxerrorText: 	Error\nError de sintaxis\nen archivo de configuración
+*alert.datamismatchText: 	Error\nData mismatch error\nin configuration file
+*alert.filetruncText: 		Error\nArchivo truncado
+*alert.createText: 		Error\nImposible crear\narchivo de configuración !
+*alert.resetText: 		Error\nImposible restaurar\narchivo de configuración !
+*alert.openText: 		Error\nImposible abrir\narchivo de configuración !
+*alert.loadText: 		Atención\nImposible abrir archivo !
+*alert.saveText: 		Atención\nImposible guardar archivo !
+*alert.writeText: 		Atención\nImposible escribir archivo !
+*alert.notfoundText: 		Atención\nArchivo no encontrado !
+*alert.toolongText: 		Atención\nCadena demasiado larga !
+*alert.overwriteText: 		Atención\nEl archivo existe : Sobreescribirlo ?
+*alert.delentryText: 		Atención\nEsta seguro de que quiere borrar\neste elemento ?
+*alert.filloutText: 		Atención\nPor favor, rellene los campos\ncomando y etiqueta
+*selector.loadpalText: 		Paleta a cargar :
+*selector.savepalText: 		Paleta a guardar :
+*selector.execfileText: 	Elija un archivo a ejecutar :
+*selector.iconfileText: 	Elija un archivo de icono :

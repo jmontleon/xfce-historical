@@ -1,0 +1,53 @@
+#include "../XFCE.def"
+
+install.palettes::
+	umask 000
+	mkdir -p $(XFCE_PAL)
+	chmod a+w $(XFCE_PAL)
+	cp -vpfb palettes\/* $(XFCE_PAL)
+
+install.help::
+	umask 022
+	mkdir -p $(XFCE_HELP)
+	cp -vdfR help\/* $(XFCE_HELP)
+	chmod -R a+r $(XFCE_HELP)
+
+install.icons::
+	umask 022
+	mkdir -p $(XFCE_ICONS)
+	cp -vpfb icons\/* $(XFCE_ICONS)
+	chmod -R a+r $(XFCE_ICONS)
+
+install.backdrops::
+	umask 022
+	mkdir -p $(XFCE_BACKDROPS)
+	cp -vpfb backdrops\/* $(XFCE_BACKDROPS)
+	chmod -R a+r $(XFCE_BACKDROPS)
+
+install.sample::
+	umask 022
+	@cp -vpb sample.* $(XFCE_DIR)/;
+	ln -svf $(XFCE_DIR)/sample.fvwmrc $(XFCE_DIR)/system.fvwmrc;
+	ln -svf $(XFCE_DIR)/sample.fvwm2rc $(XFCE_DIR)/system.fvwm2rc;
+	ln -svf $(XFCE_DIR)/sample.xfwmrc $(XFCE_DIR)/system.xfwmrc;
+	ln -svf $(XFCE_DIR)/sample.xfcerc $(XFCE_DIR)/.xfcerc;
+	ln -svf $(XFCE_DIR)/sample.xinitrc $(XFCE_DIR)/.xinitrc;
+	ln -svf $(XFCE_DIR)/sample.xfbdrc $(XFCE_DIR)/.xfbdrc;
+	chmod -R a+r $(XFCE_DIR)
+	
+install.bin::
+	umask 022
+	@if [ -d $(XBINDIR) ]; then set +x; \
+	else (set -x; $(MKDIRHIER) $(XBINDIR)); fi
+	@cp -vfb xfce_setup $(XBINDIR);
+	@cp -vfb xfce_remove $(XBINDIR);
+	@cp -vpb Quickstart $(XFCE_DIR)/;
+	@chmod 0755 $(XBINDIR)/xfce_setup;
+	@chmod 0755 $(XBINDIR)/xfce_remove;
+	@chmod 0755 $(XFCE_DIR)/Quickstart;
+	chmod -R a+r $(XFCE_DIR)
+
+
+install:: install.palettes install.help install.icons install.backdrops \
+ install.sample install.bin
+

@@ -1,0 +1,44 @@
+
+    ********************************************************************
+    *                                                                  *
+    *           X F C E  - Written by O. Fourdan (c) 1997              *
+    *                                                                  *
+    *           This software is absolutely free of charge             *
+    *                                                                  *
+    ********************************************************************
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+  NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHOR (O. FOURDAN) BE 
+  LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+  Some part of the code, especially the routines that deal with FVWM are 
+  mostly taken from Rob NATION's code of FVWM;
+  So here comes his copyright notice :
+
+ ***************************************************************************
+ * ... the concept for interfacing this module to the Window Manager, are  *
+ * all original work by Robert Nation                                      *  
+ *                                                                         *
+ * Copyright 1994, Robert Nation. No guarantees or warantees or anything   *
+ * are provided or implied in any way whatsoever. Use this program at your *
+ * own risk. Permission to use this program for any purpose is given,      *
+ * as long as the copyright is kept intact.                                *
+ ***************************************************************************
+
+ The icons provided with XFCE version 1.2.5 are from :
+
+          Joerg Mertin <smurphy@stardust.bln.sub.org>
+          Better use:  <joerg@pc50.zrz.tu-berlin.de> (faster)
+
+
+ Concerning XFCE, permissions to use, copy and distribute this software
+ without fee is hereby granted. You can modify this program for your own use as
+ long as you do not redistribute it, unless you clearly specify original name 
+ (XFCE) and author (Olivier Fourdan, fourdan@csi.com) and keep original 
+ copyright intact.
+ 

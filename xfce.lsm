@@ -1,0 +1,29 @@
+Begin3
+Title:          XFCE - XForm Cool Environment
+Version:        2.0.1
+Entered-date:   04JUL98
+Description:    XFCE is an easy-to-use and easy-to-configure environment for
+		X11, with pulldown menus and color icons, 3D widgets, etc. 
+		It features its own Window Manager (XFwm) -based on Fvwm-,
+		and a backdrop manager (xfbd)
+		Visit HTTP://www.linux-kheops.com/pub/xfce/ 
+		   or HTTP://tsikora.tiac.net/xfce/
+		to see what XFCE looks like.
+Keywords:       desktop, utility, toolbar, icons, menu interface, 
+		Window Manager,	fvwm, fvwm2, xforms, X11, linux
+Author:         fourdan@csi.com (Olivier Fourdan)
+Maintained-by:  fourdan@csi.com (Olivier Fourdan)
+Primary-site:   HTTP://www.linux-kheops.com/pub/xfce/
+			 	 xfce-2.0.1.tar.gz
+			 	 xfce-2.0.1.lsm
+Alternate-site:	HTTP://tsikora.tiac.net/xfce/
+		tsx-11.mit.edu /pub/linux/sources/usr.bin.X11/
+		sunsite.unc.edu /pub/Linux/X11/toolbars/ 
+Original-site:	N/A
+Platform:       Linux 2.xx, XFree86 3.x, xforms (0.81, 0.84, 0.86, 0.88) 
+		required to compile and execute. 
+		Requires libXpm for pixmaps. 
+Copying-policy: FRS
+		Free to use and distribute - Mention original name and author
+		if modified.
+End

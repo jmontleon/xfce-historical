@@ -1,0 +1,22 @@
+#include "../XFCE.def"
+
+SRCS = ClientMsg.c GetFont.c Grab.c Module.c Parse.c Picture.c Strings.c \
+System.c add_window.c bindings.c borders.c builtins.c colormaps.c \
+colors.c complex.c decorations.c envvar.c events.c focus.c functions.c \
+icons.c menus.c misc.c module.c move.c placement.c read.c resize.c \
+safemalloc.c sleep.c style.c virtual.c wild.c windows.c xfwm.c
+
+OBJS = ClientMsg.o GetFont.o Grab.o Module.o Parse.o Picture.o Strings.o \
+System.o add_window.o bindings.o borders.o builtins.o colormaps.o \
+colors.o complex.o decorations.o envvar.o events.o focus.o functions.o \
+icons.o menus.o misc.o module.o move.o placement.o read.o resize.o \
+safemalloc.o sleep.o style.o virtual.o wild.o windows.o xfwm.o
+
+PROGRAM = xfwm
+EXTRA_LIBRARIES = -L/usr/local/lib -lXpm -lXext -lX11
+EXTRA_INCLUDES = -I/usr/local/include -I/usr/X11R6/include/X11 -I. -Wall
+EXTRA_DEFINES = -DXFCE_ICONS=\"$(XFCE_ICONS)\" -DXFCE_DIR=\"$(XFCE_DIR)\"\
+ -DXBINDIR=\"$(XBINDIR)\" -DXFCE_PAL=\"$(XFCE_PAL)\"\
+ -DXFCE_BACKDROP=\"$(XFCE_BACKDROP)\"
+
+ComplexProgramTarget(xfwm)

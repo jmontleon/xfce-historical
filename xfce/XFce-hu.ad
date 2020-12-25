@@ -1,0 +1,54 @@
+*flAlert.dismiss.label:         Bezár
+*flQuestion.yes.label:          Igen
+*flQuestion.no.label:           Nem
+*flInput.ok.label:              Oké
+*flInput.clear.label:           Töröl
+*flInput.cancel.label:          Mégsem
+
+*button.loadLabel:              Betölt...
+*button.saveLabel:              Elment...
+*button.defaultLabel:           Alapérték
+*button.okLabel:                Oké
+*button.applyLabel:             Alkalmaz
+*button.cancelLabel:            Mégsem
+*button.agreementLabel:         Elfogad
+*button.browseLabel:            Tallózás...
+*button.removeLabel:            Töröl
+*startup.waitText:              Türelem, az XFCE-t töltöm...
+*pulldown.addiconLabel:         Új ikon...
+*dialog.additemTitle:           Új elem...
+*additem.commandText:           Parancssor :
+*additem.iconfileText:          Ikon fájl :
+*additem.menulabelText:         Címke :
+*additem.previewText:           Ikon képe
+*dialog.defcomTitle:            Gomb parancssora...
+*defcom.commandText:            Parancssor :
+*defcom.iconstyleText:          Ikon stílus :
+*dialog.screenTitle:            Asztal neve...
+*screen.labelText:              Új címke :
+*dialog.infoTitle:              Infó...
+*dialog.modifyTitle:            Elem módosítása...
+*dialog.setupTitle:             Beállítások...
+*setup.repaintText:             Háttér újrafestése
+*setup.detachText:              Leválasztható menük
+*alert.quitText:                Bitzos vagy benne, hogy kilépsz?\nEz kiléptet a kiszolgálóról is!
+*alert.menufullText:            Figyelem\nEz a menü megtelt!\nPróbálj egy másik menüpontot bõvíteni!
+*alert.FVWMonlyText:            Figyelem\nEz a lehetõség csak FVWM alatt mûködik!\nNézd meg az FVWM dokumentációját!
+*alert.syntaxerrorText:         Hiba\nSzintaktikai hiba a\nbeállításokat tartalmazó fájlban
+*alert.datamismatchText:        Hiba\nHelytelen adatformátum a\nbeállításokat tartalmazó fájlban
+*alert.filetruncText:           Hiba\nCsonka fájl
+*alert.createText:              Hiba\nNem sikerült létrehozni a\nbeállításokat tartalmazó fájlt!
+*alert.resetText:               Hiba\nNem sikerült törölni a\nbeállításokat tartalmazó fájlt!
+*alert.openText:                Hiba\nNem sikerült megnyitni a\nbeállításokat tartalmazó fájlt!
+*alert.loadText:                Figyelem\nNem sikerült betölteni a fájlt!
+*alert.saveText:                Figyelem\nNem sikerült elmenteni a fájlt!
+*alert.writeText:               Figyelem\nNem sikerült a fájlba írni!
+*alert.notfoundText:            Figyelem\nA fájl nem található!
+*alert.toolongText:             Figyelem\nTúl hosszú karakterlánc!
+*alert.overwriteText:           Figyelem\nA fájl már létezik. Felülírjam?
+*alert.delentryText:            Figyelem\nBiztos vagy benne, hogy törölni akarod\nezt az elemet?
+*alert.filloutText:             Figyelem\nTöltsd ki a parancssor\nés címke mezõket...
+*selector.loadpalText:          Betöltendõ paletta :
+*selector.savepalText:          Elmentendõ palletta :
+*selector.execfileText:         Futtatandó program :
+*selector.iconfileText:         Ikonfájl :

@@ -1,0 +1,40 @@
+#include "XFCE.def"
+
+#define IHaveSubdirs
+
+BUILDSUBDIRS = xfce xfwm  
+SUBDIRS = $(BUILDSUBDIRS) goodies
+
+#define PassCDebugFlags 'CDEBUGFLAGS=$(CDEBUGFLAGS)'
+
+MakeSubdirs($(SUBDIRS))
+
+DependSubdirs($(BUILDSUBDIRS))
+
+install::
+	mkdir -p $(XFCE_DIR)
+	mkdir -p $(XFCE_DIR)/doc
+	@cp -vpb INSTALL MANUAL README COPYRIGHT $(XFCE_DIR)/doc/
+
+francais::
+	ln -sf $(DESTDIR)$(XAPPLOADDIR)/XFce-fr \
+	       $(DESTDIR)$(XAPPLOADDIR)/XFce
+
+english::
+	ln -sf $(DESTDIR)$(XAPPLOADDIR)/XFce-en \
+	       $(DESTDIR)$(XAPPLOADDIR)/XFce
+
+italiano::
+	ln -sf $(DESTDIR)$(XAPPLOADDIR)/XFce-it \
+	       $(DESTDIR)$(XAPPLOADDIR)/XFce
+
+deutsch::
+	ln -sf $(DESTDIR)$(XAPPLOADDIR)/XFce-de \
+	       $(DESTDIR)$(XAPPLOADDIR)/XFce
+espanol::
+	ln -sf $(DESTDIR)$(XAPPLOADDIR)/XFce-es \
+	       $(DESTDIR)$(XAPPLOADDIR)/XFce
+
+hungarian::
+	ln -sf $(DESTDIR)$(XAPPLOADDIR)/XFce-hu \
+	       $(DESTDIR)$(XAPPLOADDIR)/XFce

@@ -1,0 +1,6 @@
+echo ################################################################ 
+echo Use this script to setup XFCE on your account for the first time
+echo ################################################################
+echo
+echo
+xfce_setup

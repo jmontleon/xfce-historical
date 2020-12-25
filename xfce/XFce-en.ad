@@ -1,0 +1,54 @@
+*flAlert.dismiss.label:		Dismiss
+*flQuestion.yes.label:		Yes
+*flQuestion.no.label:		No
+*flInput.ok.label:		Ok
+*flInput.clear.label:		Clear
+*flInput.cancel.label:		Cancel
+
+*button.loadLabel: 		Load...
+*button.saveLabel: 		Save...
+*button.defaultLabel: 		Default
+*button.okLabel: 		Ok
+*button.applyLabel: 		Apply
+*button.cancelLabel: 		Cancel
+*button.agreementLabel: 	Agreement
+*button.browseLabel: 		Browse...
+*button.removeLabel: 		Remove
+*startup.waitText:		Please wait, XFCE is loading...
+*pulldown.addiconLabel: 	Add icon...
+*dialog.additemTitle: 		Add item...
+*additem.commandText: 		Command line :
+*additem.iconfileText: 		Icon file :
+*additem.menulabelText: 	Label :
+*additem.previewText: 		Preview Icon
+*dialog.defcomTitle: 		Define action...
+*defcom.commandText: 		Command line :
+*defcom.iconstyleText: 		Icon style :
+*dialog.screenTitle: 		Screen name...
+*screen.labelText: 		Define new label :
+*dialog.infoTitle: 		Info...
+*dialog.modifyTitle: 		Modify item...
+*dialog.setupTitle: 		Setup...
+*setup.repaintText: 		Repaint root window of workspace
+*setup.detachText: 		Use tear-off menus
+*alert.quitText: 		Are you sure you want to quit ?\nThis might log you off
+*alert.menufullText: 		Warning\nThis menu is full !\nTry to add items to another one
+*alert.FVWMonlyText: 		Warning\nThis function works only with FVWM !\nSee FVWM man page
+*alert.syntaxerrorText: 	Error\nSyntax error\nin configuration file
+*alert.datamismatchText: 	Error\nData mismatch error\nin configuration file
+*alert.filetruncText: 		Error\nFile truncated
+*alert.createText: 		Error\nUnable to create\nconfiguration file !
+*alert.resetText: 		Error\nUnable to reset\nconfiguration file !
+*alert.openText: 		Error\nUnable to open\nconfiguration file !
+*alert.loadText: 		Warning\nUnable to load file !
+*alert.saveText: 		Warning\nUnable to save file !
+*alert.writeText: 		Warning\nUnable to write file !
+*alert.notfoundText: 		Warning\nFile not found !
+*alert.toolongText: 		Warning\nString too long !
+*alert.overwriteText: 		Warning\nFile exists : Overwrite ?
+*alert.delentryText: 		Warning\nAre you sure you want to remove\nthis entry ?
+*alert.filloutText: 		Warning\nPlease fill out command\nand label fields...
+*selector.loadpalText: 		Palette to load :
+*selector.savepalText: 		Palette to save :
+*selector.execfileText: 	Choose file to execute :
+*selector.iconfileText: 	Choose icon file :

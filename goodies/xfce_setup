@@ -1,0 +1,40 @@
+#!/bin/sh
+#
+# xfce_install - set up XFCE on a user account
+#
+#
+
+BKUP=$HOME/.xfce_bkup
+FILES=".Xclients .xinitrc"
+XFCE_DIR=/var/XFCE
+
+# Check existance of files to install
+
+for i in $FILES; do
+	if [ ! -f $XFCE_DIR/sample$i ]; then
+		echo Missing installation files
+		echo XFCE not properly setup - Giving up
+		exit 1
+	fi
+done
+
+# Check existance of $BKUP directory
+# and create it if it does not exist
+
+if [ ! -d $BKUP ]; then
+	mkdir $BKUP
+fi
+
+# Save previous version and install new one
+
+for i in $FILES; do
+	if [ ! -f $BKUP/$i ]; then
+		mv -b $HOME/$i $BKUP 2>/dev/null
+	else
+		echo Warning: $i already saved from previous installation
+	fi
+	ln -sf $XFCE_DIR/sample$i $HOME/$i 
+done
+
+echo Installation complete
+exit 0
