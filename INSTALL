@@ -1,0 +1,153 @@
+How to compile and install ?
+----------------------------
+
+IMPORTANT : YOU NEED TO HAVE A ROOT ACCESS TO INSTALL XFCE PROPERLY
+DRIRECTORY STRUCTURE HAS CHANGED SINCE VERSION 1.10 - READ CAREFULLY
+FILE "NEW" FOR MORE INFORMATIONS.
+
+
+1) Untar source :
+
+	$ tar xvzf XFCE-1.2.?.tar.gz; cd XFCE-1.2.?
+(replace the question tag by the right release version)
+	
+2) Edit Imakefile to suit your system (this is quite important, don't miss
+   this point !)
+
+	$ vi Imakefile
+
+3) Create Makefile :
+
+	$ xmkmf
+	
+If you don't have Imake installed, then you can try with the one shipped in
+the package or get the makefile that someone else used for your platform, 
+or even better, get Imake from ftp.x.org !
+
+4) Compile :
+
+	$ make
+	
+If you have a poor 256 colors vga adaptator (just like me), you might want to 
+install the "dithered" version of XFCE. The full color version might allocate
+all the colors, so your system may not be able to display other programs
+properly.
+
+5) To install full color version, type :
+
+	$ make install
+   or
+	$ make install_full
+	
+   To install dithered version, type :
+
+	$ make install_dithered
+	
+This would install XFCE so it can run from command line.
+
+6) Choose your default language
+
+   Type the one of the following lines :
+	
+	$ make english
+	
+	$ make francais
+	
+	$ make italiano
+
+	$ make deutsch
+
+6) Start Fvwm using the right configuration file
+
+    From an X console, type (according that NO other window manager is running)
+
+	$ fvwm -f /var/XFCE/sample.fvwmrc
+    or
+	$ fvwm2 -f /var/XFCE/sample.fvwm2rc
+
+    If you get an error message that looks like "<<ERROR>> another WM is 
+    running", then you must quit the window manager that is currently running, 
+    since only one window manager can be running at a time.
+
+7) Make XFCE and FVWM start automatically
+
+    Edit your .xinitrc file (or whaterver else you use at X startup) and make 
+    fvwm start with XFCE's files :
+
+    Add the following lines to your .xinitrc file :
+
+	fvwm -f /var/XFCE/sample.fvwmrc
+
+    or, for those who prefer FVWM 2 : 
+
+	fvwm2 -f /var/XFCE/sample.fvwm2rc
+
+This is the simpliest way; everything else needed has been set up by the instal-
+-lation procedure.
+
+
+For those who like the hard way, it is also possible to do things by hand. 
+
+This method could be usefull if you wish to keep your own configuration files;
+you'll need to edit them to add some new lines to make use of XFCE's 
+capabilities.
+
+Installation procedure should have created a link form the XFCE executable to 
+the FVWM modules directory. In case this link is missing, create it :
+
+	$ ln -s /usr/X11/bin/XFCE /usr/lib/X11/fvwm/
+	
+If you have chosen the local directory as base directory, type :
+	
+	$ ln -s /usr/local/bin/XFCE /usr/lib/X11/fvwm/
+
+or, if you're using FVWM 2.xx,
+	
+	$ ln -s /usr/X11/bin/XFCE /usr/lib/X11/fvwm2/
+
+If you have chosen the local directory as base directory, type :
+
+	$ ln -s /usr/local/bin/XFCE /usr/lib/X11/fvwm2/
+
+Now edit your .fvwmrc (or .fvwm2rc) file with your favorite text editor,
+and change styles to make XFCE appear sticky, without border :
+
+	Style "*XFCE*"     NoTitle, NoHandles, Sticky, BorderWidth 5
+
+Then, change your init function to automatically start XFCE as a module when
+FVWM starts up:
+
+Function "InitFunction"
+	Module	"I"	XFCE
+	Desk	"I"	0 4
+EndFunction
+
+You might add XFCE to your module list, also :
+
+	Module  "XFCE"		XFCE
+
+See FVWM config file examples shipped with XFCE for more details.
+
+Once again, those files can be found by any user in the /var/XFCE directory.
+
+Users can start fvwm and fvwm2 by simply typing :
+
+fvwm -f /var/XFCE/sample.fvwmrc
+
+or
+
+fvwm2 -f /var/XFCE/sample.fvwm2rc
+
+This is also true for .xfcerc file. XFCE now searches for this file in :
+
+1) A file named .xfcerc in user's home directory
+2) /var/XFCE/.xfcerc
+3) /var/XFCE/sample.xfcerc
+
+This will make system administrator's life easier I guess ! Copy a "template"
+of this file once, and many users access it.
+
+
+Regards,
+Olivier Fourdan -FRANCE- (106701.3026@compuserve.com or fourdan@compuserve.com)
+

@@ -1,0 +1,126 @@
+XPIXMAPDIR    = /usr/X11/include/X11/pixmaps
+XBINDIR       = /usr/X11/bin
+XFCE_DIR      = /var/XFCE
+XFCE_PAL      = /var/XFCE/palettes
+FVWM_MODULES  = /usr/lib/X11/fvwm
+FVWM2_MODULES = /usr/lib/X11/fvwm2
+FVWM_SRC      = $(wildcard /usr/src/fvwm-1*) 
+FVWM2_SRC     = $(wildcard /usr/src/fvwm-2*)
+
+SRCS = XFCE.c XFCE_cb.c addicon.c addicon_cb.c color.c command.c command_cb.c\
+ configfile.c defcolor.c defcolor_cb.c fileutil.c info.c info_cb.c main.c\
+ my_goodies.c my_string.c pulldown.c resources.c screen.c screen_cb.c selects.c\
+ sendinfo.c startup.c tiptools.c
+
+OBJS = XFCE.o XFCE_cb.o addicon.o addicon_cb.o color.o command.o command_cb.o\
+ configfile.o defcolor.o defcolor_cb.o fileutil.o info.o info_cb.o main.o\
+ my_goodies.o my_string.o pulldown.o resources.o screen.o screen_cb.o selects.o\
+ sendinfo.o startup.o tiptools.o
+
+XCOMM for LINUX: 
+EXTRA_LIBRARIES = -L/usr/local/lib -lforms -lXpm -lm 
+
+XCOMM for static link with XForms
+XCOMM EXTRA_LIBRARIES = /usr/X11/lib/libforms.a -L/usr/local/lib -lXpm -lm
+
+XCOMM for SOLARIS 2.5.1
+XCOMM EXTRA_LIBRARIES = -L/usr/local/lib -lforms -lXpm -lm -lsocket
+
+
+XCOMM Which header file for FVWM do we use ?
+XCOMM   Use the one shipped with XFCE by default
+
+FVWM_INC = ./fvwm
+
+XCOMM   Or, use the one from FVWM v1.xx if found
+
+ifneq ($(FVWM_SRC),)
+	FVWM_INC = $(FVWM_SRC)/fvwm
+endif
+
+XCOMM   Or even better, use the one from FVWM v2.xx if found
+XCOMM   (The two are NOT compatibles !)
+
+ifneq ($(FVWM2_SRC),)
+	FVWM_INC = $(FVWM2_SRC)/fvwm
+endif
+
+XCOMM And then, use the right directory as extra include
+EXTRA_INCLUDES = -I/usr/local/include -I. -I$(FVWM_INC) -Wall
+EXTRA_DEFINES  = -DXPIXMAPDIR=\"$(XPIXMAPDIR)\" -DXFCE_DIR=\"$(XFCE_DIR)\"\
+ -DXBINDIR=\"$(XBINDIR)\" -DXFCE_PAL=\"$(XFCE_PAL)\"
+LDLIBS = $(EXTRA_LIBRARIES) $(EXTENSIONLIB) $(XLIB)
+
+ComplexProgramTarget(XFCE)
+InstallAppDefaultsLong(./XFce-fr,XFce-fr)
+InstallAppDefaultsLong(./XFce-en,XFce-en)
+InstallAppDefaultsLong(./XFce-it,XFce-it)
+InstallAppDefaultsLong(./XFce-en,XFce)
+
+install_palettes::
+	mkdir -p $(XFCE_PAL)
+	chmod a+rw $(XFCE_PAL)
+	cp -vpb palettes\/* $(XFCE_PAL)
+
+install_bin::   	XFCE install.man
+	@if [ -d $(XBINDIR) ]; then set +x; \
+	else (set -x; $(MKDIRHIER) $(XBINDIR)); fi
+	@cp -vfb XFCE $(XBINDIR);
+	ln -svf $(XBINDIR)/XFCE $(XBINDIR)/xfce;
+	@chmod 0755 $(XBINDIR)/XFCE;
+	@if [ -d $(FVWM_MODULES) ]; then \
+	ln -svf $(XBINDIR)/XFCE $(FVWM_MODULES); fi
+	@if [ -d $(FVWM2_MODULES) ]; then \
+	ln -svf $(XBINDIR)/XFCE $(FVWM2_MODULES); fi
+	mkdir -p $(XFCE_DIR)
+	mkdir -p $(XFCE_DIR)/doc
+	@cp -vpb sample.* $(XFCE_DIR)/;
+	@cp -vpb INSTALL MANUAL README COPYRIGHT $(XFCE_DIR)/doc/
+	ln -svf $(XFCE_DIR)/sample.fvwmrc $(XFCE_DIR)/.fvwmrc;
+	ln -svf $(XFCE_DIR)/sample.fvwm2rc $(XFCE_DIR)/.fvwm2rc;
+	ln -svf $(XFCE_DIR)/sample.xfcerc $(XFCE_DIR)/.xfcerc;
+	ln -svf $(XFCE_DIR)/sample.xinitrc $(XFCE_DIR)/.xinitrc;
+	@if [ -d $(DESTDIR)$(XAPPLOADDIR) ]; then set +x; \
+	else (set -x; $(MKDIRHIER) $(DESTDIR)$(XAPPLOADDIR)); fi
+	$(INSTALL) $(INSTALLFLAGS) $(INSTAPPFLAGS) ./XFce-en.ad \
+	$(DESTDIR)$(XAPPLOADDIR)/XFce-en
+	@if [ -d $(DESTDIR)$(XAPPLOADDIR) ]; then set +x; \
+	else (set -x; $(MKDIRHIER) $(DESTDIR)$(XAPPLOADDIR)); fi
+	$(INSTALL) $(INSTALLFLAGS) $(INSTAPPFLAGS) ./XFce-fr.ad \
+	$(DESTDIR)$(XAPPLOADDIR)/XFce-fr
+	$(INSTALL) $(INSTALLFLAGS) $(INSTAPPFLAGS) ./XFce-it.ad \
+	$(DESTDIR)$(XAPPLOADDIR)/XFce-it
+	$(INSTALL) $(INSTALLFLAGS) $(INSTAPPFLAGS) ./XFce-de.ad \
+	$(DESTDIR)$(XAPPLOADDIR)/XFce-de
+	$(INSTALL) $(INSTALLFLAGS) $(INSTAPPFLAGS) ./XFce-en.ad \
+	$(DESTDIR)$(XAPPLOADDIR)/XFce
+
+install_logo::		install_bin install_palettes
+	@mkdir -p $(XFCE_DIR)
+	@cp -vpb XFCE_full.logo $(XFCE_DIR);
+	@cp -vpb XFCE_dithered.logo $(XFCE_DIR);
+
+install_full::		install_logo
+	ln -svf $(XFCE_DIR)/XFCE_full.logo $(XFCE_DIR)/XFCE.logo;
+
+install_dithered::	install_logo
+	ln -svf $(XFCE_DIR)/XFCE_dithered.logo $(XFCE_DIR)/XFCE.logo;
+
+install::		install_full
+
+francais::
+	ln -sf $(DESTDIR)$(XAPPLOADDIR)/XFce-fr \
+	       $(DESTDIR)$(XAPPLOADDIR)/XFce
+
+english::
+	ln -sf $(DESTDIR)$(XAPPLOADDIR)/XFce-en \
+	       $(DESTDIR)$(XAPPLOADDIR)/XFce
+
+italiano::
+	ln -sf $(DESTDIR)$(XAPPLOADDIR)/XFce-it \
+	       $(DESTDIR)$(XAPPLOADDIR)/XFce
+
+deutsch::
+	ln -sf $(DESTDIR)$(XAPPLOADDIR)/XFce-de \
+	       $(DESTDIR)$(XAPPLOADDIR)/XFce
+

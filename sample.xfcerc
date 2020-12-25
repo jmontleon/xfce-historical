@@ -1,0 +1,84 @@
+[Coords]
+	3
+	514
+[ButtonLabels]
+	One
+	Two
+	Three
+	Four
+[Icons]
+	0,1,2,3,4,5,6
+[WorkSpace]
+	NoRepaint
+[Lock]
+	xlock -mode pyro
+[MenuOption]
+	Detach
+[Commands]
+	/usr/X11/bin/xfm
+	rxterm
+	pland; plan
+	xlpq
+	Module FvwmConfig
+	xcalc
+	xman -notopbox
+[Menu1]
+1
+	File Manager
+	/usr/X11/include/X11/pixmaps/win31_filemanager.xpm
+	files
+[Menu2]
+6
+	RXTerm
+	/usr/X11/include/X11/pixmaps/win95_computer.xpm
+	/usr/X11/bin/rxterm
+	MXTerm
+	/usr/X11/include/X11/pixmaps/win95_computer.xpm
+	mxterm
+	XTerm
+	/usr/X11/include/X11/pixmaps/win95_computer.xpm
+	/usr/X11/bin/xterm
+	Asedit
+	/usr/X11/include/X11/pixmaps/win31_text.xpm
+	/usr/X11/bin/asedit
+	Nedit
+	/usr/X11/include/X11/pixmaps/win31_text.xpm
+	/usr/X11/bin/nedit
+	X editor
+	/usr/X11/include/X11/pixmaps/win31_text.xpm
+	/usr/X11/bin/xedit
+[Menu3]
+1
+	RedBaron
+	/usr/X11/include/X11/pixmaps/Mosaic.xpm
+	redbaron
+[Menu4]
+0
+[Menu5]
+3
+	Xmag
+	/usr/X11/include/X11/pixmaps/mag_glass.xpm
+	xmag
+	XLoad
+	/usr/X11/include/X11/pixmaps/win31_network.xpm
+	xload
+	XBackdrop
+	/usr/X11/include/X11/pixmaps/win31_desktop.xpm
+	xbackdrop -gui
+[Menu6]
+5
+	XCalc
+	/usr/X11/include/X11/pixmaps/linux_calculator.xpm
+	/usr/X11/bin/xcalc
+	Xpaint
+	/usr/X11/include/X11/pixmaps/xpaint.xpm
+	/usr/X11/bin/xpaint
+	XV
+	/usr/X11/include/X11/pixmaps/xv.xpm
+	/usr/X11/bin/xv
+	Capture screen
+	/usr/X11/include/X11/pixmaps/win31_camera.xpm
+	xwd -root -out ~/capture
+	XTar
+	/usr/X11/include/X11/pixmaps/tar_z.xpm
+	xtar

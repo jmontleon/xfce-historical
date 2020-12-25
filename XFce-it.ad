@@ -1,0 +1,54 @@
+*flAlert.dismiss.label:         Chiudere
+*flQuestion.yes.label:          Si
+*flQuestion.no.label:           No
+*flInput.ok.label:              Ok
+*flInput.clear.label:           Cancella
+*flInput.cancel.label:          Abbandona
+
+*button.loadLabel:              Apri...
+*button.saveLabel:              Salva..
+*button.defaultLabel:           Default
+*button.okLabel:                Ok
+*button.applyLabel:             Applica
+*button.cancelLabel:            Abbandona
+*button.agreementLabel:         Accetto!
+*button.browseLabel:            Scegli...
+*button.removeLabel:            Rimuovi
+*startup.waitText:              Attendere, XFCE viene caricato.
+*pulldown.addiconLabel:         Aggiungi...
+*dialog.additemTitle:           Aggiungi...
+*additem.commandText:           Comando :
+*additem.iconfileText:          Icona :
+*additem.menulabelText:         Nome :
+*additem.previewText:           Anteprima  :
+*dialog.defcomTitle:            Definisci icona 
+*defcom.commandText:            Comando :
+*defcom.iconstyleText:          Stile icone:
+*dialog.screenTitle:            Nome schermi..
+*screen.labelText:              Nuovo nome :
+*dialog.infoTitle:              Info...
+*dialog.modifyTitle:            Modifica ...
+*dialog.setupTitle:             Imposta...
+*setup.repaintText:             Ridisegna lo sfondo
+*setup.detachText:              Usa menu distaccabili
+*alert.quitText:                Sei sicuro di voler chiudere  ?\nQuesto potrebbe chiudere\nla tua sessione di lavoro.
+*alert.menufullText:            Attenzione\nIl menu e' completo\nProva ad utilizzarne un altro!
+*alert.FVWMonlyText:            Attenzione\nQuesta funzione richiede FVWM !\nVedi il man di FVWM...
+*alert.syntaxerrorText:         Errore\nErrore di sintassi\nnel file di configurazione !
+*alert.datamismatchText:        Errore\nDati inconsistenti \nnel file di configurazione !
+*alert.filetruncText:           Errore\nFile incompleto !
+*alert.createText:              Errore\nNon posso creare\nil file di configurazione !
+*alert.resetText:               Errore\nNon posso ripristinare\nil file di configurazione !
+*alert.openText:                Errore\nNon posso aprire\nil file di configurazione !
+*alert.loadText:                Attenzione\nNon posso aprire il file !
+*alert.saveText:                Attenzione\nNon posso salvare il file !
+*alert.writeText:               Attenzione\nNon posso scrivere nel file!
+*alert.notfoundText:            Attenzione\nFile non trovato !
+*alert.toolongText:             Attenzione\nStringa troppo lunga !
+*alert.overwriteText:           Attenzione\nIl file existe: Sostituire ?
+*alert.delentryText:            Attenzione\nSei sicuro di volerrimuovere\nquesta voce?
+*alert.filloutText:             Attenzione\nCompilare i campi Nome\neComando...
+*selector.loadpalText:          Tavolozza da caricare :
+*selector.savepalText:          Tavolozza da salvare :
+*selector.execfileText:         Scegli il file da esegire:
+*selector.iconfileText:         Scegli il file-icona :

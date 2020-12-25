@@ -1,0 +1,54 @@
+*flAlert.dismiss.label:         Abbruch
+*flQuestion.yes.label:          Ja
+*flQuestion.no.label:           Nein
+*flInput.ok.label:              Ok
+*flInput.clear.label:           Neu
+*flInput.cancel.label:          Abbruch
+ 
+*button.loadLabel:              Laden...
+*button.saveLabel:              Speichern...
+*button.defaultLabel:           Default
+*button.okLabel:                Ok
+*button.applyLabel:             übernehmen
+*button.cancelLabel:            Abbruch
+*button.agreementLabel:         Einverständnis
+*button.browseLabel:            Suchen...
+*button.removeLabel:            Löschen
+*startup.waitText:              Bitte Warten, XFCE wird geladen...
+*pulldown.addiconLabel:         Neues Icon...
+*dialog.additemTitle:           Neuer Eintrag...
+*additem.commandText:           Kommandozeile :
+*additem.iconfileText:          Iconfile :
+*additem.menulabelText:         Überschrift :
+*additem.previewText:           Iconvorschau
+*dialog.defcomTitle:            Programm ausführen
+*defcom.commandText:            Kommandozeile :
+*defcom.iconstyleText:          Iconstyle :
+*dialog.screenTitle:            Virtueller Bildschirm...
+*screen.labelText:              Neue Überschrift :
+*dialog.infoTitle:              Info...
+*dialog.modifyTitle:            Eintrag modifizieren...
+*dialog.setupTitle:             Einstellungen...
+*setup.repaintText:             Desktop neu zeichnen
+*setup.detachText:              Benutze "tear-off" Menüs
+*alert.quitText:                Wollen Sie wirklich beenden ?\nSie werden ausgeloggt !
+*alert.menufullText:            Warnung\nDas Menü ist voll !\nBitte versuchen sie diesen Eintrag in ein anderes einzutragen !
+*alert.FVWMonlyText:            Warnung\nDiese Funktion arbeitet nur mit dem FVWM !\nBitte schauen Sie in die FVWM Manpage
+*alert.syntaxerrorText:         Fehler\nin der Konfigurationsdatei
+*alert.datamismatchText:        Fehler\nungültiger Eintrag\nin der Konfigurationsdatei !
+*alert.filetruncText:           Fehler\nFile truncated
+*alert.createText:              Fehler\nbeim erstellen des\nKonfigurationsfiles !
+*alert.resetText:               Fehler\nKann Konfigurationsfile nicht\nneu laden !
+*alert.openText:                Fehler\nKann das Konfigurationsfile\nnicht öffnen !
+*alert.loadText:                Warnung\nKann Datei nicht laden !
+*alert.saveText:                Warnung\nKann Datei nicht speichern !
+*alert.writeText:               Warnung\nKann Datei nicht schreiben !
+*alert.notfoundText:            Warnung\nKann Datei nicht finden !
+*alert.toolongText:             Warnung\nString zu lang !
+*alert.overwriteText:           Warnung\nDatei existiert bereits: Überschreiben ?
+*alert.delentryText:            Warnung\nSind Sie sicher, daß Sie diesen\n Eintrag löschen wollen ?
+*alert.filloutText:             Warnung\nBitte Kommando und\nÜberschrift eintragen
+*selector.loadpalText:          Zu ladene Farbpalette :
+*selector.savepalText:          Zu speichernde Farbpalette :
+*selector.execfileText:         Wählen Sie das ausführende Programm :
+*selector.iconfileText:         Wählen Sie ein Icon :

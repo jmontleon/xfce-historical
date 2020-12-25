@@ -1,0 +1,16 @@
+#!/bin/sh -
+#
+# Creates symbolic links for testing XFCE with various version of XForms
+# DO NOT USE
+# 
+if [ $# != 1 ]; then
+  echo "***                                                           ***"
+  echo "*** DO NOT USE THIS SCRIPT UNLESS YOU KNOW WHAT YOU ARE DOING ***"
+  echo "***     THIS CAN BADLY DAMAGE YOUR SYSTEM CONFIGURATION       ***"
+  echo "***                                                           ***"
+  exit 0
+fi
+ln -si /usr/X11/lib/libforms.a.0.$1 /usr/X11/lib/libforms.a
+ln -si /usr/X11/lib/libforms.so.0.$1 /usr/X11/lib/libforms.so
+ln -si /usr/include/X11/forms.h.0.$1 /usr/include/X11/forms.h
+ldconfig -v

@@ -1,0 +1,126 @@
+Welcome to XFCE !
+-----------------
+
+
+* XFCE is an X toolbar that allows user to easily launch programs.
+
+* It uses the XForm library from T.C Zhao and Mark Overmars (at least version
+  0.81) to display 3D widget.
+
+* It's very easy to use and configure.
+
+* XFCE is designed to work with FVWM, so it can switch desks. But it also
+  works without FVWM. In this case, some functionalities won't be available,
+  but still, XFCE works fine without FVWM.
+
+*****************************************************************************
+*                                                                           *
+* Visit the official XFCE's web page : http://www.linux-kheops.com/pub/Xfce *
+*                                                                           *
+*****************************************************************************
+
+
+License agreement :
+-------------------
+
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+  NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHOR (O. FOURDAN) BE 
+  LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+  See file COPYRIGHT for more detailed informations.
+
+
+Special thanks
+--------------
+
+Thanks to Giorgio Marzano (marzano@inf.uniroma3.it) for translating the
+resource file in italian and to Carsten Meyer (carsten.meyer@hamburg.roses.de)
+for the german translation.
+
+Of course, deep thanks to Dr. T.C. Zhao and Mark Overmars for the XFORMS
+library. Special thanks to T.C. Zhao who has always replyed (quickly) to 
+my mails !!
+
+Deep thanks go to Joel Bernier (kheops@moe.acticiel.com), who has made his 
+Web site the official XFCE's site.
+
+I would like to thank Rob Nation for FVWM. Some parts of this program
+(especially the part of XFCE that communicate with FVWM) are based on his 
+work.
+
+I would also thank Roman Mitnitski for Tycoon, I've taken a look at his work
+before I first started writing XFCE (I've never used XFORMS before)
+
+
+Note to CDROM vendors and distribution makers
+---------------------------------------------
+
+Please feel free to include XFCE in your distributions/CDROMs. Just drop me
+a mail to let me know (fourdan@compuserve.com)
+
+
+Bug reports and comments
+------------------------
+
+If you use and appreciate XFCE, send me a mail at 106701.3026@compuserve.com
+or else fourdan@compuserve.com (Olivier Fourdan) - I need support -.
+If you encounter problems, or if you want to submit enhancements, or just make
+a bug report, send it to the address above.
+
+  
+What about XFCE and FVWM ?
+--------------------------
+
+Version 1.20 and later (I guess) are closer to FVWM and keep on communicating
+with the window manager (If launched as a module, of course). Unfortunately,
+versions 1.xx and 2.xx of FVWM are not compatible, because message format has
+changed. So, now XFCE needs the real source distributions of FVWM to access
+the right data structure of messages sent by FVWM.
+
+Please edit the Imakefile and change the source tree for FVWM_SRC and FVWM2_SRC.
+I believe that if you have both source trees (like I do), you still prefer 
+version 2.xx of FVWM, so this source tree will be placed first in search order
+for header files.
+
+For those who do not have source trees of FVWM (anyway, it's free and publicly
+available), there is one copy of FVWM 2.xx header file shipped with XFCE. This
+file is provided in case, but be aware that might not be up to date, and so not
+compatible with your version of FVWM.
+
+If you encounter problems with screens buttons, especially if buttons do not
+press down by themselves when you switch desks with another module (like 
+FvwmPager, for example) that's probably due to a message data mismatch. In this
+case, get the source tree for your version of FVWM and recompile XFCE. Note that
+will never hang the program, it's is not a bug, and it's painless !
+
+
+How to get the XForms library ?
+-------------------------------
+
+XFCE works with the XForms library from T.C. Zhao and Mark Overmars. To compile
+and run it, you'll need at least version 0.81 of XForms. Since the authors of
+this library do not allow the distribution of the library "bundled" with other
+software, and avoid distribution for commercial use, you cannot get it with
+commercial CDROMS.
+So it's up to you to download the library directly from the original site.
+
+To download the XForms library, connect to :
+
+  http://bragg.phys.uwm.edu/xforms
+  
+If you have questions about XForms, contact T.C. Zhao at
+  
+  zhao@bloch.phys.uwm.edu
+
+Documentation on XForms is available from einstein.phys.uwm.edu /pub/xforms
+via anonymous ftp.
+
+The entire XForms distribution plus the latest info is accessible via
+http://bragg.phys.uwm.edu/xforms 
+
