@@ -6,6 +6,7 @@ Historical releases of XFCE are in branches here:
 - xfce-2.0.1
 - xfce-2.4.0
 - xfce-3.0.2
+- xfce-3.2.1
 - xfce-3.2.5
 - xfce-3.3.2
 - xfce-3.4.0
@@ -25,6 +26,7 @@ Sources for tarballs include:
 - 1.10, 1.11, 1.11b, 1.2.4, 2.4.0: http://www.mediafire.com/file/9uecrqtyxprlppf/XFCE.7z/file
 - 2.0.1: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/mandriva-prehistory/6.0/SRPMS/xfce-2.0.1-6rh5.src.rpm
 - 3.0.2: https://archive.org/download/Mandrake_6.1/disk02.iso/xfce-3.0.2-7mdk.src.rpm
+- 3.2.1: http://archive.download.redhat.com/pub/contrib/libc6/SRPMS/xfce-3.2.1-1.src.rpm
 - 3.2.5, 3.4.0, 3.4.4, 3.6.3, 3.8.14, 3.8.16, 3.8.18: http://ftp.twaren.net/BSD/OpenBSD/distfiles/?C=N;O=D
 - 3.3.2: http://distrib-coffee.ipsl.jussieu.fr/pub/linux/mandriva-prehistory/7.1/SRPMS/xfce-3.3.2-2mdk.src.rpm
 
