@@ -1,0 +1,144 @@
+# XFce 3 Configuration File - Do not edit
+[Coords]
+	-1
+	-1
+[ButtonLabels]
+	One
+	Two
+	Three
+	Four
+	Five
+	Six
+	Seven
+	Eight
+	Nine
+	Ten
+[External_Icons]
+	None
+	None
+	/usr/share/xfce/icons/Penguin.xpm
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+	None
+[Popups]
+	6
+[Icons]
+	0,5,99,4,2,3,6,9,8,9,10,11,7
+[WorkSpace]
+	NoRepaint
+	Solid
+[Lock]
+	xlock -mode blank -echokeys -mousemotion
+[MenuOption]
+	Detach
+[XFwmOption]
+	ClickToFocus
+	OpaqueMove
+	NoAutoraise
+	GradientActive
+	GradientInactive
+	IconsOnTop
+	-b&h-lucida-medium-r-normal-*-12-*-*-*-p-*-iso8859-1
+	-b&h-lucida-medium-r-normal-*-12-*-*-*-p-*-iso8859-1
+	-b&h-lucida-medium-r-normal-*-10-*-*-*-p-*-iso8859-1
+[Screens]
+	4
+[Sizes]
+	MediumPanelIcons
+	MediumMenuIcons
+[Commands]
+	xftree
+	xcalc
+	xterm
+	xfmouse -i
+	netscape -mail
+	xlpq
+	xfhelp
+	xv
+	None
+	None
+	None
+	None
+	xwp
+[Menu1]
+	XFClock
+	/usr/share/xfce/icons/Clock.xpm
+	xfclock
+	XFTree
+	/usr/share/xfce/icons/Disk_blue.xpm
+	xftree
+[Menu2]
+	Calculator
+	/usr/share/xfce/icons/Calculator.xpm
+	xcalc
+	Editres
+	/usr/share/xfce/icons/Editres.xpm
+	editres
+	System load
+	/usr/share/xfce/icons/Meter.xpm
+	xosview
+	Magnify
+	/usr/share/xfce/icons/Magnify.xpm
+	xmag
+[Menu3]
+	X-Terminal
+	/usr/share/xfce/icons/Xterm.xpm
+	xterm
+	X-Edit
+	/usr/share/xfce/icons/TextEditor.xpm
+	xedit
+[Menu4]
+	XFPager
+	/usr/share/xfce/icons/Drawing3.xpm
+	Module xfpager
+	XFMouse
+	/usr/share/xfce/icons/Mouse.xpm
+	xfmouse -i
+	XFSound
+	/usr/share/xfce/icons/Sound.xpm
+	xfsound -i
+	Backdrop
+	/usr/share/xfce/icons/Palette.xpm
+	xfbd -i
+[Menu5]
+	Netscape Browser
+	/usr/share/xfce/icons/Netscape.xpm
+	netscape
+	Netscape Mail
+	/usr/share/xfce/icons/Mail.xpm
+	netscape - mail
+[Menu6]
+	Printer
+	/usr/share/xfce/icons/ABC.xpm
+	xlpq
+[Menu7]
+	WordPerfect
+	/usr/share/xfce/icons/WordProcessing2.xpm
+	xwp
+	GNotepad+
+	/usr/share/xfce/icons/Edit.xpm
+	gnp
+	Nedit
+	/usr/share/xfce/icons/Reader.xpm
+	nedit
+[Menu8]
+	Gimp
+	/usr/share/xfce/icons/Colormap.xpm
+	gimp
+	XV
+	/usr/share/xfce/icons/Xv.xpm
+	xv
+	X-Paint
+	/usr/share/xfce/icons/Drawing.xpm
+	xpaint
+[Menu9]
+[Menu10]
+[Menu11]
+[Menu12]

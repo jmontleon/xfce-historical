@@ -1,0 +1,168 @@
+30-NOV-1999: XFce 3.2.1
+- All
+  * Add Swedish translation, thanks to Joakim Andreasson 
+    <karanne@flashback.net>
+  * Add Danish translation, thanks to Birger Langkjer 
+    <birger.langkjer@image.dk>
+  * Add Symbiose color palette
+  * Change default color scheme to "Symbiose"
+- xfwm
+  * Display window geometry, window position and current desk during
+    move/resize operations (with outline mode only, not opaque move/resize)
+  * Add auto-switchdesk feature, by Guido Draheim <guidod@gmx.de>
+  * Add Shift+click or middle mouse button click on window border perform
+    move, handy when the window is moved off the screen.
+  * Add more configuration sample in sample.xfwmrc
+  * Fix bug in move window with KDE apps
+  * Improve opaque move/resize routines.
+- xfce
+  * improve mail icon (based on a patch submitted by 
+    <anubis@dotd.mudservices.com>)
+- scripts
+  * Minor patch to xfdefs.py for Netscape font/colors by Adam Sampson 
+    <azz@gnu.org>
+    
+14-NOV-1999: XFce 3.2.0
+- All
+  * Graphic support managed by Imlib if available (most common types of image
+    format can now be used in xfce/xfwm/xfbd thanks to Imlib)
+  * New Finnish translation by Ismo Jokinen <ismo@joki.net>
+  * new CDE configuration files from Albert Chin-A-Young 
+    (<china@thewrittenword.com>)
+  * Updated Russian translation by Andrew Lebedenko (<andrew@rostov.net>)
+  * New Galician translatio by Ramon Flores <J.R.Flores@ukc.ac.uk>
+    (Ramon has translated the help file too)
+-xfgnome
+  * A new optional GNOME compliancy module based on Gnome module for AfterStep
+    by Rafal Wierzbicki <rafal@mcss.mcmaster.ca>
+- xfce
+  * Added GNOME protocols. XFce panel now works with any GNOME compatible
+    window manager (Icewm, Enlightenment, etc.)
+  * Mail icons on the XFCE bar change to show if the user has any mail in 
+    their mailbox (patch contributed by Adam Sampson <azz@gnu.org>)
+  * XFce can now read XFCE_DIR/sample.xfce3rc.[current locale] on XFce startup
+    to improve MBS languages support (Yamahata Kenichiro <mogutan@din.or.jp>).
+  * Change popup menu type from GTK_WINDOW_TOPLEVEL to GTK_WINDOW_DIALOG
+- xfwm
+  * Fix potential bug (patch contributed by Beau Kuiper 
+    <ekuiperba@cc.curtin.edu.au>)
+  * Fix window state update when window is de-iconified (for GNOME module 
+    compatibility)
+- libs
+  * Add my_gtk_clock_suspend() and my_gtk_clock_resume() functions to the clock 
+    widget.
+- xfhelp
+  * Add support for locale : Tries to load help.<$LANG>.html if available
+  
+01-OCT-1999 : XFce-3.1.2
+========================
+- xfwm
+  * Fix bug in title height computation
+- all
+  * patch to display Multi-Byte charactors such as Japanese, Chinese or Korean
+    properly in menus and titlebars and icons by Yamahata Kenichiro 
+    <mogutan@din.or.jp>
+  * Japanese translation by Yamahata Kenichiro <mogutan@din.or.jp>
+- setup/startup scripts
+  * Fixes to be compatible with ksh
+  
+24-SEP-1999 : XFce-3.1.1
+========================
+- xfwm
+  * Improve event handling (better performance) for move/resize ops.
+  * Add configurable XPM icons for iconified windows
+  * Implement workarounds to buggy GTK+ 1.2.4  
+  * Fix key bindings
+  * Ignore dummy modifers such as Num Lock or Scroll Lock for keyboard shortcuts
+- xfce
+  * Add digital clock
+- xfclock
+  * Totally new rewritten application !
+- xfterm
+  * A very usefull terminal wrapper submitted by Joakim Andreasson 
+   <karanne@flashback.net>
+- xftree
+  * Bug fixes
+  * Improve DnD
+  * Reduce memory leak (patch submitted by Francois Petitjean 
+    <francois.petitjean@bureauveritas.com>)
+- libs
+  * New clock widget (initially based on patches from a Cosource project 
+    http://www.cosource.com)
+  
+04-SEP-1999 : XFce-3.1.0
+========================
+- xfwm
+  * Add window snapping (based on a patch submitted by Khadiyd Idris 
+    <khadx@francemel.com>)
+  * Add window shading (based on a patch submitted by Khadiyd Idris 
+    <khadx@francemel.com>)
+  * Improve program structure/Makefiles to compile on Solaris 2.5.1, 2.6, 2.7,
+    IRIX 6.2 and 6.5 (patch submitted by Albert Chin-A-Young 
+    <china@thewrittenword.com>)
+  * Add window contents visible during resize
+  * General improvements/changes/bugs fixes
+- xfsound
+  * Update XFSound to allow sound for shade/unshade (patch submitted by Khadiyd
+    Idris <khadx@francemel.com>)
+- xfce
+  * Add user-configurable delay before displaying tooltips
+  * Improve configuration options/dialog
+  * Add options in configuration dialog to start modules according to user
+    preferences.
+- xfpager
+  * Implement shade/unshade message handling.
+- all
+  * New script to handle drag'n drop on the printer icon (xfprint)
+  * New script to handle drag'n drop on the recycle icon (xftrash)
+  * Change module startup procedure. Modules are now spawned by XFce (not XFwm)
+
+
+02-AUG-1999 : XFce-3.0.3
+========================
+- xfwm :
+  * Reduce memory leak
+  * Add new signal handlers
+  * Change window frames, to enhance "gtk" look of xfwm menus and windows
+  * Change contrast for 3D appearance
+  * Cleanup code
+  * Improve "destroy window" function.
+  * Update KDE hints handler
+- xfce-libs :
+  * Remove (some) nested functions to be more ANSI compliant.
+- other :
+  * Add Maurizio Porrato's pyhton script that in base distribution
+    (It reads Xfce's color settings and modifies the X resources database
+     accordingly.)
+  * Change "configure" script so it doesn't stop if libXpm is not found
+    (hopefully the user knows what he does)
+  * Improve xfhelp shell script for netscape
+  
+19-JUL-1999 : XFce-3.0.2
+========================
+- xfwm
+  * Improve window update routine for using with GTK apps.
+  * Fix discrepancy in transcient window handling.
+  
+17-JUL-1999 : XFce-3.0.1
+========================
+  * Add signal handler to all XFce apps.
+  
+14-JUL-1999 ; XFce-3.0.0 Final
+==============================
+  * Bug fixes
+  * New color handling : Now generates gtkrc files autmatically
+  * A lot of changes
+  
+20-JUN-1999 : XFce-3.0.0 Pre-release 2
+======================================
+  * bug fixes
+  * Improvements
+  
+03-JUN-1999 : XFce-3.0.0 Pre-release 1
+======================================
+  * First public release of GTK+XFce 
+
+17-MAR-1999 :
+=============
+  * Beginning first developpment of XFce 3.0 using GTK+

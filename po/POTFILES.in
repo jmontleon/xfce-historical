@@ -1,0 +1,54 @@
+# List of source files containing translatable strings.
+# Copyright (C) 1995 Free Software Foundation, Inc.
+
+# Common library files
+libs/colorselect.c
+libs/fileselect.c
+libs/fontselection.c
+libs/xfce-common.c
+libs/xfce-common.c
+libs/xfce-common.c
+libs/xfce-common.c
+libs/xpmext.c
+# XFce source files
+xfce/action.c
+xfce/action_cb.c
+xfce/configfile.c
+xfce/info.c
+xfce/modify.c
+xfce/modify_cb.c
+xfce/popup.c
+xfce/popup_cb.c
+xfce/screen.c
+xfce/selects.c
+xfce/setup.c
+xfce/startup.c
+xfce/xfce.c
+xfce/xfce_cb.c
+xfce/xfwm.c
+# XFTree source files
+xftree/gtk_cpy.c
+xftree/gtk_dlg.c
+xftree/gtk_exec.c
+xftree/gtk_get.c
+xftree/gtk_prop.c
+xftree/xtree.c
+xftree/xtree_gui.c
+xftree/xtree_dnd.c
+# XFClock source files
+xfclock/xfclock.c
+xfclock/xfclock_cb.c
+xfclock/xfclock_closel.c
+xfclock/xfclock_colorsel.c
+xfclock/xfclock_config.c
+xfclock/xfclock_menus.c
+xfclock/xfclock_style.c
+## XFMouse source files
+xfmouse/xfmouse.c
+# XFSound source files
+xfsound/xfsound.c
+# XFbd source files
+xfbd/xfbd.c
+# XFwm source files
+xfwm/xfwm.c
+# XFpager source files

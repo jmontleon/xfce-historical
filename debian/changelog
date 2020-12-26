@@ -1,0 +1,20 @@
+xfce (3.1.0-0.1) unstable; urgency=low
+
+  * New upstream release. Somebody wants to take it over officially 
+    maintaining it for Debian?
+  * Removed "xfce_{setup,remove}" and replaced it with a systemwide
+    startup wrapper script "xfce_start".  No need to touch already 
+    existing ~/.xinitrc or ~/.xsession files anymore.
+
+ -- Paul Seelig <pseelig@debian.org>  Mon, 06 Aug 1999 18:31:54 +0200
+
+xfce (3.0.2-0.1) unstable; urgency=low
+
+  * Initial release. Somebody wants to take it over officially 
+    maintaining it for Debian?
+
+ -- Paul Seelig <pseelig@debian.org>  Mon, 19 Jul 1999 18:31:54 +0200
+
+Local variables:
+mode: debian-changelog
+End:

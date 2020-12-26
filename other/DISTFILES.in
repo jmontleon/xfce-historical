@@ -1,0 +1,21 @@
+COPYING \
+XFce3.logo \
+sample.Xclients \
+sample.fvwm2rc \
+sample.fvwmrc \
+sample.xfwmrc \
+system.xfwmrc \
+sample.mwm.xinitrc \
+sample.xfbdrc \
+sample.xfce3rc \
+sample.xfce3rc.ja \
+sample.xfce3rc.ko \
+sample.xfce3rc.zh_CN.GB2312 \
+sample.xfce3rc.zh_TW.Big5 \
+sample.xfmouserc \
+sample.xfsoundrc \
+sample.xinitrc \
+sample.xsession \
+sample.xtree.reg \
+README.xfdefs.py \
+xfdefs.py
